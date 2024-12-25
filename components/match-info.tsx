@@ -29,29 +29,25 @@ export function MatchInfo({ game, team, formation }: MatchInfoProps) {
       <Button
         variant="outline"
         size="icon"
-        className="fixed right-4 top-4 z-50"
+        className="absolute top-4 left-4 z-50 flex gap-2 bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
         onClick={() => setShowModal(true)}
       >
         <Info className="h-4 w-4" />
       </Button>
 
       <Dialog open={showModal} onOpenChange={setShowModal}>
-        <DialogContent className="font-mono sm:max-w-md">
-          <div className="flex items-center gap-4 pb-2">
-            <Trophy className="h-8 w-8 text-primary" />
-            <div>
-              <h2 className="text-lg font-bold">{game}</h2>
-              <p className="text-sm text-muted-foreground">
+        <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
+          <div className="pb-2">
+            <Trophy className="h-8 w-8 text-green-500 mx-auto" />
+            <div className="text-center">
+              <h2 className="text-lg font-bold text-white">{game}</h2>
+              <p className="text-sm text-gray-400">
                 {team} • {formation}
               </p>
             </div>
           </div>
-          <p className="text-sm text-muted-foreground">
-            Guess all 11 players from this match. Each player name is a Wordle puzzle - green tiles mean correct letter in correct spot, yellow means correct letter in wrong spot.
-          </p>
         </DialogContent>
       </Dialog>
     </>
   )
 }
-

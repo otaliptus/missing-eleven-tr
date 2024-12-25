@@ -7,6 +7,7 @@ import { parseFormation } from "@/lib/api"
 import type { PlayerData, PlayerState } from "@/types/game"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Share2 } from "lucide-react"
 
 interface FormationProps {
   formation: string
@@ -191,23 +192,31 @@ export function Formation({ formation, players }: FormationProps) {
           </div>
         ))}
       </div>
-      <Button
-        variant="outline"
-        className="absolute bottom-4 right-4 z-50"
-        onClick={() => setShowCopyModal(true)}
-      >
-        Copy Results
-      </Button>
+      <div className="absolute top-4 right-4 z-50 flex gap-2">
+        <Button
+          variant="outline"
+          size="icon"
+          className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+          onClick={() => setShowCopyModal(true)}
+        >
+          <Share2 className="h-4 w-4" />
+        </Button>
+      </div>
 
       <Dialog open={showCopyModal} onOpenChange={setShowCopyModal}>
-        <DialogContent className="font-mono sm:max-w-md flex flex-col items-center">
+        <DialogContent className="font-mono sm:max-w-md flex flex-col items-center bg-gray-900 border border-white/20">
           <DialogHeader>
-            <DialogTitle>Copy Results</DialogTitle>
+            <DialogTitle className="text-white">Share Results</DialogTitle>
           </DialogHeader>
-          <pre className="whitespace-pre-wrap break-words text-sm text-center">
+          <pre className="whitespace-pre-wrap break-words text-sm text-center text-white/90 bg-gray-800/50 p-4 rounded-lg w-full">
             {generateCopyableTable()}
           </pre>
-          <Button onClick={copyTableToClipboard}>Copy</Button>
+          <Button 
+            onClick={copyTableToClipboard}
+            className="bg-green-800 hover:bg-green-700 text-white"
+          >
+            Copy to Clipboard
+          </Button>
         </DialogContent>
       </Dialog>
 
