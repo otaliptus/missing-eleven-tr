@@ -13,6 +13,10 @@ interface MatchInfoProps {
 
 export function MatchInfo({ game, team, formation }: MatchInfoProps) {
   const [showModal, setShowModal] = useState(true)
+  const [gameParts, setGameParts] = useState<string[]>(() => {
+    const parts = game.split(/-(.+)/);
+    return parts.filter(Boolean);
+  });
 
   // Show modal on first visit only
   useEffect(() => {
@@ -40,8 +44,10 @@ export function MatchInfo({ game, team, formation }: MatchInfoProps) {
           <div className="pb-2">
             <Trophy className="h-8 w-8 text-green-500 mx-auto" />
             <div className="text-center">
-              <h2 className="text-lg font-bold text-white">{game}</h2>
+              <h2 className="text-lg font-bold text-white">{gameParts[0]}</h2>
               <p className="text-sm text-gray-400">
+                {gameParts.slice(1).join('\n')}
+                <br />
                 {team} • {formation}
               </p>
             </div>
