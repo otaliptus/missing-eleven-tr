@@ -5,6 +5,8 @@ import { PlayerCard } from "@/components/player-card"
 import { WordleDialog } from "@/components/wordle-dialog"
 import { parseFormation } from "@/lib/api"
 import type { PlayerData, PlayerState } from "@/types/game"
+import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
 interface FormationProps {
   formation: string
@@ -18,6 +20,7 @@ export function Formation({ formation, players }: FormationProps) {
     return savedStates ? JSON.parse(savedStates) : {};
   });
   
+  const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]
 
   useEffect(() => {
@@ -43,6 +46,113 @@ export function Formation({ formation, players }: FormationProps) {
     }
     return players.slice(startIndex, startIndex + rowCounts[rowIndex])
   }
+
+  const generateCopyableTable = () => {
+    const gameData = {
+      game: "Istanbulspor vs. Kasimpasa - Sunday March 10 - 2024",
+      team: "Kasimpasa",
+      formation: formation,
+      lineup: players.map(player => player.name)
+    }
+
+    if (!gameData) return '';
+
+    let table = `${gameData.game}\n${gameData.team}\n${gameData.formation}\n\nSCORE: ${Object.keys(playerStates).length}\n\n`;
+    const formationArray = gameData.formation.split('-').map(Number);
+    const rows: string[][] = [];
+    let index = 0;
+
+    // First row for the goalkeeper
+    rows.push([gameData.lineup[0]]);
+
+    for (const num of formationArray) {
+      const row = [];
+      for (let i = 0; i < num; i++) {
+        row.push(gameData.lineup[index + 1]);
+        index++;
+      }
+      rows.push(row);
+    }
+
+    // Function to generate row with correct player placement and green padding
+    const generateRow = (players: string[]) => {
+      let rowString = '';
+
+      switch (players.length) {
+        case 0:
+          rowString = '🟩🟩🟩🟩🟩🟩🟩🟩🟩';
+          break;
+        case 1:
+          rowString = '🟩🟩🟩🟩' + getPlayerEmoji(players[0]) + '🟩🟩🟩🟩';
+          break;
+        case 2:
+          rowString = '🟩🟩🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩🟩🟩';
+          break;
+        case 3:
+          rowString = '🟩🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩🟩';
+          break;
+        case 4:
+          rowString = '🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩' + getPlayerEmoji(players[3]) + '🟩';
+          break;
+        case 5:
+          rowString = getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩' + getPlayerEmoji(players[3]) + '🟩' + getPlayerEmoji(players[4]);
+          break;
+        default:
+          break;
+      }
+
+      return rowString;
+    };
+
+    // Helper function to get player emoji based on their state
+    const getPlayerEmoji = (player: string) => {
+      const playerId = players.find(p => p.name === player)?.id
+      const playerState = playerId !== undefined ? playerStates[playerId] : undefined;
+
+      if (playerState?.isComplete) {
+        return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
+      } else if (playerState?.guesses.length === 8) {
+        return '❌'; // X for players with 9 attempts
+      } else if (playerState) {
+        return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
+      } else {
+        return '❓'; // Question mark for unattempted players
+      }
+    };
+
+    // Generate emoji table based on player state
+    rows.forEach((row, rowIndex) => {
+      if (rowIndex > 0) table += '🟩🟩🟩🟩🟩🟩🟩🟩🟩\n'; // Add green row between rows
+      table += generateRow(row) + '\n'; // Centered player row
+    });
+
+    return table;
+  };
+
+  const copyTableToClipboard = () => {
+    const table = generateCopyableTable();
+  
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(table)
+        .catch((err) => console.error('Failed to copy table using clipboard API:', err));
+    } else {
+      const textArea = document.createElement('textarea');
+      textArea.value = table;
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+  
+      try {
+        document.execCommand('copy');
+        console.log('Table copied using fallback method!');
+      } catch (err) {
+        console.error('Fallback: Oops, unable to copy', err);
+      }
+  
+      document.body.removeChild(textArea);
+      }
+      setShowCopyModal(false)
+    };
 
   return (
     <div className="relative mx-auto aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg bg-[#1a3a2a] p-4">
@@ -81,6 +191,25 @@ export function Formation({ formation, players }: FormationProps) {
           </div>
         ))}
       </div>
+      <Button
+        variant="outline"
+        className="absolute bottom-4 right-4 z-50"
+        onClick={() => setShowCopyModal(true)}
+      >
+        Copy Results
+      </Button>
+
+      <Dialog open={showCopyModal} onOpenChange={setShowCopyModal}>
+        <DialogContent className="font-mono sm:max-w-md flex flex-col items-center">
+          <DialogHeader>
+            <DialogTitle>Copy Results</DialogTitle>
+          </DialogHeader>
+          <pre className="whitespace-pre-wrap break-words text-sm text-center">
+            {generateCopyableTable()}
+          </pre>
+          <Button onClick={copyTableToClipboard}>Copy</Button>
+        </DialogContent>
+      </Dialog>
 
       <WordleDialog
         player={selectedPlayer}
@@ -92,4 +221,3 @@ export function Formation({ formation, players }: FormationProps) {
     </div>
   )
 }
-

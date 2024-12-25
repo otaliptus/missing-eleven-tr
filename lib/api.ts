@@ -4,7 +4,7 @@ export async function getTodaysGame(): Promise<GameData> {
   return {
     game: "Istanbulspor vs. Kasimpasa - Sunday March 10 - 2024",
     team: "Kasimpasa",
-    formation: "4-1-2-2-1",
+    formation: "4-2-3-1",
     lineup: ["GIANNIOTIS", "WINCK", "OMERUO", "OZCAN", "OUANNES", "GUL", "FALL", "HAJRADINOVIC", "KARA", "ROCHINHA", "COSTA"]
   }
 }
