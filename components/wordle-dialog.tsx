@@ -63,7 +63,7 @@ export function WordleDialog({
   }, [open, player, state, currentGuess, guesses, onGuessComplete])
 
   const handleClose = () => {
-    if (player && guesses.length > 0) {
+    if (player && guesses.length > 0 && !state?.isComplete) {
       onGuessComplete(player.id, guesses, false)
     }
     onOpenChange(false)
