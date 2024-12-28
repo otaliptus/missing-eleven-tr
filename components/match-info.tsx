@@ -12,21 +12,20 @@ interface MatchInfoProps {
 }
 
 export function MatchInfo({ game, team, formation }: MatchInfoProps) {
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState<boolean>(() => {
+    const hasVisited = sessionStorage.getItem('hasVisited');
+    return !hasVisited;
+  });
   const [gameParts, setGameParts] = useState<string[]>(() => {
     const parts = game.split(/-(.+)/);
     return parts.filter(Boolean);
   });
 
-  // Show modal on first visit only
   useEffect(() => {
-    const hasVisited = sessionStorage.getItem('hasVisited')
-    if (hasVisited) {
-      setShowModal(false)
-    } else {
+    if (showModal) {
       sessionStorage.setItem('hasVisited', 'true')
     }
-  }, [])
+  }, [showModal])
 
   return (
     <>
