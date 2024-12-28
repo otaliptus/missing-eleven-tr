@@ -156,27 +156,26 @@ export function Formation({ formation, players }: FormationProps) {
     };
 
   return (
-    <div className="relative mx-auto aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg bg-[#0f8028] p-4">
+    <div className="relative mx-auto aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg bg-[#0f8028] p-4 sm:p-6">
       {/* Pitch Markings */}
       <div className="absolute inset-0 z-0">
         {/* Center Circle */}
-        <div className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/20" />
+        <div className="absolute left-1/2 top-1/2 h-24 w-24 sm:h-32 sm:w-32 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/20" />
         {/* Center Line */}
         <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/20" />
         {/* Penalty Areas */}
-        <div className="absolute left-1/2 top-0 h-24 w-64 -translate-x-1/2 border-2 border-white/20" />
-        <div className="absolute bottom-0 left-1/2 h-24 w-64 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute left-1/2 top-0 h-16 w-48 sm:h-24 sm:w-64 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute bottom-0 left-1/2 h-16 w-48 sm:h-24 sm:w-64 -translate-x-1/2 border-2 border-white/20" />
         {/* Goal Areas */}
-        <div className="absolute left-1/2 top-0 h-12 w-24 -translate-x-1/2 border-2 border-white/20" />
-        <div className="absolute bottom-0 left-1/2 h-12 w-24 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute left-1/2 top-0 h-8 w-16 sm:h-12 sm:w-24 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute bottom-0 left-1/2 h-8 w-16 sm:h-12 sm:w-24 -translate-x-1/2 border-2 border-white/20" />
       </div>
-
       {/* Players Grid */}
       <div 
         className="relative z-10 grid h-full" 
         style={{ 
           gridTemplateRows: `repeat(${formationRows.length}, 1fr)`,
-          gap: "1rem"
+          gap: "0.5rem"
         }}
       >
         {formationRows.map((_, rowIndex) => (

@@ -38,7 +38,7 @@ export default async function Home() {
   const players = assignPositions(gameData.formation, gameData.lineup)
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-4">
+    <main className="min-h-screen bg-gray-900 text-white p-4 sm:p-6">
       <div className="relative">
         <MatchInfo 
           game={gameData.game}

@@ -35,7 +35,7 @@ export function MatchInfo({ game, team, formation }: MatchInfoProps) {
       <Button
         variant="outline"
         size="icon"
-        className="absolute top-4 left-4 z-50 flex gap-2 bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+        className="absolute top-4 left-4 z-50 flex gap-2 bg-green-800/50 hover:bg-green-700/50 text-white border-white/20 p-1 sm:p-0"
         onClick={() => setShowModal(true)}
       >
         <Info className="h-4 w-4" />
