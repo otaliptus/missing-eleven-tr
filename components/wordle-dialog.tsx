@@ -79,7 +79,6 @@ export function WordleDialog({
             word={player.name}
             guesses={guesses}
             currentGuess={currentGuess}
-            showCurrentGuess={showGuess}
           />
           <WordleKeyboard
             word={player.name}
