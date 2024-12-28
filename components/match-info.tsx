@@ -13,7 +13,7 @@ interface MatchInfoProps {
 
 export function MatchInfo({ game, team, formation }: MatchInfoProps) {
   const [showModal, setShowModal] = useState(false);
-  const [gameParts, setGameParts] = useState<string[]>(() => {
+  const [gameParts] = useState<string[]>(() => {
     const parts = game.split(/-(.+)/);
     return parts.filter(Boolean);
   });

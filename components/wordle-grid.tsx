@@ -2,10 +2,9 @@ interface WordleGridProps {
   word: string
   guesses: string[]
   currentGuess: string
-  showCurrentGuess: boolean
 }
 
-export function WordleGrid({ word, guesses, currentGuess, showCurrentGuess }: WordleGridProps) {
+export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const rows = Array(8).fill(null)
 
   const getLetterStatus = (guess: string, position: number) => {
