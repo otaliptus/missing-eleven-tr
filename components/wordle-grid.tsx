@@ -73,7 +73,7 @@ export function WordleGrid({ word, guesses, currentGuess, showCurrentGuess }: Wo
                 return (
                   <div
                     key={colIndex}
-                    className={`flex h-12 w-12 items-center justify-center rounded border-2 text-lg font-bold transition-colors ${
+                    className={`flex h-12 w-8 items-center justify-center rounded border-2 text-lg font-bold transition-colors ${
                       status === "empty" ? "border-gray-700 bg-gray-800" :
                       status === "absent" ? "border-gray-600 bg-gray-700" :
                       status === "present" ? "border-yellow-500 bg-yellow-500" :
