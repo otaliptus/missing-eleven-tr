@@ -12,14 +12,17 @@ interface MatchInfoProps {
 }
 
 export function MatchInfo({ game, team, formation }: MatchInfoProps) {
-  const [showModal, setShowModal] = useState<boolean>(() => {
-    const hasVisited = sessionStorage.getItem('hasVisited');
-    return !hasVisited;
-  });
+  const [showModal, setShowModal] = useState(false);
   const [gameParts, setGameParts] = useState<string[]>(() => {
     const parts = game.split(/-(.+)/);
     return parts.filter(Boolean);
   });
+
+  useEffect(() => {
+    const hasVisited = sessionStorage.getItem('hasVisited');
+    setShowModal(!hasVisited);
+  }, []);
+
 
   useEffect(() => {
     if (showModal) {

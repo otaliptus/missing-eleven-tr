@@ -16,17 +16,17 @@ interface FormationProps {
 
 export function Formation({ formation, players }: FormationProps) {
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
-  const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>(() => {
+  const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
+
+  useEffect(() => {
     const savedStates = localStorage.getItem('playerStates');
-    return savedStates ? JSON.parse(savedStates) : {};
-  });
+    if (savedStates) {
+      setPlayerStates(JSON.parse(savedStates));
+    }
+  }, []);
   
   const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]
-
-  useEffect(() => {
-    localStorage.setItem('playerStates', JSON.stringify(playerStates));
-  }, [playerStates]);
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -117,7 +117,7 @@ export function Formation({ formation, players }: FormationProps) {
       } else if (playerState) {
         return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
       } else {
-        return '❓'; // Question mark for unattempted players
+        return '❔'; // Question mark for unattempted players
       }
     };
 

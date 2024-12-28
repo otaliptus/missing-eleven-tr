@@ -26,10 +26,10 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
       onClick={onClick}
     >
       <div className="flex flex-col items-center justify-center gap-1">
-        <span className="text-lg font-bold text-white">
-          {state?.isComplete ? "✓" : isFailed ? "✗" : "?"}
+        <span className="text-md text-white">
+          {state?.isComplete ? "✓" : isFailed ? "✗" : player.position}
         </span>
-        <span className="text-[8px] text-white">
+        <span className="text-[8px] font-bold text-white">
           {(state?.isComplete || isFailed) ? player.name : "*".repeat(Math.min(player.name.length, 8))}
         </span>
       </div>
@@ -44,4 +44,3 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
     </Button>
   )
 }
-
