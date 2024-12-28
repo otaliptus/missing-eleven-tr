@@ -23,13 +23,11 @@ export function WordleDialog({
 }: WordleDialogProps) {
   const [currentGuess, setCurrentGuess] = useState("")
   const [guesses, setGuesses] = useState<string[]>([])
-  const [showGuess, setShowGuess] = useState(false)
 
   useEffect(() => {
     if (open && player) {
       setCurrentGuess("")
       setGuesses(state?.guesses || [])
-      setShowGuess(false)
     }
   }, [open, player, state])
 
@@ -42,7 +40,6 @@ export function WordleDialog({
           const newGuesses = [...guesses, currentGuess]
           setGuesses(newGuesses)
           setCurrentGuess("")
-          setShowGuess(true)
 
           const isComplete = currentGuess === player.name
           if (isComplete || newGuesses.length >= 8) {
@@ -51,10 +48,8 @@ export function WordleDialog({
         }
       } else if (e.key === "Backspace") {
         setCurrentGuess(prev => prev.slice(0, -1))
-        setShowGuess(false)
       } else if (/^[A-Za-z]$/.test(e.key) && currentGuess.length < player.name.length) {
         setCurrentGuess(prev => prev + e.key.toUpperCase())
-        setShowGuess(false)
       }
     }
 
@@ -89,7 +84,6 @@ export function WordleDialog({
                   const newGuesses = [...guesses, currentGuess]
                   setGuesses(newGuesses)
                   setCurrentGuess("")
-                  setShowGuess(true)
 
                   const isComplete = currentGuess === player.name
                   if (isComplete || newGuesses.length >= 8) {
@@ -98,10 +92,8 @@ export function WordleDialog({
                 }
               } else if (key === "Backspace") {
                 setCurrentGuess(prev => prev.slice(0, -1))
-                setShowGuess(false)
               } else if (currentGuess.length < player.name.length) {
                 setCurrentGuess(prev => prev + key)
-                setShowGuess(false)
               }
             }}
           />
