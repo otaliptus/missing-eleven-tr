@@ -114,8 +114,6 @@ export function Formation({ formation, players }: FormationProps) {
         return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
       } else if (playerState?.guesses.length === 8) {
         return '❌'; // X for players with 9 attempts
-      } else if (playerState) {
-        return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
       } else {
         return '❔'; // Question mark for unattempted players
       }
