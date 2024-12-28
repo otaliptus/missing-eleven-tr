@@ -156,7 +156,7 @@ export function Formation({ formation, players }: FormationProps) {
     };
 
   return (
-    <div className="relative mx-auto aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg bg-[#1a3a2a] p-4">
+    <div className="relative mx-auto aspect-[4/3] w-full max-w-4xl overflow-hidden rounded-lg bg-[#0f8028] p-4">
       {/* Pitch Markings */}
       <div className="absolute inset-0 z-0">
         {/* Center Circle */}
@@ -164,11 +164,11 @@ export function Formation({ formation, players }: FormationProps) {
         {/* Center Line */}
         <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/20" />
         {/* Penalty Areas */}
-        <div className="absolute left-1/2 top-0 h-40 w-64 -translate-x-1/2 border-2 border-white/20" />
-        <div className="absolute bottom-0 left-1/2 h-40 w-64 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute left-1/2 top-0 h-24 w-64 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute bottom-0 left-1/2 h-24 w-64 -translate-x-1/2 border-2 border-white/20" />
         {/* Goal Areas */}
-        <div className="absolute left-1/2 top-0 h-20 w-48 -translate-x-1/2 border-2 border-white/20" />
-        <div className="absolute bottom-0 left-1/2 h-20 w-48 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute left-1/2 top-0 h-12 w-24 -translate-x-1/2 border-2 border-white/20" />
+        <div className="absolute bottom-0 left-1/2 h-12 w-24 -translate-x-1/2 border-2 border-white/20" />
       </div>
 
       {/* Players Grid */}

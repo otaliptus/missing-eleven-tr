@@ -21,7 +21,7 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
         state?.isComplete ? "border-green-500 bg-green-500/20" : 
         isFailed ? "border-red-500 bg-red-500/20" :
         isAttempting ? "border-yellow-500 bg-yellow-500/20" :
-        "border-white/50 bg-white/10"
+        "border-white/50 bg-gray-600 hover:bg-blue-500"
       )}
       onClick={onClick}
     >
