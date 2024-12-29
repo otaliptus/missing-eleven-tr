@@ -1,5 +1,4 @@
 import { Formation } from "@/components/formation"
-import { MatchInfo } from "@/components/match-info"
 import { assignPositions } from "@/lib/api"
 import fs from 'fs/promises';
 import path from 'path';
@@ -40,16 +39,13 @@ export default async function Home() {
   return (
     <main className="min-h-screen bg-gray-900 text-white p-2 sm:p-4">
       <div className="container mx-auto flex flex-col h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
-        <MatchInfo 
+        <div className="flex-1 mt-4">
+        <Formation 
+          formation={gameData.formation}
+          players={players}
           game={gameData.game}
           team={gameData.team}
-          formation={gameData.formation}
         />
-        <div className="flex-1 mt-4">
-          <Formation 
-            formation={gameData.formation}
-            players={players}
-          />
         </div>
       </div>
     </main>

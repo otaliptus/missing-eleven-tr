@@ -7,16 +7,19 @@ import { parseFormation } from "@/lib/api"
 import type { PlayerData, PlayerState } from "@/types/game"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Share2 } from "lucide-react"
+import { Share2, Info, Trophy } from "lucide-react"
 
 interface FormationProps {
   formation: string
   players: PlayerData[]
+  game: string
+  team: string
 }
 
-export function Formation({ formation, players }: FormationProps) {
+export function Formation({ formation, players, game, team }: FormationProps) {
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
   const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     const savedStates = localStorage.getItem('playerStates');
@@ -50,9 +53,9 @@ export function Formation({ formation, players }: FormationProps) {
 
   const generateCopyableTable = () => {
     const gameData = {
-      game: "Istanbulspor vs. Kasimpasa - Sunday March 10 - 2024",
-      team: "Kasimpasa",
-      formation: formation,
+      game,
+      team,
+      formation,
       lineup: players.map(player => player.name)
     }
 
@@ -154,7 +157,7 @@ export function Formation({ formation, players }: FormationProps) {
     };
 
   return (
-    <div className="relative h-full w-full mx-auto overflow-hidden rounded-lg bg-[#0f8028] p-2 sm:p-6">
+    <div className="relative h-full w-full mx-auto overflow-hidden rounded-lg bg-[#0f8028] p-2 px-8 sm:p-6 sm:px-12">
     {/* Pitch Markings */}
     <div className="absolute inset-0 z-0">
       {/* Center Circle */}
@@ -189,16 +192,45 @@ export function Formation({ formation, players }: FormationProps) {
         </div>
       ))}
     </div>
-      <div className="absolute top-4 right-4 z-50 flex gap-2">
-        <Button
-          variant="outline"
-          size="icon"
-          className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
-          onClick={() => setShowCopyModal(true)}
-        >
-          <Share2 className="h-4 w-4" />
-        </Button>
-      </div>
+    <>
+    {/* Info Button - Left */}
+    <div className="absolute top-4 left-4 z-50">
+      <Button
+        variant="outline"
+        size="icon"
+        className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+        onClick={() => setShowModal(true)}
+      >
+        <Info className="h-4 w-4" />
+      </Button>
+    </div>
+
+    {/* Share Button - Right */}
+    <div className="absolute top-4 right-4 z-50">
+      <Button
+        variant="outline"
+        size="icon"
+        className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+        onClick={() => setShowCopyModal(true)}
+      >
+        <Share2 className="h-4 w-4" />
+      </Button>
+    </div>
+  </>
+
+    <Dialog open={showModal} onOpenChange={setShowModal}>
+      <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
+        <div className="pb-2">
+          <Trophy className="h-8 w-8 text-green-500 mx-auto" />
+          <div className="text-center">
+            <h2 className="text-lg font-bold text-white">{game}</h2>
+            <p className="text-sm text-gray-400">
+              {team} • {formation}
+            </p>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
 
       <Dialog open={showCopyModal} onOpenChange={setShowCopyModal}>
         <DialogContent className="font-mono sm:max-w-md flex flex-col items-center bg-gray-900 border border-white/20">
