@@ -19,7 +19,7 @@ interface FormationProps {
 export function Formation({ formation, players, game, team }: FormationProps) {
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
   const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     const savedStates = localStorage.getItem('playerStates');
