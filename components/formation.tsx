@@ -61,7 +61,11 @@ export function Formation({ formation, players, game, team }: FormationProps) {
 
     if (!gameData) return '';
 
-    let table = `${gameData.game}\n${gameData.team}\n${gameData.formation}\n\nSCORE: ${Object.keys(playerStates).length}\n\n`;
+    let table = `${gameData.game}\n${gameData.team}\n${gameData.formation}\n\n`;
+    const totalAttempts = Object.values(playerStates).reduce((sum, state) => sum + (state.guesses?.length || 0), 0);
+    const allComplete = Object.values(playerStates).every(state => state.isComplete);
+    table += allComplete ? `SCORE: ${Object.keys(playerStates).length}\n\n` : `SCORE: N/A\nAttempts: ${totalAttempts}\n\n`;
+
     const formationArray = gameData.formation.split('-').map(Number);
     const rows: string[][] = [];
     let index = 0;

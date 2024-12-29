@@ -53,9 +53,14 @@ export function WordleDialog({
       }
     }
 
-    window.addEventListener("keydown", handleKeyDown)
-    return () => window.removeEventListener("keydown", handleKeyDown)
-  }, [open, player, state, currentGuess, guesses, onGuessComplete])
+    const cleanup = () => window.removeEventListener("keydown", handleKeyDown);
+
+    if (open && player && !state?.isComplete) {
+      window.addEventListener("keydown", handleKeyDown)
+    }
+
+    return cleanup;
+  }, [open, player, state, currentGuess, guesses, onGuessComplete]);
 
   const handleClose = () => {
     if (player && guesses.length > 0 && !state?.isComplete) {
@@ -76,27 +81,27 @@ export function WordleDialog({
               guesses={guesses}
               currentGuess={currentGuess}
             />
-          </div>
+          </div>      
           <div className="w-full overflow-x-auto">
-            <WordleKeyboard
-              word={player.name}
-              guesses={guesses}
-              onKeyPress={(key) => {
-                if (key === "Enter") {
-                  if (currentGuess.length === player.name.length) {
-                    const newGuesses = [...guesses, currentGuess]
-                    setGuesses(newGuesses)
-                    setCurrentGuess("")
-  
-                    const isComplete = currentGuess === player.name
-                    if (isComplete || newGuesses.length >= 8) {
-                      onGuessComplete(player.id, newGuesses, isComplete)
-                    }
-                  }
-                } else if (key === "Backspace") {
-                  setCurrentGuess(prev => prev.slice(0, -1))
-                } else if (currentGuess.length < player.name.length) {
-                  setCurrentGuess(prev => prev + key)
+           <WordleKeyboard
+             word={player.name}
+             guesses={guesses}
+             onKeyPress={state?.isComplete ? () => {} : (key) => {
+               if (key === "Enter") {
+                 if (currentGuess.length === player.name.length) {
+                   const newGuesses = [...guesses, currentGuess]
+                   setGuesses(newGuesses)
+                   setCurrentGuess("")
+ 
+                   const isComplete = currentGuess === player.name
+                   if (isComplete || newGuesses.length >= 8) {
+                     onGuessComplete(player.id, newGuesses, isComplete)
+                   }
+                 }
+               } else if (key === "Backspace") {
+                 setCurrentGuess(prev => prev.slice(0, -1))
+               } else if (currentGuess.length < player.name.length) {
+                 setCurrentGuess(prev => prev + key)
                 }
               }}
             />
