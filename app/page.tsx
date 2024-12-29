@@ -38,17 +38,19 @@ export default async function Home() {
   const players = assignPositions(gameData.formation, gameData.lineup)
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-4 sm:p-6">
-      <div className="relative">
+    <main className="min-h-screen bg-gray-900 text-white p-2 sm:p-4">
+      <div className="container mx-auto flex flex-col h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
         <MatchInfo 
           game={gameData.game}
           team={gameData.team}
           formation={gameData.formation}
         />
-        <Formation 
-          formation={gameData.formation}
-          players={players}
-        />
+        <div className="flex-1 mt-4">
+          <Formation 
+            formation={gameData.formation}
+            players={players}
+          />
+        </div>
       </div>
     </main>
   )

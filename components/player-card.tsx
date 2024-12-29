@@ -17,7 +17,7 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
     <Button
       variant="outline"
       className={cn(
-        "relative h-10 w-10 sm:h-14 sm:w-14 shrink-0 rounded-full border-2 p-0 font-mono",
+        "relative h-12 w-12 sm:h-16 sm:w-16 shrink-0 rounded-full border-2 p-0 font-mono",
         state?.isComplete ? "border-green-500 bg-green-500/20" : 
         isFailed ? "border-red-500 bg-red-500/20" :
         isAttempting ? "border-yellow-500 bg-yellow-500/20" :
@@ -26,12 +26,12 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
       onClick={onClick}
     >
       <div className="flex flex-col items-center justify-center gap-0.5 sm:gap-1">
-        <span className="text-sm sm:text-md text-white">
-          {state?.isComplete ? "✓" : isFailed ? "✗" : player.position}
-        </span>
-        <span className="text-[6px] sm:text-[8px] font-bold text-white">
-          {(state?.isComplete || isFailed) ? player.name : "*".repeat(Math.min(player.name.length, 8))}
-        </span>
+      <span className="text-base sm:text-lg text-white">
+        {state?.isComplete ? "✓" : isFailed ? "✗" : player.position}
+      </span>
+      <span className="text-[8px] sm:text-[10px] font-bold text-white">
+        {(state?.isComplete || isFailed) ? player.name : "*".repeat(Math.min(player.name.length, 8))}
+      </span>
       </div>
       {state?.guesses.length ? (
         <Badge
