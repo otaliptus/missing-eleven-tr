@@ -55,14 +55,14 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   }
 
   return (
-    <div className="grid gap-1">
+    <div className="grid gap-2 sm:gap-3">
       {rows.map((_, rowIndex) => {
         const isCurrentRow = rowIndex === guesses.length
         const guess = isCurrentRow ? currentGuess : guesses[rowIndex]
         const shouldShowStatus = !isCurrentRow && guesses[rowIndex] !== undefined
 
         return (
-          <div key={rowIndex} className="flex gap-1 justify-center min-w-fit">
+          <div key={rowIndex} className="flex gap-2 justify-center">
             {Array(word.length)
               .fill(null)
               .map((_, colIndex) => {
