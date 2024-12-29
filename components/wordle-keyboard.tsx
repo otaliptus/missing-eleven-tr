@@ -7,7 +7,7 @@ interface WordleKeyboardProps {
 const KEYBOARD_ROWS = [
   ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
   ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
-  ["Enter", "Z", "X", "C", "V", "B", "N", "M", "Backspace"],
+  ["Backspace", "Z", "X", "C", "V", "B", "N", "M", "Enter"],
 ]
 
 export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProps) {
@@ -60,32 +60,42 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     return bestStatus
   }
 
-  return (
-    <div className="grid gap-2 sm:gap-3 w-full max-w-3xl mx-auto">
-      {KEYBOARD_ROWS.map((row, i) => (
-        <div key={i} className="flex justify-center gap-1.5 sm:gap-2">
-          {row.map(key => {
-            const status = getKeyStatus(key)
-            return (
-              <button
-                key={key}
-                className={`h-12 sm:h-14 min-w-[2.25rem] sm:min-w-[2.75rem] rounded-md px-1 sm:px-2 text-sm sm:text-base font-semibold transition-colors ${
+  return <div className="grid gap-1 w-full mx-auto px-1">
+    {KEYBOARD_ROWS.map((row, i) => (
+      <div key={i} className="flex justify-center gap-1">
+        {row.map(key => {
+          const status = getKeyStatus(key)
+          return (
+            <button
+              key={key}
+              className={`
+                h-10 sm:h-12 md:h-14
+                ${key === "Enter" || key === "Backspace" 
+                  ? "min-w-[3rem] sm:min-w-[4rem] md:min-w-[4.25rem]" 
+                  : "min-w-[1.75rem] sm:min-w-[2.25rem] md:min-w-[2.5rem]"
+                }
+                rounded-md 
+                px-0.5 sm:px-1 
+                text-xs sm:text-sm md:text-base
+                font-semibold 
+                transition-colors
+                ${
                   status === "default" ? "bg-gray-700 hover:bg-gray-600" :
                   status === "absent" ? "bg-gray-800" :
                   status === "present" ? "bg-yellow-500" :
                   "bg-green-500"
-                }`}
-                onClick={() => onKeyPress(key)}
-                type="button"
-                tabIndex={-1}
-              >
-                {key === "Backspace" ? "⌫" : key}
-              </button>
-            )
-          })}
-        </div>
-      ))}
-    </div>
-  )
+                }
+              `}
+              onClick={() => onKeyPress(key)}
+              type="button"
+              tabIndex={-1}
+            >
+              {key === "Backspace" ? "⌫" : key}
+            </button>
+          )
+        })}
+      </div>
+    ))}
+  </div>
 }
 
