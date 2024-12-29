@@ -68,37 +68,41 @@ export function WordleDialog({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="font-mono sm:max-w-fit bg-gray-900 text-white">
-        <div className="grid gap-4 place-items-center">
-          <WordleGrid
-            word={player.name}
-            guesses={guesses}
-            currentGuess={currentGuess}
-          />
-          <WordleKeyboard
-            word={player.name}
-            guesses={guesses}
-            onKeyPress={(key) => {
-              if (key === "Enter") {
-                if (currentGuess.length === player.name.length) {
-                  const newGuesses = [...guesses, currentGuess]
-                  setGuesses(newGuesses)
-                  setCurrentGuess("")
-
-                  const isComplete = currentGuess === player.name
-                  if (isComplete || newGuesses.length >= 8) {
-                    onGuessComplete(player.id, newGuesses, isComplete)
+      <DialogContent className="font-mono sm:max-w-fit bg-gray-900 text-white p-2 sm:p-6 max-h-[90vh] overflow-y-auto">
+        <div className="grid gap-2 sm:gap-4 place-items-center">
+          <div className="w-full max-w-xs sm:max-w-none overflow-x-auto">
+            <WordleGrid
+              word={player.name}
+              guesses={guesses}
+              currentGuess={currentGuess}
+            />
+          </div>
+          <div className="w-full max-w-xs sm:max-w-none overflow-x-auto">
+            <WordleKeyboard
+              word={player.name}
+              guesses={guesses}
+              onKeyPress={(key) => {
+                if (key === "Enter") {
+                  if (currentGuess.length === player.name.length) {
+                    const newGuesses = [...guesses, currentGuess]
+                    setGuesses(newGuesses)
+                    setCurrentGuess("")
+  
+                    const isComplete = currentGuess === player.name
+                    if (isComplete || newGuesses.length >= 8) {
+                      onGuessComplete(player.id, newGuesses, isComplete)
+                    }
                   }
+                } else if (key === "Backspace") {
+                  setCurrentGuess(prev => prev.slice(0, -1))
+                } else if (currentGuess.length < player.name.length) {
+                  setCurrentGuess(prev => prev + key)
                 }
-              } else if (key === "Backspace") {
-                setCurrentGuess(prev => prev.slice(0, -1))
-              } else if (currentGuess.length < player.name.length) {
-                setCurrentGuess(prev => prev + key)
-              }
-            }}
-          />
+              }}
+            />
+          </div>
           {guesses.length === 8 && !state?.isComplete && (
-            <div className="text-red-500 font-bold">
+            <div className="text-red-500 font-bold text-sm sm:text-base text-center">
               Correct answer: {player.name}
             </div>
           )}

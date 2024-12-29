@@ -61,15 +61,15 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
   }
 
   return (
-    <div className="grid gap-1.5">
+    <div className="grid gap-1">
       {KEYBOARD_ROWS.map((row, i) => (
-        <div key={i} className="flex justify-center gap-1.5">
+        <div key={i} className="flex justify-center gap-1">
           {row.map(key => {
             const status = getKeyStatus(key)
             return (
               <button
                 key={key}
-                className={`h-12 min-w-[2rem] rounded px-2 text-sm font-semibold transition-colors ${
+                className={`h-10 sm:h-12 min-w-[1.75rem] sm:min-w-[2rem] rounded px-1 sm:px-2 text-xs sm:text-sm font-semibold transition-colors ${
                   status === "default" ? "bg-gray-700 hover:bg-gray-600" :
                   status === "absent" ? "bg-gray-800" :
                   status === "present" ? "bg-yellow-500" :
@@ -77,7 +77,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
                 }`}
                 onClick={() => onKeyPress(key)}
                 type="button"
-                tabIndex={-1} // Prevent keyboard focus
+                tabIndex={-1}
               >
                 {key === "Backspace" ? "⌫" : key}
               </button>
