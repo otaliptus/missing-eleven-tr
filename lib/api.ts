@@ -25,31 +25,31 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
         
         // Example for 4-3-3
         if (formation === "4-3-3") {
-            positions.push("LB", "CB", "CB", "RB");
+            positions.push("RB", "CB", "CB", "LB");
             positions.push("CM", "CM", "CM");
-            positions.push("LW", "ST", "RW");
+            positions.push("RW", "ST", "LW");
         }
         // Example for 4-4-2
         else if (formation === "4-4-2") {
-            positions.push("LB", "CB", "CB", "RB");
-            positions.push("LM", "CM", "CM", "RM");
+            positions.push("RB", "CB", "CB", "LB");
+            positions.push("RM", "CM", "CM", "LM");
             positions.push("ST", "ST");
         }
         // Example for 3-5-2
         else if (formation === "3-5-2") {
             positions.push("CB", "CB", "CB");
-            positions.push("LWB", "CM", "CM", "CM", "RWB");
+            positions.push("RWB", "CM", "CM", "CM", "LWB");
             positions.push("ST", "ST");
         }
         // Example for 3-4-3
         else if (formation === "3-4-3") {
             positions.push("CB", "CB", "CB");
-            positions.push("LM", "CM", "CM", "RM");
-            positions.push("LW", "ST", "RW");
+            positions.push("RM", "CM", "CM", "LM");
+            positions.push("RW", "ST", "LW");
         }
         // Example for 5-3-2
         else if (formation === "5-3-2") {
-            positions.push("LWB", "CB", "CB", "CB", "RWB");
+            positions.push("RWB", "CB", "CB", "CB", "LWB");
             positions.push("CM", "CM", "CM");
             positions.push("ST", "ST");
         }
@@ -60,10 +60,16 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
             }
         }
     }  else if (formation === "4-2-3-1") {
-      positions.push("GK");
-        positions.push("LB", "CB", "CB", "RB");
+        positions.push("GK");
+        positions.push("RB", "CB", "CB", "LB");
         positions.push("CDM", "CDM");
-        positions.push("LM", "CAM", "RM");
+        positions.push("RM", "CAM", "LM");
+        positions.push("ST");
+    } else if (formation === "4-1-4-1" ) {
+        positions.push("GK");
+        positions.push("RB", "CB", "CB", "LB");
+        positions.push("CDM");
+        positions.push("RM", "CAM", "CAM", "LM");
         positions.push("ST");
     } else {
         // Default positions if formation is not recognized
