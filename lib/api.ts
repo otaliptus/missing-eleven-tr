@@ -52,6 +52,16 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
             positions.push("RWB", "CB", "CB", "CB", "LWB");
             positions.push("CM", "CM", "CM");
             positions.push("ST", "ST");
+        } 
+        else if (formation == "5-4-1") {
+            positions.push("RB", "CB", "CB", "CB", "LB");
+            positions.push("RM", "CM", "CM", "LM");
+            positions.push("ST");
+        }
+        else if (formation == "4-5-1") {
+            positions.push("RB", "CB", "CB", "LB");
+            positions.push("RM", "CM", "CM", "CM", "LM");
+            positions.push("ST");
         }
         else {
             // Default positions if formation is not recognized
@@ -71,6 +81,11 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
         positions.push("CDM");
         positions.push("RM", "CAM", "CAM", "LM");
         positions.push("ST");
+    } else if (formation == "4-3-2-1") {
+      positions.push("RB", "CB", "CB", "LB");
+      positions.push("CM", "CM", "CM");
+      positions.push("CAM", "CAM");
+      positions.push("ST");
     } else {
         // Default positions if formation is not recognized
         for (let i = 0; i < lineup.length; i++) {
