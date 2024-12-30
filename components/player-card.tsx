@@ -30,7 +30,7 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
         {state?.isComplete ? "✓" : isFailed ? "✗" : player.position}
       </span>
       <span className="text-[8px] sm:text-[10px] font-bold text-white">
-        {(state?.isComplete || isFailed) ? player.name : "*".repeat(Math.min(player.name.length, 8))}
+        {(state?.isComplete || isFailed) ? player.name : "(" + player.name.length + ")"}
       </span>
       </div>
       {state?.guesses.length ? (

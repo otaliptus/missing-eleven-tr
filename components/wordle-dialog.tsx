@@ -5,6 +5,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { WordleKeyboard } from "@/components/wordle-keyboard"
 import { WordleGrid } from "@/components/wordle-grid"
 import type { PlayerData, PlayerState } from "@/types/game"
+import { normalizePlayerName } from "@/lib/utils"
 
 interface WordleDialogProps {
   player: PlayerData | null
@@ -34,33 +35,35 @@ export function WordleDialog({
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!open || !player || state?.isComplete) return
-
+  
+      const normalizedName = normalizePlayerName(player.name)
+  
       if (e.key === "Enter") {
-        if (currentGuess.length === player.name.length) {
+        if (currentGuess.length === normalizedName.length) {
           const newGuesses = [...guesses, currentGuess]
           setGuesses(newGuesses)
           setCurrentGuess("")
-
-          const isComplete = currentGuess === player.name
+  
+          const isComplete = currentGuess === normalizedName
           if (isComplete || newGuesses.length >= 8) {
             onGuessComplete(player.id, newGuesses, isComplete)
           }
         }
       } else if (e.key === "Backspace") {
         setCurrentGuess(prev => prev.slice(0, -1))
-      } else if (/^[A-Za-z]$/.test(e.key) && currentGuess.length < player.name.length) {
+      } else if (/^[A-Za-z]$/.test(e.key) && currentGuess.length < normalizedName.length) {
         setCurrentGuess(prev => prev + e.key.toUpperCase())
       }
     }
-
-    const cleanup = () => window.removeEventListener("keydown", handleKeyDown);
-
+  
+    const cleanup = () => window.removeEventListener("keydown", handleKeyDown)
+  
     if (open && player && !state?.isComplete) {
       window.addEventListener("keydown", handleKeyDown)
     }
-
-    return cleanup;
-  }, [open, player, state, currentGuess, guesses, onGuessComplete]);
+  
+    return cleanup
+  }, [open, player, state, currentGuess, guesses, onGuessComplete])
 
   const handleClose = () => {
     if (player && guesses.length > 0 && !state?.isComplete) {

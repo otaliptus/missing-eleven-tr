@@ -1,3 +1,5 @@
+import { getDisplayBoxes, normalizePlayerName } from "@/lib/utils"
+
 interface WordleGridProps {
   word: string
   guesses: string[]
@@ -6,6 +8,8 @@ interface WordleGridProps {
 
 export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const rows = Array(8).fill(null)
+  const displayBoxes = getDisplayBoxes(word)
+  const normalizedWord = normalizePlayerName(word)
 
   const getLetterStatus = (guess: string, position: number) => {
     const letter = guess[position]
@@ -16,13 +20,13 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
     const letterCounts = new Map<string, number>()
     
     // Count occurrences of each letter in the target word
-    for (const char of word) {
+    for (const char of normalizedWord) {
       letterCounts.set(char, (letterCounts.get(char) || 0) + 1)
     }
 
     // First pass: mark correct positions
     for (let i = 0; i < guess.length; i++) {
-      if (guess[i] === word[i]) {
+      if (guess[i] === normalizedWord[i]) {
         correctPositions.add(i)
         const currentCount = letterCounts.get(guess[i]) || 0
         letterCounts.set(guess[i], currentCount - 1)
@@ -37,7 +41,6 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
     // Second pass: check for present letters
     const remainingCount = letterCounts.get(letter) || 0
     if (remainingCount > 0) {
-      // Count how many yellows we've already used for this letter before this position
       let yellowsUsed = 0
       for (let i = 0; i < position; i++) {
         if (guess[i] === letter && !correctPositions.has(i)) {
@@ -63,30 +66,44 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
 
         return (
           <div key={rowIndex} className="flex gap-2 justify-center">
-            {Array(word.length)
-              .fill(null)
-              .map((_, colIndex) => {
-                const letter = guess?.[colIndex] ?? ""
-                const status = shouldShowStatus ? getLetterStatus(guess, colIndex) : "empty"
-
+            {displayBoxes.map((box, colIndex) => {
+              if (box.isSpecial) {
                 return (
                   <div
                     key={colIndex}
-                    className={`flex h-12 w-8 items-center justify-center rounded border-2 text-lg font-bold transition-colors ${
-                      status === "empty" ? "border-gray-700 bg-gray-800" :
-                      status === "absent" ? "border-gray-600 bg-gray-700" :
-                      status === "present" ? "border-yellow-500 bg-yellow-500" :
-                      "border-green-500 bg-green-500"
-                    }`}
+                    className="flex h-12 w-8 items-center justify-center text-lg font-bold"
                   >
-                    {letter}
+                    {box.char}
                   </div>
                 )
-              })}
+              }
+
+              const normalizedGuessIndex = displayBoxes
+                .slice(0, colIndex)
+                .filter(b => b.isSpecial)
+                .length
+              const letter = guess?.[colIndex - normalizedGuessIndex] ?? ""
+              const status = shouldShowStatus ? 
+                getLetterStatus(guess, colIndex - normalizedGuessIndex) : 
+                "empty"
+
+              return (
+                <div
+                  key={colIndex}
+                  className={`flex h-12 w-8 items-center justify-center rounded border-2 text-lg font-bold transition-colors ${
+                    status === "empty" ? "border-gray-700 bg-gray-800" :
+                    status === "absent" ? "border-gray-600 bg-gray-700" :
+                    status === "present" ? "border-yellow-500 bg-yellow-500" :
+                    "border-green-500 bg-green-500"
+                  }`}
+                >
+                  {letter}
+                </div>
+              )
+            })}
           </div>
         )
       })}
     </div>
   )
 }
-
