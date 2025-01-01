@@ -21,7 +21,6 @@ async function getDailyGameData() {
   const formation = parts[2];
   const lineupString = parts.slice(3).join(',');
 
-
   const lineup = lineupString.split(';');
 
   return {

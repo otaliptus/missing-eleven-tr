@@ -18,9 +18,9 @@ export function PlayerCard({ player, state, onClick }: PlayerCardProps) {
       variant="outline"
       className={cn(
         "relative h-12 w-12 sm:h-16 sm:w-16 shrink-0 rounded-full border-2 p-0 font-mono",
-        state?.isComplete ? "border-green-500 bg-green-500/20" : 
-        isFailed ? "border-red-500 bg-red-500/20" :
-        isAttempting ? "border-yellow-500 bg-yellow-500/20" :
+        state?.isComplete ? "border-green-500 bg-green-500/60" : 
+        isFailed ? "border-red-500 bg-red-500/60" :
+        isAttempting ? "border-yellow-500 bg-yellow-500/60" :
         "border-white/50 bg-gray-600 hover:bg-blue-500"
       )}
       onClick={onClick}
