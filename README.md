@@ -7,3 +7,7 @@ I've built this as a fun game to play with friends as there was no version of th
 ---
 
 Feel free to submit a PR with any improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
