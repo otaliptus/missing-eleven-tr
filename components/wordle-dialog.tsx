@@ -25,6 +25,12 @@ export function WordleDialog({
   const [currentGuess, setCurrentGuess] = useState("")
   const [guesses, setGuesses] = useState<string[]>([])
 
+  // Compute normalized name once for consistent use
+  const normalizedName = player ? normalizePlayerName(player.name) : ""
+  
+  // Game is over if solved OR 8 guesses reached (check both state and local guesses for race safety)
+  const isGameOver = state?.isComplete || guesses.length >= 8 || (state?.guesses?.length ?? 0) >= 8
+
   useEffect(() => {
     if (open && player) {
       setCurrentGuess("")
@@ -34,9 +40,7 @@ export function WordleDialog({
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!open || !player || state?.isComplete) return
-  
-      const normalizedName = normalizePlayerName(player.name)
+      if (!open || !player || isGameOver) return
   
       if (e.key === "Enter") {
         if (currentGuess.length === normalizedName.length) {
@@ -58,18 +62,40 @@ export function WordleDialog({
   
     const cleanup = () => window.removeEventListener("keydown", handleKeyDown)
   
-    if (open && player && !state?.isComplete) {
+    if (open && player && !isGameOver) {
       window.addEventListener("keydown", handleKeyDown)
     }
   
     return cleanup
-  }, [open, player, state, currentGuess, guesses, onGuessComplete])
+  }, [open, player, isGameOver, currentGuess, guesses, normalizedName, onGuessComplete])
 
   const handleClose = () => {
     if (player && guesses.length > 0 && !state?.isComplete) {
       onGuessComplete(player.id, guesses, false)
     }
     onOpenChange(false)
+  }
+
+  // Handler for on-screen keyboard - uses normalized name consistently
+  const handleKeyPress = (key: string) => {
+    if (isGameOver) return
+    
+    if (key === "Enter") {
+      if (currentGuess.length === normalizedName.length) {
+        const newGuesses = [...guesses, currentGuess]
+        setGuesses(newGuesses)
+        setCurrentGuess("")
+
+        const isComplete = currentGuess === normalizedName
+        if (isComplete || newGuesses.length >= 8) {
+          onGuessComplete(player!.id, newGuesses, isComplete)
+        }
+      }
+    } else if (key === "Backspace") {
+      setCurrentGuess(prev => prev.slice(0, -1))
+    } else if (currentGuess.length < normalizedName.length) {
+      setCurrentGuess(prev => prev + key)
+    }
   }
 
   if (!player) return null
@@ -87,29 +113,12 @@ export function WordleDialog({
           </div>      
           <div className="w-full overflow-x-auto">
            <WordleKeyboard
-             word={player.name}
-             guesses={guesses}
-             onKeyPress={state?.isComplete ? () => {} : (key) => {
-               if (key === "Enter") {
-                 if (currentGuess.length === player.name.length) {
-                   const newGuesses = [...guesses, currentGuess]
-                   setGuesses(newGuesses)
-                   setCurrentGuess("")
- 
-                   const isComplete = currentGuess === player.name
-                   if (isComplete || newGuesses.length >= 8) {
-                     onGuessComplete(player.id, newGuesses, isComplete)
-                   }
-                 }
-               } else if (key === "Backspace") {
-                 setCurrentGuess(prev => prev.slice(0, -1))
-               } else if (currentGuess.length < player.name.length) {
-                 setCurrentGuess(prev => prev + key)
-                }
-              }}
+              word={player.name}
+              guesses={guesses}
+              onKeyPress={handleKeyPress}
             />
           </div>
-          {guesses.length === 8 && !state?.isComplete && (
+          {guesses.length >= 8 && !state?.isComplete && (
             <div className="text-red-500 font-bold text-base sm:text-lg text-center">
               Correct answer: {player.name}
             </div>

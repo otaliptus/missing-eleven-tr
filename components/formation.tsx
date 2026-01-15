@@ -14,19 +14,39 @@ interface FormationProps {
   players: PlayerData[]
   game: string
   team: string
+  gameId: number
 }
 
-export function Formation({ formation, players, game, team }: FormationProps) {
+export function Formation({ formation, players, game, team, gameId }: FormationProps) {
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
   const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
   const [showModal, setShowModal] = useState(true);
 
+  // Per-day localStorage key to avoid cross-day bleed
+  const storageKey = `playerStates_${gameId}`;
+
+  // Load saved state from localStorage (client-side only)
   useEffect(() => {
-    const savedStates = localStorage.getItem('playerStates');
-    if (savedStates) {
-      setPlayerStates(JSON.parse(savedStates));
+    try {
+      const savedStates = localStorage.getItem(storageKey);
+      if (savedStates) {
+        setPlayerStates(JSON.parse(savedStates));
+      }
+    } catch (e) {
+      console.error('Failed to parse saved player states:', e);
     }
-  }, []);
+  }, [storageKey]);
+
+  // Save state to localStorage when it changes
+  useEffect(() => {
+    if (Object.keys(playerStates).length > 0) {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(playerStates));
+      } catch (e) {
+        console.error('Failed to save player states:', e);
+      }
+    }
+  }, [playerStates, storageKey]);
   
   const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]

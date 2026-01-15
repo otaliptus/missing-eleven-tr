@@ -3,17 +3,36 @@ import { assignPositions } from "@/lib/api"
 import fs from 'fs/promises';
 import path from 'path';
 
+// Ensure the page is dynamically rendered, not statically built
+export const dynamic = "force-dynamic"
+
 async function getDailyGameData() {
   const csvPath = path.join(process.cwd(), 'games.csv');
   const csvFile = await fs.readFile(csvPath, 'utf-8');
-  const lines = csvFile.trim().split('\n');
-  const numLines = lines.length;
+  const allLines = csvFile.trim().split('\n');
+  
+  // Skip header row and filter valid data lines
+  const dataLines = allLines.slice(1).filter(line => {
+    const parts = line.split(',');
+    if (parts.length < 4) return false;
+    const lineupString = parts.slice(3).join(',');
+    const lineup = lineupString.split(';');
+    return lineup.length === 11;
+  });
+  if (dataLines.length === 0) {
+    throw new Error("No valid game rows found in games.csv");
+  }
 
+  // Guard against empty CSV
+  if (dataLines.length === 0) {
+    throw new Error('No valid game data found in CSV');
+  }
+
+  // Use UTC day index for deterministic, timezone-safe daily selection
   const today = new Date();
-  const dateString = `${today.getDate()}${today.getMonth() + 1}${today.getFullYear()}`;
-  const dateHash = parseInt(dateString, 10);
-  const index = dateHash % numLines;
-  const gameLine = lines[index];
+  const utcDayIndex = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
+  const index = utcDayIndex % dataLines.length;
+  const gameLine = dataLines[index];
   
   const parts = gameLine.split(',');
   const game = parts[0];
@@ -27,7 +46,8 @@ async function getDailyGameData() {
     game,
     team,
     formation,
-    lineup
+    lineup,
+    gameId: utcDayIndex // Include for localStorage keying
   }
 }
 
@@ -44,6 +64,7 @@ export default async function Home() {
           players={players}
           game={gameData.game}
           team={gameData.team}
+          gameId={gameData.gameId}
         />
         </div>
       </div>

@@ -82,6 +82,7 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
         positions.push("RM", "CAM", "CAM", "LM");
         positions.push("ST");
     } else if (formation == "4-3-2-1") {
+      positions.push("GK");
       positions.push("RB", "CB", "CB", "LB");
       positions.push("CM", "CM", "CM");
       positions.push("CAM", "CAM");

@@ -1,3 +1,5 @@
+import { normalizePlayerName } from "@/lib/utils"
+
 interface WordleKeyboardProps {
   word: string
   guesses: string[]
@@ -11,15 +13,18 @@ const KEYBOARD_ROWS = [
 ]
 
 export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProps) {
+  // Use normalized word for all status calculations
+  const normalizedWord = normalizePlayerName(word)
+  
   const getKeyStatus = (key: string) => {
     if (key === "Enter" || key === "Backspace") return "default"
 
     let bestStatus = "default"
     const keyUpperCase = key.toUpperCase()
 
-    // Count occurrences of each letter in the target word
+    // Count occurrences of each letter in the normalized target word
     const letterCounts = new Map<string, number>()
-    for (const char of word) {
+    for (const char of normalizedWord) {
       letterCounts.set(char, (letterCounts.get(char) || 0) + 1)
     }
 
@@ -29,7 +34,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
       const remainingCounts = new Map(letterCounts)
 
       for (let i = 0; i < guess.length; i++) {
-        if (guess[i] === word[i]) {
+        if (guess[i] === normalizedWord[i]) {
           correctPositions.add(i)
           const currentCount = remainingCounts.get(guess[i]) || 0
           remainingCounts.set(guess[i], currentCount - 1)

@@ -6,12 +6,15 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function normalizePlayerName(name: string): string {
-  return name.replace(/['-]/g, '')
+  // Strip all punctuation: apostrophes, hyphens, periods, backticks
+  // This is the canonical normalization used for all comparisons, 
+  // length checks, and keyboard coloring
+  return name.replace(/['\-\.`]/g, '')
 }
 
 export function getDisplayBoxes(name: string): { char: string; isSpecial: boolean }[] {
   return name.split('').map(char => ({
     char,
-    isSpecial: char === '-' || char === "'"
+    isSpecial: char === '-' || char === "'" || char === '.' || char === '`'
   }))
 }
