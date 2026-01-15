@@ -23,11 +23,6 @@ async function getDailyGameData() {
     throw new Error("No valid game rows found in games.csv");
   }
 
-  // Guard against empty CSV
-  if (dataLines.length === 0) {
-    throw new Error('No valid game data found in CSV');
-  }
-
   // Use UTC day index for deterministic, timezone-safe daily selection
   const today = new Date();
   const utcDayIndex = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));

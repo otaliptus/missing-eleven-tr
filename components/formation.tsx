@@ -1,13 +1,14 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo } from "react"
 import { PlayerCard } from "@/components/player-card"
 import { WordleDialog } from "@/components/wordle-dialog"
 import { parseFormation } from "@/lib/api"
+import { normalizePlayerName } from "@/lib/utils"
 import type { PlayerData, PlayerState } from "@/types/game"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Share2, Info, Trophy } from "lucide-react"
+import { Share2, Info, Trophy, CheckCircle2 } from "lucide-react"
 
 interface FormationProps {
   formation: string
@@ -21,32 +22,90 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
   const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
   const [showModal, setShowModal] = useState(true);
+  const [showCompletionModal, setShowCompletionModal] = useState(false);
+  const [completionShown, setCompletionShown] = useState(false);
 
-  // Per-day localStorage key to avoid cross-day bleed
+  // Per-day localStorage keys
   const storageKey = `playerStates_${gameId}`;
+  const modalSeenKey = `infoModalSeen_${gameId}`;
+  const lineupKey = useMemo(
+    () => players.map(player => normalizePlayerName(player.name)).join("|"),
+    [players]
+  );
 
   // Load saved state from localStorage (client-side only)
   useEffect(() => {
     try {
       const savedStates = localStorage.getItem(storageKey);
       if (savedStates) {
-        setPlayerStates(JSON.parse(savedStates));
+        const parsed = JSON.parse(savedStates);
+        if (parsed && typeof parsed === "object") {
+          if ("states" in parsed && parsed.states && typeof parsed.states === "object") {
+            const savedLineupKey = typeof parsed.lineupKey === "string" ? parsed.lineupKey : "";
+            if (!savedLineupKey || savedLineupKey === lineupKey) {
+              setPlayerStates(parsed.states as Record<number, PlayerState>);
+            }
+          } else {
+            const legacy = parsed as Record<string, PlayerState>;
+            const migrated: Record<number, PlayerState> = {};
+            const normalizedNameSet = new Set(
+              players.map(player => normalizePlayerName(player.name))
+            );
+            const nameKeys: string[] = [];
+
+            for (const [key, value] of Object.entries(legacy)) {
+              const numericId = Number(key);
+              if (Number.isInteger(numericId) && String(numericId) === key) {
+                migrated[numericId] = value as PlayerState;
+                continue;
+              }
+              nameKeys.push(key);
+              const match = players.find(
+                (player) => normalizePlayerName(player.name) === key
+              );
+              if (match && migrated[match.id] === undefined) {
+                migrated[match.id] = value as PlayerState;
+              }
+            }
+
+            const allNamesMatch = nameKeys.every((key) => normalizedNameSet.has(key));
+            if (nameKeys.length === 0 || allNamesMatch) {
+              setPlayerStates(migrated);
+            }
+          }
+        }
+      }
+      // Check if user already saw info modal today
+      const modalSeen = localStorage.getItem(modalSeenKey);
+      if (modalSeen === 'true') {
+        setShowModal(false);
       }
     } catch (e) {
-      console.error('Failed to parse saved player states:', e);
+      console.error('Failed to parse saved state:', e);
     }
-  }, [storageKey]);
+  }, [storageKey, modalSeenKey, players, lineupKey]);
 
-  // Save state to localStorage when it changes
+  // Save player states to localStorage when it changes
   useEffect(() => {
-    if (Object.keys(playerStates).length > 0) {
-      try {
-        localStorage.setItem(storageKey, JSON.stringify(playerStates));
-      } catch (e) {
-        console.error('Failed to save player states:', e);
-      }
+    try {
+      localStorage.setItem(
+        storageKey,
+        JSON.stringify({ version: 2, lineupKey, states: playerStates })
+      );
+    } catch (e) {
+      console.error('Failed to save player states:', e);
     }
-  }, [playerStates, storageKey]);
+  }, [playerStates, storageKey, lineupKey]);
+
+  // Save info modal seen state when closed
+  const handleCloseInfoModal = () => {
+    setShowModal(false);
+    try {
+      localStorage.setItem(modalSeenKey, 'true');
+    } catch (e) {
+      console.error('Failed to save modal state:', e);
+    }
+  };
   
   const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]
@@ -62,6 +121,30 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     setSelectedPlayer(null)
   }
 
+  // Compute game stats
+  const gameStats = useMemo(() => {
+    const statesArray = players.map(p => playerStates[p.id]);
+    const solved = statesArray.filter(s => s?.isComplete).length;
+    const failed = statesArray.filter(s => s && !s.isComplete && s.guesses?.length >= 8).length;
+    const attempted = statesArray.filter(s => s && s.guesses?.length > 0).length;
+    const totalAttempts = statesArray.reduce((sum, s) => sum + (s?.guesses?.length || 0), 0);
+    const isGameComplete = (solved + failed) === 11;
+    return { solved, failed, attempted, totalAttempts, isGameComplete };
+  }, [players, playerStates]);
+
+  // Auto-show completion modal when game is complete
+  useEffect(() => {
+    if (gameStats.isGameComplete && !completionShown) {
+      setCompletionShown(true);
+      setShowCompletionModal(true);
+    }
+  }, [gameStats.isGameComplete, completionShown]);
+
+  // Helper to get player state by player data
+  const getPlayerState = (player: PlayerData) => {
+    return playerStates[player.id];
+  };
+
   const getPlayersByRow = (rowIndex: number, players: PlayerData[]) => {
     const rowCounts = formationRows
     let startIndex = 0
@@ -75,54 +158,67 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     const gameData = {
       game,
       team,
-      formation,
-      lineup: players.map(player => player.name)
+      formation
     }
 
     if (!gameData) return '';
 
-    let table = `${gameData.game}\n${gameData.team}\n${gameData.formation}\n\n`;
-    const totalAttempts = Object.values(playerStates).reduce((sum, state) => sum + (state.guesses?.length || 0), 0);
-    table += `SCORE: ${totalAttempts}\n\n`;
+    // Calculate score semantics
+    const statesArray = players.map(p => playerStates[p.id]);
+    const solved = statesArray.filter(s => s?.isComplete).length;
+    const failed = statesArray.filter(s => s && !s.isComplete && s.guesses?.length >= 8).length;
+    const totalAttempts = statesArray.reduce((sum, state) => sum + (state?.guesses?.length || 0), 0);
+
+    let table = `İlk 11! #${gameId}\n`;
+    table += `${gameData.game}\n${gameData.team} • ${gameData.formation}\n\n`;
+    table += `✅ Solved: ${solved}/11\n`;
+    table += `🎯 Attempts: ${totalAttempts}\n`;
+    if (failed > 0) {
+      table += `❌ Failed: ${failed}\n`;
+    }
+    table += `\n`;
 
     const formationArray = gameData.formation.split('-').map(Number);
-    const rows: string[][] = [];
+    const rows: PlayerData[][] = [];
     let index = 0;
 
     // First row for the goalkeeper
-    rows.push([gameData.lineup[0]]);
+    rows.push(players[0] ? [players[0]] : []);
 
     for (const num of formationArray) {
-      const row = [];
+      const row: PlayerData[] = [];
       for (let i = 0; i < num; i++) {
-        row.push(gameData.lineup[index + 1]);
+        const player = players[index + 1];
+        if (player) {
+          row.push(player);
+        }
         index++;
       }
       rows.push(row);
     }
 
     // Function to generate row with correct player placement and green padding
-    const generateRow = (players: string[]) => {
+    const generateRow = (rowPlayers: PlayerData[]) => {
       let rowString = '';
 
-      switch (players.length) {
+      switch (rowPlayers.length) {
         case 0:
           rowString = '🟩🟩🟩🟩🟩🟩🟩🟩🟩';
           break;
         case 1:
-          rowString = '🟩🟩🟩🟩' + getPlayerEmoji(players[0]) + '🟩🟩🟩🟩';
+          rowString = '🟩🟩🟩🟩' + getPlayerEmoji(rowPlayers[0]) + '🟩🟩🟩🟩';
           break;
         case 2:
-          rowString = '🟩🟩🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩🟩🟩';
+          rowString = '🟩🟩🟩' + getPlayerEmoji(rowPlayers[0]) + '🟩' + getPlayerEmoji(rowPlayers[1]) + '🟩🟩🟩';
           break;
         case 3:
-          rowString = '🟩🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩🟩';
+          rowString = '🟩🟩' + getPlayerEmoji(rowPlayers[0]) + '🟩' + getPlayerEmoji(rowPlayers[1]) + '🟩' + getPlayerEmoji(rowPlayers[2]) + '🟩🟩';
           break;
         case 4:
-          rowString = '🟩' + getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩' + getPlayerEmoji(players[3]) + '🟩';
+          rowString = '🟩' + getPlayerEmoji(rowPlayers[0]) + '🟩' + getPlayerEmoji(rowPlayers[1]) + '🟩' + getPlayerEmoji(rowPlayers[2]) + '🟩' + getPlayerEmoji(rowPlayers[3]) + '🟩';
           break;
         case 5:
-          rowString = getPlayerEmoji(players[0]) + '🟩' + getPlayerEmoji(players[1]) + '🟩' + getPlayerEmoji(players[2]) + '🟩' + getPlayerEmoji(players[3]) + '🟩' + getPlayerEmoji(players[4]);
+          rowString = getPlayerEmoji(rowPlayers[0]) + '🟩' + getPlayerEmoji(rowPlayers[1]) + '🟩' + getPlayerEmoji(rowPlayers[2]) + '🟩' + getPlayerEmoji(rowPlayers[3]) + '🟩' + getPlayerEmoji(rowPlayers[4]);
           break;
         default:
           break;
@@ -132,14 +228,14 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     };
 
     // Helper function to get player emoji based on their state
-    const getPlayerEmoji = (player: string) => {
-      const playerId = players.find(p => p.name === player)?.id
-      const playerState = playerId !== undefined ? playerStates[playerId] : undefined;
+    const getPlayerEmoji = (player: PlayerData | undefined) => {
+      if (!player) return '❔';
+      const playerState = playerStates[player.id];
 
       if (playerState?.isComplete) {
         return `${playerState.guesses.length}️⃣`; // Number emoji based on attempts
-      } else if (playerState?.guesses.length === 8) {
-        return '❌'; // X for players with 9 attempts
+      } else if (playerState?.guesses?.length >= 8) {
+        return '❌'; // X for failed players
       } else {
         return '❔'; // Question mark for unattempted players
       }
@@ -208,7 +304,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
             <PlayerCard
               key={player.id}
               player={player}
-              state={playerStates[player.id]}
+              state={getPlayerState(player)}
               onClick={() => setSelectedPlayer(player)}
             />
           ))}
@@ -241,7 +337,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </div>
   </>
 
-    <Dialog open={showModal} onOpenChange={setShowModal}>
+    <Dialog open={showModal} onOpenChange={(open) => !open && handleCloseInfoModal()}>
       <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
         <div className="pb-2">
           <Trophy className="h-8 w-8 text-green-500 mx-auto" />
@@ -274,11 +370,47 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
 
       <WordleDialog
         player={selectedPlayer}
-        state={selectedPlayer ? playerStates[selectedPlayer.id] : undefined}
+        state={selectedPlayer ? getPlayerState(selectedPlayer) : undefined}
         open={!!selectedPlayer}
         onOpenChange={() => setSelectedPlayer(null)}
         onGuessComplete={handleGuessComplete}
       />
+
+      {/* Game Completion Modal */}
+      <Dialog open={showCompletionModal} onOpenChange={setShowCompletionModal}>
+        <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
+          <div className="pb-4 text-center">
+            <CheckCircle2 className="h-12 w-12 text-green-500 mx-auto mb-2" />
+            <h2 className="text-xl font-bold text-white mb-1">Game Complete!</h2>
+            <p className="text-gray-400 text-sm">
+              İlk 11! #{gameId}
+            </p>
+          </div>
+          <div className="text-center space-y-1 mb-4">
+            <p className="text-lg">
+              <span className="text-green-400">✅ {gameStats.solved}</span> / 11 Solved
+            </p>
+            <p className="text-sm text-gray-400">
+              🎯 {gameStats.totalAttempts} Total Attempts
+            </p>
+            {gameStats.failed > 0 && (
+              <p className="text-sm text-red-400">
+                ❌ {gameStats.failed} Failed
+              </p>
+            )}
+          </div>
+          <Button 
+            onClick={() => {
+              setShowCompletionModal(false);
+              setShowCopyModal(true);
+            }}
+            className="bg-green-800 hover:bg-green-700 text-white"
+          >
+            <Share2 className="h-4 w-4 mr-2" />
+            Share Results
+          </Button>
+        </DialogContent>
+      </Dialog>
     </div>
   )
 }
