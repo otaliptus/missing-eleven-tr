@@ -71,7 +71,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
                 return (
                   <span
                     key={colIndex}
-                    className="flex h-12 items-center justify-center px-1 text-lg font-bold text-white/80 -mx-1"
+                    className="flex h-10 sm:h-12 items-center justify-center px-0.5 sm:px-1 text-sm sm:text-lg font-bold text-white/80 -mx-0.5 sm:-mx-1"
                     aria-hidden="true"
                   >
                     {box.char}
@@ -91,7 +91,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
               return (
                 <div
                   key={colIndex}
-                  className={`flex h-12 w-8 items-center justify-center rounded border-2 text-lg font-bold transition-colors ${
+                  className={`flex h-10 w-6 sm:h-12 sm:w-8 items-center justify-center rounded border-2 text-sm sm:text-lg font-bold transition-colors ${
                     status === "empty" ? "border-gray-700 bg-gray-800" :
                     status === "absent" ? "border-gray-600 bg-gray-700" :
                     status === "present" ? "border-yellow-500 bg-yellow-500" :

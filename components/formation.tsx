@@ -319,7 +319,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </div>
     <>
     {/* Info Button - Left */}
-    <div className="absolute top-4 left-4 z-50">
+    <div className="absolute top-2 left-2 sm:top-4 sm:left-4 z-50">
       <Button
         variant="outline"
         size="icon"
@@ -332,7 +332,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </div>
 
     {/* Share Button - Right */}
-    <div className="absolute top-4 right-4 z-50">
+    <div className="absolute top-2 right-2 sm:top-4 sm:right-4 z-50">
       <Button
         variant="outline"
         size="icon"
