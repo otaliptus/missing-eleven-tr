@@ -15,13 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "İlk 11!",
-  description: "Football lineup guessing game: Trendyol Super Lig Edition",
+  description: "Football lineup guessing game: Trendyol Süper Lig Edition",
   manifest: "/manifest.json",
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png" }
-    ]
+    icon: "/favicon.ico"
   }
 };
 

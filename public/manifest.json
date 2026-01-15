@@ -1,0 +1,16 @@
+{
+  "name": "İlk 11!",
+  "short_name": "İlk 11",
+  "description": "Football lineup guessing game: Trendyol Süper Lig Edition",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f8028",
+  "theme_color": "#0f8028",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

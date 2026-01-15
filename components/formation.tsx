@@ -24,6 +24,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   const [showModal, setShowModal] = useState(true);
   const [showCompletionModal, setShowCompletionModal] = useState(false);
   const [completionShown, setCompletionShown] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   // Per-day localStorage keys
   const storageKey = `playerStates_${gameId}`;
@@ -253,9 +254,15 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   const copyTableToClipboard = () => {
     const table = generateCopyableTable();
   
+    const onSuccess = () => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    };
+
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(table)
-        .catch((err) => console.error('Failed to copy table using clipboard API:', err));
+        .then(onSuccess)
+        .catch((err) => console.error('Failed to copy:', err));
     } else {
       const textArea = document.createElement('textarea');
       textArea.value = table;
@@ -265,15 +272,14 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   
       try {
         document.execCommand('copy');
-        console.log('Table copied using fallback method!');
+        onSuccess();
       } catch (err) {
-        console.error('Fallback: Oops, unable to copy', err);
+        console.error('Fallback copy failed:', err);
       }
   
       document.body.removeChild(textArea);
-      }
-      setShowCopyModal(false)
-    };
+    }
+  };
 
   return (
     <div className="relative h-full w-full mx-auto overflow-hidden rounded-lg bg-[#0f8028] p-2 px-8 sm:p-6 sm:px-12">
@@ -319,6 +325,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         size="icon"
         className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
         onClick={() => setShowModal(true)}
+        aria-label="Game info"
       >
         <Info className="h-4 w-4" />
       </Button>
@@ -331,6 +338,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         size="icon"
         className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
         onClick={() => setShowCopyModal(true)}
+        aria-label="Share results"
       >
         <Share2 className="h-4 w-4" />
       </Button>
@@ -361,9 +369,14 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
           </pre>
           <Button 
             onClick={copyTableToClipboard}
-            className="bg-green-800 hover:bg-green-700 text-white"
+            className={`${copied ? 'bg-green-600' : 'bg-green-800 hover:bg-green-700'} text-white min-w-[160px]`}
+            disabled={copied}
           >
-            Copy to Clipboard
+            {copied ? (
+              <><CheckCircle2 className="h-4 w-4 mr-2" />Copied!</>
+            ) : (
+              'Copy to Clipboard'
+            )}
           </Button>
         </DialogContent>
       </Dialog>

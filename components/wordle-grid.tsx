@@ -69,12 +69,13 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
                 return (
-                  <div
+                  <span
                     key={colIndex}
-                    className="flex h-12 w-8 items-center justify-center text-lg font-bold"
+                    className="flex h-12 items-center justify-center px-1 text-lg font-bold text-white/80 -mx-1"
+                    aria-hidden="true"
                   >
                     {box.char}
-                  </div>
+                  </span>
                 )
               }
 
