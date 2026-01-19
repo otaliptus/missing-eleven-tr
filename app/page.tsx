@@ -6,16 +6,6 @@ import path from 'path';
 // Ensure the page is dynamically rendered, not statically built
 export const dynamic = "force-dynamic"
 
-// retarded ran-gen
-function mulberry32(a: number) {
-  return function() {
-    var t = a += 0x6D2B79F5;
-    t = Math.imul(t ^ t >>> 15, t | 1);
-    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
-    return ((t ^ t >>> 14) >>> 0) / 4294967296;
-  }
-}
-
 async function getDailyGameData() {
   const csvPath = path.join(process.cwd(), 'games.csv');
   const csvFile = await fs.readFile(csvPath, 'utf-8');
@@ -29,7 +19,6 @@ async function getDailyGameData() {
     const lineup = lineupString.split(';');
     return lineup.length === 11;
   });
-
   if (dataLines.length === 0) {
     throw new Error("No valid game rows found in games.csv");
   }
@@ -37,12 +26,7 @@ async function getDailyGameData() {
   // Use UTC day index for deterministic, timezone-safe daily selection
   const today = new Date();
   const utcDayIndex = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
-  
-  // Use the day index as the seed for our PRNG
-  const prng = mulberry32(utcDayIndex);
-  // Generate a random index between 0 and dataLines.length - 1
-  const index = Math.floor(prng() * dataLines.length);
-
+  const index = utcDayIndex % dataLines.length;
   const gameLine = dataLines[index];
   
   const parts = gameLine.split(',');
@@ -61,7 +45,6 @@ async function getDailyGameData() {
     gameId: utcDayIndex // Include for localStorage keying
   }
 }
-
 
 export default async function Home() {
   const gameData = await getDailyGameData()
