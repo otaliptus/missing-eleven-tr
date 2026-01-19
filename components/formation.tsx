@@ -28,7 +28,6 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
 
   // Per-day localStorage keys
   const storageKey = `playerStates_${gameId}`;
-  const modalSeenKey = `infoModalSeen_${gameId}`;
   const lineupKey = useMemo(
     () => players.map(player => normalizePlayerName(player.name)).join("|"),
     [players]
@@ -76,15 +75,10 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
           }
         }
       }
-      // Check if user already saw info modal today
-      const modalSeen = localStorage.getItem(modalSeenKey);
-      if (modalSeen === 'true') {
-        setShowModal(false);
-      }
     } catch (e) {
       console.error('Failed to parse saved state:', e);
     }
-  }, [storageKey, modalSeenKey, players, lineupKey]);
+  }, [storageKey, players, lineupKey]);
 
   // Save player states to localStorage when it changes
   useEffect(() => {
@@ -98,14 +92,9 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     }
   }, [playerStates, storageKey, lineupKey]);
 
-  // Save info modal seen state when closed
+  // Close info modal
   const handleCloseInfoModal = () => {
     setShowModal(false);
-    try {
-      localStorage.setItem(modalSeenKey, 'true');
-    } catch (e) {
-      console.error('Failed to save modal state:', e);
-    }
   };
   
   const [showCopyModal, setShowCopyModal] = useState(false)
