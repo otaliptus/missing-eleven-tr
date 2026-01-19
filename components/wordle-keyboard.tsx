@@ -93,6 +93,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
               `}
               onClick={() => onKeyPress(key)}
               type="button"
+              tabIndex={-1}
               aria-label={key === "Backspace" ? "Delete" : key === "Enter" ? "Submit guess" : `Letter ${key}`}
             >
               {key === "Backspace" ? "⌫" : key}
