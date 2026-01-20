@@ -25,6 +25,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   const [showCompletionModal, setShowCompletionModal] = useState(false);
   const [completionShown, setCompletionShown] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [currentUrl, setCurrentUrl] = useState("");
 
   // Per-day localStorage keys
   const storageKey = `playerStates_${gameId}`;
@@ -91,6 +92,10 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       console.error('Failed to save player states:', e);
     }
   }, [playerStates, storageKey, lineupKey]);
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
 
   // Close info modal
   const handleCloseInfoModal = () => {
@@ -160,6 +165,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     const totalAttempts = statesArray.reduce((sum, state) => sum + (state?.guesses?.length || 0), 0);
 
     let table = `İlk 11! #${gameId}\n`;
+    if (currentUrl) table += `${currentUrl}\n`;
     table += `${gameData.game}\n${gameData.team} • ${gameData.formation}\n\n`;
     table += `✅ Solved: ${solved}/11\n`;
     table += `🎯 Attempts: ${totalAttempts}\n`;
