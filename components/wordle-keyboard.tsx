@@ -65,7 +65,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     return bestStatus
   }
 
-  return <div className="grid gap-1 w-full mx-auto px-1">
+  return <div className="grid gap-1.5 w-full mx-auto px-1">
     {KEYBOARD_ROWS.map((row, i) => (
       <div key={i} className="flex justify-center gap-1">
         {row.map(key => {
@@ -74,21 +74,26 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
             <button
               key={key}
               className={`
-                h-10 sm:h-12 md:h-14
+                h-11 sm:h-12 md:h-14
                 ${key === "Enter" || key === "Backspace" 
-                  ? "min-w-[3rem] sm:min-w-[4rem] md:min-w-[4.25rem]" 
-                  : "min-w-[1.75rem] sm:min-w-[2.25rem] md:min-w-[2.5rem]"
+                  ? "min-w-[3.25rem] sm:min-w-[4.25rem] md:min-w-[4.5rem]" 
+                  : "min-w-[1.85rem] sm:min-w-[2.4rem] md:min-w-[2.6rem]"
                 }
-                rounded-md 
-                px-0.5 sm:px-1 
+                rounded-lg
+                px-0.5 sm:px-1.5 
                 text-xs sm:text-sm md:text-base
                 font-semibold 
-                transition-colors
+                transition-all duration-150
+                active:scale-95
+                shadow-md
                 ${
-                  status === "default" ? "bg-gray-700 hover:bg-gray-600" :
-                  status === "absent" ? "bg-gray-800" :
-                  status === "present" ? "bg-yellow-500" :
-                  "bg-green-500"
+                  status === "default" 
+                    ? "bg-slate-600 hover:bg-slate-500 text-white border border-slate-500/50" 
+                    : status === "absent" 
+                      ? "bg-slate-700 text-slate-400 border border-slate-600/30" 
+                      : status === "present" 
+                        ? "bg-amber-500 text-white border border-amber-400 shadow-amber-500/20" 
+                        : "bg-emerald-500 text-white border border-emerald-400 shadow-emerald-500/20"
                 }
               `}
               onClick={() => onKeyPress(key)}
@@ -104,4 +109,3 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     ))}
   </div>
 }
-

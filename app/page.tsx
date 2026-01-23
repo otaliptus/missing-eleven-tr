@@ -87,9 +87,11 @@ export default function Home() {
 
   if (error) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white p-2 sm:p-4">
+      <main className="min-h-screen gradient-dark text-white p-2 sm:p-4">
         <div className="container mx-auto flex flex-col items-center justify-center h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
-          <p className="text-sm text-red-200">Failed to load game: {error}</p>
+          <div className="glass rounded-2xl p-6 text-center">
+            <p className="text-red-400 font-medium">Failed to load game: {error}</p>
+          </div>
         </div>
       </main>
     )
@@ -97,18 +99,22 @@ export default function Home() {
 
   if (!gameData) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white p-2 sm:p-4">
+      <main className="min-h-screen gradient-dark text-white p-2 sm:p-4">
         <div className="container mx-auto flex flex-col items-center justify-center h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
-          <p className="text-sm text-gray-300">Loading daily game...</p>
+          <div className="glass rounded-2xl p-6 text-center">
+            <div className="animate-pulse flex flex-col items-center gap-3">
+              <div className="h-8 w-8 rounded-full bg-emerald-500/30"></div>
+              <p className="text-slate-300">Loading daily game...</p>
+            </div>
+          </div>
         </div>
       </main>
     )
   }
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-2 sm:p-4">
-      <div className="container mx-auto flex flex-col h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
-        <div className="flex-1 mt-4">
+    <main className="h-screen gradient-dark text-white p-1 sm:p-2 flex items-center justify-center">
+      <div className="h-full w-full max-w-2xl">
           <Formation
             formation={gameData.formation}
             players={players}
@@ -116,7 +122,6 @@ export default function Home() {
             team={gameData.team}
             gameId={gameData.gameId}
           />
-        </div>
       </div>
     </main>
   )

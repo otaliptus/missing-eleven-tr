@@ -65,13 +65,13 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
         const shouldShowStatus = !isCurrentRow && guesses[rowIndex] !== undefined
 
         return (
-          <div key={rowIndex} className="flex gap-2 justify-center">
+          <div key={rowIndex} className="flex gap-1.5 sm:gap-2 justify-center">
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
                 return (
                   <span
                     key={colIndex}
-                    className="flex h-10 sm:h-12 items-center justify-center px-0.5 sm:px-1 text-sm sm:text-lg font-bold text-white/80 -mx-0.5 sm:-mx-1"
+                    className="flex h-10 sm:h-12 items-center justify-center px-0.5 sm:px-1 text-sm sm:text-lg font-bold text-slate-400 -mx-0.5 sm:-mx-1"
                     aria-hidden="true"
                   >
                     {box.char}
@@ -91,12 +91,15 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
               return (
                 <div
                   key={colIndex}
-                  className={`flex h-10 w-6 sm:h-12 sm:w-8 items-center justify-center rounded border-2 text-sm sm:text-lg font-bold transition-colors ${
-                    status === "empty" ? "border-gray-700 bg-gray-800" :
-                    status === "absent" ? "border-gray-600 bg-gray-700" :
-                    status === "present" ? "border-yellow-500 bg-yellow-500" :
-                    "border-green-500 bg-green-500"
-                  }`}
+                  className={`flex h-10 w-7 sm:h-12 sm:w-9 items-center justify-center rounded-lg text-sm sm:text-lg font-bold transition-all duration-200 shadow-md ${
+                    status === "empty" 
+                      ? "bg-slate-700/80 border-2 border-slate-600/50" 
+                      : status === "absent" 
+                        ? "bg-slate-600 border-2 border-slate-500/50 text-slate-300" 
+                        : status === "present" 
+                          ? "bg-amber-500 border-2 border-amber-400 text-white shadow-amber-500/30" 
+                          : "bg-emerald-500 border-2 border-emerald-400 text-white shadow-emerald-500/30"
+                  } ${letter ? 'animate-pop' : ''}`}
                 >
                   {letter}
                 </div>

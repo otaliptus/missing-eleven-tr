@@ -277,19 +277,21 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
 
   return (
-    <div className="relative h-full w-full mx-auto overflow-hidden rounded-lg bg-[#0f8028] p-2 px-8 sm:p-6 sm:px-12">
+    <div className="relative h-full w-full mx-auto overflow-hidden rounded-xl gradient-pitch p-1 px-4 sm:p-3 sm:px-6 shadow-2xl">
     {/* Pitch Markings */}
     <div className="absolute inset-0 z-0">
       {/* Center Circle */}
-      <div className="absolute left-1/2 top-1/2 h-[20%] w-[20%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/20" />
+      <div className="absolute left-1/2 top-1/2 h-[20%] w-[20%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/25" />
       {/* Center Line */}
-      <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/20" />
+      <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/25" />
       {/* Penalty Areas */}
-      <div className="absolute left-1/2 top-0 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/20" />
-      <div className="absolute bottom-0 left-1/2 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/20" />
+      <div className="absolute left-1/2 top-0 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
+      <div className="absolute bottom-0 left-1/2 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
       {/* Goal Areas */}
-      <div className="absolute left-1/2 top-0 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/20" />
-      <div className="absolute bottom-0 left-1/2 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/20" />
+      <div className="absolute left-1/2 top-0 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
+      <div className="absolute bottom-0 left-1/2 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
+      {/* Subtle grass texture overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10" />
     </div>
     {/* Players Grid */}
     <div 
@@ -307,6 +309,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
               player={player}
               state={getPlayerState(player)}
               onClick={() => setSelectedPlayer(player)}
+              team={team}
             />
           ))}
         </div>
@@ -318,7 +321,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       <Button
         variant="outline"
         size="icon"
-        className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+        className="glass border-white/20 text-white hover:bg-white/10 hover:border-white/30 transition-all duration-200 shadow-lg"
         onClick={() => setShowModal(true)}
         aria-label="Game info"
       >
@@ -331,7 +334,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       <Button
         variant="outline"
         size="icon"
-        className="bg-green-800/50 hover:bg-green-700/50 text-white border-white/20"
+        className="glass border-white/20 text-white hover:bg-white/10 hover:border-white/30 transition-all duration-200 shadow-lg"
         onClick={() => setShowCopyModal(true)}
         aria-label="Share results"
       >
@@ -341,12 +344,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   </>
 
     <Dialog open={showModal} onOpenChange={(open) => !open && handleCloseInfoModal()}>
-      <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
+      <DialogContent className="font-mono sm:max-w-md glass rounded-2xl flex flex-col items-center">
         <div className="pb-2">
-          <Trophy className="h-8 w-8 text-green-500 mx-auto" />
-          <div className="text-center">
-            <h2 className="text-lg font-bold text-white">{game}</h2>
-            <p className="text-sm text-gray-400">
+          <Trophy className="h-10 w-10 text-emerald-400 mx-auto drop-shadow-lg" />
+          <div className="text-center mt-3">
+            <h2 className="text-xl font-bold text-white">{game}</h2>
+            <p className="text-sm text-slate-300 mt-1">
               {team} • {formation}
             </p>
           </div>
@@ -355,16 +358,16 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </Dialog>
 
       <Dialog open={showCopyModal} onOpenChange={setShowCopyModal}>
-        <DialogContent className="font-mono sm:max-w-md flex flex-col items-center bg-gray-900 border border-white/20">
+        <DialogContent className="font-mono sm:max-w-md flex flex-col items-center glass rounded-2xl">
           <DialogHeader>
-            <DialogTitle className="text-white">Share Results</DialogTitle>
+            <DialogTitle className="text-white text-lg">Share Results</DialogTitle>
           </DialogHeader>
-          <pre className="whitespace-pre-wrap break-words text-sm text-center text-white/90 bg-gray-800/50 p-4 rounded-lg w-full">
+          <pre className="whitespace-pre-wrap break-words text-sm text-center text-white/90 bg-slate-800/50 p-4 rounded-xl w-full border border-white/10">
             {generateCopyableTable()}
           </pre>
           <Button 
             onClick={copyTableToClipboard}
-            className={`${copied ? 'bg-green-600' : 'bg-green-800 hover:bg-green-700'} text-white min-w-[160px]`}
+            className={`${copied ? 'bg-emerald-600 hover:bg-emerald-600' : 'bg-emerald-600 hover:bg-emerald-500'} text-white min-w-[160px] rounded-xl transition-all duration-200 shadow-lg`}
             disabled={copied}
           >
             {copied ? (
@@ -386,19 +389,19 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
 
       {/* Game Completion Modal */}
       <Dialog open={showCompletionModal} onOpenChange={setShowCompletionModal}>
-        <DialogContent className="font-mono sm:max-w-md bg-gray-900 border border-white/20 flex flex-col items-center">
+        <DialogContent className="font-mono sm:max-w-md glass rounded-2xl flex flex-col items-center">
           <div className="pb-4 text-center">
-            <CheckCircle2 className="h-12 w-12 text-green-500 mx-auto mb-2" />
-            <h2 className="text-xl font-bold text-white mb-1">Game Complete!</h2>
-            <p className="text-gray-400 text-sm">
+            <CheckCircle2 className="h-14 w-14 text-emerald-400 mx-auto mb-3 drop-shadow-lg" />
+            <h2 className="text-2xl font-bold text-white mb-1">Game Complete!</h2>
+            <p className="text-slate-300 text-sm">
               İlk 11! #{gameId}
             </p>
           </div>
-          <div className="text-center space-y-1 mb-4">
-            <p className="text-lg">
-              <span className="text-green-400">✅ {gameStats.solved}</span> / 11 Solved
+          <div className="text-center space-y-2 mb-4">
+            <p className="text-xl">
+              <span className="text-emerald-400 font-bold">✅ {gameStats.solved}</span> / 11 Solved
             </p>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-slate-300">
               🎯 {gameStats.totalAttempts} Total Attempts
             </p>
             {gameStats.failed > 0 && (
@@ -412,7 +415,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
               setShowCompletionModal(false);
               setShowCopyModal(true);
             }}
-            className="bg-green-800 hover:bg-green-700 text-white"
+            className="bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl transition-all duration-200 shadow-lg"
           >
             <Share2 className="h-4 w-4 mr-2" />
             Share Results
