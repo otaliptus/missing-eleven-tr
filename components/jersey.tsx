@@ -218,19 +218,19 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
       </svg>
 
       {/* Name/Length Label Below */}
-      <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap">
+      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-full flex justify-center">
         {(isSolved || isFailed) ? (
-          <div className="bg-black/70 px-3 py-1 rounded-full backdrop-blur-sm border border-white/20 shadow-lg">
-            <span className="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">
+          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg max-w-[90%] truncate">
+            <span className="text-[10px] sm:text-xs font-bold text-white uppercase tracking-wide">
               {player.name}
             </span>
           </div>
         ) : (
-          <div className="flex gap-1 justify-center bg-black/50 px-3 py-1.5 rounded-full backdrop-blur-sm shadow-md">
-            {Array.from({ length: Math.min(player.name.length, 12) }).map((_, i) => (
-              <div key={i} className="w-2 h-2 rounded-full bg-white/90 shadow-sm" />
+          <div className="flex gap-px justify-center bg-black/50 px-1.5 py-0.5 rounded-full backdrop-blur-sm shadow-md">
+            {Array.from({ length: Math.min(player.name.length, 10) }).map((_, i) => (
+              <div key={i} className="w-1 h-1 rounded-full bg-white/90" />
             ))}
-            {player.name.length > 12 && <span className="text-xs text-white/90 leading-none ml-0.5">+</span>}
+            {player.name.length > 10 && <span className="text-[8px] text-white/90 leading-none ml-px">+</span>}
           </div>
         )}
       </div>
