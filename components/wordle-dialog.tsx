@@ -43,16 +43,18 @@ export function WordleDialog({
 
   useEffect(() => {
     if (open && player) {
-      clearCloseTimeout()
-      setIsCelebrating(false)
-      setCurrentGuess("")
-      setGuesses(state?.guesses || [])
+      // Only reset when dialog initially opens, not when state updates during celebration
+      if (!isCelebrating) {
+        clearCloseTimeout()
+        setCurrentGuess("")
+        setGuesses(state?.guesses || [])
+      }
     }
     if (!open) {
       clearCloseTimeout()
       setIsCelebrating(false)
     }
-  }, [open, player, state, clearCloseTimeout])
+  }, [open, player, state, clearCloseTimeout, isCelebrating])
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
