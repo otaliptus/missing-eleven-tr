@@ -12,8 +12,9 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const normalizedWord = normalizePlayerName(word)
   const boxCount = displayBoxes.length
   const denseGrid = boxCount > 18
-  const rowGapClass = boxCount > 26 ? "gap-0.5 sm:gap-1" : denseGrid ? "gap-1 sm:gap-1.5" : "gap-1.5 sm:gap-2"
-  const minBoxSize = boxCount > 30 ? 12 : boxCount > 24 ? 14 : boxCount > 18 ? 16 : 20
+  const gapPx = boxCount > 26 ? 2 : boxCount > 20 ? 3 : boxCount > 14 ? 4 : 6
+  const cellMax = boxCount > 26 ? 22 : boxCount > 22 ? 24 : boxCount > 18 ? 28 : boxCount > 14 ? 32 : boxCount > 10 ? 36 : 42
+  const maxGridWidth = boxCount * cellMax + (boxCount - 1) * gapPx
   const letterSizeClass = boxCount > 26
     ? "text-[clamp(0.55rem,1.8vw,0.9rem)]"
     : denseGrid
@@ -67,7 +68,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   }
 
   return (
-    <div className="grid gap-1.5 sm:gap-2">
+    <div className="grid" style={{ rowGap: `${gapPx + 2}px` }}>
       {rows.map((_, rowIndex) => {
         const isCurrentRow = rowIndex === guesses.length
         const guess = isCurrentRow ? currentGuess : guesses[rowIndex]
@@ -76,9 +77,11 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
         return (
           <div
             key={rowIndex}
-            className={`grid w-full justify-center ${rowGapClass}`}
+            className="mx-auto grid w-full justify-center"
             style={{
-              gridTemplateColumns: `repeat(${boxCount}, minmax(${minBoxSize}px, 1fr))`,
+              gridTemplateColumns: `repeat(${boxCount}, minmax(0, 1fr))`,
+              columnGap: `${gapPx}px`,
+              maxWidth: `${maxGridWidth}px`,
             }}
           >
             {displayBoxes.map((box, colIndex) => {

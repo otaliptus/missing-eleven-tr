@@ -137,16 +137,16 @@ export function WordleDialog({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="font-mono glass rounded-2xl text-white p-3 sm:p-5 max-h-[95vh] w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] overflow-y-auto">
+      <DialogContent className="font-mono glass rounded-2xl text-white p-3 sm:p-5 max-h-[95vh] w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] overflow-y-auto overflow-x-hidden">
         <div className="grid gap-5 sm:gap-6">
-          <div className="w-full overflow-x-auto pb-1">
+          <div className="w-full overflow-x-hidden">
             <WordleGrid
               word={player.name}
               guesses={guesses}
               currentGuess={currentGuess}
             />
           </div>      
-          <div className="w-full overflow-x-auto pb-1">
+          <div className="w-full overflow-x-hidden">
            <WordleKeyboard
               word={player.name}
               guesses={guesses}
