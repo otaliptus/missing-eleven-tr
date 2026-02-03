@@ -279,17 +279,34 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   return (
     <div className="relative h-full w-full mx-auto overflow-hidden rounded-xl gradient-pitch p-1 px-4 sm:p-3 sm:px-6 shadow-2xl">
     {/* Pitch Markings */}
-    <div className="absolute inset-0 z-0">
-      {/* Center Circle */}
-      <div className="absolute left-1/2 top-1/2 h-[20%] w-[20%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/25" />
-      {/* Center Line */}
-      <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/25" />
-      {/* Penalty Areas */}
-      <div className="absolute left-1/2 top-0 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
-      <div className="absolute bottom-0 left-1/2 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
-      {/* Goal Areas */}
-      <div className="absolute left-1/2 top-0 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
-      <div className="absolute bottom-0 left-1/2 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
+    <div className="absolute inset-0 z-0 pointer-events-none">
+      <svg
+        className="absolute inset-0 h-full w-full"
+        viewBox="0 0 100 160"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <rect x="1.5" y="1.5" width="97" height="157" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="1" />
+        <line x1="0" y1="80" x2="100" y2="80" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <circle cx="50" cy="80" r="10" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* Penalty boxes */}
+        <rect x="20" y="0" width="60" height="24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="20" y="136" width="60" height="24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* 6-yard boxes */}
+        <rect x="35" y="0" width="30" height="12" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="35" y="148" width="30" height="12" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* Penalty spots */}
+        <circle cx="50" cy="12" r="1.2" fill="rgba(255,255,255,0.22)" />
+        <circle cx="50" cy="148" r="1.2" fill="rgba(255,255,255,0.22)" />
+
+        {/* Penalty arcs */}
+        <path d="M40 24 A10 10 0 0 0 60 24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <path d="M40 136 A10 10 0 0 1 60 136" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+      </svg>
+
       {/* Subtle grass texture overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10" />
     </div>
