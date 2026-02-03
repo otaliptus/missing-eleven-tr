@@ -277,7 +277,10 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
 
   return (
-    <div className="relative h-full w-full mx-auto overflow-hidden rounded-xl gradient-pitch p-1 px-4 sm:p-3 sm:px-6 shadow-2xl">
+    <div className="relative h-full w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[720px] mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900">
+    {/* Pitch Background - clipped to boundary */}
+    <div className="absolute inset-0 z-0 gradient-pitch m-[1%] rounded" />
+    
     {/* Pitch Markings */}
     <div className="absolute inset-0 z-0 pointer-events-none">
       <svg
@@ -286,21 +289,24 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         preserveAspectRatio="none"
         aria-hidden="true"
       >
-        <rect x="1.5" y="1.5" width="97" height="157" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="1" />
-        <line x1="0" y1="80" x2="100" y2="80" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        {/* Pitch boundary line */}
+        <rect x="1.5" y="1.5" width="97" height="157" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth="1.5" />
+        
+        {/* Center line and circle */}
+        <line x1="1.5" y1="80" x2="98.5" y2="80" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
         <circle cx="50" cy="80" r="10" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
 
         {/* Penalty boxes */}
-        <rect x="20" y="0" width="60" height="24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
-        <rect x="20" y="136" width="60" height="24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="20" y="1.5" width="60" height="22.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="20" y="136" width="60" height="22.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
 
         {/* 6-yard boxes */}
-        <rect x="35" y="0" width="30" height="12" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
-        <rect x="35" y="148" width="30" height="12" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="35" y="1.5" width="30" height="10.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="35" y="148" width="30" height="10.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
 
-        {/* Penalty spots */}
-        <circle cx="50" cy="12" r="1.2" fill="rgba(255,255,255,0.22)" />
-        <circle cx="50" cy="148" r="1.2" fill="rgba(255,255,255,0.22)" />
+        {/* Penalty spots - positioned between 6-yard box and penalty box lines */}
+        <circle cx="50" cy="18" r="1.2" fill="rgba(255,255,255,0.22)" />
+        <circle cx="50" cy="142" r="1.2" fill="rgba(255,255,255,0.22)" />
 
         {/* Penalty arcs */}
         <path d="M40 24 A10 10 0 0 0 60 24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
@@ -308,7 +314,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       </svg>
 
       {/* Subtle grass texture overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10 m-[1%] rounded" />
     </div>
     {/* Players Grid */}
     <div 
