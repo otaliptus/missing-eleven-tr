@@ -11,7 +11,6 @@ interface JerseyProps {
 
 export function Jersey({ player, state, className, team }: JerseyProps) {
   const guessCount = state?.guesses?.length ?? 0
-  const isAttempting = guessCount > 0 && guessCount < 8 && !state?.isComplete
   const isFailed = guessCount >= 8 && !state?.isComplete
   const isSolved = !!state?.isComplete
 
@@ -173,27 +172,6 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           }}
         >
           {isSolved ? "✓" : isFailed ? "✗" : "?"}
-        </text>
-
-        {/* Position Label */}
-        <text
-          x="50"
-          y="82"
-          textAnchor="middle"
-          dominantBaseline="middle"
-          fill="white"
-          stroke="rgba(0,0,0,0.7)"
-          strokeWidth="2"
-          paintOrder="stroke"
-          fontSize="14"
-          fontWeight="bold"
-          style={{ 
-            textShadow: "0 1px 2px rgba(0,0,0,0.5)",
-            fontFamily: "system-ui, sans-serif",
-            letterSpacing: "0.05em"
-          }}
-        >
-          {(isSolved || isFailed) ? "" : player.position}
         </text>
 
         {/* Number Badge (if attempts exist) */}

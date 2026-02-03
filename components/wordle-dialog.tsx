@@ -139,14 +139,14 @@ export function WordleDialog({
     <Dialog open={open} onOpenChange={handleClose}>
       <DialogContent className="font-mono glass rounded-2xl text-white p-3 sm:p-5 max-h-[95vh] w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] overflow-y-auto">
         <div className="grid gap-5 sm:gap-6">
-          <div className="w-full overflow-x-hidden">
+          <div className="w-full overflow-x-auto pb-1">
             <WordleGrid
               word={player.name}
               guesses={guesses}
               currentGuess={currentGuess}
             />
           </div>      
-          <div className="w-full overflow-x-hidden">
+          <div className="w-full overflow-x-auto pb-1">
            <WordleKeyboard
               word={player.name}
               guesses={guesses}
@@ -154,7 +154,7 @@ export function WordleDialog({
             />
           </div>
           {guesses.length >= 8 && !state?.isComplete && (
-            <div className="text-red-400 font-bold text-base sm:text-lg text-center bg-red-500/10 py-2 rounded-xl border border-red-500/20">
+            <div className="text-red-400 font-bold text-base sm:text-lg text-center bg-red-500/10 py-2 rounded-xl border border-red-500/20 break-words">
               Correct answer: {player.name}
             </div>
           )}

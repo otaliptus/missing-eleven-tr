@@ -10,6 +10,15 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const rows = Array(8).fill(null)
   const displayBoxes = getDisplayBoxes(word)
   const normalizedWord = normalizePlayerName(word)
+  const boxCount = displayBoxes.length
+  const denseGrid = boxCount > 18
+  const rowGapClass = boxCount > 26 ? "gap-0.5 sm:gap-1" : denseGrid ? "gap-1 sm:gap-1.5" : "gap-1.5 sm:gap-2"
+  const minBoxSize = boxCount > 30 ? 12 : boxCount > 24 ? 14 : boxCount > 18 ? 16 : 20
+  const letterSizeClass = boxCount > 26
+    ? "text-[clamp(0.55rem,1.8vw,0.9rem)]"
+    : denseGrid
+      ? "text-[clamp(0.65rem,2vw,1rem)]"
+      : "text-[clamp(0.75rem,2.6vw,1.125rem)]"
 
   const getLetterStatus = (guess: string, position: number) => {
     const letter = guess[position]
@@ -65,13 +74,19 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
         const shouldShowStatus = !isCurrentRow && guesses[rowIndex] !== undefined
 
         return (
-          <div key={rowIndex} className="flex gap-1 sm:gap-1.5 justify-center">
+          <div
+            key={rowIndex}
+            className={`grid w-full justify-center ${rowGapClass}`}
+            style={{
+              gridTemplateColumns: `repeat(${boxCount}, minmax(${minBoxSize}px, 1fr))`,
+            }}
+          >
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
                 return (
                   <span
                     key={colIndex}
-                    className="flex h-10 sm:h-12 items-center justify-center px-0.5 sm:px-1 text-sm sm:text-lg font-bold text-slate-400 -mx-0.5 sm:-mx-1"
+                    className={`flex aspect-square w-full items-center justify-center px-0.5 sm:px-1 font-bold text-slate-400 ${letterSizeClass}`}
                     aria-hidden="true"
                   >
                     {box.char}
@@ -91,7 +106,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
               return (
                 <div
                   key={colIndex}
-                  className={`flex h-[clamp(2.25rem,6vw,3rem)] w-[clamp(1.6rem,4.6vw,2.25rem)] items-center justify-center rounded-lg text-[clamp(0.75rem,2.6vw,1.125rem)] font-bold transition-all duration-200 shadow-md ${
+                  className={`flex aspect-square w-full items-center justify-center rounded-lg font-bold transition-all duration-200 shadow-md ${letterSizeClass} ${
                     status === "empty" 
                       ? "bg-slate-700/80 border-2 border-slate-600/50" 
                       : status === "absent" 
