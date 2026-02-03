@@ -113,6 +113,10 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       return 1
     })
   }, [formationRows])
+  const rowOrder = useMemo(
+    () => Array.from({ length: formationRows.length }, (_, index) => index).reverse(),
+    [formationRows.length]
+  )
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -122,7 +126,6 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         isComplete
       }
     }))
-    setSelectedPlayer(null)
   }
 
   // Compute game stats
@@ -333,7 +336,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         gap: "0.2rem"
       }}
     >
-      {formationRows.map((_, rowIndex) => (
+      {rowOrder.map((rowIndex) => (
         <div key={rowIndex} className="flex items-center justify-around px-2 sm:px-4">
           {getPlayersByRow(rowIndex, players).map(player => (
             <PlayerCard
@@ -380,9 +383,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         <div className="pb-2">
           <Trophy className="h-10 w-10 text-emerald-400 mx-auto drop-shadow-lg" />
           <div className="text-center mt-3">
-            <h2 className="text-xl font-bold text-white">{game}</h2>
+            <h2 className="text-2xl font-extrabold text-white tracking-tight">{team}</h2>
             <p className="text-sm text-slate-300 mt-1">
-              {team} • {formation}
+              {game}
+            </p>
+            <p className="text-sm text-slate-300 mt-1">
+              {formation}
             </p>
           </div>
         </div>
@@ -415,7 +421,9 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         player={selectedPlayer}
         state={selectedPlayer ? getPlayerState(selectedPlayer) : undefined}
         open={!!selectedPlayer}
-        onOpenChange={() => setSelectedPlayer(null)}
+        onOpenChange={(open) => {
+          if (!open) setSelectedPlayer(null)
+        }}
         onGuessComplete={handleGuessComplete}
       />
 
