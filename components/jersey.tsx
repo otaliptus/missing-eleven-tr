@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn, normalizePlayerName } from "@/lib/utils"
 import type { PlayerData, PlayerState } from "@/types/game"
 import { TEAM_CONFIGS, DEFAULT_TEAM_CONFIG } from "@/lib/teams"
 
@@ -165,7 +165,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
             fontFamily: "system-ui, sans-serif"
           }}
         >
-          {isSolved ? "✓" : isFailed ? "✗" : "?"}
+          {isSolved ? "✓" : isFailed ? "✗" : normalizePlayerName(player.name).length}
         </text>
 
         {/* Position Label */}
