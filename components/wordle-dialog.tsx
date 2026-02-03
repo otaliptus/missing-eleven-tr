@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { WordleKeyboard } from "@/components/wordle-keyboard"
 import { WordleGrid } from "@/components/wordle-grid"
@@ -24,23 +24,39 @@ export function WordleDialog({
 }: WordleDialogProps) {
   const [currentGuess, setCurrentGuess] = useState("")
   const [guesses, setGuesses] = useState<string[]>([])
+  const [isCelebrating, setIsCelebrating] = useState(false)
+  const closeTimeoutRef = useRef<number | null>(null)
 
   // Compute normalized name once for consistent use
   const normalizedName = player ? normalizePlayerName(player.name) : ""
+  const isSolved = !!state?.isComplete || guesses.includes(normalizedName)
   
   // Game is over if solved OR 8 guesses reached (check both state and local guesses for race safety)
-  const isGameOver = state?.isComplete || guesses.length >= 8 || (state?.guesses?.length ?? 0) >= 8
+  const isGameOver = isSolved || guesses.length >= 8 || (state?.guesses?.length ?? 0) >= 8
+
+  const clearCloseTimeout = useCallback(() => {
+    if (closeTimeoutRef.current !== null) {
+      window.clearTimeout(closeTimeoutRef.current)
+      closeTimeoutRef.current = null
+    }
+  }, [])
 
   useEffect(() => {
     if (open && player) {
+      clearCloseTimeout()
+      setIsCelebrating(false)
       setCurrentGuess("")
       setGuesses(state?.guesses || [])
     }
-  }, [open, player, state])
+    if (!open) {
+      clearCloseTimeout()
+      setIsCelebrating(false)
+    }
+  }, [open, player, state, clearCloseTimeout])
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!open || !player || isGameOver) return
+      if (!open || !player || isGameOver || isCelebrating) return
   
       if (e.key === "Enter") {
         if (currentGuess.length === normalizedName.length) {
@@ -51,6 +67,13 @@ export function WordleDialog({
           const isComplete = currentGuess === normalizedName
           if (isComplete || newGuesses.length >= 8) {
             onGuessComplete(player.id, newGuesses, isComplete)
+            if (isComplete) {
+              setIsCelebrating(true)
+              clearCloseTimeout()
+              closeTimeoutRef.current = window.setTimeout(() => {
+                onOpenChange(false)
+              }, 650)
+            }
           }
         }
       } else if (e.key === "Backspace") {
@@ -67,10 +90,13 @@ export function WordleDialog({
     }
   
     return cleanup
-  }, [open, player, isGameOver, currentGuess, guesses, normalizedName, onGuessComplete])
+  }, [open, player, isGameOver, isCelebrating, currentGuess, guesses, normalizedName, onGuessComplete, onOpenChange, clearCloseTimeout])
 
-  const handleClose = () => {
-    if (player && guesses.length > 0 && !state?.isComplete) {
+  const handleClose = (nextOpen: boolean) => {
+    if (nextOpen) return
+    clearCloseTimeout()
+
+    if (player && guesses.length > 0 && !isSolved) {
       onGuessComplete(player.id, guesses, false)
     }
     onOpenChange(false)
@@ -78,7 +104,7 @@ export function WordleDialog({
 
   // Handler for on-screen keyboard - uses normalized name consistently
   const handleKeyPress = (key: string) => {
-    if (isGameOver) return
+    if (isGameOver || isCelebrating) return
     
     if (key === "Enter") {
       if (currentGuess.length === normalizedName.length) {
@@ -89,6 +115,13 @@ export function WordleDialog({
         const isComplete = currentGuess === normalizedName
         if (isComplete || newGuesses.length >= 8) {
           onGuessComplete(player!.id, newGuesses, isComplete)
+          if (isComplete) {
+            setIsCelebrating(true)
+            clearCloseTimeout()
+            closeTimeoutRef.current = window.setTimeout(() => {
+              onOpenChange(false)
+            }, 650)
+          }
         }
       }
     } else if (key === "Backspace") {
