@@ -58,14 +58,14 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   }
 
   return (
-    <div className="grid gap-2 sm:gap-3">
+    <div className="grid gap-1.5 sm:gap-2">
       {rows.map((_, rowIndex) => {
         const isCurrentRow = rowIndex === guesses.length
         const guess = isCurrentRow ? currentGuess : guesses[rowIndex]
         const shouldShowStatus = !isCurrentRow && guesses[rowIndex] !== undefined
 
         return (
-          <div key={rowIndex} className="flex gap-1.5 sm:gap-2 justify-center">
+          <div key={rowIndex} className="flex gap-1 sm:gap-1.5 justify-center">
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
                 return (
@@ -91,7 +91,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
               return (
                 <div
                   key={colIndex}
-                  className={`flex h-10 w-7 sm:h-12 sm:w-9 items-center justify-center rounded-lg text-sm sm:text-lg font-bold transition-all duration-200 shadow-md ${
+                  className={`flex h-[clamp(2.25rem,6vw,3rem)] w-[clamp(1.6rem,4.6vw,2.25rem)] items-center justify-center rounded-lg text-[clamp(0.75rem,2.6vw,1.125rem)] font-bold transition-all duration-200 shadow-md ${
                     status === "empty" 
                       ? "bg-slate-700/80 border-2 border-slate-600/50" 
                       : status === "absent" 

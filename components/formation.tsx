@@ -295,10 +295,9 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </div>
     {/* Players Grid */}
     <div 
-      className="relative z-10 grid h-full" 
+      className="relative z-10 grid h-full gap-2 sm:gap-3" 
       style={{ 
         gridTemplateRows: `repeat(${formationRows.length}, 1fr)`,
-        gap: "0.25rem"
       }}
     >
       {formationRows.map((_, rowIndex) => (

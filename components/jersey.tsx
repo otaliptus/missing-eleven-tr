@@ -218,10 +218,10 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
       </svg>
 
       {/* Name/Length Label Below */}
-      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-full flex justify-center">
+      <div className="absolute -bottom-3 sm:-bottom-4 left-1/2 -translate-x-1/2 w-full flex justify-center">
         {(isSolved || isFailed) ? (
-          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg max-w-[90%] truncate">
-            <span className="text-[10px] sm:text-xs font-bold text-white uppercase tracking-wide">
+          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg max-w-full truncate">
+            <span className="text-[9px] sm:text-[10px] font-bold text-white uppercase tracking-[0.03em] sm:tracking-wide leading-tight">
               {player.name}
             </span>
           </div>
