@@ -114,7 +114,7 @@ export default function Home() {
 
   return (
     <main className="h-screen gradient-dark text-white p-1 sm:p-2 flex items-center justify-center">
-      <div className="h-full w-full max-w-2xl">
+      <div className="h-full w-full max-w-[95vw] sm:max-w-[85vw] md:max-w-2xl lg:max-w-3xl">
           <Formation
             formation={gameData.formation}
             players={players}
