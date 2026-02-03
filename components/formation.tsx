@@ -104,6 +104,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   
   const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]
+  const rowOrder = Array.from({ length: formationRows.length }, (_, index) => index).reverse()
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -301,7 +302,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         gap: "0.25rem"
       }}
     >
-      {formationRows.map((_, rowIndex) => (
+      {rowOrder.map((rowIndex) => (
         <div key={rowIndex} className="flex items-center justify-around px-2 sm:px-4">
           {getPlayersByRow(rowIndex, players).map(player => (
             <PlayerCard
