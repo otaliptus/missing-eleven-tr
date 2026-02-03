@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react"
 import { getDisplayBoxes, normalizePlayerName } from "@/lib/utils"
 
 interface WordleGridProps {
@@ -13,13 +14,37 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const boxCount = displayBoxes.length
   const denseGrid = boxCount > 18
   const gapPx = boxCount > 26 ? 2 : boxCount > 20 ? 3 : boxCount > 14 ? 4 : 6
-  const cellMax = boxCount > 26 ? 22 : boxCount > 22 ? 24 : boxCount > 18 ? 28 : boxCount > 14 ? 32 : boxCount > 10 ? 36 : 42
-  const maxGridWidth = boxCount * cellMax + (boxCount - 1) * gapPx
+  const sizeConfig =
+    boxCount > 26
+      ? { min: 12, vmin: 2.6, max: 20 }
+      : boxCount > 22
+        ? { min: 12, vmin: 2.8, max: 22 }
+        : boxCount > 18
+          ? { min: 14, vmin: 3.2, max: 24 }
+          : boxCount > 14
+            ? { min: 16, vmin: 3.6, max: 28 }
+            : boxCount > 10
+              ? { min: 18, vmin: 4.2, max: 32 }
+              : { min: 20, vmin: 4.8, max: 36 }
+  const cellSize = `clamp(${sizeConfig.min}px, ${sizeConfig.vmin}vmin, ${sizeConfig.max}px)`
   const letterSizeClass = boxCount > 26
     ? "text-[clamp(0.55rem,1.8vw,0.9rem)]"
     : denseGrid
       ? "text-[clamp(0.65rem,2vw,1rem)]"
       : "text-[clamp(0.75rem,2.6vw,1.125rem)]"
+  const gridStyle = {
+    "--cell": cellSize,
+    "--gap": `${gapPx}px`,
+    rowGap: `${gapPx + 2}px`,
+  } as CSSProperties
+  const rowStyle = {
+    gridTemplateColumns: `repeat(${boxCount}, var(--cell))`,
+    columnGap: "var(--gap)",
+  } as CSSProperties
+  const cellStyle = {
+    width: "var(--cell)",
+    height: "var(--cell)",
+  } as CSSProperties
 
   const getLetterStatus = (guess: string, position: number) => {
     const letter = guess[position]
@@ -68,28 +93,21 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   }
 
   return (
-    <div className="grid" style={{ rowGap: `${gapPx + 2}px` }}>
+    <div className="grid" style={gridStyle}>
       {rows.map((_, rowIndex) => {
         const isCurrentRow = rowIndex === guesses.length
         const guess = isCurrentRow ? currentGuess : guesses[rowIndex]
         const shouldShowStatus = !isCurrentRow && guesses[rowIndex] !== undefined
 
         return (
-          <div
-            key={rowIndex}
-            className="mx-auto grid w-full justify-center"
-            style={{
-              gridTemplateColumns: `repeat(${boxCount}, minmax(0, 1fr))`,
-              columnGap: `${gapPx}px`,
-              maxWidth: `${maxGridWidth}px`,
-            }}
-          >
+          <div key={rowIndex} className="mx-auto grid w-fit justify-center" style={rowStyle}>
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
                 return (
                   <span
                     key={colIndex}
-                    className={`flex aspect-square w-full items-center justify-center px-0.5 sm:px-1 font-bold text-slate-400 ${letterSizeClass}`}
+                    className={`flex items-center justify-center px-0.5 sm:px-1 font-bold text-slate-400 ${letterSizeClass}`}
+                    style={cellStyle}
                     aria-hidden="true"
                   >
                     {box.char}
@@ -109,7 +127,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
               return (
                 <div
                   key={colIndex}
-                  className={`flex aspect-square w-full items-center justify-center rounded-lg font-bold transition-all duration-200 shadow-md ${letterSizeClass} ${
+                  className={`flex items-center justify-center rounded-lg font-bold transition-all duration-200 shadow-md ${letterSizeClass} ${
                     status === "empty" 
                       ? "bg-slate-700/80 border-2 border-slate-600/50" 
                       : status === "absent" 
@@ -118,6 +136,7 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
                           ? "bg-amber-500 border-2 border-amber-400 text-white shadow-amber-500/30" 
                           : "bg-emerald-500 border-2 border-emerald-400 text-white shadow-emerald-500/30"
                   } ${letter ? 'animate-pop' : ''}`}
+                  style={cellStyle}
                 >
                   {letter}
                 </div>

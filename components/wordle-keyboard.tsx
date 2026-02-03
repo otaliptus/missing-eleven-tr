@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react"
 import { normalizePlayerName } from "@/lib/utils"
 
 interface WordleKeyboardProps {
@@ -15,6 +16,12 @@ const KEYBOARD_ROWS = [
 export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProps) {
   // Use normalized word for all status calculations
   const normalizedWord = normalizePlayerName(word)
+  const keyHeight = "clamp(1.6rem, 4.8vmin, 2.6rem)"
+  const keyGap = "clamp(0.2rem, 1vmin, 0.4rem)"
+  const keyFont = "clamp(0.55rem, 1.8vmin, 0.9rem)"
+  const gridStyle = { rowGap: keyGap } as CSSProperties
+  const rowStyle = { columnGap: keyGap } as CSSProperties
+  const keyStyle = { height: keyHeight, fontSize: keyFont } as CSSProperties
   
   const getKeyStatus = (key: string) => {
     if (key === "Enter" || key === "Backspace") return "default"
@@ -65,23 +72,21 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     return bestStatus
   }
 
-  return <div className="grid gap-1.5 w-full max-w-[34rem] mx-auto px-1 sm:px-2">
+  return <div className="grid w-full max-w-[34rem] mx-auto px-1 sm:px-2" style={gridStyle}>
     {KEYBOARD_ROWS.map((row, i) => (
-      <div key={i} className="flex w-full justify-center gap-1 sm:gap-1.5">
+      <div key={i} className="flex w-full justify-center" style={rowStyle}>
         {row.map(key => {
           const status = getKeyStatus(key)
           return (
             <button
               key={key}
               className={`
-                h-10 sm:h-11 md:h-12
                 ${key === "Enter" || key === "Backspace" 
                   ? "flex-[1.6] sm:flex-[1.8]" 
                   : "flex-1"
                 }
                 min-w-0 rounded-lg
                 px-0.5 sm:px-1 
-                text-[10px] sm:text-xs md:text-sm
                 leading-none whitespace-nowrap
                 font-semibold 
                 transition-all duration-150
@@ -97,6 +102,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
                         : "bg-emerald-500 text-white border border-emerald-400 shadow-emerald-500/20"
                 }
               `}
+              style={keyStyle}
               onClick={() => onKeyPress(key)}
               type="button"
               tabIndex={-1}
