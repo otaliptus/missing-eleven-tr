@@ -277,7 +277,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
 
   return (
-    <div className="relative h-full w-full max-w-[95vw] sm:max-w-[85vw] md:max-w-2xl lg:max-w-3xl mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900">
+    <div className="relative h-full w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[720px] mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900">
     {/* Pitch Background - clipped to boundary */}
     <div className="absolute inset-0 z-0 gradient-pitch m-[1%] rounded" />
     
