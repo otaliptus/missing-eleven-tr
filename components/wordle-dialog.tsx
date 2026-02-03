@@ -27,7 +27,6 @@ export function WordleDialog({
 
   // Compute normalized name once for consistent use
   const normalizedName = player ? normalizePlayerName(player.name) : ""
-  const letterCount = normalizedName.length
   
   // Game is over if solved OR 8 guesses reached (check both state and local guesses for race safety)
   const isGameOver = state?.isComplete || guesses.length >= 8 || (state?.guesses?.length ?? 0) >= 8
@@ -105,9 +104,6 @@ export function WordleDialog({
     <Dialog open={open} onOpenChange={handleClose}>
       <DialogContent className="font-mono glass rounded-2xl text-white p-3 sm:p-5 max-h-[95vh] w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] overflow-y-auto">
         <div className="grid gap-5 sm:gap-6">
-          <div className="text-center text-slate-300 text-sm">
-            Harf: {letterCount}
-          </div>
           <div className="w-full overflow-x-auto">
             <WordleGrid
               word={player.name}
