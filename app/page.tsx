@@ -12,6 +12,16 @@ type GameData = {
   gameId: number
 }
 
+const BIG_THREE = new Set(["Galatasaray", "Fenerbahce", "Besiktas"])
+const EXCLUDED_TEAMS = new Set([
+  "Altay",
+  "Goztepe",
+  "Pendikspor",
+  "Samsunspor",
+  "Umraniyespor",
+  "Yeni Malatyaspor",
+])
+
 function getDailyGameData(csvText: string): GameData {
   const allLines = csvText.trim().split(/\r?\n/)
 
@@ -30,17 +40,30 @@ function getDailyGameData(csvText: string): GameData {
     throw new Error("No valid game rows found in games.csv")
   }
 
+  const parsed = dataLines.map((line) => {
+    const parts = line.split(",")
+    const game = parts[0]?.trim() ?? ""
+    const team = parts[1]?.trim() ?? ""
+    const formation = parts[2]?.trim() ?? ""
+    const lineupString = parts.slice(3).join(",").trim()
+    const lineup = lineupString ? lineupString.split(";") : []
+    return { game, team, formation, lineup }
+  })
+
+  const eligible = parsed.filter((row) => !EXCLUDED_TEAMS.has(row.team))
+  if (eligible.length === 0) {
+    throw new Error("No eligible game rows found after filtering teams")
+  }
+
+  const weighted = eligible.flatMap((row) => {
+    const weight = BIG_THREE.has(row.team) ? 3 : 1
+    return Array.from({ length: weight }, () => row)
+  })
+
   // Use UTC day index for deterministic, timezone-safe daily selection
   const utcDayIndex = Math.floor(Date.now() / (1000 * 60 * 60 * 24))
-  const index = utcDayIndex % dataLines.length
-  const gameLine = dataLines[index]
-
-  const parts = gameLine.split(",")
-  const game = parts[0]?.trim() ?? ""
-  const team = parts[1]?.trim() ?? ""
-  const formation = parts[2]?.trim() ?? ""
-  const lineupString = parts.slice(3).join(",").trim()
-  const lineup = lineupString ? lineupString.split(";") : []
+  const index = utcDayIndex % weighted.length
+  const { game, team, formation, lineup } = weighted[index]
 
   return {
     game,
