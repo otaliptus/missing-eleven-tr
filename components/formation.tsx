@@ -279,7 +279,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   return (
     <div className="relative h-full w-full max-w-[95vw] sm:max-w-[85vw] md:max-w-2xl lg:max-w-3xl mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900">
     {/* Pitch Background - clipped to boundary */}
-    <div className="absolute inset-0 z-0 gradient-pitch" style={{ margin: '1%', borderRadius: '4px' }} />
+    <div className="absolute inset-0 z-0 gradient-pitch m-[1%] rounded" />
     
     {/* Pitch Markings */}
     <div className="absolute inset-0 z-0 pointer-events-none">
@@ -314,7 +314,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
       </svg>
 
       {/* Subtle grass texture overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10" style={{ margin: '1%', borderRadius: '4px' }} />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10 m-[1%] rounded" />
     </div>
     {/* Players Grid */}
     <div 
