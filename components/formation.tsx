@@ -332,7 +332,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     <div 
       className="relative z-10 grid h-full gap-2 sm:gap-3" 
       style={{ 
-        gridTemplateRows: `repeat(${formationRows.length}, 1fr)`,
+        gridTemplateRows: rowWeights.map((weight) => `${weight}fr`).join(" "),
       }}
     >
       {rowOrder.map((rowIndex) => (
