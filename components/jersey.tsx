@@ -10,7 +10,6 @@ interface JerseyProps {
 }
 
 export function Jersey({ player, state, className, team }: JerseyProps) {
-  const isAttempting = state?.guesses.length && state.guesses.length < 8 && !state.isComplete
   const isFailed = state?.guesses.length === 8 && !state.isComplete
   const isSolved = state?.isComplete
 
@@ -39,11 +38,8 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
         className={cn(
           "w-full h-full transition-all duration-300 hover:scale-105"
         )}
-        style={{ 
-          filter: isSolved ? "drop-shadow(0 0 8px #22c55e)" : 
-                  isFailed ? "drop-shadow(0 0 6px #ef4444)" :
-                  isAttempting ? "drop-shadow(0 0 6px #eab308)" : 
-                  "drop-shadow(0 4px 8px rgba(0,0,0,0.4))",
+        style={{
+          filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.4))",
         }}
       >
         <defs>
