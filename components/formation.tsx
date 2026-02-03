@@ -104,6 +104,15 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   
   const [showCopyModal, setShowCopyModal] = useState(false)
   const formationRows = [1, ...parseFormation(formation)]
+  const rowWeights = useMemo(() => {
+    const totalRows = formationRows.length
+    return formationRows.map((_, index) => {
+      const distanceFromEdge = Math.min(index, totalRows - 1 - index)
+      if (distanceFromEdge === 0) return 1.7
+      if (distanceFromEdge === 1) return 1.2
+      return 1
+    })
+  }, [formationRows])
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -318,10 +327,10 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     </div>
     {/* Players Grid */}
     <div 
-      className="relative z-10 grid h-full" 
+      className="relative z-10 grid h-full py-[2%]" 
       style={{ 
-        gridTemplateRows: `repeat(${formationRows.length}, 1fr)`,
-        gap: "0.25rem"
+        gridTemplateRows: rowWeights.map((weight) => `${weight}fr`).join(" "),
+        gap: "0.2rem"
       }}
     >
       {formationRows.map((_, rowIndex) => (
