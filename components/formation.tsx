@@ -114,7 +114,6 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         isComplete
       }
     }))
-    setSelectedPlayer(null)
   }
 
   // Compute game stats
@@ -387,7 +386,9 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         player={selectedPlayer}
         state={selectedPlayer ? getPlayerState(selectedPlayer) : undefined}
         open={!!selectedPlayer}
-        onOpenChange={() => setSelectedPlayer(null)}
+        onOpenChange={(open) => {
+          if (!open) setSelectedPlayer(null)
+        }}
         onGuessComplete={handleGuessComplete}
       />
 
