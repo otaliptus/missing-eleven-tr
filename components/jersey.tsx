@@ -160,6 +160,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           textAnchor="middle"
           dominantBaseline="middle"
           fill="white"
+          stroke="rgba(0,0,0,0.7)"
+          strokeWidth="3"
+          paintOrder="stroke"
           fontSize="32"
           fontWeight="bold"
           style={{ 
@@ -177,6 +180,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           textAnchor="middle"
           dominantBaseline="middle"
           fill="white"
+          stroke="rgba(0,0,0,0.7)"
+          strokeWidth="2"
+          paintOrder="stroke"
           fontSize="14"
           fontWeight="bold"
           style={{ 
