@@ -10,9 +10,10 @@ interface JerseyProps {
 }
 
 export function Jersey({ player, state, className, team }: JerseyProps) {
-  const isAttempting = state?.guesses.length && state.guesses.length < 8 && !state.isComplete
-  const isFailed = state?.guesses.length === 8 && !state.isComplete
-  const isSolved = state?.isComplete
+  const guessCount = state?.guesses?.length ?? 0
+  const isAttempting = guessCount > 0 && guessCount < 8 && !state?.isComplete
+  const isFailed = guessCount >= 8 && !state?.isComplete
+  const isSolved = !!state?.isComplete
 
   const teamConfig = team && TEAM_CONFIGS[team] ? TEAM_CONFIGS[team] : DEFAULT_TEAM_CONFIG
   
