@@ -348,9 +348,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         <div className="pb-2">
           <Trophy className="h-10 w-10 text-emerald-400 mx-auto drop-shadow-lg" />
           <div className="text-center mt-3">
-            <h2 className="text-xl font-bold text-white">{game}</h2>
+            <h2 className="text-2xl font-extrabold text-white tracking-tight">{team}</h2>
             <p className="text-sm text-slate-300 mt-1">
-              {team} • {formation}
+              {game}
+            </p>
+            <p className="text-sm text-slate-300 mt-1">
+              {formation}
             </p>
           </div>
         </div>
