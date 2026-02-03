@@ -103,7 +103,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
   
   const [showCopyModal, setShowCopyModal] = useState(false)
-  const formationRows = [1, ...parseFormation(formation)]
+  const formationRows = useMemo(() => [1, ...parseFormation(formation)], [formation])
   const rowWeights = useMemo(() => {
     const totalRows = formationRows.length
     return formationRows.map((_, index) => {
