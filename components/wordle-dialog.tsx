@@ -72,7 +72,7 @@ export function WordleDialog({
               clearCloseTimeout()
               closeTimeoutRef.current = window.setTimeout(() => {
                 onOpenChange(false)
-              }, 650)
+              }, 1000)
             }
           }
         }
@@ -120,7 +120,7 @@ export function WordleDialog({
             clearCloseTimeout()
             closeTimeoutRef.current = window.setTimeout(() => {
               onOpenChange(false)
-            }, 650)
+            }, 1000)
           }
         }
       }
