@@ -89,9 +89,9 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
                 shadow-md
                 ${
                   status === "default" 
-                    ? "bg-slate-600 hover:bg-slate-500 text-white border border-slate-500/50" 
+                    ? "bg-slate-500 hover:bg-slate-400 text-white border border-slate-400/70" 
                     : status === "absent" 
-                      ? "bg-slate-700 text-slate-400 border border-slate-600/30" 
+                      ? "bg-slate-950 text-slate-500 border border-slate-800/80" 
                       : status === "present" 
                         ? "bg-amber-500 text-white border border-amber-400 shadow-amber-500/20" 
                         : "bg-emerald-500 text-white border border-emerald-400 shadow-emerald-500/20"
