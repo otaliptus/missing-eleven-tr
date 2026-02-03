@@ -103,7 +103,20 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
   
   const [showCopyModal, setShowCopyModal] = useState(false)
-  const formationRows = [1, ...parseFormation(formation)]
+  const formationRows = useMemo(() => [1, ...parseFormation(formation)], [formation])
+  const rowWeights = useMemo(() => {
+    const totalRows = formationRows.length
+    return formationRows.map((_, index) => {
+      const distanceFromEdge = Math.min(index, totalRows - 1 - index)
+      if (distanceFromEdge === 0) return 1.7
+      if (distanceFromEdge === 1) return 1.2
+      return 1
+    })
+  }, [formationRows])
+  const rowOrder = useMemo(
+    () => Array.from({ length: formationRows.length }, (_, index) => index).reverse(),
+    [formationRows.length]
+  )
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -113,7 +126,6 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         isComplete
       }
     }))
-    setSelectedPlayer(null)
   }
 
   // Compute game stats
@@ -277,31 +289,53 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   };
 
   return (
-    <div className="relative h-full w-full mx-auto overflow-hidden rounded-xl gradient-pitch p-1 px-4 sm:p-3 sm:px-6 shadow-2xl">
+    <div className="relative h-full w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[720px] mx-auto overflow-hidden rounded-xl shadow-2xl bg-slate-900">
+    {/* Pitch Background - clipped to boundary */}
+    <div className="absolute inset-0 z-0 gradient-pitch m-[1%] rounded" />
+    
     {/* Pitch Markings */}
-    <div className="absolute inset-0 z-0">
-      {/* Center Circle */}
-      <div className="absolute left-1/2 top-1/2 h-[20%] w-[20%] -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white/25" />
-      {/* Center Line */}
-      <div className="absolute left-0 top-1/2 h-0.5 w-full -translate-y-1/2 bg-white/25" />
-      {/* Penalty Areas */}
-      <div className="absolute left-1/2 top-0 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
-      <div className="absolute bottom-0 left-1/2 h-[25%] w-[40%] -translate-x-1/2 border-2 border-white/25" />
-      {/* Goal Areas */}
-      <div className="absolute left-1/2 top-0 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
-      <div className="absolute bottom-0 left-1/2 h-[12%] w-[20%] -translate-x-1/2 border-2 border-white/25" />
+    <div className="absolute inset-0 z-0 pointer-events-none">
+      <svg
+        className="absolute inset-0 h-full w-full"
+        viewBox="0 0 100 160"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        {/* Pitch boundary line */}
+        <rect x="1.5" y="1.5" width="97" height="157" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth="1.5" />
+        
+        {/* Center line and circle */}
+        <line x1="1.5" y1="80" x2="98.5" y2="80" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <circle cx="50" cy="80" r="10" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* Penalty boxes */}
+        <rect x="20" y="1.5" width="60" height="22.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="20" y="136" width="60" height="22.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* 6-yard boxes */}
+        <rect x="35" y="1.5" width="30" height="10.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <rect x="35" y="148" width="30" height="10.5" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+
+        {/* Penalty spots - positioned between 6-yard box and penalty box lines */}
+        <circle cx="50" cy="18" r="1.2" fill="rgba(255,255,255,0.22)" />
+        <circle cx="50" cy="142" r="1.2" fill="rgba(255,255,255,0.22)" />
+
+        {/* Penalty arcs */}
+        <path d="M40 24 A10 10 0 0 0 60 24" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+        <path d="M40 136 A10 10 0 0 1 60 136" fill="none" stroke="rgba(255,255,255,0.22)" strokeWidth="0.8" />
+      </svg>
+
       {/* Subtle grass texture overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/10 m-[1%] rounded" />
     </div>
     {/* Players Grid */}
     <div 
-      className="relative z-10 grid h-full" 
+      className="relative z-10 grid h-full gap-2 sm:gap-3" 
       style={{ 
-        gridTemplateRows: `repeat(${formationRows.length}, 1fr)`,
-        gap: "0.25rem"
+        gridTemplateRows: rowWeights.map((weight) => `${weight}fr`).join(" "),
       }}
     >
-      {formationRows.map((_, rowIndex) => (
+      {rowOrder.map((rowIndex) => (
         <div key={rowIndex} className="flex items-center justify-around px-2 sm:px-4">
           {getPlayersByRow(rowIndex, players).map(player => (
             <PlayerCard
@@ -348,9 +382,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         <div className="pb-2">
           <Trophy className="h-10 w-10 text-emerald-400 mx-auto drop-shadow-lg" />
           <div className="text-center mt-3">
-            <h2 className="text-xl font-bold text-white">{game}</h2>
+            <h2 className="text-2xl font-extrabold text-white tracking-tight">{team}</h2>
             <p className="text-sm text-slate-300 mt-1">
-              {team} • {formation}
+              {game}
+            </p>
+            <p className="text-sm text-slate-300 mt-1">
+              {formation}
             </p>
           </div>
         </div>
@@ -383,7 +420,9 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         player={selectedPlayer}
         state={selectedPlayer ? getPlayerState(selectedPlayer) : undefined}
         open={!!selectedPlayer}
-        onOpenChange={() => setSelectedPlayer(null)}
+        onOpenChange={(open) => {
+          if (!open) setSelectedPlayer(null)
+        }}
         onGuessComplete={handleGuessComplete}
       />
 

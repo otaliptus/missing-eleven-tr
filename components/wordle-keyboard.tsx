@@ -65,32 +65,33 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     return bestStatus
   }
 
-  return <div className="grid gap-1.5 w-full mx-auto px-1">
+  return <div className="grid gap-1.5 w-full max-w-[34rem] mx-auto px-1 sm:px-2">
     {KEYBOARD_ROWS.map((row, i) => (
-      <div key={i} className="flex justify-center gap-1">
+      <div key={i} className="flex w-full justify-center gap-1 sm:gap-1.5">
         {row.map(key => {
           const status = getKeyStatus(key)
           return (
             <button
               key={key}
               className={`
-                h-11 sm:h-12 md:h-14
+                h-10 sm:h-11 md:h-12
                 ${key === "Enter" || key === "Backspace" 
-                  ? "min-w-[3.25rem] sm:min-w-[4.25rem] md:min-w-[4.5rem]" 
-                  : "min-w-[1.85rem] sm:min-w-[2.4rem] md:min-w-[2.6rem]"
+                  ? "flex-[1.6] sm:flex-[1.8]" 
+                  : "flex-1"
                 }
-                rounded-lg
-                px-0.5 sm:px-1.5 
-                text-xs sm:text-sm md:text-base
+                min-w-0 rounded-lg
+                px-0.5 sm:px-1 
+                text-[10px] sm:text-xs md:text-sm
+                leading-none whitespace-nowrap
                 font-semibold 
                 transition-all duration-150
                 active:scale-95
                 shadow-md
                 ${
                   status === "default" 
-                    ? "bg-slate-600 hover:bg-slate-500 text-white border border-slate-500/50" 
+                    ? "bg-slate-500 hover:bg-slate-400 text-white border border-slate-400/70" 
                     : status === "absent" 
-                      ? "bg-slate-700 text-slate-400 border border-slate-600/30" 
+                      ? "bg-slate-950 text-slate-500 border border-slate-800/80" 
                       : status === "present" 
                         ? "bg-amber-500 text-white border border-amber-400 shadow-amber-500/20" 
                         : "bg-emerald-500 text-white border border-emerald-400 shadow-emerald-500/20"

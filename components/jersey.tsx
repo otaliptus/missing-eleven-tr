@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn, normalizePlayerName } from "@/lib/utils"
 import type { PlayerData, PlayerState } from "@/types/game"
 import { TEAM_CONFIGS, DEFAULT_TEAM_CONFIG } from "@/lib/teams"
 
@@ -15,6 +15,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
   const isFailed = guessCount >= 8 && !state?.isComplete
   const isSolved = !!state?.isComplete
 
+  const isGoalkeeper = player.position === "GK"
   const teamConfig = team && TEAM_CONFIGS[team] ? TEAM_CONFIGS[team] : DEFAULT_TEAM_CONFIG
   
   // Create gradient ID based on team colors to be unique for this team
@@ -30,8 +31,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
   // and use a white/black overlay gradient for 3D effect.
   // Actually, we can just use the primary color.
   
-  const primaryColor = teamConfig.primary
-  const secondaryColor = teamConfig.secondary
+  const primaryColor = isGoalkeeper ? "#0EA5E9" : teamConfig.primary
+  const secondaryColor = isGoalkeeper ? "#082F49" : teamConfig.secondary
+  const pattern = isGoalkeeper ? "solid" : (teamConfig.pattern ?? "solid")
 
   return (
     <div className={cn("relative flex flex-col items-center", className)}>
@@ -40,11 +42,8 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
         className={cn(
           "w-full h-full transition-all duration-300 hover:scale-105"
         )}
-        style={{ 
-          filter: isSolved ? "drop-shadow(0 0 8px #22c55e)" : 
-                  isFailed ? "drop-shadow(0 0 6px #ef4444)" :
-                  isAttempting ? "drop-shadow(0 0 6px #eab308)" : 
-                  "drop-shadow(0 4px 8px rgba(0,0,0,0.4))",
+        style={{
+          filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.4))",
         }}
       >
         <defs>
@@ -82,13 +81,13 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
              L18 44 
              L5 38 
              Z"
-          fill={teamConfig.pattern === 'striped' ? `url(#stripes-${teamId})` : `url(#${gradId})`}
+          fill={pattern === 'striped' ? `url(#stripes-${teamId})` : `url(#${gradId})`}
           stroke="rgba(0,0,0,0.2)"
           strokeWidth="1"
         />
         
         {/* Half Pattern Overlay if needed */}
-        {teamConfig.pattern === 'half' && (
+        {pattern === 'half' && (
            <path
              d="M50 8 
                 L50 102
@@ -101,7 +100,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
              fill={primaryColor}
             />
         )}
-        {teamConfig.pattern === 'half' && (
+        {pattern === 'half' && (
            <path
              d="M50 8 
                 L50 102
@@ -163,6 +162,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           textAnchor="middle"
           dominantBaseline="middle"
           fill="white"
+          stroke="rgba(0,0,0,0.7)"
+          strokeWidth="3"
+          paintOrder="stroke"
           fontSize="32"
           fontWeight="bold"
           style={{ 
@@ -180,6 +182,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           textAnchor="middle"
           dominantBaseline="middle"
           fill="white"
+          stroke="rgba(0,0,0,0.7)"
+          strokeWidth="2"
+          paintOrder="stroke"
           fontSize="14"
           fontWeight="bold"
           style={{ 
@@ -219,19 +224,18 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
       </svg>
 
       {/* Name/Length Label Below */}
-      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-full flex justify-center">
+      <div className="absolute -bottom-3 sm:-bottom-4 left-1/2 -translate-x-1/2 w-full flex justify-center">
         {(isSolved || isFailed) ? (
-          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg max-w-[90%] truncate">
-            <span className="text-[10px] sm:text-xs font-bold text-white uppercase tracking-wide">
+          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg max-w-full truncate">
+            <span className="text-[9px] sm:text-[10px] font-bold text-white uppercase tracking-[0.03em] sm:tracking-wide leading-tight">
               {player.name}
             </span>
           </div>
         ) : (
-          <div className="flex gap-px justify-center bg-black/50 px-1.5 py-0.5 rounded-full backdrop-blur-sm shadow-md">
-            {Array.from({ length: Math.min(player.name.length, 10) }).map((_, i) => (
-              <div key={i} className="w-1 h-1 rounded-full bg-white/90" />
-            ))}
-            {player.name.length > 10 && <span className="text-[8px] text-white/90 leading-none ml-px">+</span>}
+          <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg">
+            <span className="text-[10px] sm:text-xs font-bold text-white uppercase tracking-wide">
+              {normalizePlayerName(player.name).length}
+            </span>
           </div>
         )}
       </div>
