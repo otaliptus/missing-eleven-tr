@@ -117,6 +117,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     () => Array.from({ length: formationRows.length }, (_, index) => index).reverse(),
     [formationRows.length]
   )
+  const isBottomToTop = rowOrder[0] === formationRows.length - 1
+
+  const orientRowPlayers = (rowPlayers: PlayerData[]) => {
+    if (!isBottomToTop) return rowPlayers
+    return [...rowPlayers].reverse()
+  }
 
   const handleGuessComplete = (playerId: number, guesses: string[], isComplete: boolean) => {
     setPlayerStates(prev => ({
@@ -186,24 +192,12 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     }
     table += `\n`;
 
-    const formationArray = gameData.formation.split('-').map(Number);
-    const rows: PlayerData[][] = [];
-    let index = 0;
+    const rowsByIndex = formationRows.map((_, rowIndex) => {
+      const rowPlayers = getPlayersByRow(rowIndex, players)
+      return orientRowPlayers(rowPlayers)
+    })
 
-    // First row for the goalkeeper
-    rows.push(players[0] ? [players[0]] : []);
-
-    for (const num of formationArray) {
-      const row: PlayerData[] = [];
-      for (let i = 0; i < num; i++) {
-        const player = players[index + 1];
-        if (player) {
-          row.push(player);
-        }
-        index++;
-      }
-      rows.push(row);
-    }
+    const rowsInOrder = rowOrder.map((rowIndex) => rowsByIndex[rowIndex])
 
     // Function to generate row with correct player placement and green padding
     const generateRow = (rowPlayers: PlayerData[]) => {
@@ -250,7 +244,7 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
     };
 
     // Generate emoji table based on player state
-    rows.forEach((row, rowIndex) => {
+    rowsInOrder.forEach((row, rowIndex) => {
       if (rowIndex > 0) table += '🟩🟩🟩🟩🟩🟩🟩🟩🟩\n'; // Add green row between rows
       table += generateRow(row) + '\n'; // Centered player row
     });
@@ -335,19 +329,22 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         gridTemplateRows: rowWeights.map((weight) => `${weight}fr`).join(" "),
       }}
     >
-      {rowOrder.map((rowIndex) => (
-        <div key={rowIndex} className="flex items-center justify-around px-2 sm:px-4">
-          {getPlayersByRow(rowIndex, players).map(player => (
-            <PlayerCard
-              key={player.id}
-              player={player}
-              state={getPlayerState(player)}
-              onClick={() => setSelectedPlayer(player)}
-              team={team}
-            />
-          ))}
-        </div>
-      ))}
+      {rowOrder.map((rowIndex) => {
+        const rowPlayers = orientRowPlayers(getPlayersByRow(rowIndex, players))
+        return (
+          <div key={rowIndex} className="flex items-center justify-around px-2 sm:px-4">
+            {rowPlayers.map(player => (
+              <PlayerCard
+                key={player.id}
+                player={player}
+                state={getPlayerState(player)}
+                onClick={() => setSelectedPlayer(player)}
+                team={team}
+              />
+            ))}
+          </div>
+        )
+      })}
     </div>
     <>
     {/* Info Button - Left */}
