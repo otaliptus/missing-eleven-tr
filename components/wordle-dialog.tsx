@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { WordleKeyboard } from "@/components/wordle-keyboard"
 import { WordleGrid } from "@/components/wordle-grid"
@@ -30,7 +30,50 @@ export function WordleDialog({
   // Compute normalized name once for consistent use
   const normalizedName = player ? normalizePlayerName(player.name) : ""
   const isSolved = !!state?.isComplete || guesses.includes(normalizedName)
-  
+
+  // Swipe-down-to-dismiss state for mobile bottom sheet
+  const [dragOffset, setDragOffset] = useState(0)
+  const dragStartY = useRef<number | null>(null)
+  const isDragging = useRef(false)
+  const DISMISS_THRESHOLD = 100 // px to drag before auto-dismissing
+
+  const handleTouchStart = useCallback((e: ReactTouchEvent) => {
+    // Only initiate drag from the handle area (top ~40px)
+    const touch = e.touches[0]
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect()
+    if (touch.clientY - rect.top > 48) return
+    dragStartY.current = touch.clientY
+    isDragging.current = false
+  }, [])
+
+  const handleTouchMove = useCallback((e: ReactTouchEvent) => {
+    if (dragStartY.current === null) return
+    const delta = e.touches[0].clientY - dragStartY.current
+    if (delta > 0) {
+      isDragging.current = true
+      setDragOffset(delta)
+    }
+  }, [])
+
+  const handleTouchEnd = useCallback(() => {
+    if (dragStartY.current === null) return
+    if (dragOffset > DISMISS_THRESHOLD) {
+      // Dismiss
+      dragStartY.current = null
+      setDragOffset(0)
+      if (player && guesses.length > 0 && !isSolved) {
+        onGuessComplete(player.id, guesses, false)
+      }
+      onOpenChange(false)
+    } else {
+      // Snap back
+      setDragOffset(0)
+    }
+    dragStartY.current = null
+    isDragging.current = false
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dragOffset, player, guesses, isSolved, onGuessComplete, onOpenChange])
+
   const MAX_GUESSES = 8
   // Game is over if solved OR max guesses reached (check both state and local guesses for race safety)
   const isGameOver = isSolved || guesses.length >= MAX_GUESSES || (state?.guesses?.length ?? 0) >= MAX_GUESSES
@@ -55,6 +98,7 @@ export function WordleDialog({
     if (!open) {
       clearCloseTimeout()
       setIsCelebrating(false)
+      setDragOffset(0)
     }
   }, [open, player, state, clearCloseTimeout, isCelebrating])
 
@@ -145,7 +189,17 @@ export function WordleDialog({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="
+      <DialogContent
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        style={{
+          transform: dragOffset > 0
+            ? `translateY(${dragOffset}px)`
+            : undefined,
+          transition: isDragging.current ? 'none' : 'transform 0.2s ease-out',
+        }}
+        className="
         font-mono glass text-white overflow-hidden
         /* Mobile: bottom-sheet anchored to bottom, full width */
         fixed left-0 right-0 bottom-0 top-auto translate-x-0 translate-y-0
@@ -163,8 +217,8 @@ export function WordleDialog({
         sm:data-[state=open]:!slide-in-from-bottom-0
         sm:data-[state=closed]:!slide-out-to-bottom-0
       ">
-        {/* Drag handle for mobile bottom sheet */}
-        <div className="flex justify-center pt-1 pb-2 sm:hidden" aria-hidden="true">
+        {/* Drag handle for mobile bottom sheet — swipe down to dismiss */}
+        <div className="flex justify-center pt-1 pb-2 sm:hidden cursor-grab active:cursor-grabbing" aria-hidden="true">
           <div className="w-10 h-1 rounded-full bg-white/25" />
         </div>
 

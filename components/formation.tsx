@@ -90,8 +90,11 @@ export function Formation({ formation, players, game, team, gameId, difficulty }
   )
   const isBottomToTop = rowOrder[0] === formationRows.length - 1
 
+  // FIX: CSV stores players in TV-camera order (left-to-right from broadcast view),
+  // but the pitch renders bottom-to-top, which mirrors the X-axis. Invert the
+  // horizontal order so players appear on their real-life side of the pitch.
   const orientRowPlayers = (rowPlayers: PlayerData[]) => {
-    if (!isBottomToTop) return rowPlayers
+    if (isBottomToTop) return rowPlayers
     return [...rowPlayers].reverse()
   }
 
