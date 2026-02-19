@@ -17,6 +17,8 @@ type GameData = {
 }
 
 const UTC_DAY_INDEX = Math.floor(Date.now() / (1000 * 60 * 60 * 24))
+const BUILD_ID = process.env.NEXT_PUBLIC_BUILD_ID ?? "dev"
+const GAMES_CSV_URL = `/games.csv?v=${encodeURIComponent(BUILD_ID)}`
 
 // Pick the daily game for a difficulty pool
 function getGameForDifficulty(csvText: string, difficulty: Difficulty): GameData {
@@ -63,7 +65,7 @@ export default function Home() {
     let isMounted = true
     const load = async () => {
       try {
-        const res = await fetch("/games.csv")
+        const res = await fetch(GAMES_CSV_URL)
         if (!res.ok) throw new Error(`Failed to load games.csv (${res.status})`)
         const text = await res.text()
         if (isMounted) setCsvText(text)
