@@ -128,8 +128,11 @@ export function WordleDialog({
       }
     } else if (key === "Backspace") {
       setCurrentGuess(prev => prev.slice(0, -1))
-    } else if (currentGuess.length < normalizedName.length) {
-      setCurrentGuess(prev => prev + key)
+    } else {
+      const letter = normalizeKeyInput(key)
+      if (letter && currentGuess.length < normalizedName.length) {
+        setCurrentGuess(prev => prev + letter)
+      }
     }
   }
 
