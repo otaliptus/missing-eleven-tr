@@ -5,7 +5,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { WordleKeyboard } from "@/components/wordle-keyboard"
 import { WordleGrid } from "@/components/wordle-grid"
 import type { PlayerData, PlayerState } from "@/types/game"
-import { normalizePlayerName } from "@/lib/utils"
+import { normalizePlayerName, normalizeKeyInput } from "@/lib/utils"
 
 interface WordleDialogProps {
   player: PlayerData | null
@@ -80,8 +80,11 @@ export function WordleDialog({
         }
       } else if (e.key === "Backspace") {
         setCurrentGuess(prev => prev.slice(0, -1))
-      } else if (/^[A-Za-z]$/.test(e.key) && currentGuess.length < normalizedName.length) {
-        setCurrentGuess(prev => prev + e.key.toUpperCase())
+      } else {
+        const letter = normalizeKeyInput(e.key)
+        if (letter && currentGuess.length < normalizedName.length) {
+          setCurrentGuess(prev => prev + letter)
+        }
       }
     }
   
