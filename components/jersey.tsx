@@ -212,7 +212,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
         ) : (
           <div className="bg-black/70 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/20 shadow-lg">
             <span className="text-[10px] sm:text-xs font-bold text-white uppercase tracking-wide">
-              {normalizePlayerName(player.name).length}
+              {player.name.split(' ').map(w => normalizePlayerName(w).length).join(',')}
             </span>
           </div>
         )}
