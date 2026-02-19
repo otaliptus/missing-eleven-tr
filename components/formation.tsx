@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useMemo } from "react"
+import { useState, useEffect, useMemo, useRef } from "react"
 import { PlayerCard } from "@/components/player-card"
 import { WordleDialog } from "@/components/wordle-dialog"
 import { parseFormation } from "@/lib/api"
@@ -16,9 +16,10 @@ interface FormationProps {
   game: string
   team: string
   gameId: number
+  difficulty: "easy" | "hard"
 }
 
-export function Formation({ formation, players, game, team, gameId }: FormationProps) {
+export function Formation({ formation, players, game, team, gameId, difficulty }: FormationProps) {
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerData | null>(null)
   const [playerStates, setPlayerStates] = useState<Record<number, PlayerState>>({});
   const [showModal, setShowModal] = useState(true);
@@ -27,71 +28,42 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
   const [copied, setCopied] = useState(false);
   const [currentUrl, setCurrentUrl] = useState("");
 
-  // Per-day localStorage keys
+  // Scoped per difficulty+day via gameId
   const storageKey = `playerStates_${gameId}`;
-  const lineupKey = useMemo(
-    () => players.map(player => normalizePlayerName(player.name)).join("|"),
-    [players]
-  );
 
-  // Load saved state from localStorage (client-side only)
+  // Guard that prevents the save effect from firing on the very first render
+  // (which would overwrite stored data with {} before the load effect applies it).
+  const skipFirstSave = useRef(true);
+
+  // Load saved guesses from localStorage on mount
   useEffect(() => {
     try {
-      const savedStates = localStorage.getItem(storageKey);
-      if (savedStates) {
-        const parsed = JSON.parse(savedStates);
-        if (parsed && typeof parsed === "object") {
-          if ("states" in parsed && parsed.states && typeof parsed.states === "object") {
-            const savedLineupKey = typeof parsed.lineupKey === "string" ? parsed.lineupKey : "";
-            if (!savedLineupKey || savedLineupKey === lineupKey) {
-              setPlayerStates(parsed.states as Record<number, PlayerState>);
-            }
-          } else {
-            const legacy = parsed as Record<string, PlayerState>;
-            const migrated: Record<number, PlayerState> = {};
-            const normalizedNameSet = new Set(
-              players.map(player => normalizePlayerName(player.name))
-            );
-            const nameKeys: string[] = [];
-
-            for (const [key, value] of Object.entries(legacy)) {
-              const numericId = Number(key);
-              if (Number.isInteger(numericId) && String(numericId) === key) {
-                migrated[numericId] = value as PlayerState;
-                continue;
-              }
-              nameKeys.push(key);
-              const match = players.find(
-                (player) => normalizePlayerName(player.name) === key
-              );
-              if (match && migrated[match.id] === undefined) {
-                migrated[match.id] = value as PlayerState;
-              }
-            }
-
-            const allNamesMatch = nameKeys.every((key) => normalizedNameSet.has(key));
-            if (nameKeys.length === 0 || allNamesMatch) {
-              setPlayerStates(migrated);
-            }
-          }
+      const saved = localStorage.getItem(storageKey);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed?.states && typeof parsed.states === "object") {
+          setPlayerStates(parsed.states as Record<number, PlayerState>);
         }
       }
     } catch (e) {
-      console.error('Failed to parse saved state:', e);
+      console.error("Failed to load player states:", e);
     }
-  }, [storageKey, players, lineupKey]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [storageKey]);
 
-  // Save player states to localStorage when it changes
+  // Persist guesses — skips the first invocation so we never overwrite
+  // localStorage with {} before the loaded state has been applied.
   useEffect(() => {
-    try {
-      localStorage.setItem(
-        storageKey,
-        JSON.stringify({ version: 2, lineupKey, states: playerStates })
-      );
-    } catch (e) {
-      console.error('Failed to save player states:', e);
+    if (skipFirstSave.current) {
+      skipFirstSave.current = false;
+      return;
     }
-  }, [playerStates, storageKey, lineupKey]);
+    try {
+      localStorage.setItem(storageKey, JSON.stringify({ states: playerStates }));
+    } catch (e) {
+      console.error("Failed to save player states:", e);
+    }
+  }, [playerStates, storageKey]);
 
   useEffect(() => {
     setCurrentUrl(window.location.href);
@@ -379,7 +351,18 @@ export function Formation({ formation, players, game, team, gameId }: FormationP
         <div className="pb-2">
           <Trophy className="h-10 w-10 text-emerald-400 mx-auto drop-shadow-lg" />
           <div className="text-center mt-3">
-            <h2 className="text-2xl font-extrabold text-white tracking-tight">{team}</h2>
+            <div className="flex items-center justify-center gap-2 mb-1">
+              <h2 className="text-2xl font-extrabold text-white tracking-tight">{team}</h2>
+              <span
+                className={`text-xs font-bold px-2 py-0.5 rounded-full ${
+                  difficulty === "easy"
+                    ? "bg-emerald-600/80 text-emerald-100"
+                    : "bg-red-700/80 text-red-100"
+                }`}
+              >
+                {difficulty === "easy" ? "Easy" : "Hard"}
+              </span>
+            </div>
             <p className="text-sm text-slate-300 mt-1">
               {game}
             </p>
