@@ -1,0 +1,613 @@
+game,team,difficulty,formation,lineup
+Rizespor vs. Fenerbahce - Friday August 6 - 2004,Fenerbahce,easy,4-4-2,DEMIREL;CETIN;LUCIANO;FABIANO;OZAT;BALCI;MEHMET AURELIO;SANLI;YOZGATLI;HACIOGLU;VAN HOOIJDONK
+Rizespor vs. Fenerbahce - Friday August 6 - 2004,Rizespor,hard,5-4-1,ZDRAVKOV;AKICI;EL TABEI;DUYMUS;GURELER;AZER;ALPUGAN;TATAN;BAKI;OZDEMIR;OZTURK
+Denizlispor vs. Gaziantepspor - Saturday August 7 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;BAYER;CELIK;OZSARAC;KRATOCHVIL;KECELI;ABRAHAM;GULPINAR;MULTAHARJU;BAYAZIT;RIZA
+Denizlispor vs. Gaziantepspor - Saturday August 7 - 2004,Gaziantepspor,hard,3-5-2,HASAGIC;POLAT;ZAN;MACANGA;BOUAZIZI;AGCAY;BOLUKBASI;OZBAY;EL TAIB;LAZAROV;OZER
+Genclerbirligi vs. Sakaryaspor - Saturday August 7 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;OZBEY;TANDOGAN;NAS;YESILKAYA;SKOKO;BORAL;BOLIC;YOULA;OZKAN
+Genclerbirligi vs. Sakaryaspor - Saturday August 7 - 2004,Sakaryaspor,hard,4-5-1,BADJI;TASDEMIR;DIALLO;UNAL;IBIS;BASDAG;TORAMAN;SAKSAK;CEYLAN;KURT;BOLUKBAS
+Kayserispor vs. Trabzonspor - Saturday August 7 - 2004,Kayserispor,hard,4-4-2,AKTAS;OZKOYLU;TURAN;PETO;DAMLA;CAN;ARSLAN;JOHNSON;YAVAS;BALILI;ULUSOY
+Kayserispor vs. Trabzonspor - Saturday August 7 - 2004,Trabzonspor,easy,4-2-3-1,PETKOVIC;CORA;D'HAENE;KOCAK;EREN;CIMSIR;UCUNCU;KOCAK;KARADENIZ;YATTARA;TEKKE
+Malatyaspor vs. Besiktas - Saturday August 7 - 2004,Besiktas,easy,4-4-2,SAHIN;ASIK;TORAMAN;UZULMEZ;YILDIRIM;GUNES;BURUK;DABROWSKI;AHMED HASSAN;CAREW;PANCU
+Malatyaspor vs. Besiktas - Saturday August 7 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ERDOGAN;BENSOL;MBAYO;KISA;ALTUN;BIRLIK
+Akcaabat Sebatspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday August 8 - 2004,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;BAYRAK;UZUN;OZDIN;DERELI;BAYRAKTAR;TASDEMIR;ERGIN;OZGUR;DERELIOGLU;KINALI
+Akcaabat Sebatspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday August 8 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,FABIO NORONHA;BARIS;GULDUREN;WEDERSON;YIGIT;MOLNAR;GUCER;SIMSEK;TITA;JABA;KARAMAN
+Galatasaray vs. Konyaspor - Sunday August 8 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;UNSAL;PENBE;HASPOLATLI;PETRE;CONCEICAO;BALJIC;SAS;SUKUR;ATES
+Galatasaray vs. Konyaspor - Sunday August 8 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;CELIK;DUMAN;KARTOP;PEREIRA;CAMARA;ALBAYRAK;AKSOY;BIRYOL;SAHINTURK
+Istanbulspor vs. Diyarbakirspor - Sunday August 8 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;BOZACI;STAVREVSKI;TOPRAK;DEMIRCIOGLU;AKINCI;OCAL;SAMATYALI;KALOGLU;ESER
+Istanbulspor vs. Diyarbakirspor - Sunday August 8 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;CAN;ANDRE BORGES;BUYUK;VIDUSLU;KUS;BAYAR;ALEKSANDROV;BUSHI
+Samsunspor vs. Ankaragucu - Sunday August 8 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;TCHANGO;NAMDAR;GUEL;BULUT
+Samsunspor vs. Ankaragucu - Sunday August 8 - 2004,Samsunspor,hard,4-4-2,SHORUNMU;GURACAR;YELEK;AYARI;GUNGOR;GHODHBANE;TUNA;AKDENIZ;TURHAN;AYKUT;ISLER
+Gaziantepspor vs. Galatasaray - Friday August 13 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;UNSAL;PENBE;HASPOLATLI;PETRE;CONCEICAO;SAS;SUKUR;ATES
+Gaziantepspor vs. Galatasaray - Friday August 13 - 2004,Gaziantepspor,hard,4-4-2,HASAGIC;POLAT;IRTEGUN;AGCAY;GUNES;BOUAZIZI;MACANGA;BOLUKBASI;LAZAROV;JAZIRI;OZER
+Ankaragucu vs. Istanbulspor - Saturday August 14 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;TCHANGO;NAMDAR;GUEL;BULUT
+Ankaragucu vs. Istanbulspor - Saturday August 14 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;BUYUK;ANDRE BORGES;CAN;VIDUSLU;KUS;BAYAR;ALEKSANDROV;BUSHI
+Buyuksehir Belediyesi Ankaraspor vs. Malatyaspor - Saturday August 14 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,FABIO NORONHA;BARIS;GULDUREN;WEDERSON;YIGIT;MOLNAR;GUCER;SIMSEK;TITA;AKYUZ;JABA
+Buyuksehir Belediyesi Ankaraspor vs. Malatyaspor - Saturday August 14 - 2004,Malatyaspor,hard,4-5-1,TUNCAY;ERDOGAN;KORKMAZ;SCHUMANN BAH;AKIN;ERDOGAN;BENSOL;KISA;MBAYO;KAHRAMAN;ALTUN
+Diyarbakirspor vs. Kayserispor - Saturday August 14 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;BOZACI;STAVREVSKI;TOPRAK;DEMIRCIOGLU;AKINCI;JUPI;ESER;KALOGLU;YANIK
+Diyarbakirspor vs. Kayserispor - Saturday August 14 - 2004,Kayserispor,hard,4-4-2,AKTAS;KAYATEKIN;PETO;TURAN;DAMLA;CAN;ARSLAN;JOHNSON;YAVAS;SINANI;ULUSOY
+Fenerbahce vs. Samsunspor - Saturday August 14 - 2004,Fenerbahce,easy,4-4-2,DEMIREL;CETIN;LUCIANO;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;AKIN;NOBRE;VAN HOOIJDONK
+Fenerbahce vs. Samsunspor - Saturday August 14 - 2004,Samsunspor,hard,4-5-1,SHORUNMU;YAVAS;YELEK;GUNGOR;KIRITA;GHODHBANE;TUNA;SAGIR;AKDENIZ;TURHAN;ISLER
+Genclerbirligi vs. Besiktas - Sunday August 15 - 2004,Besiktas,easy,4-4-2,SAHIN;RONALDO GUIARO;UZULMEZ;YILDIRIM;GUNES;DABROWSKI;KORKUT;BURUK;AHMED HASSAN;CAREW;PANCU
+Genclerbirligi vs. Besiktas - Sunday August 15 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;TANDOGAN;SKOKO;YESILKAYA;NAS;BORAL;BOLIC;YOULA;OZKAN
+Konyaspor vs. Rizespor - Sunday August 15 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;CELIK;DUMAN;PEREIRA;KARTOP;CAMARA;ALBAYRAK;AKSOY;AKAGUNDUZ;BIRYOL
+Konyaspor vs. Rizespor - Sunday August 15 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;CAGIRAN;AKICI;AZER;ALPUGAN;TATAN;OZDEMIR;SOZKESEN;OZTURK
+Sakaryaspor vs. Denizlispor - Sunday August 15 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;BAYER;CELIK;KRATOCHVIL;OZSARAC;BOYRAZ;GULPINAR;ABRAHAM;MULTAHARJU;BAYAZIT;RIZA
+Sakaryaspor vs. Denizlispor - Sunday August 15 - 2004,Sakaryaspor,hard,3-5-2,DIALLO;IBIS;SERT;UNAL;TORAMAN;BASDAG;SAKSAK;CEYLAN;KURT;AKDIS;BOLUKBAS
+Trabzonspor vs. Akcaabat Sebatspor - Sunday August 15 - 2004,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;BAYRAK;UZUN;OZDIN;DERELI;BAYRAKTAR;TASDEMIR;ERGIN;OZGUR;BAKADAL;KINALI
+Trabzonspor vs. Akcaabat Sebatspor - Sunday August 15 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;CORA;D'HAENE;KOCAK;EREN;UCUNCU;CIMSIR;THIJS;KARADENIZ;TEKKE;YILMAZ
+Denizlispor vs. Besiktas - Saturday August 21 - 2004,Besiktas,easy,4-5-1,SAHIN;RONALDO GUIARO;TORAMAN;JUANFRAN;UZULMEZ;GUNES;BURUK;KORKUT;AHMED HASSAN;METIN;CIHAN
+Denizlispor vs. Besiktas - Saturday August 21 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;BAYER;CELIK;KRATOCHVIL;OZSARAC;KECELI;ABRAHAM;GULPINAR;MULTAHARJU;BAYAZIT;RIZA
+Genclerbirligi vs. Buyuksehir Belediyesi Ankaraspor - Saturday August 21 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,FABIO NORONHA;BARIS;GULDUREN;WEDERSON;YIGIT;GUCER;MOLNAR;SIMSEK;TITA;SOBRINHO;JABA
+Genclerbirligi vs. Buyuksehir Belediyesi Ankaraspor - Saturday August 21 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;DAEMS;TANDOGAN;NAS;SKOKO;YESILKAYA;GTARI;YOULA;OZKAN
+Istanbulspor vs. Fenerbahce - Saturday August 21 - 2004,Fenerbahce,easy,4-4-2,DEMIREL;CETIN;LUCIANO;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;AKIN;NOBRE;VAN HOOIJDONK
+Istanbulspor vs. Fenerbahce - Saturday August 21 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;CAN;ANDRE BORGES;BUYUK;VIDUSLU;KUS;BAYAR;ALEKSANDROV;BUSHI
+Malatyaspor vs. Trabzonspor - Saturday August 21 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;SCHUMANN BAH;AKIN;ERDOGAN;BENSOL;MBAYO;KAHRAMAN;ALTUN;BIRLIK
+Malatyaspor vs. Trabzonspor - Saturday August 21 - 2004,Trabzonspor,easy,4-2-3-1,PETKOVIC;CORA;D'HAENE;KOCAK;EREN;UCUNCU;CIMSIR;THIJS;LEE;KARADENIZ;TEKKE
+Samsunspor vs. Konyaspor - Saturday August 21 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;CELIK;DUMAN;PEREIRA;KARTOP;CAMARA;ALBAYRAK;AKSOY;AKAGUNDUZ;BIRYOL
+Samsunspor vs. Konyaspor - Saturday August 21 - 2004,Samsunspor,hard,4-4-2,SHORUNMU;GURACAR;YELEK;AYARI;KIRITA;GHODHBANE;TUNA;SAGIR;TURHAN;ISLER;ERTAN
+Akcaabat Sebatspor vs. Diyarbakirspor - Sunday August 22 - 2004,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;BAYRAK;UZUN;OZDIN;DERELI;BAYRAKTAR;TASDEMIR;KIP;OZGUR;DERELIOGLU;KAYNAK
+Akcaabat Sebatspor vs. Diyarbakirspor - Sunday August 22 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;BOZACI;STAVREVSKI;TOPRAK;DEMIRCIOGLU;AKINCI;JUPI;ESER;YAGMUR;YANIK
+Galatasaray vs. Rizespor - Sunday August 22 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;HASPOLATLI;CONCEICAO;BALJIC;SAS;ATES;SUKUR
+Galatasaray vs. Rizespor - Sunday August 22 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;AKICI;AZER;ALPUGAN;TATAN;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Gaziantepspor vs. Sakaryaspor - Sunday August 22 - 2004,Gaziantepspor,hard,4-5-1,HASAGIC;IRTEGUN;POLAT;BOUAZIZI;MACANGA;GUNES;BOLUKBASI;OZBAY;NAMLI;EL TAIB;OZER
+Gaziantepspor vs. Sakaryaspor - Sunday August 22 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;SERT;UNAL;CALISAL;KOK;BASDAG;TORAMAN;TUNCEL;AKDIS;BOLUKBAS;CETIN
+Kayserispor vs. Ankaragucu - Sunday August 22 - 2004,Ankaragucu,hard,4-4-2,OZGULTEKIN;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;TCHANGO;GUEL;BULUT;KELES
+Kayserispor vs. Ankaragucu - Sunday August 22 - 2004,Kayserispor,hard,4-4-2,AKTAS;BEKIROGLU;TURAN;KAYATEKIN;DAMLA;CAN;ARSLAN;JOHNSON;YAVAS;BALILI;ULUSOY
+Kayserispor vs. Fenerbahce - Saturday August 28 - 2004,Fenerbahce,easy,4-5-1,DEMIREL;CETIN;LUCIANO;TURACI;FABIANO;OZAT;MEHMET AURELIO;ALEX;SANLI;AKIN;VAN HOOIJDONK
+Kayserispor vs. Fenerbahce - Saturday August 28 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;KAYATEKIN;AKICI;DAMLA;CAN;ARSLAN;JOHNSON;YAVAS;TUAMA;BALILI
+Rizespor vs. Samsunspor - Saturday August 28 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Rizespor vs. Samsunspor - Saturday August 28 - 2004,Samsunspor,hard,4-4-2,SHORUNMU;YELEK;YAVAS;AYARI;GUNGOR;KIRITA;GHODHBANE;TUNA;AKDENIZ;ISLER;IVANOV
+Sakaryaspor vs. Galatasaray - Saturday August 28 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;HASPOLATLI;CONCEICAO;BALJIC;SAS;ATES;SUKUR
+Sakaryaspor vs. Galatasaray - Saturday August 28 - 2004,Sakaryaspor,hard,4-4-2,BADJI;DIALLO;SERT;UNAL;CALISAL;KOK;BASDAG;TUNCEL;AKDIS;BOLUKBAS;CETIN
+Ankaragucu vs. Akcaabat Sebatspor - Sunday August 29 - 2004,Akcaabat Sebatspor,hard,4-5-1,MILOSEVSKI;BAYRAK;GEZMIS;TEMIZKANOGLU;UZUN;DERELI;TASDEMIR;KIP;BAYRAKTAR;OZGUR;DERELIOGLU
+Ankaragucu vs. Akcaabat Sebatspor - Sunday August 29 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;TCHANGO;YILDIRIM;GUEL;NAMDAR;BULUT
+Besiktas vs. Gaziantepspor - Sunday August 29 - 2004,Besiktas,easy,4-4-2,SAHIN;RONALDO GUIARO;TORAMAN;DOGAN;UZULMEZ;GUNES;BURUK;METIN;YALCIN;AKIN;CAREW
+Besiktas vs. Gaziantepspor - Sunday August 29 - 2004,Gaziantepspor,hard,4-5-1,HASAGIC;POLAT;IRTEGUN;GUNES;BOUAZIZI;MACANGA;BOLUKBASI;AYHAN;OZBAY;EL TAIB;JAZIRI
+Buyuksehir Belediyesi Ankaraspor vs. Denizlispor - Sunday August 29 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,FABIO NORONHA;GULDUREN;TUNC;BARIS;WEDERSON;YIGIT;MOLNAR;GUCER;SIMSEK;TITA;JABA
+Buyuksehir Belediyesi Ankaraspor vs. Denizlispor - Sunday August 29 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;CELIK;KRATOCHVIL;BAYER;KECELI;GULPINAR;ABRAHAM;MULTAHARJU;BAYAZIT;RIZA;MARTIN
+Diyarbakirspor vs. Malatyaspor - Sunday August 29 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;ASIL;SULUN;YAGMUR;YANIK;ESER
+Diyarbakirspor vs. Malatyaspor - Sunday August 29 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;SCHUMANN BAH;AKIN;ERDOGAN;BENSOL;MBAYO;KAHRAMAN;OSTERC;ALTUN
+Konyaspor vs. Istanbulspor - Sunday August 29 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;SUMER;BUYUK;CAN;VIDUSLU;KUS;BAYAR;ALEKSANDROV;YILDIRAN
+Konyaspor vs. Istanbulspor - Sunday August 29 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;DUMAN;CELIK;DEMIR;KARTOP;ALBAYRAK;AKSOY;BIRYOL;AKAGUNDUZ;SAHINTURK
+Trabzonspor vs. Genclerbirligi - Sunday August 29 - 2004,Genclerbirligi,hard,3-5-2,CATKIC;BOZKURT;EL SAKA;MERCIMEK;DAEMS;SKOKO;NAS;SEVEN;GURSEL;YOULA;BOLIC
+Trabzonspor vs. Genclerbirligi - Sunday August 29 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;D'HAENE;CORA;KOCAK;EREN;THIJS;CIMSIR;LEE;KARADENIZ;YILMAZ;TEKKE
+Akcaabat Sebatspor vs. Fenerbahce - Saturday September 11 - 2004,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;BAYRAK;UZUN;TEMIZKANOGLU;EKSIOGLU;BAYRAKTAR;TASDEMIR;ERGIN;OZGUR;DERELIOGLU;KAYNAK
+Akcaabat Sebatspor vs. Fenerbahce - Saturday September 11 - 2004,Fenerbahce,easy,4-4-2,RECBER;LUCIANO;TURACI;BARIS;FABIANO;OZAT;MEHMET AURELIO;ALEX;SANLI;AKIN;VAN HOOIJDONK
+Denizlispor vs. Trabzonspor - Saturday September 11 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Denizlispor vs. Trabzonspor - Saturday September 11 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;YAVUZ;D'HAENE;KOCAK;EREN;THIJS;CIMSIR;LEE;KARADENIZ;YILMAZ;TEKKE
+Gaziantepspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday September 11 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,FABIO NORONHA;GULDUREN;TUNC;BARIS;WEDERSON;YIGIT;MOLNAR;GUCER;TITA;JABA;AKYUZ
+Gaziantepspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday September 11 - 2004,Gaziantepspor,hard,4-5-1,HASAGIC;POLAT;IRTEGUN;GUNES;BOUAZIZI;MACANGA;BOLUKBASI;AYHAN;OZBAY;EL TAIB;ICLI
+Genclerbirligi vs. Diyarbakirspor - Saturday September 11 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;SULUN;YAGMUR;YANIK;KALOGLU
+Genclerbirligi vs. Diyarbakirspor - Saturday September 11 - 2004,Genclerbirligi,hard,4-5-1,CATKIC;BOZKURT;EL SAKA;MERCIMEK;DAEMS;ASLANTAS;SKOKO;YESILKAYA;NAS;BORAL;BOLIC
+Galatasaray vs. Samsunspor - Sunday September 12 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;HASPOLATLI;ARSLAN;BALJIC;SAS;ATES;SUKUR
+Galatasaray vs. Samsunspor - Sunday September 12 - 2004,Samsunspor,hard,4-4-2,INAN;YAVAS;YELEK;AYARI;GUNGOR;KIRITA;GHODHBANE;YUCETAS;SAGIR;ISLER;IVANOV
+Istanbulspor vs. Rizespor - Sunday September 12 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;OKECHUKWU;AYHAN;ANDRE BORGES;BUYUK;CAN;VIDUSLU;KUS;BAYAR;ALEKSANDROV;SAKYI
+Istanbulspor vs. Rizespor - Sunday September 12 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;GURELER;AZER;TATAN;ALPUGAN;AVCI;BAKI;SOZKESEN;OZTURK
+Kayserispor vs. Konyaspor - Sunday September 12 - 2004,Kayserispor,hard,4-4-2,DAS;AKTAS;KAYATEKIN;AKICI;BEKIROGLU;DAMLA;ARSLAN;JOHNSON;TOPUZ;UNAL;ULUSOY
+Kayserispor vs. Konyaspor - Sunday September 12 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;DUMAN;CELIK;PEREIRA;DEMIR;KARACA;KARTOP;AKSOY;BIRYOL;TURKMEN
+Malatyaspor vs. Ankaragucu - Sunday September 12 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;GUEL;TURHAN;KELES;BULUT
+Malatyaspor vs. Ankaragucu - Sunday September 12 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ERDOGAN;BENSOL;MBAYO;KAHRAMAN;OSTERC;ALTUN
+Sakaryaspor vs. Besiktas - Sunday September 12 - 2004,Besiktas,easy,4-4-2,CORDOBA;RONALDO GUIARO;TORAMAN;UZULMEZ;YILDIRIM;GUNES;KORKUT;BURUK;YALCIN;AKIN;CAREW
+Sakaryaspor vs. Besiktas - Sunday September 12 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;UNAL;SERT;CALISAL;KOK;TORAMAN;BASDAG;SEN;TUNCEL;CETIN;BOLUKBAS
+Diyarbakirspor vs. Denizlispor - Friday September 17 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;GULPINAR;AYDIN;VAROL;MULTAHARJU;BOTHA;MARTIN
+Diyarbakirspor vs. Denizlispor - Friday September 17 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;BOZACI;DEMIRCIOGLU;AKINCI;SULUN;JUPI;SYLLA;YANIK;KALOGLU
+Buyuksehir Belediyesi Ankaraspor vs. Sakaryaspor - Saturday September 18 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;DOGANTEZ;TUNC;WEDERSON;MOLNAR;GUCER;SIMSEK;TITA;JABA;AKYUZ
+Buyuksehir Belediyesi Ankaraspor vs. Sakaryaspor - Saturday September 18 - 2004,Sakaryaspor,hard,4-4-2,OZTURK;IBIS;UNAL;KOK;BASDAG;SAKSAK;CEYLAN;KURT;CETIN;KABA;BOLUKBAS
+Fenerbahce vs. Malatyaspor - Saturday September 18 - 2004,Fenerbahce,easy,4-4-2,RECBER;LUCIANO;CETIN;BARIS;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;NOBRE;VAN HOOIJDONK
+Fenerbahce vs. Malatyaspor - Saturday September 18 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ERDOGAN;BENSOL;MBAYO;MKHALELE;ALTUN;OSTERC
+Konyaspor vs. Akcaabat Sebatspor - Saturday September 18 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;BAYRAK;TEMIZKANOGLU;UZUN;EKSIOGLU;TASDEMIR;BAYRAKTAR;ERGIN;OZGUR;DERELIOGLU;KAYNAK
+Konyaspor vs. Akcaabat Sebatspor - Saturday September 18 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;DUMAN;CELIK;PEREIRA;DEMIR;KARACA;KARTOP;AKSOY;BIRYOL;TURKMEN
+Samsunspor vs. Istanbulspor - Saturday September 18 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;SUMER;AKBAS;AKYUZ;AYHAN;CAN;VIDUSLU;KUS;BAYAR;ALEKSANDROV;SAKYI
+Samsunspor vs. Istanbulspor - Saturday September 18 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;GUNGOR;KIRITA;GHODHBANE;TUNA;SAGIR;AYDIN;ISLER;IVANOV
+Ankaragucu vs. Genclerbirligi - Sunday September 19 - 2004,Ankaragucu,hard,4-5-1,USAK;KUTLU;BAIDOO;DURSUN;EVREN;OZLEM;YILDIRIM;GOUDA;GUEL;AKSANCAK;BULUT
+Ankaragucu vs. Genclerbirligi - Sunday September 19 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;MERCIMEK;DAEMS;SAM;BASTURK;SKOKO;NAS;SEVEN;YOULA;OZKAN
+Besiktas vs. Galatasaray - Sunday September 19 - 2004,Besiktas,easy,4-2-3-1,SAHIN;RONALDO GUIARO;TORAMAN;UZULMEZ;YILDIRIM;GUNES;BURUK;KORKUT;YALCIN;AKIN;CAREW
+Besiktas vs. Galatasaray - Sunday September 19 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SARIOGLU;HASPOLATLI;CONCEICAO;SAS;ATES;SUKUR
+Rizespor vs. Kayserispor - Sunday September 19 - 2004,Kayserispor,hard,4-4-2,DAS;AKTAS;TURAN;KAYATEKIN;BEKIROGLU;DAMLA;ARSLAN;JOHNSON;TOPUZ;UNAL;ULUSOY
+Rizespor vs. Kayserispor - Sunday September 19 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Trabzonspor vs. Gaziantepspor - Sunday September 19 - 2004,Gaziantepspor,hard,3-5-2,HASAGIC;POLAT;IRTEGUN;BOUAZIZI;GUNES;MACANGA;BOLUKBASI;AYHAN;OZBAY;EL TAIB;JAZIRI
+Trabzonspor vs. Gaziantepspor - Sunday September 19 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;YAVUZ;D'HAENE;KOCAK;EREN;THIJS;CIMSIR;LEE;KARADENIZ;YILMAZ;TEKKE
+Genclerbirligi vs. Fenerbahce - Friday September 24 - 2004,Fenerbahce,easy,4-4-2,RECBER;BARIS;CETIN;LUCIANO;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;NOBRE;VAN HOOIJDONK
+Genclerbirligi vs. Fenerbahce - Friday September 24 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;MERCIMEK;OZBEY;DAEMS;YESILKAYA;SKOKO;NAS;BOLIC;OZKAN
+Akcaabat Sebatspor vs. Rizespor - Saturday September 25 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;BAYRAK;TEMIZKANOGLU;UZUN;EKSIOGLU;TASDEMIR;BAYRAKTAR;ERGIN;OZGUR;DERELIOGLU;KAYNAK
+Akcaabat Sebatspor vs. Rizespor - Saturday September 25 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;EL TABEI;DUYMUS;AZER;TATAN;ALPUGAN;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Besiktas vs. Buyuksehir Belediyesi Ankaraspor - Saturday September 25 - 2004,Besiktas,easy,4-4-2,SAHIN;RONALDO GUIARO;TORAMAN;UZULMEZ;YILDIRIM;GUNES;KORKUT;BURUK;YALCIN;AKIN;CAREW
+Besiktas vs. Buyuksehir Belediyesi Ankaraspor - Saturday September 25 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;DOGANTEZ;TUNC;BARIS;WEDERSON;GUCER;MOLNAR;TITA;JABA;AKYUZ
+Kayserispor vs. Samsunspor - Saturday September 25 - 2004,Kayserispor,hard,4-4-2,AKTAS;PETO;AKICI;DAMLA;JOHNSON;AYAZ;TOPUZ;YAVAS;TUAMA;SINANI;ULUSOY
+Kayserispor vs. Samsunspor - Saturday September 25 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;GUNGOR;KIRITA;GHODHBANE;TUNA;SAGIR;AYDIN;ISLER;ALTIN
+Sakaryaspor vs. Trabzonspor - Saturday September 25 - 2004,Sakaryaspor,hard,4-4-2,TASDEMIR;OZTURK;SERT;IBIS;KOK;BASDAG;CEYLAN;SEN;KURT;AKDIS;KABA
+Sakaryaspor vs. Trabzonspor - Saturday September 25 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;YAVUZ;D'HAENE;KOCAK;BEKIROGLU;EREN;CIMSIR;KOCAK;KARADENIZ;YILMAZ;TEKKE
+Denizlispor vs. Ankaragucu - Sunday September 26 - 2004,Ankaragucu,hard,4-5-1,USAK;BAIDOO;DURSUN;GUNGOR;EVREN;YILDIRIM;GOUDA;GUEL;TURHAN;AKSANCAK;BULUT
+Denizlispor vs. Ankaragucu - Sunday September 26 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;AYDIN;GULPINAR;VAROL;MULTAHARJU;BOTHA;MARTIN
+Galatasaray vs. Istanbulspor - Sunday September 26 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;HASPOLATLI;SAIDOU;BALJIC;SAS;ATES;SUKUR
+Galatasaray vs. Istanbulspor - Sunday September 26 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;OKECHUKWU;CAN;BUYUK;VIDUSLU;KOCABAL;BAYAR;ALEKSANDROV;DURSUN;SAKYI
+Gaziantepspor vs. Diyarbakirspor - Sunday September 26 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;TOPRAK;BOZACI;BECEREN;DEMIRCIOGLU;JUPI;SAMATYALI;YANIK;KALOGLU
+Gaziantepspor vs. Diyarbakirspor - Sunday September 26 - 2004,Gaziantepspor,hard,4-5-1,TARAKCI;POLAT;ZAN;IRTEGUN;MACANGA;GUNES;AYHAN;BOLUKBASI;OZBAY;NAMLI;EL TAIB
+Malatyaspor vs. Konyaspor - Sunday September 26 - 2004,Konyaspor,hard,4-4-2,ONGUN;DOMORAUD;CELIK;DUMAN;UGUR;KARACA;KARTOP;ALBAYRAK;KOC;BIRYOL;TURKMEN
+Malatyaspor vs. Konyaspor - Sunday September 26 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;KAHRAMAN;OSTERC;BIRLIK
+Buyuksehir Belediyesi Ankaraspor vs. Galatasaray - Friday October 1 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;BARIS;TUNC;GULDUREN;DOGANTEZ;WEDERSON;GUCER;MOLNAR;TITA;AKYUZ;JABA
+Buyuksehir Belediyesi Ankaraspor vs. Galatasaray - Friday October 1 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;TOMAS;SONG;UNSAL;PENBE;SARIOGLU;HASPOLATLI;SAIDOU;ATES;ERDEM;SUKUR
+Ankaragucu vs. Gaziantepspor - Saturday October 2 - 2004,Ankaragucu,hard,4-5-1,USAK;BAIDOO;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;GOUDA;TURHAN;AKSANCAK;BULUT
+Ankaragucu vs. Gaziantepspor - Saturday October 2 - 2004,Gaziantepspor,hard,4-4-2,HASAGIC;POLAT;ZAN;BOUAZIZI;GUNES;MACANGA;BOLUKBASI;AYHAN;OZBAY;EL TAIB;JAZIRI
+Diyarbakirspor vs. Sakaryaspor - Saturday October 2 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;JUPI;YANIK;ESER;KALOGLU
+Diyarbakirspor vs. Sakaryaspor - Saturday October 2 - 2004,Sakaryaspor,hard,4-4-2,TASDEMIR;OZTURK;SERT;IBIS;KOK;BASDAG;CEYLAN;TUNCEL;CETIN;AKDIS;KABA
+Fenerbahce vs. Denizlispor - Saturday October 2 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;GULPINAR;AYDIN;MULTAHARJU;VAROL;BOTHA;MARTIN
+Fenerbahce vs. Denizlispor - Saturday October 2 - 2004,Fenerbahce,easy,4-4-2,RECBER;TURACI;LUCIANO;CETIN;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;NOBRE;VAN HOOIJDONK
+Rizespor vs. Malatyaspor - Saturday October 2 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;KAHRAMAN;OSTERC;BIRLIK
+Rizespor vs. Malatyaspor - Saturday October 2 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Istanbulspor vs. Kayserispor - Sunday October 3 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;ANDRE BORGES;BUYUK;CAN;VIDUSLU;KOCABAL;ALEKSANDROV;BUSHI;DURSUN
+Istanbulspor vs. Kayserispor - Sunday October 3 - 2004,Kayserispor,hard,4-4-2,AKTAS;PETO;AKICI;DAMLA;JOHNSON;ARSLAN;TOPUZ;YAVAS;SINANI;ULUSOY;BALILI
+Konyaspor vs. Genclerbirligi - Sunday October 3 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;MERCIMEK;DAEMS;SKOKO;YESILKAYA;GTARI;YOULA;BOLIC
+Konyaspor vs. Genclerbirligi - Sunday October 3 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;DIENG;DOMORAUD;CELIK;DEMIR;PEREIRA;KARACA;KARTOP;AKAGUNDUZ;BIRYOL;TURKMEN
+Samsunspor vs. Akcaabat Sebatspor - Sunday October 3 - 2004,Akcaabat Sebatspor,hard,4-5-1,OLGUN;BAYRAK;TEMIZKANOGLU;EKSIOGLU;DERELI;TASDEMIR;BAYRAKTAR;TOYSAL;ERGIN;OZGUR;KINALI
+Samsunspor vs. Akcaabat Sebatspor - Sunday October 3 - 2004,Samsunspor,hard,4-4-2,INAN;YAVAS;YELEK;GUNGOR;KIRITA;YUCETAS;SAGIR;AKDENIZ;AYDIN;ISLER;ALTIN
+Trabzonspor vs. Besiktas - Sunday October 3 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ATAN;TORAMAN;JUANFRAN;UZULMEZ;SONKAYA;YILDIRIM;GUNES;BURUK;YALCIN;CAREW
+Trabzonspor vs. Besiktas - Sunday October 3 - 2004,Trabzonspor,easy,4-2-3-1,PETKOVIC;YAVUZ;SEYHAN;KOCAK;EREN;THIJS;CIMSIR;KOCAK;LEE;KARADENIZ;TEKKE
+Besiktas vs. Diyarbakirspor - Saturday October 16 - 2004,Besiktas,easy,4-5-1,KURSUNLU;ASIK;DOGAN;UZULMEZ;JUANFRAN;SONKAYA;YILDIRIM;BURUK;YALCIN;AHMED HASSAN;CAREW
+Besiktas vs. Diyarbakirspor - Saturday October 16 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;JUPI;SAMATYALI;YANIK;ESER
+Gaziantepspor vs. Fenerbahce - Saturday October 16 - 2004,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;FABIANO;OZAT;BALCI;MEHMET AURELIO;SANLI;AKIN;VAN HOOIJDONK;NOBRE
+Gaziantepspor vs. Fenerbahce - Saturday October 16 - 2004,Gaziantepspor,hard,4-4-2,HASAGIC;ZAN;IRTEGUN;MACANGA;BOUAZIZI;GUNES;BOLUKBASI;AYHAN;OZBAY;EL TAIB;JAZIRI
+Genclerbirligi vs. Rizespor - Saturday October 16 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;DAEMS;SKOKO;YESILKAYA;BORAL;YOULA;BOLIC;OZKAN
+Genclerbirligi vs. Rizespor - Saturday October 16 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;DUYMUS;EL TABEI;GURELER;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Sakaryaspor vs. Ankaragucu - Saturday October 16 - 2004,Ankaragucu,hard,4-5-1,USAK;BAIDOO;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;GOUDA;TURHAN;AKSANCAK;BULUT
+Sakaryaspor vs. Ankaragucu - Saturday October 16 - 2004,Sakaryaspor,hard,4-4-2,TASDEMIR;OZTURK;IBIS;SERT;KOK;BASDAG;SAKSAK;CEYLAN;TUNCEL;AKDIS;BOLUKBAS
+Akcaabat Sebatspor vs. Istanbulspor - Sunday October 17 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;BAYRAK;EKSIOGLU;DERELI;TASDEMIR;KIP;BAYRAKTAR;ERGIN;OZGUR;KAYNAK;KINALI
+Akcaabat Sebatspor vs. Istanbulspor - Sunday October 17 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;ANDRE BORGES;BUYUK;CAN;VIDUSLU;KOCABAL;ALEKSANDROV;DURSUN;BUSHI
+Buyuksehir Belediyesi Ankaraspor vs. Trabzonspor - Sunday October 17 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,KARAGOL;GULDUREN;TUNC;BAHADIR;WEDERSON;YIGIT;MOLNAR;GUCER;SIMSEK;SOBRINHO;KARTAL
+Buyuksehir Belediyesi Ankaraspor vs. Trabzonspor - Sunday October 17 - 2004,Trabzonspor,easy,4-5-1,PETKOVIC;YAVUZ;SEYHAN;D'HAENE;KOCAK;EREN;THIJS;KOCAK;LEE;KARADENIZ;TEKKE
+Denizlispor vs. Konyaspor - Sunday October 17 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;BAYER;KRATOCHVIL;KECELI;GULPINAR;AYDIN;ABRAHAM;VAROL;MULTAHARJU;MARTIN
+Denizlispor vs. Konyaspor - Sunday October 17 - 2004,Konyaspor,hard,4-4-2,PETKOVIC;GUNDOSTU;DOMORAUD;CELIK;UGUR;DEMIR;ALBAYRAK;AKSOY;KOC;BIRYOL;TURKMEN
+Galatasaray vs. Kayserispor - Sunday October 17 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SAIDOU;HASPOLATLI;BALJIC;SAS;ATES;SUKUR
+Galatasaray vs. Kayserispor - Sunday October 17 - 2004,Kayserispor,hard,4-4-2,TUNC;AKICI;TURAN;DAMLA;ARSLAN;JOHNSON;AYAZ;TOPUZ;YAVAS;BALILI;UNAL
+Malatyaspor vs. Samsunspor - Sunday October 17 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;KAHRAMAN;OSTERC;BIRLIK
+Malatyaspor vs. Samsunspor - Sunday October 17 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;GUNGOR;GHODHBANE;TUNA;SAGIR;AKDENIZ;AYDIN;ISLER;ALTIN
+Istanbulspor vs. Malatyaspor - Saturday October 23 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;ANDRE BORGES;BUYUK;CAN;VIDUSLU;KOCABAL;ALEKSANDROV;DURSUN;BUSHI
+Istanbulspor vs. Malatyaspor - Saturday October 23 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;KAHRAMAN;OSTERC;BIRLIK
+Konyaspor vs. Gaziantepspor - Saturday October 23 - 2004,Gaziantepspor,hard,4-4-2,TARAKCI;IRTEGUN;ZAN;MACANGA;BOUAZIZI;GUNES;BOLUKBASI;OZBAY;NAMLI;JAZIRI;OZER
+Konyaspor vs. Gaziantepspor - Saturday October 23 - 2004,Konyaspor,hard,4-4-2,ONGUN;DOMORAUD;GUNDOSTU;CELIK;UGUR;DEMIR;ALBAYRAK;KOC;BIRYOL;AKAGUNDUZ;TURKMEN
+Samsunspor vs. Genclerbirligi - Saturday October 23 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;OZBEY;MERCIMEK;DAEMS;BASTURK;NAS;BORAL;GURSEL;BOLIC;OZKAN
+Samsunspor vs. Genclerbirligi - Saturday October 23 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;KIRITA;GUNGOR;GHODHBANE;TUNA;AKDENIZ;SAGIR;ISLER;AYKUT
+Trabzonspor vs. Galatasaray - Saturday October 23 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SAIDOU;HASPOLATLI;BALJIC;SAS;ATES;SUKUR
+Trabzonspor vs. Galatasaray - Saturday October 23 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;SEYHAN;YAVUZ;KOCAK;EREN;CIMSIR;KOCAK;LEE;KARADENIZ;TEKKE;YILMAZ
+Ankaragucu vs. Besiktas - Sunday October 24 - 2004,Ankaragucu,hard,4-5-1,USAK;KUTLU;DURSUN;ZENGUE;EVREN;OZLEM;YILDIRIM;GUEL;NAMDAR;TURHAN;BULUT
+Ankaragucu vs. Besiktas - Sunday October 24 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ASIK;DOGAN;JUANFRAN;UZULMEZ;SONKAYA;YILDIRIM;KORKUT;AHMED HASSAN;AKIN;CAREW
+Diyarbakirspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday October 24 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;TUNC;BARIS;WEDERSON;YIGIT;GUCER;SIMSEK;SOBRINHO;JABA;KARTAL
+Diyarbakirspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday October 24 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BOZACI;BECEREN;DEMIRCIOGLU;ASIL;AKINCI;JUPI;ESER;YANIK;KALOGLU
+Fenerbahce vs. Sakaryaspor - Sunday October 24 - 2004,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;BARIS;OZAT;MEHMET AURELIO;ALEX;SANLI;YOZGATLI;NOBRE;VAN HOOIJDONK
+Fenerbahce vs. Sakaryaspor - Sunday October 24 - 2004,Sakaryaspor,hard,3-5-2,TASDEMIR;OZTURK;IBIS;SERT;UNAL;BASDAG;SAKSAK;CEYLAN;KURT;AKDIS;BOLUKBAS
+Kayserispor vs. Akcaabat Sebatspor - Sunday October 24 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;GEZMIS;TEMIZKANOGLU;UZUN;EKSIOGLU;TASDEMIR;KIP;BILAZER;OZGUR;BAKADAL;KAYNAK
+Kayserispor vs. Akcaabat Sebatspor - Sunday October 24 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;AKICI;DAMLA;CAN;ARSLAN;JOHNSON;TOPUZ;YAVAS;ULUSOY;BALILI
+Rizespor vs. Denizlispor - Sunday October 24 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;BAYER;KRATOCHVIL;OZSARAC;KECELI;GULPINAR;ABRAHAM;VAROL;BAYAZIT;MARTIN;KUCUKVARDAR
+Rizespor vs. Denizlispor - Sunday October 24 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Trabzonspor vs. Diyarbakirspor - Friday October 29 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BOZACI;BECEREN;DEMIRCIOGLU;ASIL;AKINCI;JUPI;SYLLA;YANIK;KALOGLU
+Trabzonspor vs. Diyarbakirspor - Friday October 29 - 2004,Trabzonspor,easy,4-4-2,PETKOVIC;YAVUZ;SEYHAN;CORA;KOCAK;CIMSIR;KOCAK;KARADENIZ;YATTARA;YILMAZ;TEKKE
+Besiktas vs. Fenerbahce - Saturday October 30 - 2004,Besiktas,easy,4-5-1,KURSUNLU;ASIK;DOGAN;JUANFRAN;UZULMEZ;SONKAYA;YILDIRIM;DABROWSKI;BURUK;YALCIN;CAREW
+Besiktas vs. Fenerbahce - Saturday October 30 - 2004,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;BARIS;FABIANO;OZAT;MEHMET AURELIO;ALEX;AKIN;NOBRE;VAN HOOIJDONK
+Denizlispor vs. Samsunspor - Saturday October 30 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;ABRAHAM;GULPINAR;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Denizlispor vs. Samsunspor - Saturday October 30 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;KIRITA;GHODHBANE;TUNA;AKDENIZ;SAGIR;AYDIN;ISLER;IVANOV
+Gaziantepspor vs. Rizespor - Saturday October 30 - 2004,Gaziantepspor,hard,4-4-2,TARAKCI;POLAT;IRTEGUN;BOUAZIZI;AGCAY;GUNES;AYHAN;BOLUKBASI;KOC;LAZAROV;OZER
+Gaziantepspor vs. Rizespor - Saturday October 30 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;DEMIRAY;HOSNY
+Genclerbirligi vs. Istanbulspor - Saturday October 30 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;MERCIMEK;DAEMS;SKOKO;YESILKAYA;NAS;BORAL;YOULA;BOLIC;OZKAN
+Genclerbirligi vs. Istanbulspor - Saturday October 30 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;ANDRE BORGES;BUYUK;CAN;VIDUSLU;BAYAR;ALEKSANDROV;BUSHI;DURSUN
+Buyuksehir Belediyesi Ankaraspor vs. Ankaragucu - Sunday October 31 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;GUNGOR;DURSUN;ZENGUE;OZLEM;YILDIRIM;GUEL;NAMDAR;TURHAN;KELES
+Buyuksehir Belediyesi Ankaraspor vs. Ankaragucu - Sunday October 31 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;TUNC;WEDERSON;YIGIT;SARP;MOLNAR;SIMSEK;TITA;JABA;KARTAL
+Galatasaray vs. Akcaabat Sebatspor - Sunday October 31 - 2004,Akcaabat Sebatspor,hard,4-5-1,OLGUN;BAYRAK;UZUN;OZDIN;BAYRAKTAR;TASDEMIR;KIP;ERGIN;OZGUR;BILAZER;KAYNAK
+Galatasaray vs. Akcaabat Sebatspor - Sunday October 31 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;HASPOLATLI;CONCEICAO;BALJIC;SAS;ATES;SUKUR
+Malatyaspor vs. Kayserispor - Sunday October 31 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;KAYATEKIN;AKICI;DAMLA;CAN;JOHNSON;TOPUZ;YAVAS;ULUSOY;BALILI
+Malatyaspor vs. Kayserispor - Sunday October 31 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;ABDELAZIZ;ERDOGAN;BENSOL;MBAYO;KAHRAMAN;OSTERC;BIRLIK
+Sakaryaspor vs. Konyaspor - Sunday October 31 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;UGUR;DEMIR;KARTOP;ALBAYRAK;KOC;BIRYOL;AKAGUNDUZ;TURKMEN
+Sakaryaspor vs. Konyaspor - Sunday October 31 - 2004,Sakaryaspor,hard,4-4-2,OZTURK;SERT;AK;KOK;BASDAG;SAKSAK;CEYLAN;SEN;KURT;AKDIS;BEGECARSLAN
+Diyarbakirspor vs. Galatasaray - Friday November 5 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BOZACI;STAVREVSKI;DEMIRCIOGLU;AKINCI;ASIL;SULUN;JUPI;KALOGLU;YANIK
+Diyarbakirspor vs. Galatasaray - Friday November 5 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SARIOGLU;HASPOLATLI;ARSLAN;BALJIC;ATES;SUKUR
+Akcaabat Sebatspor vs. Malatyaspor - Saturday November 6 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;BAYRAK;UZUN;OZDIN;DERELI;BAYRAKTAR;OZGUR;ERGIN;BILAZER;KINALI;BAKADAL
+Akcaabat Sebatspor vs. Malatyaspor - Saturday November 6 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;KAHRAMAN;ALTUN;BIRLIK
+Fenerbahce vs. Buyuksehir Belediyesi Ankaraspor - Saturday November 6 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;TUNC;WEDERSON;YIGIT;MOLNAR;SARP;SIMSEK;TITA;KARTAL;JABA
+Fenerbahce vs. Buyuksehir Belediyesi Ankaraspor - Saturday November 6 - 2004,Fenerbahce,easy,4-4-2,RECBER;BARIS;CETIN;TURACI;OZAT;BALCI;MEHMET AURELIO;SAHIN;ALEX;NOBRE;VAN HOOIJDONK
+Istanbulspor vs. Denizlispor - Saturday November 6 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Istanbulspor vs. Denizlispor - Saturday November 6 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKYUZ;AYHAN;CAN;BUYUK;VIDUSLU;KUS;ERCAN;ALEKSANDROV;RAGAB;DURSUN
+Samsunspor vs. Gaziantepspor - Saturday November 6 - 2004,Gaziantepspor,hard,4-5-1,TARAKCI;POLAT;IRTEGUN;ZAN;MACANGA;BOUAZIZI;AYHAN;OZBAY;EL TAIB;LAZAROV;JAZIRI
+Samsunspor vs. Gaziantepspor - Saturday November 6 - 2004,Samsunspor,hard,4-4-2,INAN;YAVAS;GURACAR;GUNGOR;KIRITA;GHODHBANE;TUNA;SAGIR;AKDENIZ;AYKUT;ISLER
+Ankaragucu vs. Trabzonspor - Sunday November 7 - 2004,Ankaragucu,hard,4-2-3-1,OZGULTEKIN;KUTLU;BAIDOO;DURSUN;ZENGUE;GUNEY;ACAR;GUEL;TURHAN;KELES;BULUT
+Ankaragucu vs. Trabzonspor - Sunday November 7 - 2004,Trabzonspor,easy,4-2-3-1,PETKOVIC;YAVUZ;SEYHAN;CORA;KOCAK;UCUNCU;CIMSIR;LEE;KARADENIZ;YATTARA;TEKKE
+Kayserispor vs. Genclerbirligi - Sunday November 7 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;MERCIMEK;DAEMS;TANDOGAN;SKOKO;BASTURK;BORAL;GURSEL;YOULA;BOLIC
+Kayserispor vs. Genclerbirligi - Sunday November 7 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;KAYATEKIN;DAMLA;CAN;JOHNSON;ARSLAN;TOPUZ;YAVAS;ULUSOY;BALILI
+Konyaspor vs. Besiktas - Sunday November 7 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ASIK;DOGAN;JUANFRAN;SONKAYA;YILDIRIM;GUNES;KORKUT;AKIN;CAREW;PANCU
+Konyaspor vs. Besiktas - Sunday November 7 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;KARTOP;UGUR;DEMIR;PEREIRA;CAMARA;ALBAYRAK;BIRYOL;TURKMEN
+Rizespor vs. Sakaryaspor - Sunday November 7 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;DUYMUS;AZER;TATAN;ALPUGAN;AVCI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Rizespor vs. Sakaryaspor - Sunday November 7 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;IBIS;UNAL;CALISAL;KOK;BASDAG;OZMERT;SAKSAK;SEN;AKDIS;BEGECARSLAN
+Buyuksehir Belediyesi Ankaraspor vs. Konyaspor - Saturday November 20 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;TUNC;WEDERSON;YIGIT;MOLNAR;GUCER;SARP;TITA;JABA;AKYUZ
+Buyuksehir Belediyesi Ankaraspor vs. Konyaspor - Saturday November 20 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;DUMAN;KARTOP;UGUR;DEMIR;CAMARA;KOC;BIRYOL;TURKMEN
+Galatasaray vs. Malatyaspor - Saturday November 20 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SARIOGLU;SAIDOU;HASPOLATLI;BALJIC;ATES;SUKUR
+Galatasaray vs. Malatyaspor - Saturday November 20 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;MKHALELE;ALTUN;OSTERC
+Sakaryaspor vs. Samsunspor - Saturday November 20 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;IBIS;UNAL;CALISAL;KOK;TORAMAN;BASDAG;SEN;CETIN;AKDIS;BEGECARSLAN
+Sakaryaspor vs. Samsunspor - Saturday November 20 - 2004,Samsunspor,hard,4-4-2,SHORUNMU;YAVAS;YELEK;GUNGOR;GHODHBANE;YUCETAS;TUNA;SAGIR;AKDENIZ;IVANOV;ISLER
+Trabzonspor vs. Fenerbahce - Saturday November 20 - 2004,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;TURACI;OZAT;MEHMET AURELIO;ASLAN;ALEX;SANLI;AKIN;NOBRE
+Trabzonspor vs. Fenerbahce - Saturday November 20 - 2004,Trabzonspor,easy,4-5-1,PETKOVIC;SEYHAN;YAVUZ;KOCAK;EREN;CIMSIR;KOCAK;EGE;LEE;KARADENIZ;TEKKE
+Besiktas vs. Rizespor - Sunday November 21 - 2004,Besiktas,easy,4-5-1,KURSUNLU;ATAN;ASIK;JUANFRAN;UZULMEZ;SONKAYA;YILDIRIM;GUNES;BURUK;YALCIN;CAREW
+Besiktas vs. Rizespor - Sunday November 21 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;EL TABEI;DUYMUS;TATAN;ALPUGAN;AVCI;BAKI;OZDEMIR;DEMIRAY;OZTURK
+Denizlispor vs. Kayserispor - Sunday November 21 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;BAYER;KRATOCHVIL;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Denizlispor vs. Kayserispor - Sunday November 21 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;AKICI;DAMLA;OKYAY;CAN;ARSLAN;JOHNSON;TOPUZ;UNAL;BALILI
+Diyarbakirspor vs. Ankaragucu - Sunday November 21 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;ZENGUE;EVREN;GUNEY;ACAR;YILDIRIM;NAMDAR;TURHAN;GUEL;BULUT
+Diyarbakirspor vs. Ankaragucu - Sunday November 21 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BOZACI;BECEREN;ASIL;AKINCI;SULUN;UYSAL;SYLLA;YANIK;KALOGLU
+Gaziantepspor vs. Istanbulspor - Sunday November 21 - 2004,Gaziantepspor,hard,4-4-2,TARAKCI;POLAT;ZAN;BOUAZIZI;MACANGA;AYHAN;OZBAY;EL TAIB;NAMLI;LAZAROV;OZER
+Gaziantepspor vs. Istanbulspor - Sunday November 21 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;BUYUK;CAN;VIDUSLU;BAYAR;ERCAN;ALEKSANDROV;RAGAB;DURSUN
+Genclerbirligi vs. Akcaabat Sebatspor - Sunday November 21 - 2004,Akcaabat Sebatspor,hard,4-5-1,OLGUN;BAYRAK;OZDIN;UZUN;DERELI;TASDEMIR;BAYRAKTAR;BILAZER;ERGIN;OZGUR;BAKADAL
+Genclerbirligi vs. Akcaabat Sebatspor - Sunday November 21 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;MERCIMEK;DAEMS;TANDOGAN;NAS;SKOKO;BORAL;GURSEL;YOULA;BOLIC
+Ankaragucu vs. Galatasaray - Friday November 26 - 2004,Ankaragucu,hard,4-2-3-1,OZGULTEKIN;BAIDOO;KUTLU;DURSUN;ZENGUE;GUNEY;ACAR;YILDIRIM;GUEL;TURHAN;BULUT
+Ankaragucu vs. Galatasaray - Friday November 26 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;HASPOLATLI;CONCEICAO;ARSLAN;ATES;SUKUR
+Fenerbahce vs. Diyarbakirspor - Saturday November 27 - 2004,Diyarbakirspor,hard,4-5-1,YIGITER;SAATCIOGLU;BECEREN;BOZACI;DEMIRCIOGLU;AKINCI;SULUN;JUPI;SAMATYALI;YANIK;KALOGLU
+Fenerbahce vs. Diyarbakirspor - Saturday November 27 - 2004,Fenerbahce,easy,4-5-1,RECBER;CETIN;LUCIANO;TURACI;OZAT;MEHMET AURELIO;ASLAN;ALEX;SANLI;AKIN;YOZGATLI
+Konyaspor vs. Trabzonspor - Saturday November 27 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;UGUR;DEMIR;KARTOP;CAMARA;ALBAYRAK;KOC;BIRYOL;TURKMEN
+Konyaspor vs. Trabzonspor - Saturday November 27 - 2004,Trabzonspor,easy,4-3-3,SONMEZ;SEYHAN;D'HAENE;KOCAK;EREN;UCUNCU;CIMSIR;KOCAK;KARADENIZ;YATTARA;TEKKE
+Rizespor vs. Buyuksehir Belediyesi Ankaraspor - Saturday November 27 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,KARAGOL;GULDUREN;BARIS;BAHADIR;YOLDAS;WEDERSON;MOLNAR;SARP;ERDENIZ;TITA;JABA
+Rizespor vs. Buyuksehir Belediyesi Ankaraspor - Saturday November 27 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;EL TABEI;DUYMUS;TATAN;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Akcaabat Sebatspor vs. Denizlispor - Sunday November 28 - 2004,Akcaabat Sebatspor,hard,4-4-2,OLGUN;OZDIN;BAYRAK;TEMIZKANOGLU;UZUN;DERELI;TASDEMIR;OZGUR;BILAZER;KAYNAK;KINALI
+Akcaabat Sebatspor vs. Denizlispor - Sunday November 28 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;BAYER;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Istanbulspor vs. Sakaryaspor - Sunday November 28 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;CAN;BUYUK;VIDUSLU;KOCABAL;BAYAR;ERCAN;RAGAB;DURSUN
+Istanbulspor vs. Sakaryaspor - Sunday November 28 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;UNAL;SERT;CALISAL;KOK;TORAMAN;BASDAG;CEYLAN;CETIN;AKDIS;BEGECARSLAN
+Kayserispor vs. Gaziantepspor - Sunday November 28 - 2004,Gaziantepspor,hard,4-4-2,TARAKCI;YURT;ZAN;IRTEGUN;GUNES;AGCAY;AYHAN;BOLUKBASI;NAMLI;EL TAIB;JAZIRI
+Kayserispor vs. Gaziantepspor - Sunday November 28 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;KAYATEKIN;AKICI;DAMLA;CAN;ARSLAN;JOHNSON;TOPUZ;UNAL;BALILI
+Malatyaspor vs. Genclerbirligi - Sunday November 28 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;MERCIMEK;DAEMS;TANDOGAN;SKOKO;NAS;YOULA;BOLIC
+Malatyaspor vs. Genclerbirligi - Sunday November 28 - 2004,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;SCHUMANN BAH;AKIN;ABDELAZIZ;ERDOGAN;BENSOL;MKHALELE;BIRLIK;ALTUN
+Samsunspor vs. Besiktas - Sunday November 28 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ASIK;DOGAN;JUANFRAN;UZULMEZ;SONKAYA;YILDIRIM;KORKUT;AHMED HASSAN;AKIN;PANCU
+Samsunspor vs. Besiktas - Sunday November 28 - 2004,Samsunspor,hard,4-4-2,INAN;YELEK;YAVAS;AYARI;GUNGOR;KIRITA;GHODHBANE;TUNA;AYDIN;ALTIN;IVANOV
+Fenerbahce vs. Ankaragucu - Friday December 3 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;BAIDOO;KUTLU;DURSUN;ZENGUE;OZLEM;YILDIRIM;TCHANGO;TURHAN;GUEL;KELES
+Fenerbahce vs. Ankaragucu - Friday December 3 - 2004,Fenerbahce,easy,4-5-1,RECBER;CETIN;TURACI;OZAT;BALCI;MEHMET AURELIO;ASLAN;ALEX;SANLI;YOZGATLI;NOBRE
+Denizlispor vs. Malatyaspor - Saturday December 4 - 2004,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;CELIK;KECELI;AYDIN;GULPINAR;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Denizlispor vs. Malatyaspor - Saturday December 4 - 2004,Malatyaspor,hard,4-5-1,KORK;OZSOY;ERDOGAN;KORKMAZ;AYDIN;AKIN;ABDELAZIZ;ERDOGAN;KISA;MBAYO;BIRLIK
+Diyarbakirspor vs. Konyaspor - Saturday December 4 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;STAVREVSKI;BOZACI;BECEREN;DEMIRCIOGLU;AKINCI;SULUN;JUPI;YAGMUR;KALOGLU
+Diyarbakirspor vs. Konyaspor - Saturday December 4 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;UGUR;DEMIR;KARTOP;ALBAYRAK;KOC;BIRYOL;AKAGUNDUZ;TURKMEN
+Genclerbirligi vs. Galatasaray - Saturday December 4 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;SARIOGLU;HASPOLATLI;ARSLAN;CONCEICAO;AKMAN;ATES;SUKUR
+Genclerbirligi vs. Galatasaray - Saturday December 4 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;MERCIMEK;OZBEY;DAEMS;TANDOGAN;SKOKO;NAS;YOULA;OZKAN
+Trabzonspor vs. Rizespor - Saturday December 4 - 2004,Rizespor,hard,4-2-3-1,ZDRAVKOV;CAKMAK;CAGIRAN;KURKCU;VICTORIA;TATAN;AVCI;BAKI;OZDEMIR;DEMIRAY;OZTURK
+Trabzonspor vs. Rizespor - Saturday December 4 - 2004,Trabzonspor,easy,4-4-2,SONMEZ;SEYHAN;YAVUZ;BEKIROGLU;KOCAK;EREN;CIMSIR;KOCAK;KARADENIZ;YATTARA;TEKKE
+Besiktas vs. Istanbulspor - Sunday December 5 - 2004,Besiktas,easy,4-5-1,KURSUNLU;ATAN;TORAMAN;UZULMEZ;SONKAYA;GUNES;KORKUT;BURUK;METIN;AHMED HASSAN;AKIN
+Besiktas vs. Istanbulspor - Sunday December 5 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;CAN;BUYUK;VIDUSLU;KUS;BAYAR;ERCAN;ALEKSANDROV;RAGAB
+Buyuksehir Belediyesi Ankaraspor vs. Samsunspor - Sunday December 5 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,FABIO NORONHA;GULDUREN;BAHADIR;YOLDAS;BARIS;YIGIT;SARP;MOLNAR;GUCER;JABA;AKYUZ
+Buyuksehir Belediyesi Ankaraspor vs. Samsunspor - Sunday December 5 - 2004,Samsunspor,hard,4-5-1,INAN;YELEK;YAVAS;AYARI;GUNGOR;KIRITA;GHODHBANE;YUCETAS;TUNA;AYDIN;IVANOV
+Gaziantepspor vs. Akcaabat Sebatspor - Sunday December 5 - 2004,Akcaabat Sebatspor,hard,4-5-1,OLGUN;BAYRAK;UZUN;OZDIN;TEMIZKANOGLU;DERELI;BAYRAKTAR;TASDEMIR;TOYSAL;OZGUR;KINALI
+Gaziantepspor vs. Akcaabat Sebatspor - Sunday December 5 - 2004,Gaziantepspor,hard,3-5-2,TARAKCI;POLAT;YURT;ZAN;BOUAZIZI;AYHAN;OZBAY;EL TAIB;NAMLI;LAZAROV;JAZIRI
+Sakaryaspor vs. Kayserispor - Sunday December 5 - 2004,Kayserispor,hard,4-4-2,AKTAS;TURAN;KAYATEKIN;AKICI;DAMLA;CAN;ARSLAN;JOHNSON;TOPUZ;UNAL;BALILI
+Sakaryaspor vs. Kayserispor - Sunday December 5 - 2004,Sakaryaspor,hard,4-4-2,DIALLO;IBIS;UNAL;CALISAL;KOK;BASDAG;TORAMAN;CEYLAN;CETIN;AKDIS;BEGECARSLAN
+Kayserispor vs. Besiktas - Friday December 10 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ASIK;DOGAN;UZULMEZ;SONKAYA;YILDIRIM;BURUK;METIN;AHMED HASSAN;AKIN;PANCU
+Kayserispor vs. Besiktas - Friday December 10 - 2004,Kayserispor,hard,4-4-2,AKTAS;KAYATEKIN;AKICI;DAMLA;CAN;ARSLAN;JOHNSON;TOPUZ;YAVAS;UNAL;BALILI
+Akcaabat Sebatspor vs. Sakaryaspor - Saturday December 11 - 2004,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;BAYRAK;OZDIN;TEMIZKANOGLU;UZUN;DERELI;TASDEMIR;TOYSAL;OZGUR;BAKADAL;KINALI
+Akcaabat Sebatspor vs. Sakaryaspor - Saturday December 11 - 2004,Sakaryaspor,hard,4-4-2,OZTURK;UNAL;SERT;CALISAL;KOK;TORAMAN;BASDAG;CEYLAN;KURT;AKDIS;BEGECARSLAN
+Istanbulspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday December 11 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,FABIO NORONHA;BAHADIR;BARIS;WEDERSON;YIGIT;SARP;GUCER;MOLNAR;TITA;JABA;KARTAL
+Istanbulspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday December 11 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;AKYUZ;BUYUK;CAN;VIDUSLU;BAYAR;ALEKSANDROV;RAGAB;BUSHI
+Malatyaspor vs. Gaziantepspor - Saturday December 11 - 2004,Gaziantepspor,hard,4-4-2,TARAKCI;POLAT;IRTEGUN;BOUAZIZI;AYHAN;BOLUKBASI;OZBAY;EL TAIB;NAMLI;LAZAROV;JAZIRI
+Malatyaspor vs. Gaziantepspor - Saturday December 11 - 2004,Malatyaspor,hard,4-4-2,KORK;ERDOGAN;KORKMAZ;AYDIN;ABDELAZIZ;ERDOGAN;BENSOL;VAR;MBAYO;KARATAS;OSTERC
+Samsunspor vs. Trabzonspor - Saturday December 11 - 2004,Samsunspor,hard,4-5-1,INAN;YELEK;YAVAS;SUME;AYARI;GUNGOR;KIRITA;GHODHBANE;YUCETAS;AYDIN;IVANOV
+Samsunspor vs. Trabzonspor - Saturday December 11 - 2004,Trabzonspor,easy,4-2-3-1,SONMEZ;YAVUZ;SEYHAN;KOCAK;BEKIROGLU;EREN;UCUNCU;CIMSIR;KARADENIZ;YATTARA;TEKKE
+Galatasaray vs. Fenerbahce - Sunday December 12 - 2004,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;TURACI;OZAT;BALCI;SAHIN;ALEX;SANLI;YOZGATLI;NOBRE
+Galatasaray vs. Fenerbahce - Sunday December 12 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;SARIOGLU;HASPOLATLI;CONCEICAO;ARSLAN;SAS;ATES;SUKUR
+Genclerbirligi vs. Denizlispor - Sunday December 12 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;BAYER;OZSARAC;KRATOCHVIL;CELIK;KECELI;GULPINAR;VAROL;MULTAHARJU;RIZA;MARTIN
+Genclerbirligi vs. Denizlispor - Sunday December 12 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;DAEMS;TANDOGAN;SKOKO;BORAL;GURSEL;OZKAN;BOLIC;YOULA
+Konyaspor vs. Ankaragucu - Sunday December 12 - 2004,Ankaragucu,hard,3-5-2,OZGULTEKIN;KUTLU;BAIDOO;DURSUN;OZLEM;TCHANGO;YILDIRIM;GUEL;TURHAN;KELES;BULUT
+Konyaspor vs. Ankaragucu - Sunday December 12 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;DUMAN;KARTOP;UGUR;DEMIR;CAMARA;KOC;BIRYOL;TURKMEN
+Rizespor vs. Diyarbakirspor - Sunday December 12 - 2004,Diyarbakirspor,hard,4-4-2,YIGITER;STAVREVSKI;BOZACI;BECEREN;DEMIRCIOGLU;ASIL;JUPI;UYSAL;SYLLA;YAGMUR;KALOGLU
+Rizespor vs. Diyarbakirspor - Sunday December 12 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;CAGIRAN;KURKCU;DUYMUS;TATAN;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Denizlispor vs. Galatasaray - Friday December 17 - 2004,Denizlispor,hard,4-4-2,HAMIDOU;BAYER;KRATOCHVIL;OZSARAC;KECELI;ABRAHAM;GULPINAR;VAROL;BAYAZIT;RIZA;MARTIN
+Denizlispor vs. Galatasaray - Friday December 17 - 2004,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;SARIOGLU;HASPOLATLI;CONCEICAO;ARSLAN;SAS;ATES;SUKUR
+Ankaragucu vs. Rizespor - Saturday December 18 - 2004,Ankaragucu,hard,4-5-1,OZGULTEKIN;KUTLU;BAIDOO;DURSUN;ZENGUE;OZLEM;YILDIRIM;TCHANGO;TURHAN;BULUT;KELES
+Ankaragucu vs. Rizespor - Saturday December 18 - 2004,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;KURKCU;DUYMUS;VICTORIA;AVCI;ALPUGAN;BAKI;DEMIRAY;SOZKESEN;OZTURK
+Fenerbahce vs. Konyaspor - Saturday December 18 - 2004,Fenerbahce,easy,4-5-1,RECBER;CETIN;TURACI;OZAT;BALCI;MEHMET AURELIO;SAHIN;ALEX;SANLI;YOZGATLI;NOBRE
+Fenerbahce vs. Konyaspor - Saturday December 18 - 2004,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;DUMAN;DEMIR;KARACA;KARTOP;UGUR;ALBAYRAK;KOC;TURKMEN;BIRYOL
+Gaziantepspor vs. Genclerbirligi - Saturday December 18 - 2004,Gaziantepspor,hard,4-5-1,HASAGIC;POLAT;ZAN;BOUAZIZI;MACANGA;BOLUKBASI;AYHAN;OZBAY;EL TAIB;NAMLI;LAZAROV
+Gaziantepspor vs. Genclerbirligi - Saturday December 18 - 2004,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;MERCIMEK;DAEMS;TANDOGAN;SKOKO;NAS;BOLIC;OZKAN;YOULA
+Trabzonspor vs. Istanbulspor - Saturday December 18 - 2004,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKYUZ;SUMER;AKBAS;CAN;BUYUK;KUS;BAYAR;ALEKSANDROV;RAGAB;YILDIRAN
+Trabzonspor vs. Istanbulspor - Saturday December 18 - 2004,Trabzonspor,easy,4-2-3-1,SONMEZ;YAVUZ;SEYHAN;BEKIROGLU;KOCAK;EREN;UCUNCU;CIMSIR;KARADENIZ;YATTARA;TEKKE
+Besiktas vs. Akcaabat Sebatspor - Sunday December 19 - 2004,Akcaabat Sebatspor,hard,4-5-1,MILOSEVSKI;OZDIN;BAYRAK;GEZMIS;EKSIOGLU;DERELI;BAYRAKTAR;KIP;TOYSAL;ERGIN;KINALI
+Besiktas vs. Akcaabat Sebatspor - Sunday December 19 - 2004,Besiktas,easy,4-4-2,KURSUNLU;ASIK;ATAN;UZULMEZ;SONKAYA;YILDIRIM;BURUK;AHMED HASSAN;METIN;CIHAN;PANCU
+Buyuksehir Belediyesi Ankaraspor vs. Kayserispor - Sunday December 19 - 2004,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,FABIO NORONHA;GULDUREN;YOLDAS;WEDERSON;YIGIT;MOLNAR;GUCER;KOPRULU;TITA;JABA;KARTAL
+Buyuksehir Belediyesi Ankaraspor vs. Kayserispor - Sunday December 19 - 2004,Kayserispor,hard,4-4-2,TUNC;TURAN;BEKIROGLU;KAYATEKIN;DAMLA;OKYAY;ARSLAN;AYAZ;TOPUZ;YAVAS;UNAL
+Diyarbakirspor vs. Samsunspor - Sunday December 19 - 2004,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;BOZACI;ASIL;AKINCI;SULUN;JUPI;UYSAL;KALOGLU;YAGMUR
+Diyarbakirspor vs. Samsunspor - Sunday December 19 - 2004,Samsunspor,hard,4-4-2,SHORUNMU;YELEK;YAVAS;AYARI;KIRITA;GUNGOR;GHODHBANE;TUNA;AYDIN;ALTIN;IVANOV
+Sakaryaspor vs. Malatyaspor - Sunday December 19 - 2004,Malatyaspor,hard,4-4-2,KORK;ERDOGAN;KORKMAZ;AYDIN;ABDELAZIZ;BENSOL;VAR;KISA;MKHALELE;KARATAS;BIRLIK
+Sakaryaspor vs. Malatyaspor - Sunday December 19 - 2004,Sakaryaspor,hard,4-4-2,OZTURK;IBIS;AK;CALISAL;KOK;BASDAG;CEYLAN;SEN;KURT;AKDIS;BEGECARSLAN
+Konyaspor vs. Galatasaray - Friday January 28 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;UCAR;HASPOLATLI;CONCEICAO;AKMAN;ATES;SUKUR
+Konyaspor vs. Galatasaray - Friday January 28 - 2005,Konyaspor,hard,4-5-1,PETKOVIC;GUNDOSTU;CELIK;DEMIR;UGUR;KARTOP;ALBAYRAK;ERIS;BALJIC;TURKMEN;BIRYOL
+Besiktas vs. Malatyaspor - Saturday January 29 - 2005,Besiktas,easy,4-4-2,KURSUNLU;TORAMAN;RONALDO GUIARO;ATAN;UZULMEZ;HAVUTCU;KORKUT;BURUK;PANCU;CAREW;CIHAN
+Besiktas vs. Malatyaspor - Saturday January 29 - 2005,Malatyaspor,hard,4-4-2,TUNCAY;OZSOY;ERDOGAN;AYDIN;SAIDOU;TOTH;AKIN;ERDOGAN;BENSOL;BOLIC;OSTERC
+Buyuksehir Belediyesi Ankaraspor vs. Akcaabat Sebatspor - Saturday January 29 - 2005,Akcaabat Sebatspor,hard,4-4-2,MILOSEVSKI;GEZMIS;TEMIZKANOGLU;BAYRAKTAR;BOYRAZ;TOYSAL;ERGIN;KANDIL;BAYRAKTAR;KAYNAK;OZER
+Buyuksehir Belediyesi Ankaraspor vs. Akcaabat Sebatspor - Saturday January 29 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;YOLDAS;BARIS;WEDERSON;BUYUK;YIGIT;MOLNAR;GUCER;OZGUR;TITA;KARAN
+Diyarbakirspor vs. Istanbulspor - Saturday January 29 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;DEMIRCIOGLU;GUNEY;ASIL;SULUN;YANIK;YAGMUR;KALOGLU
+Diyarbakirspor vs. Istanbulspor - Saturday January 29 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;CAN;VIDUSLU;KUS;ERCAN;BAYAR;ALEKSANDROV;AKSU;YILDIRAN
+Sakaryaspor vs. Genclerbirligi - Saturday January 29 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;OZBEY;GULDUREN;MERCIMEK;GUVEN;TANDOGAN;ABDELAZIZ;SKOKO;YOULA;OZKAN
+Sakaryaspor vs. Genclerbirligi - Saturday January 29 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;SERT;UNAL;CALISAL;KOK;TORAMAN;BASDAG;CEYLAN;BEGECARSLAN;AKDIS;CETIN
+Ankaragucu vs. Samsunspor - Sunday January 30 - 2005,Ankaragucu,hard,3-5-2,OZGULTEKIN;BAIDOO;KUTLU;DURSUN;YILDIRIM;AKDENIZ;NAMDAR;TURHAN;KOC;ISLER;BULUT
+Ankaragucu vs. Samsunspor - Sunday January 30 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;SUME;PETKOV;YELEK;SEKER;GUNGOR;GHODHBANE;TUNA;AYDIN;ALTIN;IVANOV
+Fenerbahce vs. Rizespor - Sunday January 30 - 2005,Fenerbahce,easy,4-5-1,RECBER;CETIN;LUCIANO;TURACI;OZAT;SAHIN;MEHMET AURELIO;ALEX;SANLI;AKIN;NOBRE
+Fenerbahce vs. Rizespor - Sunday January 30 - 2005,Rizespor,hard,4-5-1,ZDRAVKOV;CAGIRAN;DUYMUS;EL TABEI;TATAN;AVCI;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;OZTURK
+Gaziantepspor vs. Denizlispor - Sunday January 30 - 2005,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;KRATOCHVIL;CELIK;KECELI;ABRAHAM;GULPINAR;VAROL;BAYAZIT;ALKAN;RIZA
+Gaziantepspor vs. Denizlispor - Sunday January 30 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;COGUM;YURT;ZAN;AGCAY;BOUAZIZI;OZBAY;EL TAIB;NAMLI;LAZAROV;JAZIRI
+Trabzonspor vs. Kayserispor - Sunday January 30 - 2005,Kayserispor,hard,4-4-2,TUNC;TURAN;BRABEC;TEBER;CAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;PESIR;BALILI
+Trabzonspor vs. Kayserispor - Sunday January 30 - 2005,Trabzonspor,easy,4-4-2,SONMEZ;SEYHAN;D'HAENE;KOCAK;EREN;CIMSIR;LEE;KARADENIZ;YATTARA;YILMAZ;TEKKE
+Galatasaray vs. Gaziantepspor - Friday February 4 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;HASPOLATLI;CONCEICAO;AKMAN;ATES;SUKUR
+Galatasaray vs. Gaziantepspor - Friday February 4 - 2005,Gaziantepspor,hard,4-5-1,HASAGIC;COGUM;YURT;ZAN;BOUAZIZI;AGCAY;OZBAY;NAMLI;EL TAIB;LAZAROV;JAZIRI
+Kayserispor vs. Diyarbakirspor - Saturday February 5 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;DEMIRCIOGLU;GUNEY;ASIL;JUPI;YANIK;YAGMUR;KALOGLU
+Kayserispor vs. Diyarbakirspor - Saturday February 5 - 2005,Kayserispor,hard,4-4-2,TUNC;TURAN;BRABEC;TEBER;DUMAN;KARACA;MICHALIK;JOHNSON;BOLUKBASI;PESIR;BALILI
+Malatyaspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday February 5 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;BAHADIR;YAVAS;WEDERSON;BUYUK;YIGIT;MOLNAR;GUCER;OZGUR;JABA;KARAN
+Malatyaspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday February 5 - 2005,Malatyaspor,hard,4-4-2,TUNCAY;OZSOY;ERDOGAN;AYDIN;AKIN;TOTH;SAIDOU;ERDOGAN;BENSOL;BOLIC;OSTERC
+Rizespor vs. Konyaspor - Saturday February 5 - 2005,Konyaspor,hard,4-4-2,PETKOVIC;GUNDOSTU;USTA;CELIK;UGUR;KARTOP;ALBAYRAK;ERIS;BALJIC;BIRYOL;TURKMEN
+Rizespor vs. Konyaspor - Saturday February 5 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;CAKMAK;CAGIRAN;EL TABEI;TATAN;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;FERENCZI;OZTURK
+Samsunspor vs. Fenerbahce - Saturday February 5 - 2005,Fenerbahce,easy,4-5-1,RECBER;TURACI;BARIS;OZAT;BALCI;MEHMET AURELIO;SAHIN;ALEX;SANLI;AKIN;NOBRE
+Samsunspor vs. Fenerbahce - Saturday February 5 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;PETKOV;SUME;YELEK;SEKER;GUNGOR;GHODHBANE;TUNA;AYDIN;ALTIN;IVANOV
+Akcaabat Sebatspor vs. Trabzonspor - Sunday February 6 - 2005,Akcaabat Sebatspor,hard,3-5-2,OLGUN;GEZMIS;TEMIZKANOGLU;EKSIOGLU;BOYRAZ;BAYRAKTAR;ERGIN;KANDIL;BAYRAKTAR;KINALI;KAYNAK
+Akcaabat Sebatspor vs. Trabzonspor - Sunday February 6 - 2005,Trabzonspor,easy,4-4-2,PETKOVIC;SEYHAN;D'HAENE;KOCAK;EREN;CIMSIR;LEE;KARADENIZ;YATTARA;YILMAZ;TEKKE
+Denizlispor vs. Sakaryaspor - Sunday February 6 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;CELIK;KRATOCHVIL;GULPINAR;ABRAHAM;MULTAHARJU;BAYAZIT;ALKAN;RIZA;MARTIN
+Denizlispor vs. Sakaryaspor - Sunday February 6 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;SERT;UNAL;CALISAL;KOK;TORAMAN;BASDAG;CEYLAN;MAKASI;AKDIS;CETIN
+Ankaragucu vs. Kayserispor - Saturday February 12 - 2005,Ankaragucu,hard,4-3-1-2,OZGULTEKIN;KUTLU;BAIDOO;DURSUN;ACAR;TASDEMIR;AKDENIZ;NAMDAR;TURHAN;BULUT;AHINFUL
+Ankaragucu vs. Kayserispor - Saturday February 12 - 2005,Kayserispor,hard,4-4-2,TUNC;TURAN;BRABEC;TEBER;YAVUZ;DUMAN;KARACA;BOLUKBASI;TOPUZ;UNAL;PESIR
+Besiktas vs. Denizlispor - Saturday February 12 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;RONALDO GUIARO;ATAN;UZULMEZ;HAVUTCU;AVCI;GUNES;METIN;PANCU;CIHAN
+Besiktas vs. Denizlispor - Saturday February 12 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;KRATOCHVIL;CELIK;KECELI;ABRAHAM;GULPINAR;VAROL;BAYAZIT;RIZA;MARTIN
+Konyaspor vs. Samsunspor - Saturday February 12 - 2005,Konyaspor,hard,4-4-2,PETKOVIC;USTA;GUNDOSTU;CELIK;UGUR;KARTOP;ALBAYRAK;ERIS;AKAGUNDUZ;BIRYOL;TURKMEN
+Konyaspor vs. Samsunspor - Saturday February 12 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;SUME;PETKOV;YELEK;SEKER;GUNGOR;GHODHBANE;TUNA;SAGIR;ALTIN;IVANOV
+Rizespor vs. Galatasaray - Saturday February 12 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;HASPOLATLI;AKMAN;CONCEICAO;ATES;SUKUR
+Rizespor vs. Galatasaray - Saturday February 12 - 2005,Rizespor,hard,4-2-3-1,ZDRAVKOV;DUYMUS;EL TABEI;POLAT;ALPUGAN;TATAN;BAKI;ASKAROGLU;DEMIRAY;OZDEMIR;OZTURK
+Buyuksehir Belediyesi Ankaraspor vs. Genclerbirligi - Sunday February 13 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;BAHADIR;YAVAS;WEDERSON;BUYUK;YIGIT;SARP;MOLNAR;OZGUR;JABA;KARAN
+Buyuksehir Belediyesi Ankaraspor vs. Genclerbirligi - Sunday February 13 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;OZBEY;GULDUREN;MERCIMEK;TANDOGAN;SERAS;ABDELAZIZ;BIRLIK;YOULA;OZKAN
+Diyarbakirspor vs. Akcaabat Sebatspor - Sunday February 13 - 2005,Akcaabat Sebatspor,hard,4-4-2,OLGUN;GEZMIS;TEMIZKANOGLU;BESERLER;BAYRAKTAR;BOYRAZ;ERGIN;SIMSEK;KAYNAK;KINALI;OZER
+Diyarbakirspor vs. Akcaabat Sebatspor - Sunday February 13 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BECEREN;BOZACI;DEMIRCIOGLU;GUNEY;JUPI;YAGMUR;KALOGLU;YANIK
+Fenerbahce vs. Istanbulspor - Sunday February 13 - 2005,Fenerbahce,easy,4-4-2,RECBER;CETIN;LUCIANO;TURACI;OZAT;MEHMET AURELIO;ALEX;SANLI;AKIN;ANELKA;NOBRE
+Fenerbahce vs. Istanbulspor - Sunday February 13 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AKYUZ;AYHAN;VIDUSLU;KUS;BAYAR;ERCAN;ALEKSANDROV;YILDIRAN;MUSASA
+Sakaryaspor vs. Gaziantepspor - Sunday February 13 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;ZAN;GURACAR;COGUM;BOUAZIZI;GUNES;MACANGA;AYHAN;OZBAY;LAZAROV;JAZIRI
+Sakaryaspor vs. Gaziantepspor - Sunday February 13 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;SERT;IBIS;CALISAL;KOK;BASDAG;TORAMAN;CETIN;AKDIS;KABONGO;BEGECARSLAN
+Trabzonspor vs. Malatyaspor - Sunday February 13 - 2005,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;OZSOY;AYDIN;TOTH;SAIDOU;AKIN;ERDOGAN;BOLIC;OSTERC
+Trabzonspor vs. Malatyaspor - Sunday February 13 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;SEYHAN;D'HAENE;KOCAK;EREN;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Gaziantepspor vs. Besiktas - Friday February 18 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;ATAN;UZULMEZ;HAVUTCU;AVCI;YILDIRIM;GUNES;AHMED HASSAN;CAREW;CIHAN
+Gaziantepspor vs. Besiktas - Friday February 18 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;YURT;ZAN;GUNES;BOUAZIZI;MACANGA;AYHAN;OZBAY;EL TAIB;LAZAROV;JAZIRI
+Akcaabat Sebatspor vs. Ankaragucu - Saturday February 19 - 2005,Akcaabat Sebatspor,hard,4-4-2,OLGUN;GEZMIS;TEMIZKANOGLU;MKADMI;BESERLER;BOYRAZ;SIMSEK;ERGIN;BAYRAKTAR;OZER;KINALI
+Akcaabat Sebatspor vs. Ankaragucu - Saturday February 19 - 2005,Ankaragucu,hard,4-4-2,OZGULTEKIN;BAIDOO;DURSUN;ACAR;TASDEMIR;AKDENIZ;TURHAN;KOC;BULUT;AHINFUL;ISLER
+Denizlispor vs. Buyuksehir Belediyesi Ankaraspor - Saturday February 19 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;BAHADIR;YAVAS;WEDERSON;BUYUK;YIGIT;SARP;MOLNAR;OZGUR;JABA;KARAN
+Denizlispor vs. Buyuksehir Belediyesi Ankaraspor - Saturday February 19 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;KRATOCHVIL;CELIK;KECELI;ABRAHAM;ERTUGRUL;GULPINAR;VAROL;BAYAZIT;RIZA;MARTIN
+Galatasaray vs. Sakaryaspor - Saturday February 19 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UNSAL;SARIOGLU;UCAR;AKMAN;CONCEICAO;ATES;SUKUR
+Galatasaray vs. Sakaryaspor - Saturday February 19 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;UNAL;KOK;BASDAG;TORAMAN;SAKSAK;CEYLAN;MBAYO;AKDIS;CETIN
+Istanbulspor vs. Konyaspor - Saturday February 19 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;ANDRE BORGES;CAN;VIDUSLU;BAYAR;ERCAN;ALEKSANDROV;MUSASA;AKSU
+Istanbulspor vs. Konyaspor - Saturday February 19 - 2005,Konyaspor,hard,4-4-2,PETKOVIC;GUNDOSTU;USTA;CELIK;KARTOP;UGUR;ALBAYRAK;BALJIC;BIRYOL;AKAGUNDUZ;TURKMEN
+Fenerbahce vs. Kayserispor - Sunday February 20 - 2005,Fenerbahce,easy,4-5-1,RECBER;CETIN;TURACI;BARIS;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;ANELKA;NOBRE
+Fenerbahce vs. Kayserispor - Sunday February 20 - 2005,Kayserispor,hard,4-5-1,TUNC;BRABEC;TURAN;TEBER;YAVUZ;DUMAN;ARSLAN;KARACA;BOLUKBASI;TOPUZ;PESIR
+Genclerbirligi vs. Trabzonspor - Sunday February 20 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;TANDOGAN;SERAS;ABDELAZIZ;BORAL;ESER;OZKAN;YOULA
+Genclerbirligi vs. Trabzonspor - Sunday February 20 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;SEYHAN;D'HAENE;KOCAK;EREN;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Malatyaspor vs. Diyarbakirspor - Sunday February 20 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;DEMIRCIOGLU;ASIL;GUNEY;AKINCI;JUPI;KALOGLU;YAGMUR;YANIK
+Malatyaspor vs. Diyarbakirspor - Sunday February 20 - 2005,Malatyaspor,hard,4-4-2,KORK;ERDOGAN;OZSOY;SCHUMANN BAH;TOTH;AKIN;ERDOGAN;BENSOL;VAR;KARATAS;BOLIC
+Samsunspor vs. Rizespor - Sunday February 20 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;CAKMAK;EL TABEI;POLAT;TATAN;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Samsunspor vs. Rizespor - Sunday February 20 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;DOGANTEZ;PETKOV;SUME;SEKER;GUNGOR;YUCETAS;SAGIR;AYDIN;ALTIN;AYKUT
+Ankaragucu vs. Malatyaspor - Saturday February 26 - 2005,Ankaragucu,hard,4-4-2,USAK;BAIDOO;DURSUN;TASDEMIR;YILDIRIM;AKDENIZ;TURHAN;KOC;BULUT;AHINFUL;ISLER
+Ankaragucu vs. Malatyaspor - Saturday February 26 - 2005,Malatyaspor,hard,4-4-2,KORK;ERDOGAN;OZSOY;AYDIN;TOTH;SAIDOU;ERDOGAN;BENSOL;KISA;BOLIC;KARATAS
+Diyarbakirspor vs. Genclerbirligi - Saturday February 26 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BECEREN;DEMIRCIOGLU;AKINCI;JUPI;SAMATYALI;MARLON;YAGMUR;YANIK
+Diyarbakirspor vs. Genclerbirligi - Saturday February 26 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;GULDUREN;ASLANTAS;SERAS;SKOKO;BORAL;YOULA;OZKAN
+Rizespor vs. Istanbulspor - Saturday February 26 - 2005,Istanbulspor,hard,4-5-1,DAGLAROGLU;AKBAS;AYHAN;SUMER;ANDRE BORGES;CAN;VIDUSLU;KUS;BAYAR;ERCAN;ALEKSANDROV
+Rizespor vs. Istanbulspor - Saturday February 26 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;CAKMAK;CAGIRAN;POLAT;VICTORIA;ALPUGAN;BAKI;OZDEMIR;DEMIRAY;SOZKESEN;OZTURK
+Samsunspor vs. Galatasaray - Saturday February 26 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;HASPOLATLI;CONCEICAO;ARSLAN;RIBERY;SAS;ATES;SUKUR
+Samsunspor vs. Galatasaray - Saturday February 26 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;PETKOV;SUME;YELEK;SEKER;GUNGOR;KIRITA;GHODHBANE;SAGIR;ALTIN;AYKUT
+Besiktas vs. Sakaryaspor - Sunday February 27 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;RONALDO GUIARO;ATAN;UZULMEZ;HAVUTCU;AVCI;GUNES;METIN;CAREW;CIHAN
+Besiktas vs. Sakaryaspor - Sunday February 27 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;AK;KOK;TORAMAN;BASDAG;SAKSAK;CEYLAN;MBAYO;AKDIS;BEGECARSLAN
+Buyuksehir Belediyesi Ankaraspor vs. Gaziantepspor - Sunday February 27 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;BAHADIR;YAVAS;WEDERSON;YIGIT;MOLNAR;GUCER;AYDIN;TITA;JABA;KARAN
+Buyuksehir Belediyesi Ankaraspor vs. Gaziantepspor - Sunday February 27 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;YURT;ZAN;GUNES;AGCAY;BOUAZIZI;AYHAN;OZBAY;EL TAIB;LAZAROV;JAZIRI
+Fenerbahce vs. Akcaabat Sebatspor - Sunday February 27 - 2005,Akcaabat Sebatspor,hard,4-4-2,OLGUN;OZDIN;TEMIZKANOGLU;GEZMIS;EKSIOGLU;MKADMI;BOYRAZ;TOYSAL;SIMSEK;OZER;KINALI
+Fenerbahce vs. Akcaabat Sebatspor - Sunday February 27 - 2005,Fenerbahce,easy,4-5-1,RECBER;CETIN;LUCIANO;BARIS;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;NOBRE;ANELKA
+Konyaspor vs. Kayserispor - Sunday February 27 - 2005,Kayserispor,hard,4-5-1,AKTAS;TURAN;BRABEC;TEBER;DUMAN;YAVUZ;KARACA;JOHNSON;BOLUKBASI;TOPUZ;PESIR
+Konyaspor vs. Kayserispor - Sunday February 27 - 2005,Konyaspor,hard,4-4-2,ONGUN;USTA;AKICI;CELIK;UGUR;KARTOP;ALBAYRAK;ERIS;BALJIC;AKAGUNDUZ;TURKMEN
+Trabzonspor vs. Denizlispor - Sunday February 27 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;KRATOCHVIL;CELIK;KECELI;GULPINAR;ABRAHAM;VAROL;BAYAZIT;RIZA;MARTIN
+Trabzonspor vs. Denizlispor - Sunday February 27 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;SEYHAN;YAVUZ;BAYER;KOCAK;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Galatasaray vs. Besiktas - Saturday March 5 - 2005,Besiktas,easy,4-4-2,CORDOBA;ATAN;RONALDO GUIARO;TORAMAN;UZULMEZ;AVCI;HAVUTCU;GUNES;METIN;CIHAN;PANCU
+Galatasaray vs. Besiktas - Saturday March 5 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;HASPOLATLI;AKMAN;CONCEICAO;RIBERY;ATES;SUKUR
+Genclerbirligi vs. Ankaragucu - Saturday March 5 - 2005,Ankaragucu,hard,4-4-2,OZGULTEKIN;BAIDOO;DURSUN;ZENGUE;TASDEMIR;YILDIRIM;TURHAN;KOC;BULUT;AHINFUL;ISLER
+Genclerbirligi vs. Ankaragucu - Saturday March 5 - 2005,Genclerbirligi,hard,4-5-1,CATKIC;BOZKURT;EL SAKA;OZBEY;GULDUREN;TANDOGAN;ASLANTAS;SERAS;SKOKO;BORAL;OZKAN
+Istanbulspor vs. Samsunspor - Saturday March 5 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;ANDRE BORGES;CAN;VIDUSLU;KUS;BAYAR;ERCAN;ALEKSANDROV;MUSASA
+Istanbulspor vs. Samsunspor - Saturday March 5 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;PETKOV;YELEK;SUME;SEKER;GUNGOR;KIRITA;GHODHBANE;SAGIR;AYKUT;ALTIN
+Sakaryaspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday March 5 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;BAHADIR;YAVAS;WEDERSON;YIGIT;MOLNAR;GUCER;OZGUR;TITA;JABA;KARAN
+Sakaryaspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday March 5 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;AK;IBIS;KOK;BASDAG;TORAMAN;SAKSAK;CEYLAN;MBAYO;AKDIS;BEGECARSLAN
+Akcaabat Sebatspor vs. Konyaspor - Sunday March 6 - 2005,Akcaabat Sebatspor,hard,4-4-2,OLGUN;GEZMIS;TEMIZKANOGLU;EKSIOGLU;BESERLER;BOYRAZ;BAYRAKTAR;TOYSAL;SIMSEK;KAYNAK;KINALI
+Akcaabat Sebatspor vs. Konyaspor - Sunday March 6 - 2005,Konyaspor,hard,4-4-2,ONGUN;USTA;GUNDOSTU;CELIK;UGUR;KARTOP;ALBAYRAK;AKSOY;ERIS;AKAGUNDUZ;BIRYOL
+Denizlispor vs. Diyarbakirspor - Sunday March 6 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;HORAK;KECELI;ERTUGRUL;ABRAHAM;EGEDIK;VAROL;BAYAZIT;RIZA;MARTIN
+Denizlispor vs. Diyarbakirspor - Sunday March 6 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BECEREN;BOZACI;DEMIRCIOGLU;GUNEY;JUPI;ALTUN;YANIK;KALOGLU
+Gaziantepspor vs. Trabzonspor - Sunday March 6 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;ZAN;DURMAZ;BOUAZIZI;AGCAY;AYHAN;OZBAY;EL TAIB;NAMLI;LAZAROV;JAZIRI
+Gaziantepspor vs. Trabzonspor - Sunday March 6 - 2005,Trabzonspor,easy,4-4-2,PETKOVIC;SEYHAN;BAYER;D'HAENE;BEKIROGLU;KOCAK;KOCAK;SZYMKOWIAK;KARADENIZ;YATTARA;TEKKE
+Kayserispor vs. Rizespor - Sunday March 6 - 2005,Kayserispor,hard,4-4-2,AKTAS;TURAN;BRABEC;DAMLA;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;PESIR;BALILI
+Kayserispor vs. Rizespor - Sunday March 6 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;CAKMAK;EL TABEI;POLAT;DUYMUS;VICTORIA;TATAN;ALPUGAN;BAKI;DEMIRAY;OZTURK
+Malatyaspor vs. Fenerbahce - Sunday March 6 - 2005,Fenerbahce,easy,4-5-1,RECBER;BARIS;CETIN;LUCIANO;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;ANELKA;NOBRE
+Malatyaspor vs. Fenerbahce - Sunday March 6 - 2005,Malatyaspor,hard,4-4-2,TUNCAY;ERDOGAN;KORKMAZ;AYDIN;SOYLER;TOTH;AKIN;ERDOGAN;BENSOL;BOLIC;KARATAS
+Besiktas vs. Genclerbirligi - Wednesday March 9 - 2005,Besiktas,easy,4-4-2,CORDOBA;RONALDO GUIARO;TORAMAN;HAVUTCU;AVCI;YILDIRIM;METIN;AHMED HASSAN;CAREW;PANCU;DURSUN
+Besiktas vs. Genclerbirligi - Wednesday March 9 - 2005,Genclerbirligi,hard,4-5-1,TOKGOZ;BOZKURT;OZBEY;EL SAKA;ASLANTAS;ABDELAZIZ;SERAS;SKOKO;BORAL;YOULA;OZKAN
+Istanbulspor vs. Ankaragucu - Wednesday March 9 - 2005,Ankaragucu,hard,4-4-2,USAK;EL DESOUKI;EVREN;FLAVIO;TASDEMIR;AKDENIZ;TURHAN;DOGAN;BULUT;AHINFUL;ISLER
+Istanbulspor vs. Ankaragucu - Wednesday March 9 - 2005,Istanbulspor,hard,4-5-1,DAGLAROGLU;AKYUZ;SUMER;AKBAS;ANDRE BORGES;CAN;VIDUSLU;KUS;ERCAN;ALEKSANDROV;MUSASA
+Ankaragucu vs. Denizlispor - Saturday March 12 - 2005,Ankaragucu,hard,4-4-2,USAK;BAIDOO;DURSUN;EVREN;TASDEMIR;AKDENIZ;DOGAN;KOC;BULUT;ISLER;AHINFUL
+Ankaragucu vs. Denizlispor - Saturday March 12 - 2005,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;CELIK;KECELI;TURKMEHMET;ABRAHAM;ERTUGRUL;EGEDIK;VAROL;MULTAHARJU;RIZA
+Istanbulspor vs. Galatasaray - Saturday March 12 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;HASPOLATLI;AKMAN;CONCEICAO;RIBERY;KABZE;SUKUR
+Istanbulspor vs. Galatasaray - Saturday March 12 - 2005,Istanbulspor,hard,4-4-2,BOLUKBASI;AKBAS;AKYUZ;AYHAN;SUMER;CAN;BAYAR;ERCAN;ALEKSANDROV;MUSASA;YILDIRAN
+Konyaspor vs. Malatyaspor - Saturday March 12 - 2005,Konyaspor,hard,4-4-2,ONGUN;USTA;GUNDOSTU;CELIK;KARTOP;UGUR;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;TURKMEN
+Konyaspor vs. Malatyaspor - Saturday March 12 - 2005,Malatyaspor,hard,4-4-2,KORK;ERDOGAN;OZSOY;KORKMAZ;BUDAK;SAIDOU;TOTH;AKIN;ERDOGAN;BOLIC;OSTERC
+Trabzonspor vs. Sakaryaspor - Saturday March 12 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;AK;KOK;BASDAG;TORAMAN;SAKSAK;CEYLAN;MBAYO;MAKASI;BEGECARSLAN
+Trabzonspor vs. Sakaryaspor - Saturday March 12 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;SEYHAN;CORA;BAYER;KOCAK;CIMSIR;SZYMKOWIAK;KOCAK;LEE;YATTARA;TEKKE
+Buyuksehir Belediyesi Ankaraspor vs. Besiktas - Sunday March 13 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;ATAN;UZULMEZ;AVCI;HAVUTCU;GUNES;METIN;AHMED HASSAN;AKIN;DURSUN
+Buyuksehir Belediyesi Ankaraspor vs. Besiktas - Sunday March 13 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;BAHADIR;YAVAS;WEDERSON;YIGIT;BUYUK;MOLNAR;GUCER;OZGUR;TITA;JABA
+Diyarbakirspor vs. Gaziantepspor - Sunday March 13 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;DEMIRCIOGLU;AKINCI;SULUN;SAMATYALI;KALOGLU;ALTUN;YANIK
+Diyarbakirspor vs. Gaziantepspor - Sunday March 13 - 2005,Gaziantepspor,hard,4-5-1,HASAGIC;SARIHAN;DURMAZ;BOUAZIZI;GUNES;AGCAY;AYHAN;OZBAY;EL TAIB;NAMLI;JAZIRI
+Fenerbahce vs. Genclerbirligi - Sunday March 13 - 2005,Fenerbahce,easy,4-5-1,RECBER;BARIS;CETIN;LUCIANO;OZAT;BALCI;MEHMET AURELIO;ALEX;YOZGATLI;ANELKA;NOBRE
+Fenerbahce vs. Genclerbirligi - Sunday March 13 - 2005,Genclerbirligi,hard,4-5-1,CATKIC;BOZKURT;EL SAKA;OZBEY;ASLANTAS;ABDELAZIZ;SERAS;SKOKO;BORAL;YOULA;OZKAN
+Rizespor vs. Akcaabat Sebatspor - Sunday March 13 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;MILOSEVSKI;OZDIN;GEZMIS;TEMIZKANOGLU;BESERLER;BAYRAKTAR;TOYSAL;SIMSEK;KINALI;OZER
+Rizespor vs. Akcaabat Sebatspor - Sunday March 13 - 2005,Rizespor,hard,4-4-2,KOCA;DUYMUS;POLAT;EL TABEI;VICTORIA;AZER;TATAN;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Samsunspor vs. Kayserispor - Sunday March 13 - 2005,Kayserispor,hard,4-5-1,AKTAS;TURAN;BRABEC;TEBER;YAVUZ;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;PESIR
+Samsunspor vs. Kayserispor - Sunday March 13 - 2005,Samsunspor,hard,4-4-2,INAN;PETKOV;SUME;YELEK;SEKER;GUNGOR;KIRITA;GHODHBANE;SAGIR;AYKUT;IVANOV
+Denizlispor vs. Fenerbahce - Friday March 18 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;CELIK;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;RIZA;MARTIN
+Denizlispor vs. Fenerbahce - Friday March 18 - 2005,Fenerbahce,easy,4-5-1,RECBER;CETIN;TURACI;LUCIANO;OZAT;MEHMET AURELIO;ASLAN;ALEX;YOZGATLI;ANELKA;NOBRE
+Besiktas vs. Trabzonspor - Saturday March 19 - 2005,Besiktas,easy,4-4-2,CORDOBA;DOGAN;TORAMAN;UZULMEZ;HAVUTCU;AVCI;GUNES;AHMED HASSAN;METIN;AKIN;DURSUN
+Besiktas vs. Trabzonspor - Saturday March 19 - 2005,Trabzonspor,easy,4-5-1,PETKOVIC;SEYHAN;D'HAENE;CORA;KOCAK;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Gaziantepspor vs. Ankaragucu - Saturday March 19 - 2005,Ankaragucu,hard,4-4-2,USAK;DURSUN;EVREN;TASDEMIR;YILDIRIM;AKDENIZ;TURHAN;KOC;BULUT;AHINFUL;ISLER
+Gaziantepspor vs. Ankaragucu - Saturday March 19 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;ZAN;DURMAZ;GUNES;BOUAZIZI;AGCAY;AYHAN;OZBAY;EL TAIB;NAMLI;LAZAROV
+Kayserispor vs. Istanbulspor - Saturday March 19 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;SUMER;CAN;VIDUSLU;KUS;BAYAR;ERCAN;ALEKSANDROV;MUSASA
+Kayserispor vs. Istanbulspor - Saturday March 19 - 2005,Kayserispor,hard,4-4-2,AKTAS;TURAN;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;PESIR;BALILI
+Malatyaspor vs. Rizespor - Saturday March 19 - 2005,Malatyaspor,hard,4-4-2,KORK;OZSOY;KORKMAZ;BUDAK;AYDIN;SAIDOU;TOTH;ERDOGAN;BASARAN;BOLIC;OSTERC
+Malatyaspor vs. Rizespor - Saturday March 19 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;POLAT;DUYMUS;VICTORIA;TATAN;BAKI;ASKAROGLU;OZDEMIR;DEMIRAY;OZTURK
+Akcaabat Sebatspor vs. Samsunspor - Sunday March 20 - 2005,Akcaabat Sebatspor,hard,4-5-1,DOMINGOS;MILOSEVSKI;GEZMIS;TEMIZKANOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;SIMSEK;KANDIL;OZER
+Akcaabat Sebatspor vs. Samsunspor - Sunday March 20 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;PETKOV;YELEK;SUME;SEKER;KIRITA;GHODHBANE;SAGIR;ALTIN;AYKUT;IVANOV
+Galatasaray vs. Buyuksehir Belediyesi Ankaraspor - Sunday March 20 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;YAVAS;BAHADIR;WEDERSON;YIGIT;BUYUK;AYDIN;GUCER;SARP;OZGUR;TITA
+Galatasaray vs. Buyuksehir Belediyesi Ankaraspor - Sunday March 20 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;KORKMAZ;TOMAS;PENBE;HASPOLATLI;CONCEICAO;AKMAN;RIBERY;SAS;ATES;SUKUR
+Genclerbirligi vs. Konyaspor - Sunday March 20 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;OZBEY;GULDUREN;ASLANTAS;ABDELAZIZ;SERAS;SKOKO;BORAL;YOULA;OZKAN
+Genclerbirligi vs. Konyaspor - Sunday March 20 - 2005,Konyaspor,hard,4-4-2,ONGUN;USTA;GUNDOSTU;CELIK;UGUR;KARTOP;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;TURKMEN
+Sakaryaspor vs. Diyarbakirspor - Sunday March 20 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BECEREN;BOZACI;DEMIRCIOGLU;AKINCI;SAMATYALI;KALOGLU;ALTUN;YANIK
+Sakaryaspor vs. Diyarbakirspor - Sunday March 20 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;SERT;IBIS;KOK;BASDAG;TORAMAN;SAKSAK;CETIN;AKDIS;MAKASI;KABONGO
+Ankaragucu vs. Sakaryaspor - Saturday April 2 - 2005,Ankaragucu,hard,4-4-2,USAK;KUTLU;BAIDOO;DURSUN;ZENGUE;AKDENIZ;NAMDAR;TURHAN;BULUT;ISLER;AHINFUL
+Ankaragucu vs. Sakaryaspor - Saturday April 2 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;SERT;IBIS;KOK;TORAMAN;BASDAG;SAKSAK;MAKASI;AKDIS;KABONGO;CETIN
+Fenerbahce vs. Gaziantepspor - Saturday April 2 - 2005,Fenerbahce,easy,4-5-1,RECBER;BARIS;TURACI;OZAT;MEHMET AURELIO;SAHIN;ASLAN;ALEX;AKIN;YOZGATLI;ANELKA
+Fenerbahce vs. Gaziantepspor - Saturday April 2 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;ZAN;DURMAZ;MACANGA;AGCAY;GUNES;BOUAZIZI;AYHAN;OZBAY;NAMLI;LAZAROV
+Istanbulspor vs. Akcaabat Sebatspor - Saturday April 2 - 2005,Akcaabat Sebatspor,hard,4-5-1,DOMINGOS;MILOSEVSKI;GEZMIS;TEMIZKANOGLU;BESERLER;BOYRAZ;BAYRAKTAR;TOYSAL;SIMSEK;KANDIL;OZER
+Istanbulspor vs. Akcaabat Sebatspor - Saturday April 2 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKYUZ;AKBAS;CAN;VIDUSLU;KUS;ERCAN;BAYAR;ALEKSANDROV;MUSASA
+Rizespor vs. Genclerbirligi - Saturday April 2 - 2005,Genclerbirligi,hard,4-5-1,CATKIC;BOZKURT;EL SAKA;OZBEY;GULDUREN;SERAS;ABDELAZIZ;SKOKO;BORAL;YOULA;OZKAN
+Rizespor vs. Genclerbirligi - Saturday April 2 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;POLAT;DUYMUS;VICTORIA;TATAN;ALPUGAN;BAKI;OZDEMIR;SOZKESEN;OZTURK
+Diyarbakirspor vs. Besiktas - Sunday April 3 - 2005,Besiktas,easy,4-4-2,CORDOBA;RONALDO GUIARO;TORAMAN;HAVUTCU;YILDIRIM;GUNES;AHMED HASSAN;METIN;AKIN;CAREW;DURSUN
+Diyarbakirspor vs. Besiktas - Sunday April 3 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;STAVREVSKI;BECEREN;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;SAMATYALI;ALTUN;YANIK;MARLON
+Kayserispor vs. Galatasaray - Sunday April 3 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;KORKMAZ;TOMAS;HASPOLATLI;CONCEICAO;AKMAN;RIBERY;SAS;ATES;SUKUR
+Kayserispor vs. Galatasaray - Sunday April 3 - 2005,Kayserispor,hard,4-5-1,AKTAS;BRABEC;TEBER;CAN;JOHNSON;MICHALIK;KARACA;ARSLAN;BOLUKBASI;TOPUZ;PESIR
+Konyaspor vs. Denizlispor - Sunday April 3 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;CELIK;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;MARTIN;YILDIZ
+Konyaspor vs. Denizlispor - Sunday April 3 - 2005,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;USTA;CELIK;UGUR;KARTOP;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;TURKMEN
+Samsunspor vs. Malatyaspor - Sunday April 3 - 2005,Malatyaspor,hard,4-4-2,KORK;OZSOY;KORKMAZ;BUDAK;SCHUMANN BAH;AYDIN;TOTH;SAIDOU;ERDOGAN;BOLIC;OSTERC
+Samsunspor vs. Malatyaspor - Sunday April 3 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;SUME;PETKOV;YELEK;SEKER;GUNGOR;GHODHBANE;SAGIR;AYDIN;IVANOV;AYKUT
+Trabzonspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday April 3 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;TUNC;YAVAS;WEDERSON;YALCINKAYA;BUYUK;GUCER;AYDIN;OZGUR;TITA;KARAN
+Trabzonspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday April 3 - 2005,Trabzonspor,easy,4-5-1,PETKOVIC;SEYHAN;YAVUZ;CORA;KOCAK;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Besiktas vs. Ankaragucu - Friday April 8 - 2005,Ankaragucu,hard,4-3-1-2,OZGULTEKIN;KUTLU;BAIDOO;EVREN;TASDEMIR;YILDIRIM;AKDENIZ;NAMDAR;TURHAN;BULUT;ISLER
+Besiktas vs. Ankaragucu - Friday April 8 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;RONALDO GUIARO;ATAN;HAVUTCU;GUNES;YALCIN;AHMED HASSAN;AKIN;CAREW;DURSUN
+Akcaabat Sebatspor vs. Kayserispor - Saturday April 9 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;OLGUN;GEZMIS;TEMIZKANOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;SIMSEK;KINALI;OZER
+Akcaabat Sebatspor vs. Kayserispor - Saturday April 9 - 2005,Kayserispor,hard,4-4-2,AKTAS;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;ARSLAN;BOLUKBASI;TOPUZ;UNAL;PESIR
+Buyuksehir Belediyesi Ankaraspor vs. Diyarbakirspor - Saturday April 9 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;BARIS;TUNC;WEDERSON;YIGIT;BUYUK;AYDIN;SARP;GUCER;OZGUR;JABA
+Buyuksehir Belediyesi Ankaraspor vs. Diyarbakirspor - Saturday April 9 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;TOPRAK;AKINCI;JUPI;SAMATYALI;MARLON;KALOGLU;YANIK
+Malatyaspor vs. Istanbulspor - Saturday April 9 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKBAS;AYHAN;AKYUZ;SUMER;CAN;VIDUSLU;KUS;ERCAN;ALEKSANDROV;MUSASA
+Malatyaspor vs. Istanbulspor - Saturday April 9 - 2005,Malatyaspor,hard,4-4-2,KORK;OZSOY;KORKMAZ;BUDAK;SCHUMANN BAH;AYDIN;TOTH;SAIDOU;ERDOGAN;BOLIC;OSTERC
+Sakaryaspor vs. Fenerbahce - Saturday April 9 - 2005,Fenerbahce,easy,4-4-2,RECBER;LUCIANO;BARIS;OZAT;BALCI;MEHMET AURELIO;ASLAN;SANLI;YOZGATLI;ANELKA;NOBRE
+Sakaryaspor vs. Fenerbahce - Saturday April 9 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;AK;KOK;TORAMAN;BASDAG;SAKSAK;CETIN;MAKASI;AKDIS;KABONGO
+Denizlispor vs. Rizespor - Sunday April 10 - 2005,Denizlispor,hard,4-4-2,HAMIDOU;OZSARAC;TURKMEHMET;GULPINAR;ABRAHAM;ERTUGRUL;VAROL;MULTAHARJU;BAYAZIT;RIZA;MARTIN
+Denizlispor vs. Rizespor - Sunday April 10 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;DUYMUS;VICTORIA;AZER;TATAN;ALPUGAN;BAKI;OZDEMIR;FERENCZI;OZTURK
+Galatasaray vs. Trabzonspor - Sunday April 10 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;HASPOLATLI;AKMAN;CONCEICAO;RIBERY;SUKUR;ATES
+Galatasaray vs. Trabzonspor - Sunday April 10 - 2005,Trabzonspor,easy,4-4-2,PETKOVIC;SEYHAN;YAVUZ;KOCAK;EREN;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;YATTARA;TEKKE
+Gaziantepspor vs. Konyaspor - Sunday April 10 - 2005,Gaziantepspor,hard,4-5-1,HASAGIC;YURT;ZAN;DURMAZ;BOUAZIZI;GUNES;AGCAY;AYHAN;NAMLI;LAZAROV;GULEC
+Gaziantepspor vs. Konyaspor - Sunday April 10 - 2005,Konyaspor,hard,4-4-2,ONGUN;CELIK;DEMIR;UGUR;KARTOP;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;TURKMEN;BIRYOL
+Genclerbirligi vs. Samsunspor - Sunday April 10 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;TANDOGAN;ABDELAZIZ;SKOKO;BORAL;BIRLIK;YOULA;OZKAN
+Genclerbirligi vs. Samsunspor - Sunday April 10 - 2005,Samsunspor,hard,4-5-1,SHORUNMU;SUME;PETKOV;UNAL;YELEK;AYARI;SEKER;YUCETAS;SAGIR;AYDIN;IVANOV
+Diyarbakirspor vs. Trabzonspor - Friday April 15 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;TOPRAK;DEMIRCIOGLU;AKINCI;JUPI;SAMATYALI;KALOGLU;YANIK
+Diyarbakirspor vs. Trabzonspor - Friday April 15 - 2005,Trabzonspor,easy,4-4-2,PETKOVIC;D'HAENE;SEYHAN;KOCAK;EREN;CIMSIR;SZYMKOWIAK;LEE;KARADENIZ;TEKKE;YILMAZ
+Akcaabat Sebatspor vs. Galatasaray - Saturday April 16 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;OLGUN;GEZMIS;TEMIZKANOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;SIMSEK;KINALI;OZER
+Akcaabat Sebatspor vs. Galatasaray - Saturday April 16 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;HASPOLATLI;AKMAN;CONCEICAO;ATES;SUKUR
+Kayserispor vs. Malatyaspor - Saturday April 16 - 2005,Kayserispor,hard,4-4-2,AKTAS;BRABEC;TEBER;DUMAN;YAVUZ;CAN;ARSLAN;JOHNSON;BOLUKBASI;PESIR;UNAL
+Kayserispor vs. Malatyaspor - Saturday April 16 - 2005,Malatyaspor,hard,4-4-2,KORK;KORKMAZ;OZSOY;BUDAK;SCHUMANN BAH;AYDIN;TOTH;SAIDOU;ERDOGAN;KARATAS;OSTERC
+Konyaspor vs. Sakaryaspor - Saturday April 16 - 2005,Konyaspor,hard,4-5-1,ONGUN;CELIK;UGUR;DEMIR;KARTOP;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;BIRYOL;TURKMEN
+Konyaspor vs. Sakaryaspor - Saturday April 16 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;AK;KOK;TORAMAN;BASDAG;SAKSAK;CEYLAN;MBAYO;AKDIS;BEGECARSLAN
+Samsunspor vs. Denizlispor - Saturday April 16 - 2005,Denizlispor,hard,4-5-1,KUCUK;OZSARAC;KRATOCHVIL;CELIK;TURKMEHMET;EGEDIK;ERTUGRUL;VAROL;MULTAHARJU;BAYAZIT;MARTIN
+Samsunspor vs. Denizlispor - Saturday April 16 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;SUME;PETKOV;YELEK;SEKER;YUCETAS;GHODHBANE;SAGIR;AYDIN;AYKUT;IVANOV
+Ankaragucu vs. Buyuksehir Belediyesi Ankaraspor - Sunday April 17 - 2005,Ankaragucu,hard,4-4-2,USAK;BAIDOO;ZENGUE;TASDEMIR;YILDIRIM;AKDENIZ;NAMDAR;TURHAN;ISLER;BULUT;AHINFUL
+Ankaragucu vs. Buyuksehir Belediyesi Ankaraspor - Sunday April 17 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;YAVAS;BAHADIR;WEDERSON;BUYUK;YIGIT;AYDIN;GUCER;KOPRULU;OZGUR;JABA
+Fenerbahce vs. Besiktas - Sunday April 17 - 2005,Besiktas,easy,4-4-2,CORDOBA;DOGAN;RONALDO GUIARO;TORAMAN;HAVUTCU;AVCI;GUNES;AHMED HASSAN;METIN;CAREW;DURSUN
+Fenerbahce vs. Besiktas - Sunday April 17 - 2005,Fenerbahce,easy,4-5-1,RECBER;LUCIANO;TURACI;BARIS;OZAT;MEHMET AURELIO;SAHIN;ALEX;SANLI;NOBRE;ANELKA
+Istanbulspor vs. Genclerbirligi - Sunday April 17 - 2005,Genclerbirligi,hard,4-5-1,CATKIC;BOZKURT;EL SAKA;OZBEY;ABDELAZIZ;SERAS;SKOKO;NAS;BORAL;OZKAN;ESER
+Istanbulspor vs. Genclerbirligi - Sunday April 17 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AYHAN;AKBAS;AKYUZ;CAN;VIDUSLU;KUS;ERCAN;BAYAR;ALEKSANDROV;MUSASA
+Rizespor vs. Gaziantepspor - Sunday April 17 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;YURT;ZAN;DURMAZ;BOUAZIZI;GUNES;AGCAY;AYHAN;EL TAIB;NAMLI;JAZIRI
+Rizespor vs. Gaziantepspor - Sunday April 17 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;EL TABEI;POLAT;DUYMUS;VICTORIA;AZER;TATAN;BAKI;OZDEMIR;FERENCZI;OZTURK
+Besiktas vs. Konyaspor - Saturday April 23 - 2005,Besiktas,easy,4-4-2,SAHIN;RONALDO GUIARO;TORAMAN;DOGAN;AVCI;HAVUTCU;METIN;AHMED HASSAN;AKIN;CAREW;PANCU
+Besiktas vs. Konyaspor - Saturday April 23 - 2005,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;UGUR;DEMIR;KARTOP;CAMARA;ALBAYRAK;BALJIC;BIRYOL;TURKMEN
+Gaziantepspor vs. Samsunspor - Saturday April 23 - 2005,Gaziantepspor,hard,4-4-2,HASAGIC;COGUM;ZAN;YURT;DURMAZ;BOUAZIZI;AYHAN;NAMLI;EL TAIB;LAZAROV;JAZIRI
+Gaziantepspor vs. Samsunspor - Saturday April 23 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;DOGANTEZ;PETKOV;YELEK;SEKER;GUNGOR;GHODHBANE;SAGIR;ALTIN;IVANOV;AYKUT
+Genclerbirligi vs. Kayserispor - Saturday April 23 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;GULDUREN;GUVEN;ABDELAZIZ;SKOKO;NAS;YOULA;OZKAN
+Genclerbirligi vs. Kayserispor - Saturday April 23 - 2005,Kayserispor,hard,4-4-2,AKTAS;TURAN;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;YAVAS;BALILI
+Malatyaspor vs. Akcaabat Sebatspor - Saturday April 23 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;MILOSEVSKI;OZDIN;EKSIOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;KANDIL;KAYNAK;KINALI
+Malatyaspor vs. Akcaabat Sebatspor - Saturday April 23 - 2005,Malatyaspor,hard,4-4-2,KORK;OZSOY;KORKMAZ;BUDAK;TUGCU;SCHUMANN BAH;SAIDOU;ERDOGAN;VAR;KARATAS;OSTERC
+Buyuksehir Belediyesi Ankaraspor vs. Fenerbahce - Sunday April 24 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;TUNC;YAVAS;WEDERSON;YIGIT;BUYUK;AYDIN;SARP;OZGUR;JABA;KARAN
+Buyuksehir Belediyesi Ankaraspor vs. Fenerbahce - Sunday April 24 - 2005,Fenerbahce,easy,4-5-1,RECBER;BARIS;TURACI;ERDOGDU;BALCI;MEHMET AURELIO;SAHIN;ALEX;SANLI;ANELKA;NOBRE
+Denizlispor vs. Istanbulspor - Sunday April 24 - 2005,Denizlispor,hard,4-4-2,KUCUK;KRATOCHVIL;CELIK;TURKMEHMET;GULPINAR;ERTUGRUL;EGEDIK;VAROL;BAYAZIT;KUCUKVARDAR;MARTIN
+Denizlispor vs. Istanbulspor - Sunday April 24 - 2005,Istanbulspor,hard,4-5-1,DAGLAROGLU;AKBAS;AYHAN;AKYUZ;CAN;VIDUSLU;KOCABAL;KUS;BAYAR;ERCAN;MUSASA
+Galatasaray vs. Diyarbakirspor - Sunday April 24 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;BECEREN;BOZACI;STAVREVSKI;DEMIRCIOGLU;AKINCI;SULUN;SAMATYALI;KALOGLU;YANIK
+Galatasaray vs. Diyarbakirspor - Sunday April 24 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;HASPOLATLI;AKMAN;CONCEICAO;RIBERY;ATES;SUKUR
+Sakaryaspor vs. Rizespor - Sunday April 24 - 2005,Rizespor,hard,4-5-1,ZDRAVKOV;CAKMAK;EL TABEI;POLAT;DUYMUS;TATAN;ALPUGAN;ASKAROGLU;OZDEMIR;DEMIRAY;OZTURK
+Sakaryaspor vs. Rizespor - Sunday April 24 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;UNAL;IBIS;KOK;TORAMAN;BASDAG;SAKSAK;CEYLAN;MBAYO;MAKASI;AKDIS
+Trabzonspor vs. Ankaragucu - Sunday April 24 - 2005,Ankaragucu,hard,3-5-2,OZGULTEKIN;KUTLU;GUNGOR;ZENGUE;EVREN;TASDEMIR;YILDIRIM;DOGAN;TURHAN;BULUT;AHINFUL
+Trabzonspor vs. Ankaragucu - Sunday April 24 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;YAVUZ;SEYHAN;KOCAK;BEKIROGLU;EREN;CIMSIR;KOCAK;SZYMKOWIAK;YATTARA;TEKKE
+Istanbulspor vs. Gaziantepspor - Friday April 29 - 2005,Gaziantepspor,hard,4-4-2,TARAKCI;ZAN;COGUM;DURMAZ;GUNES;BOUAZIZI;AYHAN;EL TAIB;NAMLI;LAZAROV;JAZIRI
+Istanbulspor vs. Gaziantepspor - Friday April 29 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;OKECHUKWU;AYHAN;CAN;VIDUSLU;KOCABAL;KUS;ERCAN;BAYAR;ALEKSANDROV;KARAMAN
+Rizespor vs. Besiktas - Friday April 29 - 2005,Besiktas,easy,3-4-1-2,SAHIN;RONALDO GUIARO;ATAN;DOGAN;HAVUTCU;AVCI;AHMED HASSAN;METIN;AKIN;CAREW;PANCU
+Rizespor vs. Besiktas - Friday April 29 - 2005,Rizespor,hard,4-4-2,ZDRAVKOV;CAKMAK;EL TABEI;POLAT;VICTORIA;TATAN;ALPUGAN;ASKAROGLU;OZDEMIR;DEMIRAY;OZTURK
+Akcaabat Sebatspor vs. Genclerbirligi - Saturday April 30 - 2005,Akcaabat Sebatspor,hard,4-5-1,DOMINGOS;KURTULDU;OZDIN;GEZMIS;TEMIZKANOGLU;BAYRAKTAR;BOYRAZ;TOYSAL;SIMSEK;KANDIL;KAYNAK
+Akcaabat Sebatspor vs. Genclerbirligi - Saturday April 30 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;MERCIMEK;GULDUREN;OZBEY;EL SAKA;GUVEN;ABDELAZIZ;SERAS;GTARI;YOULA;ESER
+Ankaragucu vs. Diyarbakirspor - Saturday April 30 - 2005,Ankaragucu,hard,4-4-2,USAK;KUTLU;BAIDOO;GUNGOR;ZENGUE;EVREN;YILDIRIM;NAMDAR;TURHAN;BULUT;ISLER
+Ankaragucu vs. Diyarbakirspor - Saturday April 30 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;BECEREN;AKINCI;JUPI;SAMATYALI;UYSAL;YANIK;KALOGLU
+Fenerbahce vs. Trabzonspor - Saturday April 30 - 2005,Fenerbahce,easy,4-2-3-1,RECBER;LUCIANO;TURACI;BARIS;BALCI;MEHMET AURELIO;SAHIN;ALEX;SANLI;NOBRE;ANELKA
+Fenerbahce vs. Trabzonspor - Saturday April 30 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;SEYHAN;YAVUZ;BEKIROGLU;KOCAK;EREN;CIMSIR;SZYMKOWIAK;KOCAK;KARADENIZ;TEKKE
+Kayserispor vs. Denizlispor - Saturday April 30 - 2005,Denizlispor,hard,4-5-1,KUCUK;CELIK;KRATOCHVIL;OZSARAC;GULPINAR;ERTUGRUL;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;ALKAN
+Kayserispor vs. Denizlispor - Saturday April 30 - 2005,Kayserispor,hard,4-4-2,AKTAS;TURAN;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;BALILI;PESIR
+Samsunspor vs. Sakaryaspor - Saturday April 30 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;IBIS;UNAL;KOK;BASDAG;TORAMAN;SAKSAK;MBAYO;AKDIS;MAKASI;KABONGO
+Samsunspor vs. Sakaryaspor - Saturday April 30 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;DOGANTEZ;PETKOV;YELEK;SEKER;GUNGOR;GHODHBANE;SAGIR;AYKUT;ALTIN;IVANOV
+Konyaspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday May 1 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;TUNC;YAVAS;WEDERSON;BUYUK;YIGIT;AYDIN;SARP;OZGUR;TITA;JABA
+Konyaspor vs. Buyuksehir Belediyesi Ankaraspor - Sunday May 1 - 2005,Konyaspor,hard,4-4-2,ONGUN;GUNDOSTU;CELIK;UGUR;DEMIR;ALBAYRAK;AKSOY;BALJIC;AKAGUNDUZ;BIRYOL;TURKMEN
+Malatyaspor vs. Galatasaray - Sunday May 1 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;UCAR;CONCEICAO;SAS;ATES;SUKUR
+Malatyaspor vs. Galatasaray - Sunday May 1 - 2005,Malatyaspor,hard,4-4-2,KORK;BUDAK;KORKMAZ;OZSOY;AYDIN;SCHUMANN BAH;TOTH;SAIDOU;ERDOGAN;BOLIC;OSTERC
+Buyuksehir Belediyesi Ankaraspor vs. Rizespor - Saturday May 7 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;TUNC;BAHADIR;WEDERSON;BUYUK;YIGIT;AYDIN;SARP;OZGUR;TITA;JABA
+Buyuksehir Belediyesi Ankaraspor vs. Rizespor - Saturday May 7 - 2005,Rizespor,hard,4-5-1,ZDRAVKOV;CAKMAK;EL TABEI;POLAT;DUYMUS;VICTORIA;TATAN;ALPUGAN;ASKAROGLU;OZDEMIR;OZTURK
+Diyarbakirspor vs. Fenerbahce - Saturday May 7 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;TOPRAK;BOZACI;DEMIRCIOGLU;AKINCI;SULUN;KALOGLU;ALTUN;YANIK
+Diyarbakirspor vs. Fenerbahce - Saturday May 7 - 2005,Fenerbahce,easy,4-5-1,RECBER;BARIS;TURACI;ERDOGDU;BALCI;SAHIN;MEHMET AURELIO;ALEX;SANLI;AKIN;NOBRE
+Galatasaray vs. Ankaragucu - Saturday May 7 - 2005,Ankaragucu,hard,4-4-2,USAK;BAIDOO;KUTLU;DURSUN;GUNGOR;ZENGUE;EVREN;YILDIRIM;TURHAN;BULUT;ISLER
+Galatasaray vs. Ankaragucu - Saturday May 7 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UCAR;HASPOLATLI;CONCEICAO;AKMAN;RIBERY;ATES;SUKUR
+Gaziantepspor vs. Kayserispor - Saturday May 7 - 2005,Gaziantepspor,hard,4-4-2,TARAKCI;ZAN;DURMAZ;BOUAZIZI;GUNES;AGCAY;AYHAN;OZBAY;EL TAIB;LAZAROV;GULEC
+Gaziantepspor vs. Kayserispor - Saturday May 7 - 2005,Kayserispor,hard,4-5-1,AKTAS;TURAN;CIMEN;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;BALILI
+Sakaryaspor vs. Istanbulspor - Saturday May 7 - 2005,Istanbulspor,hard,3-5-2,DAGLAROGLU;OKECHUKWU;AYHAN;AKBAS;CAN;VIDUSLU;KOCABAL;KUS;BAYAR;ALEKSANDROV;KARAMAN
+Sakaryaspor vs. Istanbulspor - Saturday May 7 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;UNAL;IBIS;CALISAL;KOK;TORAMAN;BASDAG;CEYLAN;MBAYO;AKDIS;BEGECARSLAN
+Trabzonspor vs. Konyaspor - Saturday May 7 - 2005,Konyaspor,hard,4-4-2,ONGUN;AKICI;CELIK;DEMIR;UGUR;CAMARA;ALBAYRAK;AKSOY;TURKMEN;AKAGUNDUZ;BIRYOL
+Trabzonspor vs. Konyaspor - Saturday May 7 - 2005,Trabzonspor,easy,4-2-3-1,PETKOVIC;BAYER;YAVUZ;KOCAK;BEKIROGLU;EREN;CIMSIR;SZYMKOWIAK;KARADENIZ;YATTARA;TEKKE
+Besiktas vs. Samsunspor - Sunday May 8 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;RONALDO GUIARO;ATAN;DOGAN;HAVUTCU;GUNES;BURUK;METIN;AKIN;CAREW
+Besiktas vs. Samsunspor - Sunday May 8 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;SUME;DOGANTEZ;YELEK;SEKER;GUNGOR;YUCETAS;GHODHBANE;SAGIR;AYKUT;IVANOV
+Denizlispor vs. Akcaabat Sebatspor - Sunday May 8 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;KURTULDU;OZDIN;EKSIOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;KANDIL;KINALI;KAYNAK
+Denizlispor vs. Akcaabat Sebatspor - Sunday May 8 - 2005,Denizlispor,hard,4-4-2,KUCUK;OZSARAC;KRATOCHVIL;CELIK;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;RIZA;MARTIN
+Genclerbirligi vs. Malatyaspor - Sunday May 8 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;EL SAKA;GULDUREN;MERCIMEK;ASLANTAS;GUVEN;SERAS;ABDELAZIZ;GTARI;YOULA;ESER
+Genclerbirligi vs. Malatyaspor - Sunday May 8 - 2005,Malatyaspor,hard,4-5-1,KORK;OZSOY;BUDAK;AYDIN;SCHUMANN BAH;SOYLER;AKIN;ERDOGAN;BASARAN;KISA;OSTERC
+Akcaabat Sebatspor vs. Gaziantepspor - Saturday May 14 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;KURTULDU;TEMIZKANOGLU;EKSIOGLU;BESERLER;BAYRAKTAR;TOYSAL;KANDIL;OZER;KAYNAK;KINALI
+Akcaabat Sebatspor vs. Gaziantepspor - Saturday May 14 - 2005,Gaziantepspor,hard,4-5-1,TARAKCI;COGUM;YURT;DURMAZ;BOUAZIZI;GUNES;AGCAY;AYHAN;OZBAY;NAMLI;GULEC
+Malatyaspor vs. Denizlispor - Saturday May 14 - 2005,Denizlispor,hard,4-5-1,HAMIDOU;OZSARAC;CELIK;KRATOCHVIL;KECELI;GULPINAR;ABRAHAM;VAROL;MULTAHARJU;BAYAZIT;RIZA
+Malatyaspor vs. Denizlispor - Saturday May 14 - 2005,Malatyaspor,hard,4-5-1,TUNCAY;BUDAK;OZSOY;SCHUMANN BAH;AYDIN;TOTH;SOYLER;AKIN;ERDOGAN;KISA;OSTERC
+Samsunspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday May 14 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;BAHADIR;YAVAS;BUYUK;YIGIT;YALCINKAYA;SARP;AYDIN;OZGUR;TITA;JABA
+Samsunspor vs. Buyuksehir Belediyesi Ankaraspor - Saturday May 14 - 2005,Samsunspor,hard,4-4-2,SHORUNMU;DOGANTEZ;PETKOV;YELEK;AYARI;GUNGOR;YUCETAS;GHODHBANE;SAGIR;OZTURK;IVANOV
+Ankaragucu vs. Fenerbahce - Sunday May 15 - 2005,Ankaragucu,hard,4-4-2,USAK;KUTLU;DURSUN;GUNGOR;ZENGUE;EVREN;YILDIRIM;TURHAN;NAMDAR;BULUT;ISLER
+Ankaragucu vs. Fenerbahce - Sunday May 15 - 2005,Fenerbahce,easy,4-5-1,RECBER;LUCIANO;TURACI;BARIS;ERDOGDU;OZAT;MEHMET AURELIO;ALEX;SANLI;AKIN;NOBRE
+Galatasaray vs. Genclerbirligi - Sunday May 15 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;SONG;TOMAS;PENBE;UCAR;HASPOLATLI;CONCEICAO;AKMAN;RIBERY;ATES;SUKUR
+Galatasaray vs. Genclerbirligi - Sunday May 15 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;BOZKURT;EL SAKA;OZBEY;GUVEN;TANDOGAN;ABDELAZIZ;SERAS;BORAL;YOULA;OZKAN
+Istanbulspor vs. Besiktas - Sunday May 15 - 2005,Besiktas,easy,4-4-2,CORDOBA;TORAMAN;RONALDO GUIARO;ATAN;HAVUTCU;AVCI;BURUK;METIN;AHMED HASSAN;CAREW;PANCU
+Istanbulspor vs. Besiktas - Sunday May 15 - 2005,Istanbulspor,hard,3-5-2,DAGLAROGLU;AKBAS;OKECHUKWU;AYHAN;SUMER;CAN;VIDUSLU;KOCABAL;KUS;ALEKSANDROV;KARAMAN
+Kayserispor vs. Sakaryaspor - Sunday May 15 - 2005,Kayserispor,hard,4-5-1,AKTAS;BRABEC;CIMEN;TURAN;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;BALILI
+Kayserispor vs. Sakaryaspor - Sunday May 15 - 2005,Sakaryaspor,hard,4-4-2,KARAGOL;AK;IBIS;KOK;BASDAG;SAKSAK;CEYLAN;KURT;MBAYO;AKDIS;CETIN
+Konyaspor vs. Diyarbakirspor - Sunday May 15 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;BOZACI;TOPRAK;DEMIRCIOGLU;AKINCI;SULUN;KALOGLU;ALTUN;YANIK
+Konyaspor vs. Diyarbakirspor - Sunday May 15 - 2005,Konyaspor,hard,4-4-2,ONGUN;AKICI;CELIK;UGUR;DEMIR;ALBAYRAK;AKSOY;ERIS;BALJIC;TURKMEN;BIRYOL
+Rizespor vs. Trabzonspor - Sunday May 15 - 2005,Rizespor,hard,4-5-1,ZDRAVKOV;CAKMAK;DUYMUS;EL TABEI;POLAT;VICTORIA;TATAN;ALPUGAN;BAKI;DEMIRAY;FERENCZI
+Rizespor vs. Trabzonspor - Sunday May 15 - 2005,Trabzonspor,easy,4-2-3-1,SONMEZ;SEYHAN;YAVUZ;BEKIROGLU;EREN;CIMSIR;SZYMKOWIAK;KOCAK;KARADENIZ;YATTARA;TEKKE
+Ankaragucu vs. Konyaspor - Saturday May 21 - 2005,Ankaragucu,hard,4-4-2,USAK;KUTLU;DURSUN;GUNGOR;ZENGUE;EVREN;YILDIRIM;AKDENIZ;TURHAN;BULUT;ISLER
+Ankaragucu vs. Konyaspor - Saturday May 21 - 2005,Konyaspor,hard,4-4-2,ONGUN;AKICI;GUNDOSTU;CELIK;DEMIR;UGUR;ALBAYRAK;ERIS;BALJIC;BIRYOL;TURKMEN
+Besiktas vs. Kayserispor - Saturday May 21 - 2005,Besiktas,easy,4-4-2,CORDOBA;ATAN;RONALDO GUIARO;TORAMAN;AVCI;HAVUTCU;AHMED HASSAN;METIN;AKIN;CAREW;PANCU
+Besiktas vs. Kayserispor - Saturday May 21 - 2005,Kayserispor,hard,4-4-2,TUNC;BRABEC;KAYATEKIN;TEBER;DUMAN;CAN;ARSLAN;BOLUKBASI;YEDEK;BALILI;PARLAK
+Buyuksehir Belediyesi Ankaraspor vs. Istanbulspor - Saturday May 21 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-4-2,JEVRIC;ASPRILLA;TUNC;WEDERSON;YIGIT;BUYUK;SARP;AYDIN;OZGUR;JABA;KARAN
+Buyuksehir Belediyesi Ankaraspor vs. Istanbulspor - Saturday May 21 - 2005,Istanbulspor,hard,4-4-2,DAGLAROGLU;AKYUZ;AYHAN;OKECHUKWU;CAN;ANDRE BORGES;KOCABAL;KUS;BAYAR;ALEKSANDROV;KARAMAN
+Diyarbakirspor vs. Rizespor - Saturday May 21 - 2005,Diyarbakirspor,hard,4-4-2,YIGITER;SAATCIOGLU;BOZACI;STAVREVSKI;TOPRAK;DEMIRCIOGLU;AKINCI;SULUN;JUPI;KALOGLU;YAGMUR
+Diyarbakirspor vs. Rizespor - Saturday May 21 - 2005,Rizespor,hard,4-4-2,KOCA;POLAT;EL TABEI;DUYMUS;CAKMAK;VICTORIA;TATAN;BAKI;DEMIRAY;FERENCZI;OZTURK
+Gaziantepspor vs. Malatyaspor - Saturday May 21 - 2005,Gaziantepspor,hard,4-4-2,TARAKCI;ZAN;DURMAZ;BOUAZIZI;GUNES;AYHAN;OZBAY;NAMLI;LAZAROV;GULEC;JAZIRI
+Gaziantepspor vs. Malatyaspor - Saturday May 21 - 2005,Malatyaspor,hard,4-4-2,TUNCAY;BUDAK;OZSOY;AYDIN;SCHUMANN BAH;SOYLER;SAIDOU;ERDOGAN;ALTINTAS;ALBAYRAK;OSTERC
+Sakaryaspor vs. Akcaabat Sebatspor - Saturday May 21 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;KURTULDU;GEZMIS;EKSIOGLU;BESERLER;BAYRAKTAR;BOYRAZ;TOYSAL;KANDIL;OZER;KINALI
+Sakaryaspor vs. Akcaabat Sebatspor - Saturday May 21 - 2005,Sakaryaspor,hard,4-4-2,OZTURK;AK;SERT;KOK;BASDAG;TORAMAN;SAKSAK;AKDIS;CETIN;KABONGO;MAKASI
+Denizlispor vs. Genclerbirligi - Sunday May 22 - 2005,Denizlispor,hard,4-5-1,HAMIDOU;CELIK;KRATOCHVIL;OZSARAC;KECELI;ABRAHAM;ERTUGRUL;GULPINAR;VAROL;BAYAZIT;RIZA
+Denizlispor vs. Genclerbirligi - Sunday May 22 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;GULDUREN;MERCIMEK;OZBEY;GUVEN;ABDELAZIZ;SERAS;BORAL;ESER;YOULA;OZKAN
+Fenerbahce vs. Galatasaray - Sunday May 22 - 2005,Fenerbahce,easy,4-5-1,RECBER;LUCIANO;TURACI;OZAT;BALCI;SAHIN;MEHMET AURELIO;ALEX;SANLI;ANELKA;NOBRE
+Fenerbahce vs. Galatasaray - Sunday May 22 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;HASPOLATLI;CONCEICAO;AKMAN;RIBERY;SUKUR;ATES
+Trabzonspor vs. Samsunspor - Sunday May 22 - 2005,Samsunspor,hard,4-5-1,SHORUNMU;DOGANTEZ;PETKOV;UNAL;YELEK;SEKER;GUNGOR;GHODHBANE;YUCETAS;SAGIR;IVANOV
+Trabzonspor vs. Samsunspor - Sunday May 22 - 2005,Trabzonspor,easy,4-5-1,SONMEZ;SEYHAN;YAVUZ;KOCAK;BEKIROGLU;EREN;CIMSIR;SZYMKOWIAK;KARADENIZ;YATTARA;TEKKE
+Konyaspor vs. Fenerbahce - Friday May 27 - 2005,Fenerbahce,easy,4-5-1,DEMIREL;TURACI;BARIS;ERDOGDU;OZAT;BALCI;MEHMET AURELIO;ALEX;SANLI;AKIN;ANELKA
+Konyaspor vs. Fenerbahce - Friday May 27 - 2005,Konyaspor,hard,4-4-2,ONGUN;CELIK;DEMIR;UGUR;ALBAYRAK;AKSOY;ERIS;BALJIC;AKAGUNDUZ;BIRYOL;TURKMEN
+Akcaabat Sebatspor vs. Besiktas - Saturday May 28 - 2005,Akcaabat Sebatspor,hard,4-4-2,DOMINGOS;KURTULDU;GEZMIS;TEMIZKANOGLU;EKSIOGLU;TOYSAL;KANDIL;BAYRAKTAR;KAYNAK;KINALI;OZER
+Akcaabat Sebatspor vs. Besiktas - Saturday May 28 - 2005,Besiktas,easy,4-4-2,SAHIN;DOGAN;TORAMAN;SEDEF;AVCI;HAVUTCU;GUNES;METIN;AKIN;PANCU;CIHAN
+Galatasaray vs. Denizlispor - Saturday May 28 - 2005,Denizlispor,hard,4-1-4-1,HAMIDOU;CELIK;KRATOCHVIL;OZSARAC;KECELI;ABRAHAM;ERTUGRUL;GULPINAR;VAROL;BAYAZIT;RIZA
+Galatasaray vs. Denizlispor - Saturday May 28 - 2005,Galatasaray,easy,4-4-2,MONDRAGON;AK;SONG;TOMAS;PENBE;SARIOGLU;HASPOLATLI;CONCEICAO;RIBERY;ATES;KABZE
+Genclerbirligi vs. Gaziantepspor - Saturday May 28 - 2005,Gaziantepspor,hard,4-4-2,ACAR;COGUM;KORKMAZ;DURMAZ;AGCAY;BOUAZIZI;GUNES;KOC;OZBAY;LAZAROV;JAZIRI
+Genclerbirligi vs. Gaziantepspor - Saturday May 28 - 2005,Genclerbirligi,hard,4-4-2,CATKIC;GULDUREN;MERCIMEK;UZUMCU;ASLANTAS;GUVEN;TANDOGAN;ABDELAZIZ;SERAS;ESER;YOULA
+Istanbulspor vs. Trabzonspor - Saturday May 28 - 2005,Istanbulspor,hard,4-4-1-1,BOLUKBASI;AKBAS;AYHAN;OKECHUKWU;CAN;VIDUSLU;KOCABAL;KUS;BAYAR;ALEKSANDROV;KARAMAN
+Istanbulspor vs. Trabzonspor - Saturday May 28 - 2005,Trabzonspor,easy,4-4-2,SONMEZ;SEYHAN;YAVUZ;BEKIROGLU;EREN;CIMSIR;SZYMKOWIAK;KARADENIZ;YATTARA;TEKKE;YILMAZ
+Kayserispor vs. Buyuksehir Belediyesi Ankaraspor - Saturday May 28 - 2005,Buyuksehir Belediyesi Ankaraspor,hard,4-5-1,JEVRIC;YAVAS;TUNC;WEDERSON;YIGIT;BUYUK;GUCER;SARP;OZGUR;TITA;JABA
+Kayserispor vs. Buyuksehir Belediyesi Ankaraspor - Saturday May 28 - 2005,Kayserispor,hard,4-5-1,AKTAS;TURAN;CIMEN;BRABEC;TEBER;DUMAN;JOHNSON;KARACA;BOLUKBASI;TOPUZ;BALILI
+Malatyaspor vs. Sakaryaspor - Saturday May 28 - 2005,Malatyaspor,hard,4-5-1,TUNCAY;BUDAK;OZSOY;AYDIN;SCHUMANN BAH;AKIN;TOTH;SOYLER;ERDOGAN;KISA;OSTERC
+Malatyaspor vs. Sakaryaspor - Saturday May 28 - 2005,Sakaryaspor,hard,4-4-2,OZTURK;AK;IBIS;KOK;BASDAG;TORAMAN;SAKSAK;CEYLAN;MBAYO;AKDIS;CETIN
+Rizespor vs. Ankaragucu - Saturday May 28 - 2005,Ankaragucu,hard,4-4-2,USAK;KUTLU;DURSUN;GUNGOR;ZENGUE;EVREN;ACAR;DOGAN;EFFA-OWONA;ISLER;BULUT
+Rizespor vs. Ankaragucu - Saturday May 28 - 2005,Rizespor,hard,4-4-2,KOCA;CAKMAK;POLAT;GURELER;VICTORIA;AZER;TATAN;BAKI;TUNCEL;FERENCZI;OZTURK
+Samsunspor vs. Diyarbakirspor - Saturday May 28 - 2005,Diyarbakirspor,hard,4-4-2,FADHEL;SAATCIOGLU;STAVREVSKI;TOPRAK;DEMIRCIOGLU;AKINCI;SULUN;JUPI;KALOGLU;YAGMUR;YANIK
+Samsunspor vs. Diyarbakirspor - Saturday May 28 - 2005,Samsunspor,hard,4-4-2,INAN;DOGANTEZ;SUME;YELEK;AYARI;SEKER;GUNGOR;SAGIR;OZTURK;AYDIN;IVANOV

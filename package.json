@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "data:fetch-season": "node scripts/fetch-season.mjs",
+    "data:validate": "node scripts/validate-games.mjs",
+    "data:merge": "node scripts/merge-games.mjs",
+    "data:expand-names": "node scripts/expand-dotted-names.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",
