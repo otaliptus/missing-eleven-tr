@@ -39,3 +39,9 @@ next-env.d.ts
 
 scripts/
 *.report.json
+*.log
+reorder-*
+_backup-*/
+*.bak
+
+progress.md

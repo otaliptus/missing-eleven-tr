@@ -1,599 +1,599 @@
 game,team,difficulty,formation,lineup
-Eskisehirspor vs. Akhisar Belediyespor - Friday August 17 - 2012,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;DUYMUS;EREN;CEBE;ALADAG;YUCE;VARDAR;BRUNO MEZENGA;BIKOKO
-Eskisehirspor vs. Akhisar Belediyespor - Friday August 17 - 2012,Eskisehirspor,hard,4-4-2,BOFFIN;CETIN;SARI;DIEGO ANGELO;DEDE;GUCER;POTUK;ZENGIN;ESER;KAMARA;NUHIU
-Elazigspor vs. Fenerbahce - Saturday August 18 - 2012,Elazigspor,hard,4-3-3,IVESA;BAYRAK;FABIO BILICA;ZEEGELAAR;ALKASI;FAUBERT;ERTUGRUL;BADUR;KAYALI;YEDEK;TUM
-Elazigspor vs. Fenerbahce - Saturday August 18 - 2012,Fenerbahce,easy,4-2-3-1,GUNOK;IRTEGUN;KORKMAZ;ERKIN;SAM;SAHIN;TOPAL;ALEX;STOCH;KUYT;SOW
-Gaziantepspor vs. Sivasspor - Saturday August 18 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;BINYA;CAN;IVAN;KURTULUS;PEHLIVAN;HAS;IBRICIC;SAHIN;DEMIR;SOSA
-Gaziantepspor vs. Sivasspor - Saturday August 18 - 2012,Sivasspor,hard,4-2-3-1,CELIKAY;NAVRATIL;ERDAL;KAVUK;GUVEN;BEKMEZCI;KAYA;KILIC;GROSICKI;ENERAMO;PEDRIEL
-Kardemir Dc Karabukspor vs. Trabzonspor - Saturday August 18 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;JAHIC;MABIALA;SERIC;UCAR;SOYLER;HIKMET;TEBER;CERNAT;KISA;YILDIZ
-Kardemir Dc Karabukspor vs. Trabzonspor - Saturday August 18 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;KACAR;YUMLU;BALCI;ZOKORA;AYDOGDU;SAPARA;SEN;ADIN;VITTEK
-Istanbul Buyuksehir Belediyespor vs. Besiktas - Sunday August 19 - 2012,Besiktas,easy,4-2-3-1,GONEN;SIVOK;TORAMAN;HILBERT;TURK;KAVLAK;BORAL;FERNANDES;SAHAN;ALMEIDA;PEKTEMEK
-Istanbul Buyuksehir Belediyespor vs. Besiktas - Sunday August 19 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;TEKDEMIR;HASPOLATLI;HOLMEN;TOM;VISCA;WEBO
-Kayserispor vs. Bursaspor - Sunday August 19 - 2012,Bursaspor,hard,4-2-3-1,CARSON;AZIZ;OZTURK;ASLANTAS;CHRETIEN;CAGIRAN;N'DIAYE;BATALLA;IPEK;PINTO;SESTAK
-Kayserispor vs. Bursaspor - Sunday August 19 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;KAYAOGLU;DABANLI;FATHI;BAYRAM;RIVEROS;YOKUSLU;CLEYTON;MOUCHE;BOBO
-Mersin Idmanyurdu vs. Orduspor - Sunday August 19 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;STEPANOV;TOSCALI;YANIK;KECELI;BAYRAKTAR;SARP;BEN YAHIA;YATTARA;OZOKWO;KELES
-Mersin Idmanyurdu vs. Orduspor - Sunday August 19 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;COKMUS;GARCIA;CAMDALI;CINAZ;CALISKAN;UMBIDES;MONJE;BARRAL;KABZE
-Galatasaray vs. Kasimpasa - Monday August 20 - 2012,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;UJFALUSI;BALTA;EBOUE;INAN;ALTINTOP;COLAK;YILMAZ;BULUT;ELMANDER
-Galatasaray vs. Kasimpasa - Monday August 20 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;AYHAN;EKER;KAPLAN;DERELI;ERNST;SARMOV;OZMERT;VIUDEZ;DJALMA;UCHE
-Genclerbirligi vs. Antalyaspor - Monday August 20 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;ZIZIC;MINEV;TANDOGAN;DAGASAN;INCEMAN;TITA;PROMISE;BASSAN;DIARRA
-Genclerbirligi vs. Antalyaspor - Monday August 20 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;CAN;AZOFEIFA;DURMAZ;KARA;ZEC;MERIC;LEKIC
-Kasimpasa vs. Kardemir Dc Karabukspor - Friday August 24 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;JAHIC;KARAER;SERIC;UCAR;SOYLER;KAGAN SOYLEMEZGILLER;CERNAT;SHELTON;PARLAK;YILDIZ
-Kasimpasa vs. Kardemir Dc Karabukspor - Friday August 24 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;ERNST;SARMOV;OZMERT;VIUDEZ;DJALMA;UCHE
-Fenerbahce vs. Gaziantepspor - Saturday August 25 - 2012,Fenerbahce,easy,4-4-2,GUNOK;KORKMAZ;YOBO;KALDIRIM;GONUL;SAHIN;TOPAL;TOPUZ;KRASIC;KUYT;SOW
-Fenerbahce vs. Gaziantepspor - Saturday August 25 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;IVAN;KURTULUS;PEHLIVAN;IBRICIC;SAHIN;DEMIR;SOSA
-Orduspor vs. Eskisehirspor - Saturday August 25 - 2012,Eskisehirspor,hard,4-5-1,BOFFIN;BAHTIYAROGLU;CETIN;SARI;DEDE;GUCER;POTUK;TELLO;ZENGIN;KAMARA;NUHIU
-Orduspor vs. Eskisehirspor - Saturday August 25 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;COKMUS;GARCIA;CAMDALI;CINAZ;CALISKAN;UMBIDES;MONJE;BARRAL;KABZE
-Sivasspor vs. Mersin Idmanyurdu - Saturday August 25 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;BOUM;STEPANOV;YANIK;KECELI;BAYRAKTAR;CULIO;ERDOGAN;BEN YAHIA;YATTARA;NOBRE
-Sivasspor vs. Mersin Idmanyurdu - Saturday August 25 - 2012,Sivasspor,hard,4-2-3-1,CELIKAY;NAVRATIL;ERDAL;KAVUK;GUVEN;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;ENERAMO;PEDRIEL
-Besiktas vs. Galatasaray - Sunday August 26 - 2012,Besiktas,easy,4-2-3-1,GONEN;ESCUDE;SIVOK;TORAMAN;HILBERT;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;PEKTEMEK
-Besiktas vs. Galatasaray - Sunday August 26 - 2012,Galatasaray,easy,4-4-2,MUSLERA;KAYA;UJFALUSI;BALTA;EBOUE;FELIPE MELO;INAN;ALTINTOP;COLAK;BULUT;ELMANDER
-Bursaspor vs. Istanbul Buyuksehir Belediyespor - Sunday August 26 - 2012,Bursaspor,hard,4-4-2,CARSON;ERDOGAN;OZTURK;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;KOCAK;ODABASI;BANGURA;SESTAK
-Bursaspor vs. Istanbul Buyuksehir Belediyespor - Sunday August 26 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ARAT;EKSIOGLU;GERALDES;HASPOLATLI;TEKDEMIR;HOLMEN;TOM;VISCA;WEBO
-Trabzonspor vs. Elazigspor - Sunday August 26 - 2012,Elazigspor,hard,4-3-3,IVESA;FABIO BILICA;SPAHIJA;ZEEGELAAR;FAUBERT;ALKASI;ERTUGRUL;BADUR;KAYALI;YEDEK;TUM
-Trabzonspor vs. Elazigspor - Sunday August 26 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;BAMBA;CELUSTKA;YUMLU;BALCI;ZOKORA;AYDOGDU;ALANZINHO;OZTEKIN;HENRIQUE;VITTEK
-Antalyaspor vs. Kayserispor - Monday August 27 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;GUNGOR;MINEV;ARSLAN;AKIN;INCEMAN;TITA;BASSAN;PROMISE;DIARRA
-Antalyaspor vs. Kayserispor - Monday August 27 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;DABANLI;GUNGOR;ZURAB KHIZANISHVILI;DURSUN;FATHI;BAYRAM;RIVEROS;CLEYTON;MOUCHE;BOBO
-Genclerbirligi vs. Orduspor - Friday August 31 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;KULUSIC;SEDEF;TOSIC;PETROVIC;KURTULUS;ILERI;DURMAZ;ZEC;MERIC;EKIGHO
-Genclerbirligi vs. Orduspor - Friday August 31 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;COKMUS;GARCIA;CAMDALI;CINAZ;CALISKAN;MONJE;YELKEN;BARRAL;STANCU
-Mersin Idmanyurdu vs. Eskisehirspor - Friday August 31 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;SARI;DEDE;GUVEN;POTUK;TELLO;ZENGIN;KAMARA
-Mersin Idmanyurdu vs. Eskisehirspor - Friday August 31 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;BOUM;STEPANOV;YANIK;KECELI;BAYRAKTAR;CULIO;ERDOGAN;BEN YAHIA;OZOKWO;NOBRE
-Elazigspor vs. Kasimpasa - Saturday September 1 - 2012,Elazigspor,hard,4-3-3,IVESA;BAYRAK;FABIO BILICA;ZEEGELAAR;FAUBERT;ALKASI;ERTUGRUL;BADUR;SAHIN;YEDEK;TUM
-Elazigspor vs. Kasimpasa - Saturday September 1 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;ERNST;SARMOV;OZMERT;HURMACI;DJALMA;UCHE
-Istanbul Buyuksehir Belediyespor vs. Antalyaspor - Saturday September 1 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;GUNGOR;MINEV;ARSLAN;INCEMAN;JANDA;TITA;BASSAN;PROMISE;DIARRA
-Istanbul Buyuksehir Belediyespor vs. Antalyaspor - Saturday September 1 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;TEKDEMIR;HASPOLATLI;HOLMEN;TOM;VISCA;WEBO
-Kardemir Dc Karabukspor vs. Besiktas - Saturday September 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;KARADENIZ
-Kardemir Dc Karabukspor vs. Besiktas - Saturday September 1 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;JAHIC;MABIALA;DOGAN;UCAR;KAGAN SOYLEMEZGILLER;TEBER;CERNAT;SHELTON;LUALUA;YILDIZ
-Kayserispor vs. Akhisar Belediyespor - Saturday September 1 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;DUYMUS;VURAL;EREN;CEBE;YUCE;ASAN;VARDAR;BRUNO MEZENGA
-Kayserispor vs. Akhisar Belediyespor - Saturday September 1 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;AKDARI;GUNGOR;ZURAB KHIZANISHVILI;BAYRAM;STEINSSON;YOKUSLU;RIVEROS;CLEYTON;MOUCHE;BOBO
-Galatasaray vs. Bursaspor - Sunday September 2 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ERDOGAN;OZTURK;WEDERSON;ASLANTAS;CHRETIEN;CAGIRAN;N'DIAYE;BATALLA;PINTO;SESTAK
-Galatasaray vs. Bursaspor - Sunday September 2 - 2012,Galatasaray,easy,4-4-2,MUSLERA;KAYA;NOUNKEU;BALTA;EBOUE;FELIPE MELO;INAN;ALTINTOP;COLAK;BULUT;ELMANDER
-Gaziantepspor vs. Trabzonspor - Sunday September 2 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;BINYA;KECOJEVIC;CAN;KURTULUS;DAG;GULLE;HAS;IBRICIC;OZBAYRAKTAR;TOSUN
-Gaziantepspor vs. Trabzonspor - Sunday September 2 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;BAMBA;CELUSTKA;YUMLU;BALCI;ZOKORA;AYDOGDU;SAPARA;SEN;OZTEKIN;HENRIQUE
-Sivasspor vs. Fenerbahce - Sunday September 2 - 2012,Fenerbahce,easy,4-2-3-1,GUNOK;KORKMAZ;YOBO;KALDIRIM;GONUL;SAHIN;TOPAL;TOPUZ;ALEX;KUYT;SOW
-Sivasspor vs. Fenerbahce - Sunday September 2 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;ERDAL;KAVUK;GUVEN;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;ENERAMO;PEDRIEL
-Antalyaspor vs. Galatasaray - Saturday September 15 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;ZIZIC;MINEV;ARSLAN;YILDIRIM;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Galatasaray - Saturday September 15 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;KAYA;BALTA;EBOUE;FELIPE MELO;INAN;AMRABAT;YILMAZ;BULUT;ELMANDER
-Bursaspor vs. Kardemir Dc Karabukspor - Saturday September 15 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;ERDOGAN;WEDERSON;CHRETIEN;CAGIRAN;BATALLA;BELLUSCHI;IPEK;PINTO;SESTAK
-Bursaspor vs. Kardemir Dc Karabukspor - Saturday September 15 - 2012,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;MABIALA;OZDIN;SERIC;OZGENC;INCEDEMIR;HIKMET;KISA;OZEK;PARLAK;YILDIZ
-Kasimpasa vs. Gaziantepspor - Saturday September 15 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;PEHLIVAN;GULLE;HAS;OZBAYRAKTAR;TOSUN
-Kasimpasa vs. Gaziantepspor - Saturday September 15 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;COULIBALY;SERAS;HURMACI;KALA;DJALMA;UCHE
-Fenerbahce vs. Mersin Idmanyurdu - Sunday September 16 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;GONUL;TOPAL;MEIRELES;TOPUZ;ALEX;STOCH;KUYT
-Fenerbahce vs. Mersin Idmanyurdu - Sunday September 16 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;BOUM;TOSCALI;YANIK;IVAN;KECELI;BAYRAKTAR;BEN YAHIA;CULIO;YATTARA;NOBRE
-Trabzonspor vs. Sivasspor - Sunday September 16 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;ERDAL;KAVUK;GUVEN;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;ENERAMO;PEDRIEL
-Trabzonspor vs. Sivasspor - Sunday September 16 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;BAMBA;YUMLU;EMERSON CONCEICAO;YAVRU;ZOKORA;ALANZINHO;ALTINTOP;SAPARA;OZTEKIN;HENRIQUE
-Besiktas vs. Elazigspor - Monday September 17 - 2012,Besiktas,easy,4-1-4-1,MCGREGOR;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;KARADENIZ
-Besiktas vs. Elazigspor - Monday September 17 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;ZEEGELAAR;FAUBERT;ALKASI;ERTUGRUL;KAYALI;YEDEK;TUM;ZAKI
-Orduspor vs. Kayserispor - Monday September 17 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;AKDARI;ZURAB KHIZANISHVILI;DURSUN;FATHI;BAYRAM;STEINSSON;DURAK;BISESWAR;MOUCHE;BOBO
-Orduspor vs. Kayserispor - Monday September 17 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;TURAN;GARCIA;CAMDALI;CINAZ;CALISKAN;UMBIDES;BARRAL;KABZE;STANCU
-Kardemir Dc Karabukspor vs. Antalyaspor - Friday September 21 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;JANDA;INCEMAN;TITA;BOYRAZ;BASSAN;DIARRA
-Kardemir Dc Karabukspor vs. Antalyaspor - Friday September 21 - 2012,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;MABIALA;OZDIN;SERIC;OZGENC;INCEDEMIR;HIKMET;CERNAT;KOCABAS;SHELTON;PARLAK
-Gaziantepspor vs. Besiktas - Saturday September 22 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Gaziantepspor vs. Besiktas - Saturday September 22 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;PEHLIVAN;HAS;MEDUNJANIN;SAHIN;TOSUN
-Istanbul Buyuksehir Belediyespor vs. Orduspor - Saturday September 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;TEKDEMIR;HASPOLATLI;SOKULLU;HOLMEN;DOKA MADUREIRA;WEBO
-Istanbul Buyuksehir Belediyespor vs. Orduspor - Saturday September 22 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;TURAN;GARCIA;CAMDALI;CALISKAN;UMBIDES;BARRAL;KABZE;STANCU
-Kayserispor vs. Eskisehirspor - Saturday September 22 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;DEDE;GUCER;GUVEN;TELLO;ZENGIN;KAMARA;ATES
-Kayserispor vs. Eskisehirspor - Saturday September 22 - 2012,Kayserispor,hard,4-2-3-1,DEGIRMENCI;AKDARI;GUNGOR;DURSUN;FATHI;STEINSSON;RIVEROS;DURAK;BISESWAR;MOUCHE;BOBO
-Mersin Idmanyurdu vs. Genclerbirligi - Saturday September 22 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;ZEC;MERIC;LEKIC
-Mersin Idmanyurdu vs. Genclerbirligi - Saturday September 22 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;BOUM;STEPANOV;YANIK;IVAN;KECELI;BAYRAKTAR;CULIO;ERDOGAN;OZOKWO;NOBRE
-Elazigspor vs. Bursaspor - Sunday September 23 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;ERDOGAN;WEDERSON;CHRETIEN;CAGIRAN;BATALLA;BELLUSCHI;IPEK;PINTO;SESTAK
-Elazigspor vs. Bursaspor - Sunday September 23 - 2012,Elazigspor,hard,4-4-2,IVESA;AK;FABIO BILICA;ZEEGELAAR;ALKASI;FAUBERT;ERTUGRUL;YEDEK;EMRECIKSIN;TUM;ZAKI
-Galatasaray vs. Akhisar Belediyespor - Sunday September 23 - 2012,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DUYMUS;SONKO;VURAL;CEBE;EREN;YUCE;ASAN;KAYTANKAS;YILMAZ
-Galatasaray vs. Akhisar Belediyespor - Sunday September 23 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;COLAK;YILDIRIM;YILMAZ
-Sivasspor vs. Kasimpasa - Sunday September 23 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;ERNST;SERAS;HURMACI;KALA;DJALMA;UCHE
-Sivasspor vs. Kasimpasa - Sunday September 23 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;GUVEN;KAVUK;KAYA;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Fenerbahce vs. Trabzonspor - Monday September 24 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;GONUL;TOPAL;MEIRELES;TOPUZ;ALEX;STOCH;SOW
-Fenerbahce vs. Trabzonspor - Monday September 24 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;CELUSTKA;YUMLU;EMERSON CONCEICAO;ZOKORA;ALANZINHO;ALTINTOP;SAPARA;ADIN;OZTEKIN
-Orduspor vs. Galatasaray - Friday September 28 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;KAYA;BALTA;EBOUE;FELIPE MELO;INAN;ALTINTOP;AMRABAT;ELMANDER;YILMAZ
-Orduspor vs. Galatasaray - Friday September 28 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;TURAN;GARCIA;CAMDALI;CALISKAN;UMBIDES;MONJE;KABZE;STANCU
-Bursaspor vs. Gaziantepspor - Saturday September 29 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;ERDOGAN;WEDERSON;CHRETIEN;CAGIRAN;BATALLA;BELLUSCHI;IPEK;SANLI;PINTO
-Bursaspor vs. Gaziantepspor - Saturday September 29 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;PEHLIVAN;MEDUNJANIN;IBRICIC;SOSA;TOSUN
-Kasimpasa vs. Fenerbahce - Saturday September 29 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;YOBO;KALDIRIM;GONUL;TOPAL;MEIRELES;TOPUZ;ALEX;STOCH;SOW
-Kasimpasa vs. Fenerbahce - Saturday September 29 - 2012,Kasimpasa,hard,4-4-2,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;ERNST;SERAS;HURMACI;DJALMA;BUYUK;UCHE
-Antalyaspor vs. Elazigspor - Sunday September 30 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;INCEMAN;JANDA;AISSATI;TITA;BASSAN;DIARRA
-Antalyaspor vs. Elazigspor - Sunday September 30 - 2012,Elazigspor,hard,4-1-3-2,IVESA;AK;FABIO BILICA;ZEEGELAAR;ALKASI;FAUBERT;ERTUGRUL;YEDEK;EMRECIKSIN;TUM;ZAKI
-Eskisehirspor vs. Istanbul Buyuksehir Belediyespor - Sunday September 30 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;TELLO;ESER;KAMARA;ATES
-Eskisehirspor vs. Istanbul Buyuksehir Belediyespor - Sunday September 30 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;TEKDEMIR;HASPOLATLI;HOLMEN;SOKULLU;DOKA MADUREIRA;WEBO
-Genclerbirligi vs. Kayserispor - Sunday September 30 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;ZEC;MERIC;AKCAKIN
-Genclerbirligi vs. Kayserispor - Sunday September 30 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;GUNGOR;ZURAB KHIZANISHVILI;FATHI;COREKCI;RIVEROS;YOKUSLU;DURAK;BISESWAR;MOUCHE;BOBO
-Trabzonspor vs. Mersin Idmanyurdu - Sunday September 30 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;BOUM;STEPANOV;YANIK;IVAN;KECELI;BAYRAKTAR;BEN YAHIA;ERDOGAN;CULIO;NOBRE
-Trabzonspor vs. Mersin Idmanyurdu - Sunday September 30 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;CELUSTKA;EMERSON CONCEICAO;BALCI;ZOKORA;AYDOGDU;SAPARA;ADIN;OZTEKIN;JANKO
-Besiktas vs. Sivasspor - Monday October 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;ESCUDE;TORAMAN;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Sivasspor - Monday October 1 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;ERDAL;GUVEN;KAVUK;BEKMEZCI;KOCAK;CERNY;CHAHECHOUHE;KILIC;ENERAMO
-Gaziantepspor vs. Antalyaspor - Friday October 5 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Gaziantepspor vs. Antalyaspor - Friday October 5 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;PEHLIVAN;MEDUNJANIN;IBRICIC;SOSA;TOSUN
-Kardemir Dc Karabukspor vs. Orduspor - Friday October 5 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;MABIALA;OZDIN;SERIC;OZGENC;INCEDEMIR;HIKMET;CERNAT;SHELTON;LUALUA;PARLAK
-Kardemir Dc Karabukspor vs. Orduspor - Friday October 5 - 2012,Orduspor,hard,4-2-3-1,FORNEZZI;GARCIA;KAS;TURAN;GARCIA;CAMDALI;CINAZ;CALISKAN;UMBIDES;MONJE;STANCU
-Trabzonspor vs. Kasimpasa - Friday October 5 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;ERNST;SERAS;HURMACI;DJALMA;BUYUK;UCHE
-Trabzonspor vs. Kasimpasa - Friday October 5 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;YUMLU;EMERSON CONCEICAO;YAVRU;ZOKORA;ALTINTOP;SAPARA;ALANZINHO;ADIN;OZTEKIN
-Elazigspor vs. Akhisar Belediyespor - Saturday October 6 - 2012,Akhisar Belediyespor,hard,4-3-3,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;BRUNO MEZENGA
-Elazigspor vs. Akhisar Belediyespor - Saturday October 6 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;FAUBERT;ALKASI;ERTUGRUL;KAYALI;YEDEK;FEINDOUNO;KARABULUT;TUM
-Galatasaray vs. Eskisehirspor - Saturday October 6 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;POTUK;TELLO;KAMARA;ATES
-Galatasaray vs. Eskisehirspor - Saturday October 6 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;COLAK;BULUT;YILMAZ
-Istanbul Buyuksehir Belediyespor vs. Genclerbirligi - Saturday October 6 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;ZEC;MERIC;AKCAKIN
-Istanbul Buyuksehir Belediyespor vs. Genclerbirligi - Saturday October 6 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;SAHIN;INANC;TEKDEMIR;HOLMEN;DOKA MADUREIRA;VISCA;WEBO
+Eskisehirspor vs. Akhisar Belediyespor - Friday August 17 - 2012,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;DUYMUS;CEBE;VARDAR;YUCE;ALADAG;EREN;BIKOKO;BRUNO MEZENGA
+Eskisehirspor vs. Akhisar Belediyespor - Friday August 17 - 2012,Eskisehirspor,hard,4-4-2,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;ZENGIN;GUCER;POTUK;ESER;NUHIU;KAMARA
+Elazigspor vs. Fenerbahce - Saturday August 18 - 2012,Elazigspor,hard,4-3-3,IVESA;ZEEGELAAR;BAYRAK;FABIO BILICA;ALKASI;KAYALI;ERTUGRUL;BADUR;YEDEK;TUM;FAUBERT
+Elazigspor vs. Fenerbahce - Saturday August 18 - 2012,Fenerbahce,easy,4-2-3-1,GUNOK;ERKIN;KORKMAZ;IRTEGUN;SAM;TOPAL;SAHIN;STOCH;ALEX;KUYT;SOW
+Gaziantepspor vs. Sivasspor - Saturday August 18 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;IVAN;CAN;BINYA;KURTULUS;PEHLIVAN;HAS;SAHIN;IBRICIC;SOSA;DEMIR
+Gaziantepspor vs. Sivasspor - Saturday August 18 - 2012,Sivasspor,hard,4-2-3-1,CELIKAY;ERDAL;NAVRATIL;GUVEN;KAVUK;KAYA;BEKMEZCI;GROSICKI;KILIC;PEDRIEL;ENERAMO
+Kardemir Dc Karabukspor vs. Trabzonspor - Saturday August 18 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;JAHIC;MABIALA;UCAR;HIKMET;SOYLER;KISA;CERNAT;TEBER;YILDIZ
+Kardemir Dc Karabukspor vs. Trabzonspor - Saturday August 18 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;KACAR;YUMLU;BALCI;ZOKORA;AYDOGDU;ADIN;SAPARA;SEN;VITTEK
+Istanbul Buyuksehir Belediyespor vs. Besiktas - Sunday August 19 - 2012,Besiktas,easy,4-2-3-1,GONEN;BORAL;SIVOK;TORAMAN;HILBERT;KAVLAK;TURK;PEKTEMEK;FERNANDES;SAHAN;ALMEIDA
+Istanbul Buyuksehir Belediyespor vs. Besiktas - Sunday August 19 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;TEKDEMIR;VISCA;HOLMEN;TOM;WEBO
+Kayserispor vs. Bursaspor - Sunday August 19 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;AZIZ;OZTURK;CHRETIEN;N'DIAYE;CAGIRAN;IPEK;BATALLA;SESTAK;PINTO
+Kayserispor vs. Bursaspor - Sunday August 19 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;DABANLI;ZURAB KHIZANISHVILI;KAYAOGLU;YOKUSLU;RIVEROS;MOUCHE;CLEYTON;BAYRAM;BOBO
+Mersin Idmanyurdu vs. Orduspor - Sunday August 19 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;KECELI;STEPANOV;TOSCALI;YANIK;BAYRAKTAR;OZOKWO;BEN YAHIA;SARP;YATTARA;KELES
+Mersin Idmanyurdu vs. Orduspor - Sunday August 19 - 2012,Orduspor,hard,4-4-2,FORNEZZI;CALISKAN;GARCIA;CINAZ;GARCIA;MONJE;COKMUS;CAMDALI;UMBIDES;KABZE;BARRAL
+Galatasaray vs. Kasimpasa - Monday August 20 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;NOUNKEU;UJFALUSI;EBOUE;COLAK;ALTINTOP;INAN;YILMAZ;ELMANDER;BULUT
+Galatasaray vs. Kasimpasa - Monday August 20 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;KAPLAN;EKER;AYHAN;DERELI;OZMERT;ERNST;SARMOV;DJALMA;UCHE;VIUDEZ
+Genclerbirligi vs. Antalyaspor - Monday August 20 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;MINEV;BARIS;ZIZIC;TANDOGAN;INCEMAN;DAGASAN;TITA;BASSAN;PROMISE;DIARRA
+Genclerbirligi vs. Antalyaspor - Monday August 20 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;KARA;AZOFEIFA;ZEC;DURMAZ;MERIC;LEKIC
+Kasimpasa vs. Kardemir Dc Karabukspor - Friday August 24 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;KARAER;JAHIC;UCAR;KAGAN SOYLEMEZGILLER;SOYLER;SHELTON;CERNAT;PARLAK;YILDIZ
+Kasimpasa vs. Kardemir Dc Karabukspor - Friday August 24 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;OZMERT;ERNST;SARMOV;DJALMA;UCHE;VIUDEZ
+Fenerbahce vs. Gaziantepspor - Saturday August 25 - 2012,Fenerbahce,easy,4-4-2,GUNOK;KALDIRIM;KORKMAZ;YOBO;GONUL;KRASIC;TOPAL;SAHIN;TOPUZ;SOW;KUYT
+Fenerbahce vs. Gaziantepspor - Saturday August 25 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;IVAN;CAN;KECOJEVIC;KURTULUS;SAHIN;PEHLIVAN;IBRICIC;BINYA;SOSA;DEMIR
+Orduspor vs. Eskisehirspor - Saturday August 25 - 2012,Eskisehirspor,hard,4-5-1,BOFFIN;DEDE;BAHTIYAROGLU;CETIN;SARI;KAMARA;GUCER;TELLO;POTUK;ZENGIN;NUHIU
+Orduspor vs. Eskisehirspor - Saturday August 25 - 2012,Orduspor,hard,4-4-2,FORNEZZI;CALISKAN;GARCIA;CINAZ;GARCIA;MONJE;CAMDALI;COKMUS;UMBIDES;KABZE;BARRAL
+Sivasspor vs. Mersin Idmanyurdu - Saturday August 25 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;KECELI;BOUM;STEPANOV;YANIK;BAYRAKTAR;BEN YAHIA;CULIO;ERDOGAN;YATTARA;NOBRE
+Sivasspor vs. Mersin Idmanyurdu - Saturday August 25 - 2012,Sivasspor,hard,4-2-3-1,CELIKAY;ERDAL;NAVRATIL;GUVEN;KAVUK;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
+Besiktas vs. Galatasaray - Sunday August 26 - 2012,Besiktas,easy,4-2-3-1,GONEN;BORAL;ESCUDE;SIVOK;HILBERT;TORAMAN;KAVLAK;SAHAN;FERNANDES;HOLOSKO;PEKTEMEK
+Besiktas vs. Galatasaray - Sunday August 26 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;KAYA;UJFALUSI;EBOUE;COLAK;INAN;FELIPE MELO;ALTINTOP;ELMANDER;BULUT
+Bursaspor vs. Istanbul Buyuksehir Belediyespor - Sunday August 26 - 2012,Bursaspor,hard,4-4-2,CARSON;WEDERSON;ERDOGAN;OZTURK;CHRETIEN;KIRAZ;KOCAK;N'DIAYE;ODABASI;SESTAK;BANGURA
+Bursaspor vs. Istanbul Buyuksehir Belediyespor - Sunday August 26 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ARAT;GERALDES;HASPOLATLI;TEKDEMIR;VISCA;HOLMEN;TOM;WEBO
+Trabzonspor vs. Elazigspor - Sunday August 26 - 2012,Elazigspor,hard,4-3-3,IVESA;ZEEGELAAR;FABIO BILICA;SPAHIJA;ALKASI;KAYALI;ERTUGRUL;BADUR;YEDEK;TUM;FAUBERT
+Trabzonspor vs. Elazigspor - Sunday August 26 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;BAMBA;YUMLU;BALCI;ZOKORA;AYDOGDU;HENRIQUE;ALANZINHO;OZTEKIN;VITTEK
+Antalyaspor vs. Kayserispor - Monday August 27 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;MINEV;BARIS;GUNGOR;ARSLAN;INCEMAN;AKIN;TITA;BASSAN;PROMISE;DIARRA
+Antalyaspor vs. Kayserispor - Monday August 27 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;GUNGOR;ZURAB KHIZANISHVILI;DABANLI;RIVEROS;DURSUN;BAYRAM;CLEYTON;MOUCHE;BOBO
+Genclerbirligi vs. Orduspor - Friday August 31 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;SEDEF;KULUSIC;KURTULUS;ILERI;PETROVIC;ZEC;DURMAZ;MERIC;EKIGHO
+Genclerbirligi vs. Orduspor - Friday August 31 - 2012,Orduspor,hard,4-4-2,FORNEZZI;COKMUS;GARCIA;CAMDALI;GARCIA;MONJE;CINAZ;CALISKAN;YELKEN;STANCU;BARRAL
+Mersin Idmanyurdu vs. Eskisehirspor - Friday August 31 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;SARI;GUVEN;TELLO;POTUK;ZENGIN;KAMARA
+Mersin Idmanyurdu vs. Eskisehirspor - Friday August 31 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;KECELI;BOUM;STEPANOV;YANIK;BAYRAKTAR;BEN YAHIA;CULIO;ERDOGAN;OZOKWO;NOBRE
+Elazigspor vs. Kasimpasa - Saturday September 1 - 2012,Elazigspor,hard,4-3-3,IVESA;ZEEGELAAR;BAYRAK;FABIO BILICA;ALKASI;SAHIN;ERTUGRUL;BADUR;YEDEK;TUM;FAUBERT
+Elazigspor vs. Kasimpasa - Saturday September 1 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;OZMERT;ERNST;SARMOV;DJALMA;UCHE;HURMACI
+Istanbul Buyuksehir Belediyespor vs. Antalyaspor - Saturday September 1 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;MINEV;BARIS;GUNGOR;ARSLAN;JANDA;INCEMAN;TITA;BASSAN;PROMISE;DIARRA
+Istanbul Buyuksehir Belediyespor vs. Antalyaspor - Saturday September 1 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;TEKDEMIR;VISCA;HOLMEN;TOM;WEBO
+Kardemir Dc Karabukspor vs. Besiktas - Saturday September 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;HOLOSKO;KARADENIZ
+Kardemir Dc Karabukspor vs. Besiktas - Saturday September 1 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;DOGAN;JAHIC;MABIALA;UCAR;TEBER;KAGAN SOYLEMEZGILLER;SHELTON;LUALUA;CERNAT;YILDIZ
+Kayserispor vs. Akhisar Belediyespor - Saturday September 1 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;DUYMUS;EREN;YUCE;ASAN;VURAL;VARDAR;CEBE;BRUNO MEZENGA
+Kayserispor vs. Akhisar Belediyespor - Saturday September 1 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;AKDARI;GUNGOR;ZURAB KHIZANISHVILI;STEINSSON;RIVEROS;YOKUSLU;BAYRAM;CLEYTON;MOUCHE;BOBO
+Galatasaray vs. Bursaspor - Sunday September 2 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;ERDOGAN;OZTURK;CHRETIEN;N'DIAYE;CAGIRAN;WEDERSON;BATALLA;SESTAK;PINTO
+Galatasaray vs. Bursaspor - Sunday September 2 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;KAYA;NOUNKEU;EBOUE;COLAK;INAN;FELIPE MELO;ALTINTOP;ELMANDER;BULUT
+Gaziantepspor vs. Trabzonspor - Sunday September 2 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;DAG;HAS;IBRICIC;GULLE;OZBAYRAKTAR;TOSUN
+Gaziantepspor vs. Trabzonspor - Sunday September 2 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;BAMBA;YUMLU;BALCI;ZOKORA;AYDOGDU;OZTEKIN;SAPARA;SEN;HENRIQUE
+Sivasspor vs. Fenerbahce - Sunday September 2 - 2012,Fenerbahce,easy,4-2-3-1,GUNOK;KALDIRIM;KORKMAZ;YOBO;GONUL;TOPAL;SAHIN;SOW;ALEX;TOPUZ;KUYT
+Sivasspor vs. Fenerbahce - Sunday September 2 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;GUVEN;KAVUK;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
+Antalyaspor vs. Galatasaray - Saturday September 15 - 2012,Antalyaspor,hard,4-2-3-1,NDJOCK;MINEV;BARIS;ZIZIC;ARSLAN;INCEMAN;YILDIRIM;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Galatasaray - Saturday September 15 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;CRIS;KAYA;EBOUE;AMRABAT;INAN;FELIPE MELO;YILMAZ;ELMANDER;BULUT
+Bursaspor vs. Kardemir Dc Karabukspor - Saturday September 15 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;ERDOGAN;CHRETIEN;CAGIRAN;BELLUSCHI;IPEK;BATALLA;SESTAK;PINTO
+Bursaspor vs. Kardemir Dc Karabukspor - Saturday September 15 - 2012,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;SERIC;MABIALA;OZDIN;OZGENC;HIKMET;INCEDEMIR;KISA;OZEK;YILDIZ;PARLAK
+Kasimpasa vs. Gaziantepspor - Saturday September 15 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;DAG;HAS;GULLE;PEHLIVAN;OZBAYRAKTAR;TOSUN
+Kasimpasa vs. Gaziantepspor - Saturday September 15 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;SERAS;COULIBALY;KALA;HURMACI;DJALMA;UCHE
+Fenerbahce vs. Mersin Idmanyurdu - Sunday September 16 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;TOPAL;MEIRELES;STOCH;ALEX;TOPUZ;KUYT
+Fenerbahce vs. Mersin Idmanyurdu - Sunday September 16 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;KECELI;BOUM;TOSCALI;YANIK;BEN YAHIA;CULIO;BAYRAKTAR;IVAN;NOBRE;YATTARA
+Trabzonspor vs. Sivasspor - Sunday September 16 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;GUVEN;KAVUK;BEKMEZCI;KAYA;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
+Trabzonspor vs. Sivasspor - Sunday September 16 - 2012,Trabzonspor,easy,4-2-3-1,ZENGIN;EMERSON CONCEICAO;BAMBA;YUMLU;YAVRU;ZOKORA;SAPARA;OZTEKIN;ALANZINHO;ALTINTOP;HENRIQUE
+Besiktas vs. Elazigspor - Monday September 17 - 2012,Besiktas,easy,4-1-4-1,MCGREGOR;BORAL;SIVOK;TORAMAN;HILBERT;UYSAL;SAHAN;FERNANDES;KAVLAK;HOLOSKO;KARADENIZ
+Besiktas vs. Elazigspor - Monday September 17 - 2012,Elazigspor,hard,4-2-3-1,IVESA;ZEEGELAAR;AK;FABIO BILICA;ALKASI;ERTUGRUL;KAYALI;YEDEK;ZAKI;FAUBERT;TUM
+Orduspor vs. Kayserispor - Monday September 17 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;AKDARI;FATHI;ZURAB KHIZANISHVILI;STEINSSON;DURSUN;DURAK;MOUCHE;BISESWAR;BAYRAM;BOBO
+Orduspor vs. Kayserispor - Monday September 17 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;CINAZ;GARCIA;STANCU;CAMDALI;CALISKAN;UMBIDES;KABZE;BARRAL
+Kardemir Dc Karabukspor vs. Antalyaspor - Friday September 21 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;INCEMAN;JANDA;TITA;BASSAN;BOYRAZ;DIARRA
+Kardemir Dc Karabukspor vs. Antalyaspor - Friday September 21 - 2012,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;SERIC;MABIALA;OZDIN;OZGENC;HIKMET;INCEDEMIR;CERNAT;SHELTON;KOCABAS;PARLAK
+Gaziantepspor vs. Besiktas - Saturday September 22 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Gaziantepspor vs. Besiktas - Saturday September 22 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;SAHIN;PEHLIVAN;DAG;TOSUN
+Istanbul Buyuksehir Belediyespor vs. Orduspor - Saturday September 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;HASPOLATLI;TEKDEMIR;DOKA MADUREIRA;HOLMEN;SOKULLU;WEBO
+Istanbul Buyuksehir Belediyespor vs. Orduspor - Saturday September 22 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;KAS;GARCIA;STANCU;CAMDALI;CALISKAN;UMBIDES;KABZE;BARRAL
+Kayserispor vs. Eskisehirspor - Saturday September 22 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;GUVEN;KAMARA;TELLO;ZENGIN;ATES
+Kayserispor vs. Eskisehirspor - Saturday September 22 - 2012,Kayserispor,hard,4-2-3-1,DEGIRMENCI;AKDARI;FATHI;GUNGOR;STEINSSON;RIVEROS;DURSUN;MOUCHE;DURAK;BISESWAR;BOBO
+Mersin Idmanyurdu vs. Genclerbirligi - Saturday September 22 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;CAN;PETROVIC;ZEC;AZOFEIFA;MERIC;LEKIC
+Mersin Idmanyurdu vs. Genclerbirligi - Saturday September 22 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;KECELI;BOUM;STEPANOV;YANIK;BAYRAKTAR;ERDOGAN;IVAN;CULIO;OZOKWO;NOBRE
+Elazigspor vs. Bursaspor - Sunday September 23 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;ERDOGAN;CHRETIEN;CAGIRAN;BELLUSCHI;IPEK;BATALLA;SESTAK;PINTO
+Elazigspor vs. Bursaspor - Sunday September 23 - 2012,Elazigspor,hard,4-4-2,IVESA;ZEEGELAAR;AK;FABIO BILICA;ALKASI;YEDEK;ERTUGRUL;FAUBERT;EMRECIKSIN;TUM;ZAKI
+Galatasaray vs. Akhisar Belediyespor - Sunday September 23 - 2012,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DUYMUS;SONKO;CEBE;VURAL;YUCE;ASAN;EREN;YILMAZ;KAYTANKAS
+Galatasaray vs. Akhisar Belediyespor - Sunday September 23 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;NOUNKEU;EBOUE;COLAK;INAN;FELIPE MELO;ALTINTOP;YILMAZ;YILDIRIM
+Sivasspor vs. Kasimpasa - Sunday September 23 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;ERNST;SERAS;KALA;HURMACI;DJALMA;UCHE
+Sivasspor vs. Kasimpasa - Sunday September 23 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;GUVEN;KAVUK;RAJNOCH;KAYA;GROSICKI;KILIC;CHAHECHOUHE;ENERAMO
+Fenerbahce vs. Trabzonspor - Monday September 24 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;TOPAL;MEIRELES;STOCH;ALEX;TOPUZ;SOW
+Fenerbahce vs. Trabzonspor - Monday September 24 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;BAMBA;YUMLU;CELUSTKA;ZOKORA;SAPARA;ADIN;ALANZINHO;OZTEKIN;ALTINTOP
+Orduspor vs. Galatasaray - Friday September 28 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;CRIS;KAYA;EBOUE;AMRABAT;FELIPE MELO;INAN;ALTINTOP;YILMAZ;ELMANDER
+Orduspor vs. Galatasaray - Friday September 28 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;KAS;GARCIA;MONJE;CAMDALI;CALISKAN;UMBIDES;KABZE;STANCU
+Bursaspor vs. Gaziantepspor - Saturday September 29 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;ERDOGAN;CHRETIEN;CAGIRAN;BELLUSCHI;IPEK;BATALLA;SANLI;PINTO
+Bursaspor vs. Gaziantepspor - Saturday September 29 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;DAG;PEHLIVAN;IBRICIC;MEDUNJANIN;SOSA;TOSUN
+Kasimpasa vs. Fenerbahce - Saturday September 29 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;KORKMAZ;YOBO;GONUL;TOPAL;MEIRELES;STOCH;ALEX;TOPUZ;SOW
+Kasimpasa vs. Fenerbahce - Saturday September 29 - 2012,Kasimpasa,hard,4-4-2,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;DJALMA;SERAS;ERNST;HURMACI;UCHE;BUYUK
+Antalyaspor vs. Elazigspor - Sunday September 30 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;JANDA;INCEMAN;TITA;AISSATI;BASSAN;DIARRA
+Antalyaspor vs. Elazigspor - Sunday September 30 - 2012,Elazigspor,hard,4-1-3-2,IVESA;ZEEGELAAR;AK;FABIO BILICA;ALKASI;ERTUGRUL;EMRECIKSIN;YEDEK;FAUBERT;TUM;ZAKI
+Eskisehirspor vs. Istanbul Buyuksehir Belediyespor - Sunday September 30 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;SARI;GUCER;KAMARA;TELLO;ESER;ATES
+Eskisehirspor vs. Istanbul Buyuksehir Belediyespor - Sunday September 30 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;HASPOLATLI;TEKDEMIR;DOKA MADUREIRA;HOLMEN;SOKULLU;WEBO
+Genclerbirligi vs. Kayserispor - Sunday September 30 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;CAN;PETROVIC;ZEC;AZOFEIFA;MERIC;AKCAKIN
+Genclerbirligi vs. Kayserispor - Sunday September 30 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;FATHI;GUNGOR;ZURAB KHIZANISHVILI;COREKCI;DURAK;RIVEROS;YOKUSLU;MOUCHE;BOBO;BISESWAR
+Trabzonspor vs. Mersin Idmanyurdu - Sunday September 30 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;KECELI;BOUM;STEPANOV;YANIK;BAYRAKTAR;CULIO;ERDOGAN;IVAN;NOBRE;BEN YAHIA
+Trabzonspor vs. Mersin Idmanyurdu - Sunday September 30 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;BAMBA;CELUSTKA;BALCI;ZOKORA;AYDOGDU;ADIN;SAPARA;OZTEKIN;JANKO
+Besiktas vs. Sivasspor - Monday October 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;ESCUDE;TORAMAN;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Besiktas vs. Sivasspor - Monday October 1 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;GUVEN;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;CERNY;ENERAMO
+Gaziantepspor vs. Antalyaspor - Friday October 5 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Gaziantepspor vs. Antalyaspor - Friday October 5 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;PEHLIVAN;MEDUNJANIN;DAG;IBRICIC;SOSA;TOSUN
+Kardemir Dc Karabukspor vs. Orduspor - Friday October 5 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;MABIALA;OZDIN;OZGENC;INCEDEMIR;HIKMET;SHELTON;CERNAT;LUALUA;PARLAK
+Kardemir Dc Karabukspor vs. Orduspor - Friday October 5 - 2012,Orduspor,hard,4-2-3-1,FORNEZZI;TURAN;GARCIA;KAS;GARCIA;CINAZ;CAMDALI;MONJE;CALISKAN;UMBIDES;STANCU
+Trabzonspor vs. Kasimpasa - Friday October 5 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;ERNST;SERAS;BUYUK;HURMACI;DJALMA;UCHE
+Trabzonspor vs. Kasimpasa - Friday October 5 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;BAMBA;YUMLU;YAVRU;ZOKORA;SAPARA;ADIN;ALANZINHO;OZTEKIN;ALTINTOP
+Elazigspor vs. Akhisar Belediyespor - Saturday October 6 - 2012,Akhisar Belediyespor,hard,4-3-3,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;OZER;ALADAG;ASAN;VARDAR;BRUNO MEZENGA;TASDEMIR
+Elazigspor vs. Akhisar Belediyespor - Saturday October 6 - 2012,Elazigspor,hard,4-2-3-1,IVESA;YEDEK;AK;FABIO BILICA;ALKASI;ERTUGRUL;KAYALI;KARABULUT;FEINDOUNO;FAUBERT;TUM
+Galatasaray vs. Eskisehirspor - Saturday October 6 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;SARI;TELLO;POTUK;KAMARA;ATES
+Galatasaray vs. Eskisehirspor - Saturday October 6 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;NOUNKEU;EBOUE;COLAK;INAN;FELIPE MELO;ALTINTOP;YILMAZ;BULUT
+Istanbul Buyuksehir Belediyespor vs. Genclerbirligi - Saturday October 6 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;CAN;PETROVIC;ZEC;AZOFEIFA;MERIC;AKCAKIN
+Istanbul Buyuksehir Belediyespor vs. Genclerbirligi - Saturday October 6 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;SAHIN;INANC;TEKDEMIR;DOKA MADUREIRA;HOLMEN;VISCA;WEBO
 Fenerbahce vs. Besiktas - Sunday October 7 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;ESCUDE;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;ALMEIDA
-Fenerbahce vs. Besiktas - Sunday October 7 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;YOBO;KALDIRIM;ERKIN;GONUL;TOPAL;MEIRELES;CRISTIAN;KUYT;SOW
-Mersin Idmanyurdu vs. Kayserispor - Sunday October 7 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;DURSUN;GUNGOR;DABANLI;FATHI;STEINSSON;RIVEROS;CLEYTON;MOUCHE;YILMAZ;BOBO
-Mersin Idmanyurdu vs. Kayserispor - Sunday October 7 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;BOUM;STEPANOV;YANIK;KECELI;IVAN;BAYRAKTAR;BEN YAHIA;CULIO;ERDOGAN;NOBRE
-Sivasspor vs. Bursaspor - Sunday October 7 - 2012,Bursaspor,hard,4-3-3,CARSON;ERDOGAN;OZTURK;WEDERSON;CHRETIEN;N'DIAYE;BELLUSCHI;BATALLA;IPEK;DENIZ;SESTAK
-Sivasspor vs. Bursaspor - Sunday October 7 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;KOCAK;CERNY;KILIC;GROSICKI;ENERAMO
-Genclerbirligi vs. Galatasaray - Friday October 19 - 2012,Galatasaray,easy,4-4-2,MUSLERA;KAYA;NOUNKEU;BALTA;EBOUE;FELIPE MELO;ALTINTOP;COLAK;AMRABAT;ELMANDER;YILMAZ
-Genclerbirligi vs. Galatasaray - Friday October 19 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;CAN;KURTULUS;AZOFEIFA;ILERI;DURMAZ;ZEC;MERIC
-Antalyaspor vs. Sivasspor - Saturday October 20 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Sivasspor - Saturday October 20 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;FATY;NAVRATIL;YERLIKAYA;GUVEN;KAYA;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Bursaspor vs. Fenerbahce - Saturday October 20 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ERDOGAN;OZTURK;WEDERSON;ASLANTAS;CHRETIEN;N'DIAYE;YILDIRIM;BELLUSCHI;BATALLA;PINTO
-Bursaspor vs. Fenerbahce - Saturday October 20 - 2012,Fenerbahce,easy,4-4-2,DEMIREL;IRTEGUN;KESIMAL;KORKMAZ;KALDIRIM;ERKIN;SAHIN;CRISTIAN;KRASIC;KUYT;SOW
-Orduspor vs. Elazigspor - Saturday October 20 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;ALKASI;FAUBERT;ERTUGRUL;KAYALI;YEDEK;KARABULUT;EMRECIKSIN;TUM
-Orduspor vs. Elazigspor - Saturday October 20 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;TURAN;GARCIA;CAMDALI;CALISKAN;UMBIDES;GOKOGLAN;BARRAL;STANCU
-Akhisar Belediyespor vs. Gaziantepspor - Sunday October 21 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Gaziantepspor - Sunday October 21 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;BINYA;KECOJEVIC;CAN;DAG;KURTULUS;GULLE;PEHLIVAN;IBRICIC;DEMIR;TOSUN
-Besiktas vs. Trabzonspor - Sunday October 21 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;GULUM;SIVOK;TORAMAN;HILBERT;OZYAKUP;BORAL;FERNANDES;HOLOSKO;ALMEIDA;KARADENIZ
-Besiktas vs. Trabzonspor - Sunday October 21 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;YUMLU;EMERSON CONCEICAO;YAVRU;ZOKORA;AYDOGDU;SAPARA;ALTINTOP;ADIN;OZTEKIN
-Eskisehirspor vs. Kardemir Dc Karabukspor - Sunday October 21 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;DEDE;GUCER;POTUK;TELLO;ZENGIN;KAMARA;ATES
-Eskisehirspor vs. Kardemir Dc Karabukspor - Sunday October 21 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;JAHIC;MABIALA;SERIC;OZGENC;HIKMET;INCEDEMIR;HAMROUN;LUALUA;PARLAK;YILDIZ
-Kasimpasa vs. Mersin Idmanyurdu - Sunday October 21 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;BASDAS;EKER;SUME;KAPLAN;ERNST;SERAS;HURMACI;KALA;DJALMA;UCHE
-Kasimpasa vs. Mersin Idmanyurdu - Sunday October 21 - 2012,Mersin Idmanyurdu,hard,4-5-1,SEHIC;BOUM;TOSCALI;IVAN;KECELI;BAYRAKTAR;SARP;CULIO;BEN YAHIA;OZOKWO;NOBRE
-Kayserispor vs. Istanbul Buyuksehir Belediyespor - Monday October 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-1-4-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;HASPOLATLI;TEKDEMIR;HOLMEN;SOKULLU;DOKA MADUREIRA;WEBO
-Kayserispor vs. Istanbul Buyuksehir Belediyespor - Monday October 22 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;GUNGOR;DABANLI;FATHI;STEINSSON;RIVEROS;YOKUSLU;CLEYTON;MOUCHE;YILMAZ;BOBO
-Elazigspor vs. Eskisehirspor - Friday October 26 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;FAUBERT;ALKASI;ERTUGRUL;KAYALI;YEDEK;EMRECIKSIN;KARABULUT;TUM
-Elazigspor vs. Eskisehirspor - Friday October 26 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;DEDE;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
-Kasimpasa vs. Besiktas - Friday October 26 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;GULUM;HILBERT;OZYAKUP;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Kasimpasa vs. Besiktas - Friday October 26 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;EKER;KAPLAN;ERNST;SERAS;HURMACI;DJALMA;KALA;UCHE
-Galatasaray vs. Kayserispor - Saturday October 27 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;EBOUE;INAN;KURTULUS;ALTINTOP;RIERA;AMRABAT;BULUT;YILMAZ
-Galatasaray vs. Kayserispor - Saturday October 27 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;DURSUN;AKDARI;DABANLI;FATHI;STEINSSON;RIVEROS;DURAK;BEKDEMIR;MOUCHE;BOBO
-Mersin Idmanyurdu vs. Istanbul Buyuksehir Belediyespor - Saturday October 27 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ZAYATTE;DEPE;EKSIOGLU;SUZEN;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;DOKA MADUREIRA;WEBO
-Mersin Idmanyurdu vs. Istanbul Buyuksehir Belediyespor - Saturday October 27 - 2012,Mersin Idmanyurdu,hard,4-5-1,SEHIC;TOSCALI;BOUM;KECELI;IVAN;BAYRAKTAR;SARP;CULIO;BEN YAHIA;OZOKWO;NOBRE
-Sivasspor vs. Akhisar Belediyespor - Saturday October 27 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;BRUNO MEZENGA
-Sivasspor vs. Akhisar Belediyespor - Saturday October 27 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;ERDAL;GUVEN;KAVUK;BEKMEZCI;KAYA;KILIC;GROSICKI;ENERAMO;PEDRIEL
-Kardemir Dc Karabukspor vs. Genclerbirligi - Sunday October 28 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;TOSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;DURMAZ;ZEC;MERIC
-Kardemir Dc Karabukspor vs. Genclerbirligi - Sunday October 28 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;JAHIC;MABIALA;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;CERNAT;OZEK;PARLAK;LUALUA
-Trabzonspor vs. Bursaspor - Sunday October 28 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;ERDOGAN;WEDERSON;ASLANTAS;CHRETIEN;N'DIAYE;YILDIRIM;BELLUSCHI;BATALLA;PINTO
-Trabzonspor vs. Bursaspor - Sunday October 28 - 2012,Trabzonspor,easy,4-4-2,KIVRAK;BAMBA;YUMLU;EMERSON CONCEICAO;YAVRU;ZOKORA;SAPARA;ALTINTOP;ADIN;OZTEKIN;JANKO
-Fenerbahce vs. Antalyaspor - Monday October 29 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;NIZAM;BARIS;TEBER;ARSLAN;DAGASAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Fenerbahce vs. Antalyaspor - Monday October 29 - 2012,Fenerbahce,easy,4-4-2,DEMIREL;IRTEGUN;KESIMAL;KALDIRIM;ERKIN;GONUL;SAHIN;CRISTIAN;KRASIC;KUYT;SOW
-Istanbul Buyuksehir Belediyespor vs. Galatasaray - Friday November 2 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;EBOUE;INAN;KURTULUS;ALTINTOP;RIERA;AMRABAT;BULUT;YILMAZ
-Istanbul Buyuksehir Belediyespor vs. Galatasaray - Friday November 2 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;INANC;HASPOLATLI;HOLMEN;DOKA MADUREIRA;WEBO;BAHADIR
-Akhisar Belediyespor vs. Fenerbahce - Saturday November 3 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Fenerbahce - Saturday November 3 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;KESIMAL;KALDIRIM;GONUL;SAHIN;TOPAL;CRISTIAN;STOCH;KUYT;SOW
-Eskisehirspor vs. Gaziantepspor - Saturday November 3 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;SARI;CETIN;DIEGO ANGELO;DEDE;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
-Eskisehirspor vs. Gaziantepspor - Saturday November 3 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;HAS;MEDUNJANIN;IBRICIC;TOSUN;DEMIR
-Kayserispor vs. Kardemir Dc Karabukspor - Saturday November 3 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;OZDIN;MABIALA;JAHIC;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;CERNAT;OZEK;LUALUA
-Kayserispor vs. Kardemir Dc Karabukspor - Saturday November 3 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;GUNGOR;FATHI;STEINSSON;RIVEROS;DURAK;CLEYTON;BEKDEMIR;YILMAZ;BOBO
-Besiktas vs. Mersin Idmanyurdu - Sunday November 4 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;SIVOK;GULUM;HILBERT;UYSAL;OZYAKUP;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Mersin Idmanyurdu - Sunday November 4 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;BOUM;TOSCALI;KECELI;IVAN;BAYRAKTAR;CULIO;CEYLAN;BEN YAHIA;OZOKWO;NOBRE
-Genclerbirligi vs. Elazigspor - Sunday November 4 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;ZEEGELAAR;FAUBERT;ALKASI;BADUR;YEDEK;EMRECIKSIN;KARABULUT;TUM
-Genclerbirligi vs. Elazigspor - Sunday November 4 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;TOSIC;KULUSIC;CAN;KURTULUS;ILERI;AZOFEIFA;ZEC;MERIC;LEKIC
-Orduspor vs. Sivasspor - Sunday November 4 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;TURAN;GARCIA;CINAZ;CAMDALI;CALISKAN;UMBIDES;STANCU;KABZE;BARRAL
-Orduspor vs. Sivasspor - Sunday November 4 - 2012,Sivasspor,hard,4-2-3-1,KOCA;RAJNOCH;NAVRATIL;ERDAL;KAVUK;BEKMEZCI;KAYA;NAS;KILIC;GROSICKI;ENERAMO
-Antalyaspor vs. Trabzonspor - Monday November 5 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;NIZAM;TEBER;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Trabzonspor - Monday November 5 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;CELUSTKA;KACAR;BAMBA;EMERSON CONCEICAO;ZOKORA;AYDOGDU;MIERZEJEWSKI;ADIN;OZTEKIN;JANKO
-Bursaspor vs. Kasimpasa - Monday November 5 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;ERDOGAN;WEDERSON;ASLANTAS;CHRETIEN;N'DIAYE;YILDIRIM;BELLUSCHI;BATALLA;PINTO
-Bursaspor vs. Kasimpasa - Monday November 5 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;ERNST;SERAS;OZMERT;HURMACI;DJALMA;UCHE
-Besiktas vs. Bursaspor - Friday November 9 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;SIVOK;GULUM;HILBERT;UYSAL;KAVLAK;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Bursaspor - Friday November 9 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;BELLUSCHI;BATALLA;SANLI;SESTAK
-Sivasspor vs. Eskisehirspor - Friday November 9 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;DEDE;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
-Sivasspor vs. Eskisehirspor - Friday November 9 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;NAS;KOCAK;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Kardemir Dc Karabukspor vs. Istanbul Buyuksehir Belediyespor - Saturday November 10 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ZAYATTE;EKSIOGLU;GERALDES;INANC;HASPOLATLI;TEKDEMIR;HOLMEN;SOKULLU;BAHADIR;WEBO
-Kardemir Dc Karabukspor vs. Istanbul Buyuksehir Belediyespor - Saturday November 10 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;DEUMI;MABIALA;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;CERNAT;OZEK;PARLAK;YILDIZ
-Kasimpasa vs. Antalyaspor - Saturday November 10 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;NIZAM;TEBER;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Kasimpasa vs. Antalyaspor - Saturday November 10 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;ERNST;SERAS;OZMERT;HURMACI;DJALMA;UCHE
-Trabzonspor vs. Akhisar Belediyespor - Saturday November 10 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;YALCIN;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;BRUNO MEZENGA
-Trabzonspor vs. Akhisar Belediyespor - Saturday November 10 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;EMERSON CONCEICAO;BALCI;ZOKORA;COLMAN;SAPARA;MIERZEJEWSKI;ALTINTOP;JANKO
-Elazigspor vs. Kayserispor - Sunday November 11 - 2012,Elazigspor,hard,4-1-4-1,IVESA;BAYRAK;FABIO BILICA;ZEEGELAAR;FAUBERT;ALKASI;BADUR;YEDEK;EMRECIKSIN;KARABULUT;TUM
-Elazigspor vs. Kayserispor - Sunday November 11 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;ZURAB KHIZANISHVILI;GUNGOR;FATHI;STEINSSON;RIVEROS;DURAK;CLEYTON;BEKDEMIR;YILMAZ;BOBO
-Fenerbahce vs. Orduspor - Sunday November 11 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;IRTEGUN;KALDIRIM;GONUL;TOPAL;MEIRELES;CRISTIAN;STOCH;KUYT;SOW
-Fenerbahce vs. Orduspor - Sunday November 11 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;TURAN;GARCIA;CALISKAN;CINAZ;CAMDALI;UMBIDES;MONJE;KABZE;STANCU
-Gaziantepspor vs. Genclerbirligi - Sunday November 11 - 2012,Gaziantepspor,hard,4-5-1,BEZGIN;TOKAK;BINYA;DAG;KURTULUS;PEHLIVAN;MEDUNJANIN;IBRICIC;OZBAYRAKTAR;TOSUN;SOSA
-Gaziantepspor vs. Genclerbirligi - Sunday November 11 - 2012,Genclerbirligi,hard,4-2-3-1,KARABULUT;DEMIR;SEDEF;TOSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;ZEC;MERIC;LEKIC
-Mersin Idmanyurdu vs. Galatasaray - Sunday November 11 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;EBOUE;INAN;KURTULUS;ALTINTOP;RIERA;COLAK;BULUT;YILMAZ
-Mersin Idmanyurdu vs. Galatasaray - Sunday November 11 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;YANIK;STEPANOV;KECELI;IVAN;BAYRAKTAR;CULIO;BEN YAHIA;OZOKWO;KELES;NOBRE
-Galatasaray vs. Kardemir Dc Karabukspor - Friday November 16 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;NOUNKEU;BALTA;EBOUE;FELIPE MELO;INAN;ALTINTOP;COLAK;BULUT;YILMAZ
-Galatasaray vs. Kardemir Dc Karabukspor - Friday November 16 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;DEUMI;MABIALA;DOGAN;OZGENC;HIKMET;INCEDEMIR;OZEK;PARLAK;YILDIZ;LUALUA
-Eskisehirspor vs. Fenerbahce - Saturday November 17 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;SARI;CETIN;DIEGO ANGELO;DEDE;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
-Eskisehirspor vs. Fenerbahce - Saturday November 17 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;ERKIN;GONUL;TOPAL;CRISTIAN;MEIRELES;KUYT;SOW
-Istanbul Buyuksehir Belediyespor vs. Elazigspor - Saturday November 17 - 2012,Elazigspor,hard,4-4-2,IVESA;BAYRAK;FABIO BILICA;AK;FAUBERT;ALKASI;ERTUGRUL;BADUR;YEDEK;TUM;ZAKI
-Istanbul Buyuksehir Belediyespor vs. Elazigspor - Saturday November 17 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;HASPOLATLI;TEKDEMIR;HOLMEN;SOKULLU;DOKA MADUREIRA;WEBO
-Akhisar Belediyespor vs. Kasimpasa - Sunday November 18 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;TASDEMIR;VARDAR;OZER;YILMAZ
-Akhisar Belediyespor vs. Kasimpasa - Sunday November 18 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;EKER;AYHAN;DERELI;ERNST;SERAS;OZMERT;HURMACI;DJALMA;UCHE
-Antalyaspor vs. Besiktas - Sunday November 18 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;TANDOGAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Besiktas - Sunday November 18 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;GULUM;UYSAL;OZYAKUP;AKGUN;BORAL;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Bursaspor vs. Mersin Idmanyurdu - Sunday November 18 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;BELLUSCHI;BATALLA;SANLI;SESTAK
-Bursaspor vs. Mersin Idmanyurdu - Sunday November 18 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;YANIK;BOUM;KECELI;IVAN;BAYRAKTAR;CULIO;BEN YAHIA;OZOKWO;KELES;NOBRE
-Kayserispor vs. Gaziantepspor - Sunday November 18 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;KECOJEVIC;BINYA;CAN;DAG;KURTULUS;GULLE;CALIS;HAS;MEDUNJANIN;OZBAYRAKTAR
-Kayserispor vs. Gaziantepspor - Sunday November 18 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;GUNGOR;BAYRAM;FATHI;STEINSSON;RIVEROS;DURAK;CLEYTON;YILMAZ;BOBO
-Orduspor vs. Trabzonspor - Monday November 19 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;COKMUS;GARCIA;CINAZ;CALISKAN;CAMDALI;UMBIDES;MONJE;STANCU;KABZE
-Orduspor vs. Trabzonspor - Monday November 19 - 2012,Trabzonspor,easy,4-4-2,KIVRAK;BAMBA;KACAR;EMERSON CONCEICAO;BALCI;AYDOGDU;COLMAN;SAPARA;GURAL;OZTEKIN;JANKO
-Besiktas vs. Akhisar Belediyespor - Friday November 23 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;ASAN;TASDEMIR;OZER;BRUNO MEZENGA;YILMAZ
-Besiktas vs. Akhisar Belediyespor - Friday November 23 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;OZKAN;SIVOK;HILBERT;UYSAL;OZYAKUP;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Mersin Idmanyurdu vs. Kardemir Dc Karabukspor - Friday November 23 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;DOGAN;SOYLER;HIKMET;VAROL;OZEK;PARLAK;YILDIZ;LUALUA
-Mersin Idmanyurdu vs. Kardemir Dc Karabukspor - Friday November 23 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;BOUM;STEPANOV;KECELI;IVAN;BARIS;BAYRAKTAR;SARP;BEN YAHIA;OZOKWO;NOBRE
-Bursaspor vs. Antalyaspor - Saturday November 24 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;GUNGOR;NIZAM;TEBER;TANDOGAN;DURUER;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Bursaspor vs. Antalyaspor - Saturday November 24 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ERDOGAN;AZIZ;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;BATALLA;BELLUSCHI;SANLI;SESTAK
-Elazigspor vs. Galatasaray - Saturday November 24 - 2012,Elazigspor,hard,4-4-2,IVESA;FABIO BILICA;GORK;AK;FAUBERT;BADUR;KAYALI;YEDEK;KARABULUT;ZAKI;TUM
-Elazigspor vs. Galatasaray - Saturday November 24 - 2012,Galatasaray,easy,4-4-2,MUSLERA;CRIS;KAYA;SARIOGLU;FELIPE MELO;KURTULUS;RIERA;BAYTAR;AMRABAT;BULUT;ELMANDER
-Kasimpasa vs. Orduspor - Saturday November 24 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SERAS;ERNST;OZMERT;HURMACI;DJALMA;UCHE
-Kasimpasa vs. Orduspor - Saturday November 24 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;GARCIA;COKMUS;CINAZ;CALISKAN;CAMDALI;UMBIDES;KABZE;STANCU
-Fenerbahce vs. Genclerbirligi - Sunday November 25 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;IRTEGUN;KALDIRIM;GONUL;TOPAL;CRISTIAN;MEIRELES;STOCH;KUYT;SOW
-Fenerbahce vs. Genclerbirligi - Sunday November 25 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;SEDEF;CURRI;TOSIC;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;MERIC
-Gaziantepspor vs. Istanbul Buyuksehir Belediyespor - Sunday November 25 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;KECOJEVIC;BINYA;DAG;KURTULUS;GULLE;PEHLIVAN;MEDUNJANIN;IBRICIC;OZBAYRAKTAR;TOSUN
-Gaziantepspor vs. Istanbul Buyuksehir Belediyespor - Sunday November 25 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;HASPOLATLI;TEKDEMIR;HOLMEN;TOM;VISCA;WEBO
-Sivasspor vs. Kayserispor - Sunday November 25 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;KAYAOGLU;GUNGOR;FATHI;YOKUSLU;DURAK;CLEYTON;BEKDEMIR;YILMAZ;BOBO
-Sivasspor vs. Kayserispor - Sunday November 25 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Trabzonspor vs. Eskisehirspor - Monday November 26 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;SARI;CETIN;DIEGO ANGELO;DEDE;GUCER;MALECKI;POTUK;TELLO;KAMARA;ATES
-Trabzonspor vs. Eskisehirspor - Monday November 26 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;KACAR;BAMBA;EMERSON CONCEICAO;BALCI;COLMAN;AYDOGDU;MIERZEJEWSKI;ALTINTOP;ADIN;JANKO
-Galatasaray vs. Gaziantepspor - Friday November 30 - 2012,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;AMRABAT;YILMAZ;BULUT
-Galatasaray vs. Gaziantepspor - Friday November 30 - 2012,Gaziantepspor,hard,4-3-1-2,BEZGIN;KECOJEVIC;BINYA;DAG;KURTULUS;GULLE;HAS;MEDUNJANIN;IBRICIC;OZBAYRAKTAR;TOSUN
-Akhisar Belediyespor vs. Bursaspor - Saturday December 1 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;SONKO;EREN;ALADAG;YUCE;ASAN;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Bursaspor - Saturday December 1 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;ASLANTAS;CAGIRAN;N'DIAYE;BATALLA;SANLI;SESTAK;BANGURA
-Kardemir Dc Karabukspor vs. Elazigspor - Saturday December 1 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;FAUBERT;ALKASI;ERTUGRUL;BADUR;YEDEK;KARABULUT;KALOGLU
-Kardemir Dc Karabukspor vs. Elazigspor - Saturday December 1 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;PARLAK;YILDIZ;LUALUA
-Orduspor vs. Besiktas - Saturday December 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;GULUM;SIVOK;HILBERT;UYSAL;OZYAKUP;BORAL;SAHAN;HOLOSKO;ALMEIDA
-Orduspor vs. Besiktas - Saturday December 1 - 2012,Orduspor,hard,4-4-2,FORNEZZI;ROVERSIO;KAS;TURAN;COKMUS;CINAZ;CAMDALI;UMBIDES;MONJE;STANCU;KABZE
-Antalyaspor vs. Mersin Idmanyurdu - Sunday December 2 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;TANDOGAN;INCEMAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Mersin Idmanyurdu - Sunday December 2 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;STEPANOV;YANIK;IVAN;KECELI;BARIS;BAYRAKTAR;SARP;CULIO;BEN YAHIA;NOBRE
-Eskisehirspor vs. Kasimpasa - Sunday December 2 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;SARI;CETIN;DIEGO ANGELO;DEDE;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
-Eskisehirspor vs. Kasimpasa - Sunday December 2 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;ERNST;SARMOV;OZMERT;HURMACI;KALA;UCHE
-Istanbul Buyuksehir Belediyespor vs. Sivasspor - Sunday December 2 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;SUZEN;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;DOKA MADUREIRA;WEBO
-Istanbul Buyuksehir Belediyespor vs. Sivasspor - Sunday December 2 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;KOCAK;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Kayserispor vs. Fenerbahce - Sunday December 2 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;IRTEGUN;KALDIRIM;ERKIN;GONUL;TOPAL;CRISTIAN;MEIRELES;KUYT;SOW
-Kayserispor vs. Fenerbahce - Sunday December 2 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DABANLI;GUNGOR;FATHI;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Genclerbirligi vs. Trabzonspor - Monday December 3 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;PETROVIC;KULUSIC;SEDEF;TOSIC;CAN;ILERI;DURMAZ;MERIC;AKCAKIN
-Genclerbirligi vs. Trabzonspor - Monday December 3 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;EMERSON CONCEICAO;BALCI;ZOKORA;COLMAN;MIERZEJEWSKI;ALTINTOP;ADIN;HENRIQUE
-Besiktas vs. Eskisehirspor - Friday December 7 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;HILBERT;UYSAL;OZYAKUP;KAVLAK;BORAL;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Eskisehirspor - Friday December 7 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;AKAMINKO;DIEGO ANGELO;DEDE;GUCER;GUVEN;ZENGIN;TELLO;KAMARA;ATES
-Elazigspor vs. Mersin Idmanyurdu - Friday December 7 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ZEEGELAAR;FAUBERT;ALKASI;BADUR;KAYALI;YEDEK;KALOGLU
-Elazigspor vs. Mersin Idmanyurdu - Friday December 7 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,ONGUN;YANIK;STEPANOV;TOSCALI;KECELI;IVAN;BAYRAKTAR;SARP;CULIO;OZOKWO;NOBRE
-Bursaspor vs. Orduspor - Saturday December 8 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;BELLUSCHI;BATALLA;SANLI;PINTO
-Bursaspor vs. Orduspor - Saturday December 8 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;TURAN;GARCIA;CAMDALI;CALISKAN;CINAZ;UMBIDES;MONJE;STANCU;KABZE
-Gaziantepspor vs. Kardemir Dc Karabukspor - Saturday December 8 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;KECOJEVIC;BINYA;DAG;KURTULUS;GULLE;CALIS;MEDUNJANIN;HAS;IBRICIC;TOSUN
-Gaziantepspor vs. Kardemir Dc Karabukspor - Saturday December 8 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;MABIALA;DEUMI;SERIC;OZGENC;HIKMET;INCEDEMIR;HAMROUN;OZEK;PARLAK;LUALUA
-Kasimpasa vs. Genclerbirligi - Saturday December 8 - 2012,Genclerbirligi,hard,4-4-2,KARABULUT;DEMIR;SEDEF;KULUSIC;TOSIC;CAN;AZOFEIFA;DURMAZ;ZEC;MERIC;LEKIC
-Kasimpasa vs. Genclerbirligi - Saturday December 8 - 2012,Kasimpasa,hard,4-4-2,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SARMOV;ERNST;HURMACI;DJALMA;BUYUK;UCHE
-Sivasspor vs. Galatasaray - Saturday December 8 - 2012,Galatasaray,easy,4-4-2,CEYLAN;NOUNKEU;KAYA;BALTA;EBOUE;INAN;KURTULUS;YILMAZ;AMRABAT;BULUT;YILMAZ
-Sivasspor vs. Galatasaray - Saturday December 8 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;PEDRIEL
-Fenerbahce vs. Istanbul Buyuksehir Belediyespor - Sunday December 9 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;ERKIN;GONUL;TOPAL;MEIRELES;CRISTIAN;KUYT;SOW
-Fenerbahce vs. Istanbul Buyuksehir Belediyespor - Sunday December 9 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;SUZEN;GERALDES;TEKDEMIR;HASPOLATLI;HOLMEN;KORKMAZ;WEBO
-Trabzonspor vs. Kayserispor - Sunday December 9 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;GUNGOR;FATHI;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;DIOP
-Trabzonspor vs. Kayserispor - Sunday December 9 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;EMERSON CONCEICAO;BALCI;ZOKORA;ALANZINHO;MIERZEJEWSKI;ALTINTOP;ADIN;HENRIQUE
-Eskisehirspor vs. Bursaspor - Friday December 14 - 2012,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;KIRAZ;CHRETIEN;N'DIAYE;BELLUSCHI;BATALLA;SANLI;SESTAK
-Eskisehirspor vs. Bursaspor - Friday December 14 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;CETIN;DIEGO ANGELO;DEDE;GUCER;GUVEN;ZENGIN;POTUK;KAMARA;ATES
-Elazigspor vs. Gaziantepspor - Saturday December 15 - 2012,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ZEEGELAAR;FAUBERT;ALKASI;KAYALI;BADUR;YEDEK;TURKDOGAN
-Elazigspor vs. Gaziantepspor - Saturday December 15 - 2012,Gaziantepspor,hard,4-4-2,BIRNICAN;BINYA;KECOJEVIC;CAN;KURTULUS;DAG;PEHLIVAN;MEDUNJANIN;SAHIN;SOSA;TOSUN
-Genclerbirligi vs. Besiktas - Saturday December 15 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;GULUM;HILBERT;UYSAL;KAVLAK;BORAL;SAHAN;HOLOSKO;ALMEIDA
-Genclerbirligi vs. Besiktas - Saturday December 15 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;PETROVIC;KULUSIC;TOSIC;CAN;AZOFEIFA;ILERI;DURMAZ;MERIC;LEKIC
-Mersin Idmanyurdu vs. Akhisar Belediyespor - Saturday December 15 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;YALCIN;CEBE;EREN;YUCE;DIEGO LIMA;VARDAR;OZER;BRUNO MEZENGA
-Mersin Idmanyurdu vs. Akhisar Belediyespor - Saturday December 15 - 2012,Mersin Idmanyurdu,hard,4-4-2,ONGUN;TOSCALI;STEPANOV;IVAN;BARIS;BAYRAKTAR;CULIO;CEYLAN;BEN YAHIA;NOBRE;TOZLU
-Galatasaray vs. Fenerbahce - Sunday December 16 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;ERKIN;GONUL;TOPAL;MEIRELES;CRISTIAN;KUYT;SOW
-Galatasaray vs. Fenerbahce - Sunday December 16 - 2012,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;AMRABAT;BULUT;YILMAZ
-Istanbul Buyuksehir Belediyespor vs. Trabzonspor - Sunday December 16 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;SUZEN;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;TOM;WEBO
-Istanbul Buyuksehir Belediyespor vs. Trabzonspor - Sunday December 16 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;EMERSON CONCEICAO;BALCI;ZOKORA;ALANZINHO;MIERZEJEWSKI;ADIN;HENRIQUE;OZTEKIN
-Kardemir Dc Karabukspor vs. Sivasspor - Sunday December 16 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DEUMI;MABIALA;SERIC;SOYLER;INCEDEMIR;HIKMET;HAMROUN;SHELTON;PARLAK;LUALUA
-Kardemir Dc Karabukspor vs. Sivasspor - Sunday December 16 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;AKCA;ERDAL;GUVEN;BEKMEZCI;KOCAK;KILIC;GROSICKI;PEDRIEL;ENERAMO
-Orduspor vs. Antalyaspor - Sunday December 16 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;GUNGOR;BARIS;TEBER;ARSLAN;DAGASAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Orduspor vs. Antalyaspor - Sunday December 16 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;TURAN;GARCIA;COKMUS;CINAZ;CAMDALI;UMBIDES;STANCU;KABZE
-Kayserispor vs. Kasimpasa - Monday December 17 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SERAS;SARMOV;HURMACI;VIUDEZ;DJALMA;UCHE
-Kayserispor vs. Kasimpasa - Monday December 17 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;GUNGOR;FATHI;BAYRAM;RIVEROS;CLEYTON;MOUCHE;YILMAZ;BOBO
-Akhisar Belediyespor vs. Orduspor - Friday December 21 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;DEMIROK;EREN;ALADAG;YUCE;ASAN;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Orduspor - Friday December 21 - 2012,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;KAS;GARCIA;COKMUS;CINAZ;CALISKAN;CAMDALI;UMBIDES;STANCU;KABZE
-Besiktas vs. Kayserispor - Friday December 21 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;GULUM;HILBERT;UYSAL;OZYAKUP;BORAL;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Kayserispor - Friday December 21 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;GUNGOR;KAYAOGLU;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Fenerbahce vs. Kardemir Dc Karabukspor - Saturday December 22 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;IRTEGUN;KALDIRIM;GONUL;SAHIN;CRISTIAN;OZTURK;KRASIC;KUYT;SOW
-Fenerbahce vs. Kardemir Dc Karabukspor - Saturday December 22 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;MABIALA;DEUMI;SERIC;OZGENC;HIKMET;INCEDEMIR;SHELTON;OZEK;PARLAK;LUALUA
-Kasimpasa vs. Istanbul Buyuksehir Belediyespor - Saturday December 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;SUZEN;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;TOM;WEBO
-Kasimpasa vs. Istanbul Buyuksehir Belediyespor - Saturday December 22 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;EKER;KAPLAN;ERNST;SARMOV;HURMACI;DIMITROV;VIUDEZ;UCHE
-Antalyaspor vs. Eskisehirspor - Sunday December 23 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;GUNGOR;BARIS;TEBER;ARSLAN;DAGASAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Eskisehirspor - Sunday December 23 - 2012,Eskisehirspor,hard,4-4-2,BOFFIN;CETIN;DIEGO ANGELO;SARI;AKAMINKO;DEDE;GUCER;TELLO;POTUK;NUHIU;ATES
-Bursaspor vs. Genclerbirligi - Sunday December 23 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ERDOGAN;AZIZ;WEDERSON;CHRETIEN;YILDIRIM;BELLUSCHI;BATALLA;SANLI;SESTAK;PINTO
-Bursaspor vs. Genclerbirligi - Sunday December 23 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;PETROVIC;KULUSIC;TOSIC;CAN;ILERI;DELIBALTA;KARA;MERIC;LEKIC
-Gaziantepspor vs. Mersin Idmanyurdu - Sunday December 23 - 2012,Gaziantepspor,hard,4-3-3,BEZGIN;TOKAK;BINYA;CAN;DAG;KURTULUS;GULLE;MEDUNJANIN;SAHIN;TOSUN;SOSA
-Gaziantepspor vs. Mersin Idmanyurdu - Sunday December 23 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,ONGUN;STEPANOV;KECELI;IVAN;BARIS;BAYRAKTAR;CULIO;CEYLAN;BEN YAHIA;TOZLU;NOBRE
-Sivasspor vs. Elazigspor - Sunday December 23 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ZEEGELAAR;ALKASI;ERTUGRUL;BADUR;YEDEK;GURLER;TURKDOGAN
-Sivasspor vs. Elazigspor - Sunday December 23 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
-Trabzonspor vs. Galatasaray - Sunday December 23 - 2012,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;AMRABAT;YILMAZ;BULUT
-Trabzonspor vs. Galatasaray - Sunday December 23 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;CELUSTKA;KACAR;EMERSON CONCEICAO;BALCI;ZOKORA;MIERZEJEWSKI;SAPARA;ALTINTOP;ADIN;HENRIQUE
-Akhisar Belediyespor vs. Antalyaspor - Wednesday January 9 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;CEBE;EREN;YUCE;ASAN;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Antalyaspor - Wednesday January 9 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;DURUER;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Kasimpasa vs. Galatasaray - Friday January 18 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;SARIOGLU;FELIPE MELO;INAN;ALTINTOP;RIERA;COLAK;YILMAZ;ELMANDER
-Kasimpasa vs. Galatasaray - Friday January 18 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;BASDAS;DERELI;SARMOV;ERNST;HURMACI;IBRICIC;VIUDEZ;UCHE
-Besiktas vs. Istanbul Buyuksehir Belediyespor - Saturday January 19 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;OZKAN;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;OZYAKUP;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Istanbul Buyuksehir Belediyespor - Saturday January 19 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;TOM;VISCA;WEBO
-Bursaspor vs. Kayserispor - Saturday January 19 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;KIRAZ;OZBAYRAKLI;ASLANTAS;CAGIRAN;BELLUSCHI;BATALLA;SANLI;PINTO
-Bursaspor vs. Kayserispor - Saturday January 19 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;GUNGOR;FATHI;GULSELAM;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Sivasspor vs. Gaziantepspor - Saturday January 19 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;BINYA;KECOJEVIC;CAN;DAG;CALIS;HAS;MEDUNJANIN;SAHIN;SERNAS;TOSUN
-Sivasspor vs. Gaziantepspor - Saturday January 19 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;KURT;ERDAL;KAVUK;BEKMEZCI;KOCAK;KILIC;GROSICKI;PEDRIEL;ENERAMO
-Antalyaspor vs. Genclerbirligi - Sunday January 20 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;NIZAM;TEBER;ARSLAN;YILDIRIM;INCEMAN;DURUER;AISSATI;PROMISE;DIARRA
-Antalyaspor vs. Genclerbirligi - Sunday January 20 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;MERIC;VLEMINCKX
-Fenerbahce vs. Elazigspor - Sunday January 20 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ZEEGELAAR;ALKASI;SARP;SANE;YEDEK;GURLER;JERVIS
-Fenerbahce vs. Elazigspor - Sunday January 20 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KESIMAL;KORKMAZ;ERKIN;GONUL;TOPAL;CRISTIAN;UCAN;KRASIC;KUYT;SOW
-Trabzonspor vs. Kardemir Dc Karabukspor - Sunday January 20 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,KORK;DEUMI;KARAER;DOGAN;SOYLER;HIKMET;INCEDEMIR;OZMERT;VAROL;OZEK;PARLAK
-Trabzonspor vs. Kardemir Dc Karabukspor - Sunday January 20 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;CELUSTKA;EMERSON CONCEICAO;BALCI;SAPARA;ALANZINHO;MIERZEJEWSKI;ADIN;OZTEKIN;VITTEK
-Akhisar Belediyespor vs. Eskisehirspor - Monday January 21 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;DEMIROK;SONKO;VURAL;EREN;CEBE;YUCE;ASAN;VARDAR;OZER;BRUNO MEZENGA
-Akhisar Belediyespor vs. Eskisehirspor - Monday January 21 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;SARI;DEDE;CAMDAL;GUCER;TELLO;ZENGIN;POTUK;KAMARA;ATES
-Orduspor vs. Mersin Idmanyurdu - Monday January 21 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;STEPANOV;MITROVIC;YANIK;IVAN;BAYRAKTAR;CULIO;CEYLAN;ESER;OZOKWO;NOBRE
-Orduspor vs. Mersin Idmanyurdu - Monday January 21 - 2013,Orduspor,hard,4-4-2,FORNEZZI;ROVERSIO;GARCIA;TURAN;CAMDALI;CALISKAN;CINAZ;UMBIDES;GOKOGLAN;STANCU;BARRAL
-Kardemir Dc Karabukspor vs. Kasimpasa - Friday January 25 - 2013,Kardemir Dc Karabukspor,hard,4-1-4-1,KORK;DEUMI;KARAER;DOGAN;SOYLER;HIKMET;INCEDEMIR;OZMERT;VAROL;OZEK;PARLAK
-Kardemir Dc Karabukspor vs. Kasimpasa - Friday January 25 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;DERELI;ERNST;SARMOV;HURMACI;COLAK;VIUDEZ;UCHE
-Gaziantepspor vs. Fenerbahce - Saturday January 26 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;IRTEGUN;KALDIRIM;SAM;TOPAL;MEIRELES;CRISTIAN;TOPUZ;KUYT;SOW
-Gaziantepspor vs. Fenerbahce - Saturday January 26 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;KECOJEVIC;TOKAK;CAN;KURTULUS;CALIS;MEDUNJANIN;HAS;SAHIN;SERNAS;TOSUN
-Genclerbirligi vs. Akhisar Belediyespor - Saturday January 26 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;DEMIROK;SONKO;ATAN;VURAL;EREN;CEBE;YUCE;VARDAR;OZER;BRUNO MEZENGA
-Genclerbirligi vs. Akhisar Belediyespor - Saturday January 26 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;CAN;ILERI;DURMAZ;ZEC;MERIC;VLEMINCKX
-Istanbul Buyuksehir Belediyespor vs. Bursaspor - Saturday January 26 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;OZTURK;AZIZ;KIRAZ;ASLANTAS;OZBAYRAKLI;EDU;CAGIRAN;BATALLA;SANLI;PINTO
-Istanbul Buyuksehir Belediyespor vs. Bursaspor - Saturday January 26 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;SAHIN;TEKDEMIR;KORKMAZ;HOLMEN;DOKA MADUREIRA;VISCA;KOSE
-Elazigspor vs. Trabzonspor - Sunday January 27 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ALKASI;SARP;SANE;YEDEK;GURLER;JERVIS;KALOGLU
-Elazigspor vs. Trabzonspor - Sunday January 27 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;CELUSTKA;EMERSON CONCEICAO;YAVRU;AKGUN;COLMAN;ALTINTOP;MIERZEJEWSKI;ADIN;VITTEK
-Galatasaray vs. Besiktas - Sunday January 27 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;SUZEN;HILBERT;UYSAL;KAVLAK;AKGUN;FERNANDES;SAHAN;HOLOSKO
-Galatasaray vs. Besiktas - Sunday January 27 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;SARIOGLU;FELIPE MELO;INAN;ALTINTOP;RIERA;COLAK;BULUT;ELMANDER
-Kayserispor vs. Antalyaspor - Sunday January 27 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;SEDEF;NIZAM;TEBER;TANDOGAN;YILDIRIM;INCEMAN;AISSATI;BOYRAZ;BASSAN;DIARRA
-Kayserispor vs. Antalyaspor - Sunday January 27 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;COREKCI;GULSELAM;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Mersin Idmanyurdu vs. Sivasspor - Sunday January 27 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;STEPANOV;MITROVIC;YANIK;IVAN;BAYRAKTAR;CULIO;CEYLAN;ESER;OZOKWO;YILDIZ
-Mersin Idmanyurdu vs. Sivasspor - Sunday January 27 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;KURT;NAVRATIL;ERDAL;KAVUK;BEKMEZCI;KOCAK;ARSLAN;KILIC;ENERAMO;PEDRIEL
-Eskisehirspor vs. Orduspor - Monday January 28 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;GUVEN;CAUSIC;POTUK;ZENGIN;ATES
-Eskisehirspor vs. Orduspor - Monday January 28 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;GARCIA;KAS;OZTORUN;TURAN;GARCIA;CINAZ;CALISKAN;UMBIDES;YELKEN;TORUN
-Akhisar Belediyespor vs. Kayserispor - Friday February 1 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;DEMIROK;SONKO;VURAL;EREN;ALADAG;KISA;VARDAR;OZER;GEKAS;BRUNO MEZENGA
-Akhisar Belediyespor vs. Kayserispor - Friday February 1 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;GUNGOR;DURSUN;SIMIC;GULSELAM;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Besiktas vs. Kardemir Dc Karabukspor - Friday February 1 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;GULUM;SUZEN;UYSAL;AKGUN;OZYAKUP;FERNANDES;SAHAN;HOLOSKO;ALMEIDA
-Besiktas vs. Kardemir Dc Karabukspor - Friday February 1 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,KORK;DEUMI;MABIALA;SERIC;OZGENC;HIKMET;INCEDEMIR;OZMERT;HAMROUN;OZEK;PARLAK
-Antalyaspor vs. Istanbul Buyuksehir Belediyespor - Saturday February 2 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;SEDEF;BARIS;TEBER;TANDOGAN;INCEMAN;JANDA;DURUER;AISSATI;BASSAN;DIARRA
-Antalyaspor vs. Istanbul Buyuksehir Belediyespor - Saturday February 2 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;DOKA MADUREIRA;ZENKE;VISCA
-Bursaspor vs. Galatasaray - Saturday February 2 - 2013,Bursaspor,hard,4-2-3-1,CARSON;AZIZ;OZTURK;CHRETIEN;OZBAYRAKLI;EDU;YILDIRIM;BATALLA;BELLUSCHI;DENIZ;PINTO
-Bursaspor vs. Galatasaray - Saturday February 2 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;SARIOGLU;INAN;KURTULUS;RIERA;BAYTAR;COLAK;ELMANDER;BULUT
-Kasimpasa vs. Elazigspor - Saturday February 2 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;ALKASI;SARP;SANE;YEDEK;GURLER;CAKIR;KALOGLU
-Kasimpasa vs. Elazigspor - Saturday February 2 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;SUME;KAPLAN;DERELI;SARMOV;FRITZLER;HURMACI;IBRICIC;VIUDEZ;UCHE
-Eskisehirspor vs. Mersin Idmanyurdu - Sunday February 3 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;CAUSIC;TELLO;POTUK;ZENGIN;NUHIU
-Eskisehirspor vs. Mersin Idmanyurdu - Sunday February 3 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;STEPANOV;MITROVIC;YANIK;IVAN;BAYRAKTAR;CULIO;CEYLAN;ESER;OZOKWO;NOBRE
-Fenerbahce vs. Sivasspor - Sunday February 3 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;KORKMAZ;IRTEGUN;ZIEGLER;GONUL;BELOZOGLU;MEIRELES;CRISTIAN;KUYT;SOW;WEBO
-Fenerbahce vs. Sivasspor - Sunday February 3 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;KURT;ERDAL;GUVEN;BEKMEZCI;KOCAK;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Orduspor vs. Genclerbirligi - Sunday February 3 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;KULUSIC;PETROVIC;CAN;AZOFEIFA;DURMAZ;KAYA;MERIC;VLEMINCKX
-Orduspor vs. Genclerbirligi - Sunday February 3 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;ROVERSIO;TURAN;GARCIA;COKMUS;CAMDALI;CALISKAN;UMBIDES;MONJE;YELKEN;STANCU
-Trabzonspor vs. Gaziantepspor - Sunday February 3 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;KECOJEVIC;TOKAK;BINYA;CAN;KURTULUS;HAS;MEDUNJANIN;SAHIN;SERNAS;TOSUN
-Trabzonspor vs. Gaziantepspor - Sunday February 3 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;CELUSTKA;CECH;EMERSON CONCEICAO;BALCI;COLMAN;ALANZINHO;MIERZEJEWSKI;ALTINTOP;ADIN
-Elazigspor vs. Besiktas - Saturday February 9 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;SUZEN;HILBERT;OZYAKUP;KAVLAK;FERNANDES;SAHAN;HOLOSKO;KURUMUS
-Elazigspor vs. Besiktas - Saturday February 9 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;GORK;ZEEGELAAR;ALKASI;SARP;SANE;YEDEK;GURLER;KALOGLU
-Genclerbirligi vs. Eskisehirspor - Saturday February 9 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;SARI;CETIN;DIEGO ANGELO;DEDE;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
-Genclerbirligi vs. Eskisehirspor - Saturday February 9 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;CURRI;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;MERIC;VLEMINCKX
-Istanbul Buyuksehir Belediyespor vs. Akhisar Belediyespor - Saturday February 9 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;KISA;VARDAR;OZER;GEKAS;BRUNO MEZENGA
-Istanbul Buyuksehir Belediyespor vs. Akhisar Belediyespor - Saturday February 9 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;GERALDES;SAHIN;HASPOLATLI;HOLMEN;KORKMAZ;DOKA MADUREIRA;VISCA;KOSE
-Kardemir Dc Karabukspor vs. Bursaspor - Saturday February 9 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;AZIZ;OZTURK;OZBAYRAKLI;CHRETIEN;EDU;YILDIRIM;BELLUSCHI;BATALLA;SANLI;PINTO
-Kardemir Dc Karabukspor vs. Bursaspor - Saturday February 9 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;MABIALA;DEUMI;SERIC;SOYLER;HIKMET;INCEDEMIR;HAMROUN;OZEK;PARLAK;LUALUA
-Galatasaray vs. Antalyaspor - Sunday February 10 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;NIZAM;TEBER;TANDOGAN;YILDIRIM;INCEMAN;AISSATI;BOYRAZ;BASSAN;DIARRA
-Galatasaray vs. Antalyaspor - Sunday February 10 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;NOUNKEU;KAYA;SARIOGLU;INAN;KURTULUS;ALTINTOP;RIERA;SNEIJDER;AMRABAT;YILMAZ
-Kayserispor vs. Orduspor - Sunday February 10 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;DURSUN;GULSELAM;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Kayserispor vs. Orduspor - Sunday February 10 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;ROVERSIO;TURAN;GARCIA;CINAZ;CAMDALI;CALISKAN;UMBIDES;YELKEN;ROMERO;STANCU
-Mersin Idmanyurdu vs. Fenerbahce - Sunday February 10 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;IRTEGUN;ZIEGLER;GONUL;BELOZOGLU;MEIRELES;CRISTIAN;KUYT;SOW;WEBO
-Mersin Idmanyurdu vs. Fenerbahce - Sunday February 10 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;YANIK;MITROVIC;STEPANOV;IVAN;BAYRAKTAR;CULIO;CEYLAN;ESER;OZOKWO;NOBRE
-Sivasspor vs. Trabzonspor - Sunday February 10 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;KURT;ERDAL;GUVEN;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;PEDRIEL
-Sivasspor vs. Trabzonspor - Sunday February 10 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;KACAR;CECH;BALCI;ZOKORA;COLMAN;ALANZINHO;ALTINTOP;MIERZEJEWSKI;ADIN
-Gaziantepspor vs. Kasimpasa - Monday February 11 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;TOKAK;KECOJEVIC;BINYA;DAG;KURTULUS;MEDUNJANIN;HAS;SAHIN;SERNAS;TOSUN
-Gaziantepspor vs. Kasimpasa - Monday February 11 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SARMOV;ERNST;IBRICIC;HURMACI;VIUDEZ;UCHE
-Akhisar Belediyespor vs. Galatasaray - Friday February 15 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;ALADAG;KISA;VARDAR;OZER;GEKAS
-Akhisar Belediyespor vs. Galatasaray - Friday February 15 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;SARIOGLU;INAN;KURTULUS;ALTINTOP;RIERA;SNEIJDER;YILMAZ;BULUT
-Antalyaspor vs. Kardemir Dc Karabukspor - Saturday February 16 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;SEDEF;ARSLAN;INCEMAN;DURUER;JANDA;AISSATI;PROMISE;DIARRA
-Antalyaspor vs. Kardemir Dc Karabukspor - Saturday February 16 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;KARAER;OZGENC;HIKMET;OZMERT;SHELTON;HAMROUN;PARLAK;LUALUA
-Besiktas vs. Gaziantepspor - Saturday February 16 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SIVOK;GULUM;SUZEN;HILBERT;AKGUN;KAVLAK;FERNANDES;SAHAN;HOLOSKO;NIANG
-Besiktas vs. Gaziantepspor - Saturday February 16 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;TOKAK;BINYA;CAN;DAG;KURTULUS;HAS;MEDUNJANIN;SAHIN;SERNAS;TOSUN
-Eskisehirspor vs. Kayserispor - Saturday February 16 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;GUVEN;POTUK;ZENGIN;KAMARA;ATES
-Eskisehirspor vs. Kayserispor - Saturday February 16 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;SIMIC;GULSELAM;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Bursaspor vs. Elazigspor - Sunday February 17 - 2013,Bursaspor,hard,4-2-3-1,CARSON;AZIZ;OZTURK;CHRETIEN;ASLANTAS;EDU;YILDIRIM;BATALLA;BELLUSCHI;SANLI;PINTO
-Bursaspor vs. Elazigspor - Sunday February 17 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;ZEEGELAAR;ALKASI;SARP;SANE;YEDEK;KARABULUT;CAKIR;KUJOVIC
-Genclerbirligi vs. Mersin Idmanyurdu - Sunday February 17 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;CAN;ILERI;DURMAZ;TOMIC;MERIC;VLEMINCKX
-Genclerbirligi vs. Mersin Idmanyurdu - Sunday February 17 - 2013,Mersin Idmanyurdu,hard,4-3-3,BICIK;STEPANOV;YANIK;MITROVIC;IVAN;KECELI;CEYLAN;CULIO;OZOKWO;ESER;YILDIZ
-Orduspor vs. Istanbul Buyuksehir Belediyespor - Sunday February 17 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;TEKDEMIR;HOLMEN;KORKMAZ;DOKA MADUREIRA;ZENKE;VISCA
-Orduspor vs. Istanbul Buyuksehir Belediyespor - Sunday February 17 - 2013,Orduspor,hard,4-3-3,FORNEZZI;YUSSUF;KAS;TURAN;GARCIA;CINAZ;CALISKAN;CAMDALI;UMBIDES;ROMERO;BARRAL
-Trabzonspor vs. Fenerbahce - Sunday February 17 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;IRTEGUN;KALDIRIM;GONUL;TOPAL;CRISTIAN;BELOZOGLU;KUYT;SOW;WEBO
-Trabzonspor vs. Fenerbahce - Sunday February 17 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;BAMBA;CELUSTKA;KACAR;CECH;BALCI;COLMAN;MIERZEJEWSKI;ADIN;OZTEKIN;JANKO
-Kasimpasa vs. Sivasspor - Monday February 18 - 2013,Kasimpasa,hard,4-4-2,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SARMOV;ERNST;DJALMA;VIUDEZ;BUYUK;UCHE
-Kasimpasa vs. Sivasspor - Monday February 18 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;RAJNOCH;AKCA;ERDAL;GUVEN;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Gaziantepspor vs. Bursaspor - Friday February 22 - 2013,Bursaspor,hard,4-2-3-1,CARSON;AZIZ;OZTURK;OZBAYRAKLI;CHRETIEN;EDU;YILDIRIM;BELLUSCHI;BATALLA;SANLI;PINTO
-Gaziantepspor vs. Bursaspor - Friday February 22 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;TOKAK;KECOJEVIC;CAN;KURTULUS;MEDUNJANIN;HAS;DELIBALTA;TOSUN;SERNAS;KOUEMAHA
-Elazigspor vs. Antalyaspor - Saturday February 23 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;GUNGOR;SEDEF;TEBER;ARSLAN;JANDA;DURUER;INCEMAN;AISSATI;PROMISE;DIARRA
-Elazigspor vs. Antalyaspor - Saturday February 23 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ALKASI;SESAR;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Istanbul Buyuksehir Belediyespor vs. Eskisehirspor - Saturday February 23 - 2013,Eskisehirspor,hard,4-4-2,BOFFIN;SARI;AKAMINKO;DIEGO ANGELO;DEDE;CAMDAL;GUCER;TELLO;POTUK;NUHIU;ATES
-Istanbul Buyuksehir Belediyespor vs. Eskisehirspor - Saturday February 23 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;SAHIN;TEKDEMIR;HOLMEN;KORKMAZ;DOKA MADUREIRA;ZENKE;VISCA
-Mersin Idmanyurdu vs. Trabzonspor - Saturday February 23 - 2013,Mersin Idmanyurdu,hard,4-3-3,BICIK;STEPANOV;YANIK;MITROVIC;IVAN;BAYRAKTAR;BEN YAHIA;CEYLAN;CULIO;ESER;NOBRE
-Mersin Idmanyurdu vs. Trabzonspor - Saturday February 23 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;KARMIL;YUMLU;CELUSTKA;CECH;BALCI;ZOKORA;COLMAN;SAPARA;ADIN;HENRIQUE
-Sivasspor vs. Besiktas - Saturday February 23 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;GULUM;SIVOK;TORAMAN;SUZEN;HILBERT;KAVLAK;FERNANDES;SAHAN;HOLOSKO;NIANG
-Sivasspor vs. Besiktas - Saturday February 23 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;KAVUK;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Fenerbahce vs. Kasimpasa - Sunday February 24 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;YOBO;KORKMAZ;KALDIRIM;GONUL;TOPAL;BELOZOGLU;MEIRELES;STOCH;KUYT;WEBO
-Fenerbahce vs. Kasimpasa - Sunday February 24 - 2013,Kasimpasa,hard,4-4-2,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SARMOV;ERNST;DJALMA;VIUDEZ;BUYUK;UCHE
-Kardemir Dc Karabukspor vs. Akhisar Belediyespor - Sunday February 24 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;DEMIROK;SONKO;ATAN;VURAL;EREN;YUCE;ALADAG;KISA;VARDAR;GEKAS
-Kardemir Dc Karabukspor vs. Akhisar Belediyespor - Sunday February 24 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;DEUMI;KARAER;MABIALA;OZGENC;INCEDEMIR;HIKMET;OZMERT;SHELTON;PARLAK;LUALUA
-Kayserispor vs. Genclerbirligi - Sunday February 24 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;DEMIR;KULUSIC;PETROVIC;CAN;KURTULUS;ILERI;DURMAZ;TOMIC;MERIC;VLEMINCKX
-Kayserispor vs. Genclerbirligi - Sunday February 24 - 2013,Kayserispor,hard,4-3-3,TASKIRAN;ZURAB KHIZANISHVILI;DURSUN;SIMIC;GULSELAM;DURAK;BISESWAR;BEKDEMIR;MOUCHE;YILMAZ;DIOP
-Genclerbirligi vs. Istanbul Buyuksehir Belediyespor - Friday March 1 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;VLEMINCKX
-Genclerbirligi vs. Istanbul Buyuksehir Belediyespor - Friday March 1 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;HASPOLATLI;HOLMEN;KORKMAZ;SOKULLU;ZENKE;VISCA
-Akhisar Belediyespor vs. Elazigspor - Saturday March 2 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;DEMIROK;SONKO;VURAL;EREN;YUCE;ALADAG;KISA;VARDAR;OZER;GEKAS
-Akhisar Belediyespor vs. Elazigspor - Saturday March 2 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;FABIO BILICA;AK;ALKASI;SESAR;SARP;YEDEK;GURLER;KARABULUT;KALOGLU
-Eskisehirspor vs. Galatasaray - Saturday March 2 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;DIEGO ANGELO;AKAMINKO;SARI;GUCER;TELLO;POTUK;ZENGIN;KAMARA;ATES
-Eskisehirspor vs. Galatasaray - Saturday March 2 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;ZAN;KAYA;BALTA;SARIOGLU;FELIPE MELO;INAN;SNEIJDER;AMRABAT;YILMAZ;DROGBA
-Orduspor vs. Kardemir Dc Karabukspor - Saturday March 2 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;KARAER;SERIC;OZGENC;HIKMET;INCEDEMIR;SHELTON;OZEK;PARLAK;LUALUA
-Orduspor vs. Kardemir Dc Karabukspor - Saturday March 2 - 2013,Orduspor,hard,4-4-2,FORNEZZI;ROVERSIO;OZTORUN;TURAN;COKMUS;GARCIA;CALISKAN;CAMDALI;ROMERO;STANCU;KABZE
-Antalyaspor vs. Gaziantepspor - Sunday March 3 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;GUNGOR;SEDEF;TANDOGAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Gaziantepspor - Sunday March 3 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;TOKAK;KECOJEVIC;CAN;KURTULUS;CALIS;MEDUNJANIN;HAS;DELIBALTA;TOSUN;SERNAS
-Besiktas vs. Fenerbahce - Sunday March 3 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;SIVOK;GULUM;SUZEN;HILBERT;KAVLAK;FERNANDES;SAHAN;HOLOSKO;NIANG
-Besiktas vs. Fenerbahce - Sunday March 3 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KORKMAZ;IRTEGUN;ZIEGLER;GONUL;BELOZOGLU;MEIRELES;CRISTIAN;KUYT;SOW;WEBO
-Bursaspor vs. Sivasspor - Sunday March 3 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;OZBAYRAKLI;CHRETIEN;EDU;BELLUSCHI;BATALLA;SANLI;PINTO
-Bursaspor vs. Sivasspor - Sunday March 3 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;GUVEN;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Kayserispor vs. Mersin Idmanyurdu - Sunday March 3 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;DURSUN;GULSELAM;RIVEROS;DURAK;CLEYTON;BEKDEMIR;YILMAZ;BOBO
-Kayserispor vs. Mersin Idmanyurdu - Sunday March 3 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;BOUM;MITROVIC;KECELI;IVAN;BAYRAKTAR;BEN YAHIA;CULIO;IPEK;ESER;NOBRE
-Kasimpasa vs. Trabzonspor - Monday March 4 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;BASDAS;KAPLAN;DERELI;SERAS;ERNST;IBRICIC;VIUDEZ;UCHE;BUYUK
-Kasimpasa vs. Trabzonspor - Monday March 4 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;KARMIL;YUMLU;CELUSTKA;KACAR;BALCI;ZOKORA;COLMAN;SAPARA;ADIN;HENRIQUE
-Galatasaray vs. Genclerbirligi - Friday March 8 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;KAYA;ZAN;EBOUE;INAN;KURTULUS;ALTINTOP;RIERA;SNEIJDER;COLAK;YILMAZ
-Galatasaray vs. Genclerbirligi - Friday March 8 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;KURTULUS;ILERI;AZOFEIFA;DURMAZ;TOMIC;VLEMINCKX
-Gaziantepspor vs. Akhisar Belediyespor - Saturday March 9 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;DEMIROK;SONKO;ATAN;VURAL;EREN;ALADAG;KISA;VARDAR;GEKAS;BRUNO MEZENGA
-Gaziantepspor vs. Akhisar Belediyespor - Saturday March 9 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;TOKAK;KECOJEVIC;CAN;KURTULUS;CALIS;MEDUNJANIN;DELIBALTA;SERNAS;TOSUN;KOUEMAHA
-Istanbul Buyuksehir Belediyespor vs. Kayserispor - Saturday March 9 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;INANC;TEKDEMIR;HOLMEN;SOKULLU;ZENKE;VISCA
-Istanbul Buyuksehir Belediyespor vs. Kayserispor - Saturday March 9 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;DURSUN;COREKCI;GULSELAM;RIVEROS;CLEYTON;MOUCHE;YILMAZ;BOBO
-Trabzonspor vs. Besiktas - Saturday March 9 - 2013,Besiktas,easy,4-2-3-1,GONEN;GULUM;OZKAN;SIVOK;TORAMAN;HILBERT;OZYAKUP;FERNANDES;SAHAN;HOLOSKO;NIANG
-Trabzonspor vs. Besiktas - Saturday March 9 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;BAMBA;CECH;BALCI;ZOKORA;AYDOGDU;MIERZEJEWSKI;ALTINTOP;ADIN;HENRIQUE
-Elazigspor vs. Orduspor - Sunday March 10 - 2013,Elazigspor,hard,4-2-3-1,IVESA;FABIO BILICA;BAYRAK;AK;ALKASI;SESAR;SARP;YEDEK;GURLER;KARABULUT;JERVIS
-Elazigspor vs. Orduspor - Sunday March 10 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;ROVERSIO;KAS;OZTORUN;GARCIA;CINAZ;CAMDALI;CALISKAN;UMBIDES;ROMERO;KABZE
-Fenerbahce vs. Bursaspor - Sunday March 10 - 2013,Bursaspor,hard,4-2-3-1,CARSON;FERDINAND;OZTURK;WEDERSON;OZBAYRAKLI;EDU;CAGIRAN;BATALLA;BELLUSCHI;SANLI;SESTAK
-Fenerbahce vs. Bursaspor - Sunday March 10 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;IRTEGUN;YOBO;KALDIRIM;BELOZOGLU;MEIRELES;CRISTIAN;TOPUZ;KUYT;SOW;SENTURK
-Kardemir Dc Karabukspor vs. Eskisehirspor - Sunday March 10 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DIEGO ANGELO;AKAMINKO;DEMIRHAN;CAMDAL;CAUSIC;TELLO;ZENGIN;POTUK;KAMARA;ATES
-Kardemir Dc Karabukspor vs. Eskisehirspor - Sunday March 10 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;HAMROUN;OZEK;PARLAK;LUALUA
-Sivasspor vs. Antalyaspor - Sunday March 10 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;GUNGOR;TEBER;TANDOGAN;DAGASAN;INCEMAN;DURUER;AISSATI;PROMISE;DIARRA
-Sivasspor vs. Antalyaspor - Sunday March 10 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;GUVEN;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Mersin Idmanyurdu vs. Kasimpasa - Monday March 11 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;KAPLAN;DERELI;SERAS;ERNST;IBRICIC;VIUDEZ;BUYUK;UCHE
-Mersin Idmanyurdu vs. Kasimpasa - Monday March 11 - 2013,Mersin Idmanyurdu,hard,4-4-2,BICIK;STEPANOV;BOUM;YANIK;MITROVIC;BEN YAHIA;LAWAL;IPEK;ESER;YILDIZ;NOBRE
-Bursaspor vs. Trabzonspor - Friday March 15 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;OZBAYRAKLI;CAGIRAN;EDU;BELLUSCHI;BATALLA;SANLI;SESTAK
-Bursaspor vs. Trabzonspor - Friday March 15 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;CELUSTKA;BAMBA;CECH;BALCI;AYDOGDU;MIERZEJEWSKI;ALTINTOP;ADIN;HENRIQUE
-Eskisehirspor vs. Elazigspor - Friday March 15 - 2013,Elazigspor,hard,4-2-3-1,IVESA;FABIO BILICA;AK;AYDIN;ALKASI;SESAR;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Eskisehirspor vs. Elazigspor - Friday March 15 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;SARI;DIEGO ANGELO;AKAMINKO;DEDE;GUCER;TELLO;POTUK;ZENGIN;KAMARA;ATES
-Besiktas vs. Kasimpasa - Saturday March 16 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;GULUM;SIVOK;TORAMAN;HILBERT;OZYAKUP;FERNANDES;SAHAN;HOLOSKO;NIANG
-Besiktas vs. Kasimpasa - Saturday March 16 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;DERELI;ERNST;SERAS;IBRICIC;DJALMA;VIUDEZ;UCHE
-Genclerbirligi vs. Kardemir Dc Karabukspor - Saturday March 16 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;CAN;KURTULUS;AZOFEIFA;ZEC;AKCAKIN;VLEMINCKX
-Genclerbirligi vs. Kardemir Dc Karabukspor - Saturday March 16 - 2013,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;DEUMI;KARAER;SERIC;OZGENC;HIKMET;INCEDEMIR;KAGAN SOYLEMEZGILLER;SHELTON;PARLAK;LUALUA
-Istanbul Buyuksehir Belediyespor vs. Mersin Idmanyurdu - Saturday March 16 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;INANC;TEKDEMIR;HOLMEN;TOM;ZENKE;VISCA
-Istanbul Buyuksehir Belediyespor vs. Mersin Idmanyurdu - Saturday March 16 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;STEPANOV;YANIK;MITROVIC;KECELI;CULIO;BEN YAHIA;LAWAL;IPEK;ESER;NOBRE
-Akhisar Belediyespor vs. Sivasspor - Sunday March 17 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;ALADAG;KISA;VARDAR;OZER;GEKAS
-Akhisar Belediyespor vs. Sivasspor - Sunday March 17 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
-Antalyaspor vs. Fenerbahce - Sunday March 17 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;NIZAM;BARIS;TEBER;ARSLAN;JANDA;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Fenerbahce - Sunday March 17 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;KORKMAZ;KALDIRIM;ERKIN;GONUL;BELOZOGLU;UCAN;MEIRELES;KUYT;SOW
-Kayserispor vs. Galatasaray - Sunday March 17 - 2013,Galatasaray,easy,4-4-2,MUSLERA;ZAN;KAYA;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;SNEIJDER;YILMAZ;DROGBA
-Kayserispor vs. Galatasaray - Sunday March 17 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;COREKCI;GULSELAM;RIVEROS;DURAK;CLEYTON;MOUCHE;YILMAZ;BOBO
-Orduspor vs. Gaziantepspor - Sunday March 17 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;TOKAK;BINYA;CAN;KURTULUS;CALIS;MEDUNJANIN;HAS;TRAORE;TOSUN;SERNAS
-Orduspor vs. Gaziantepspor - Sunday March 17 - 2013,Orduspor,hard,4-4-2,FORNEZZI;KAS;GARCIA;OZTORUN;GARCIA;CALISKAN;CAMDALI;UMBIDES;ROMERO;KABZE;STANCU
-Galatasaray vs. Istanbul Buyuksehir Belediyespor - Saturday March 30 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;BALTA;EBOUE;FELIPE MELO;INAN;ALTINTOP;SNEIJDER;YILMAZ;DROGBA
-Galatasaray vs. Istanbul Buyuksehir Belediyespor - Saturday March 30 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-5-1,EDUARDO;ARAT;DEPE;EKSIOGLU;GERALDES;INANC;TEKDEMIR;GULPINAR;TOM;DOKA MADUREIRA;ZENKE
-Gaziantepspor vs. Eskisehirspor - Saturday March 30 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;DIEGO ANGELO;AKAMINKO;DEDE;GUVEN;CAUSIC;POTUK;ZENGIN;KAMARA;ATES
-Gaziantepspor vs. Eskisehirspor - Saturday March 30 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;TOKAK;BINYA;CAN;KURTULUS;CALIS;MEDUNJANIN;HAS;WILTON FIGUEIREDO;TOSUN;SERNAS
-Sivasspor vs. Orduspor - Saturday March 30 - 2013,Orduspor,hard,4-1-3-2,FORNEZZI;GARCIA;KAS;OZTORUN;COKMUS;CAMDALI;UMBIDES;ROMERO;STANCU;KABZE;BARRAL
-Sivasspor vs. Orduspor - Saturday March 30 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;RAJNOCH;KURT;YERLIKAYA;GUVEN;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Elazigspor vs. Genclerbirligi - Sunday March 31 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SARP;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Elazigspor vs. Genclerbirligi - Sunday March 31 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;PETROVIC;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;VLEMINCKX
-Fenerbahce vs. Akhisar Belediyespor - Sunday March 31 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;ALADAG;KISA;VARDAR;OZER;GEKAS
-Fenerbahce vs. Akhisar Belediyespor - Sunday March 31 - 2013,Fenerbahce,easy,4-4-2,DEMIREL;KORKMAZ;IRTEGUN;ZIEGLER;ERKIN;CRISTIAN;MEIRELES;TOPUZ;KUYT;SOW;WEBO
-Kasimpasa vs. Bursaspor - Sunday March 31 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;OZTURK;AZIZ;OZBAYRAKLI;CHRETIEN;CAGIRAN;BELLUSCHI;BATALLA;SANLI;SESTAK;PINTO
-Kasimpasa vs. Bursaspor - Sunday March 31 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;BASDAS;AYHAN;KAPLAN;SERAS;ERNST;HURMACI;IBRICIC;COLAK;UCHE
-Trabzonspor vs. Antalyaspor - Sunday March 31 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;NIZAM;SEDEF;ARSLAN;INCEMAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Trabzonspor vs. Antalyaspor - Sunday March 31 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;BAMBA;CELUSTKA;CECH;ZOKORA;AYDOGDU;ALANZINHO;ALTINTOP;SEN;HENRIQUE
-Kardemir Dc Karabukspor vs. Kayserispor - Monday April 1 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DEUMI;MABIALA;DOGAN;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;PARLAK;UNAL;LUALUA
-Kardemir Dc Karabukspor vs. Kayserispor - Monday April 1 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURSUN;ZURAB KHIZANISHVILI;SIMIC;GULSELAM;RIVEROS;DURAK;BISESWAR;CLEYTON;MOUCHE;YILMAZ
-Mersin Idmanyurdu vs. Besiktas - Monday April 1 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;TORAMAN;GULUM;SUZEN;HILBERT;UYSAL;KAVLAK;FERNANDES;SAHAN;ALMEIDA;NIANG
-Mersin Idmanyurdu vs. Besiktas - Monday April 1 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;MITROVIC;TOSCALI;IVAN;KAYHAN;CULIO;CEYLAN;LAWAL;ESER;OZOKWO;NOBRE
-Antalyaspor vs. Kasimpasa - Friday April 5 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;BARIS;GUNGOR;TEBER;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Kasimpasa - Friday April 5 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;DERELI;ERNST;SERAS;HURMACI;IBRICIC;COLAK;UCHE
-Galatasaray vs. Mersin Idmanyurdu - Saturday April 6 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;ZAN;BALTA;SARIOGLU;FELIPE MELO;ALTINTOP;SNEIJDER;COLAK;YILMAZ;DROGBA
-Galatasaray vs. Mersin Idmanyurdu - Saturday April 6 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;BOUM;YANIK;IVAN;KAYHAN;CEYLAN;CULIO;LAWAL;OZOKWO;ESER;NOBRE
-Istanbul Buyuksehir Belediyespor vs. Kardemir Dc Karabukspor - Saturday April 6 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ZAYATTE;DEPE;EKSIOGLU;SAHIN;INANC;TEKDEMIR;HOLMEN;TOM;DOKA MADUREIRA;ZENKE
-Istanbul Buyuksehir Belediyespor vs. Kardemir Dc Karabukspor - Saturday April 6 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DEUMI;MABIALA;DOGAN;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;PARLAK;UNAL;LUALUA
-Kayserispor vs. Elazigspor - Saturday April 6 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SESAR;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Kayserispor vs. Elazigspor - Saturday April 6 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;SIMIC;DURSUN;BAYRAM;GULSELAM;RIVEROS;CLEYTON;ARICA;MOUCHE;BOBO
-Akhisar Belediyespor vs. Trabzonspor - Sunday April 7 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;VURAL;EREN;CEBE;YUCE;KISA;BRUNO MEZENGA;BULUT
-Akhisar Belediyespor vs. Trabzonspor - Sunday April 7 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;CELUSTKA;BAMBA;CECH;ZOKORA;AYDOGDU;ALANZINHO;SEN;OZTEKIN;HENRIQUE
-Eskisehirspor vs. Sivasspor - Sunday April 7 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DIEGO ANGELO;AKAMINKO;SARI;DEDE;CEK;GUCER;GUVEN;POTUK;ZENGIN;NUHIU
-Eskisehirspor vs. Sivasspor - Sunday April 7 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;RAJNOCH;KURT;ERDAL;GUVEN;BEKMEZCI;ARSLAN;KOCAK;KILIC;PIECH;PEDRIEL
-Genclerbirligi vs. Gaziantepspor - Sunday April 7 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;BINYA;TOKAK;KECOJEVIC;CAN;CALIS;MEDUNJANIN;HAS;DELIBALTA;TOSUN;SERNAS
-Genclerbirligi vs. Gaziantepspor - Sunday April 7 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;KULUSIC;PETROVIC;CAN;ILERI;AZOFEIFA;DURMAZ;MERIC;VLEMINCKX
-Orduspor vs. Fenerbahce - Sunday April 7 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;IRTEGUN;KALDIRIM;ERKIN;GONUL;TOPAL;UCAN;MEIRELES;KUYT;WEBO
-Orduspor vs. Fenerbahce - Sunday April 7 - 2013,Orduspor,hard,4-4-2,ELMAS;GARCIA;YUSSUF;OZTORUN;GARCIA;CALISKAN;CAMDALI;UMBIDES;KABZE;STANCU;BARRAL
-Bursaspor vs. Besiktas - Monday April 8 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;ESCUDE;TORAMAN;SUZEN;HILBERT;KAVLAK;AKGUN;OZYAKUP;FERNANDES;SAHAN;PEKTEMEK
-Bursaspor vs. Besiktas - Monday April 8 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;FERDINAND;WEDERSON;KIRAZ;OZBAYRAKLI;EDU;BELLUSCHI;BATALLA;SANLI;PINTO
-Sivasspor vs. Genclerbirligi - Friday April 12 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;CURRI;PETROVIC;CAN;AZOFEIFA;ILERI;ZEC;TOMIC;AKCAKIN
-Sivasspor vs. Genclerbirligi - Friday April 12 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;KURT;ERDAL;KAVUK;ARSLAN;KOCAK;KILIC;CHAHECHOUHE;PIECH;ENERAMO
-Trabzonspor vs. Orduspor - Friday April 12 - 2013,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;YUSSUF;OZTORUN;COKMUS;CAMDALI;CALISKAN;UMBIDES;STANCU;KABZE;BARRAL
-Trabzonspor vs. Orduspor - Friday April 12 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;CECH;BALCI;ZOKORA;AYDOGDU;ALANZINHO;SEN;ADIN;HENRIQUE
-Kardemir Dc Karabukspor vs. Galatasaray - Saturday April 13 - 2013,Galatasaray,easy,4-4-2,MUSLERA;ZAN;KAYA;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;SNEIJDER;YILMAZ;DROGBA
-Kardemir Dc Karabukspor vs. Galatasaray - Saturday April 13 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DEUMI;MABIALA;SERIC;OZGENC;HIKMET;INCEDEMIR;OZEK;PARLAK;UNAL;LUALUA
-Mersin Idmanyurdu vs. Bursaspor - Saturday April 13 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;FERDINAND;WEDERSON;KIRAZ;OZBAYRAKLI;CAGIRAN;BELLUSCHI;BATALLA;SANLI;PINTO
-Mersin Idmanyurdu vs. Bursaspor - Saturday April 13 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;YANIK;BOUM;IVAN;KAYHAN;GOSSO;CULIO;BEN YAHIA;ESER;OZOKWO;YILDIZ
-Elazigspor vs. Istanbul Buyuksehir Belediyespor - Sunday April 14 - 2013,Elazigspor,hard,4-2-3-1,IVESA;BAYRAK;AK;GORK;AKYUZ;ERTUGRUL;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Elazigspor vs. Istanbul Buyuksehir Belediyespor - Sunday April 14 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;GERALDES;INANC;TEKDEMIR;HOLMEN;TOM;DOKA MADUREIRA;KOSE
-Fenerbahce vs. Eskisehirspor - Sunday April 14 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;SARI;AKAMINKO;DIEGO ANGELO;DEDE;GUCER;CAUSIC;POTUK;ZENGIN;KAMARA;ATES
-Fenerbahce vs. Eskisehirspor - Sunday April 14 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;KORKMAZ;ZIEGLER;GONUL;TOPAL;MEIRELES;CRISTIAN;TOPUZ;KUYT;WEBO
-Gaziantepspor vs. Kayserispor - Sunday April 14 - 2013,Gaziantepspor,hard,4-4-2,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;KURTULUS;CALIS;MEDUNJANIN;TRAORE;SAHIN;TOSUN;SERNAS
-Gaziantepspor vs. Kayserispor - Sunday April 14 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;GUNGOR;SIMIC;BAYRAM;GULSELAM;RIVEROS;CLEYTON;ARICA;MOUCHE;BOBO
-Kasimpasa vs. Akhisar Belediyespor - Sunday April 14 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;YALCIN;SONKO;VURAL;EREN;CEBE;YUCE;ALADAG;BRUNO MEZENGA;GEKAS
-Kasimpasa vs. Akhisar Belediyespor - Sunday April 14 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;KARTAL;FRITZLER;ERNST;HURMACI;IBRICIC;BUYUK;UCHE
-Besiktas vs. Antalyaspor - Monday April 15 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;GUNGOR;BARIS;TEBER;ARSLAN;DAGASAN;DURUER;AISSATI;TITA;PROMISE;DIARRA
-Besiktas vs. Antalyaspor - Monday April 15 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;GULUM;ESCUDE;SUZEN;HILBERT;UYSAL;KAVLAK;FERNANDES;SAHAN;HOLOSKO;PEKTEMEK
-Galatasaray vs. Elazigspor - Friday April 19 - 2013,Elazigspor,hard,4-2-3-1,IVESA;FABIO BILICA;GORK;AYDIN;AKYUZ;SESAR;SANE;YEDEK;GURLER;KARABULUT;KALOGLU
-Galatasaray vs. Elazigspor - Friday April 19 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;ZAN;EBOUE;FELIPE MELO;INAN;KURTULUS;ALTINTOP;RIERA;YILMAZ;DROGBA
-Akhisar Belediyespor vs. Besiktas - Saturday April 20 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;DEMIROK;SONKO;ATAN;VURAL;EREN;CEBE;YUCE;KISA;GEKAS;BRUNO MEZENGA
-Akhisar Belediyespor vs. Besiktas - Saturday April 20 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;GULUM;ESCUDE;SUZEN;HILBERT;UYSAL;KAVLAK;OZYAKUP;SAHAN;HOLOSKO;PEKTEMEK
-Kardemir Dc Karabukspor vs. Mersin Idmanyurdu - Saturday April 20 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;MABIALA;SERIC;OZGENC;SOYLER;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;LUALUA;PARLAK;UNAL
-Kardemir Dc Karabukspor vs. Mersin Idmanyurdu - Saturday April 20 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;STEPANOV;MITROVIC;IVAN;KAYHAN;GOSSO;CULIO;CEYLAN;ESER;OZOKWO;NOBRE
-Orduspor vs. Kasimpasa - Saturday April 20 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;EKER;BASDAS;KAPLAN;DERELI;ERNST;FRITZLER;HURMACI;IBRICIC;VIUDEZ;UCHE
-Orduspor vs. Kasimpasa - Saturday April 20 - 2013,Orduspor,hard,4-4-2,FORNEZZI;GARCIA;YUSSUF;OZTORUN;GARCIA;CINAZ;CALISKAN;CAMDALI;MONJE;KABZE;STANCU
-Antalyaspor vs. Bursaspor - Sunday April 21 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;GUNGOR;SEDEF;NIZAM;TANDOGAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Antalyaspor vs. Bursaspor - Sunday April 21 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;FERDINAND;WEDERSON;KIRAZ;OZBAYRAKLI;YILDIRIM;BELLUSCHI;BATALLA;SANLI;PINTO
-Genclerbirligi vs. Fenerbahce - Sunday April 21 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;YOBO;KORKMAZ;ZIEGLER;ERKIN;GONUL;MEIRELES;UCAN;CRISTIAN;KUYT;WEBO
-Genclerbirligi vs. Fenerbahce - Sunday April 21 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CALIK;DEMIR;PETROVIC;CAN;AZOFEIFA;ILERI;TOMIC;ZEC;VLEMINCKX
-Istanbul Buyuksehir Belediyespor vs. Gaziantepspor - Sunday April 21 - 2013,Gaziantepspor,hard,4-4-2,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;KURTULUS;MEDUNJANIN;HAS;OZBAYRAKTAR;SAHIN;KOUEMAHA;SERNAS
-Istanbul Buyuksehir Belediyespor vs. Gaziantepspor - Sunday April 21 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;DEPE;ZAYATTE;EKSIOGLU;GERALDES;INANC;TEKDEMIR;HOLMEN;DOKA MADUREIRA;ZENKE;KOSE
-Kayserispor vs. Sivasspor - Sunday April 21 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;ZURAB KHIZANISHVILI;SIMIC;DURSUN;BAYRAM;GULSELAM;RIVEROS;CLEYTON;MOUCHE;YILMAZ;BOBO
-Kayserispor vs. Sivasspor - Sunday April 21 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;KURT;KAVUK;BEKMEZCI;NAS;KOCAK;CHAHECHOUHE;GROSICKI;ENERAMO
-Eskisehirspor vs. Trabzonspor - Monday April 22 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;CETIN;DIEGO ANGELO;AKAMINKO;SARI;DEDE;CEK;GUCER;CAUSIC;ZENGIN;ATES
-Eskisehirspor vs. Trabzonspor - Monday April 22 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;CECH;BALCI;ZOKORA;AYDOGDU;MIERZEJEWSKI;ALTINTOP;ADIN;OZTEKIN
-Mersin Idmanyurdu vs. Antalyaspor - Friday April 26 - 2013,Antalyaspor,hard,4-2-3-1,KESER;SEDEF;NIZAM;GUNGOR;ARSLAN;DAGASAN;INCEMAN;AISSATI;TITA;PROMISE;DIARRA
-Mersin Idmanyurdu vs. Antalyaspor - Friday April 26 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;STEPANOV;MITROVIC;YANIK;IVAN;KAYHAN;GOSSO;CEYLAN;BEN YAHIA;ESER;NOBRE
-Besiktas vs. Orduspor - Saturday April 27 - 2013,Besiktas,easy,4-2-3-1,GONEN;ESCUDE;OZKAN;SIVOK;HILBERT;KAVLAK;FERNANDES;SAHAN;NIANG;DENTINHO;PEKTEMEK
-Besiktas vs. Orduspor - Saturday April 27 - 2013,Orduspor,hard,4-4-2,FORNEZZI;KULGA;YUSSUF;OZTORUN;GARCIA;COKMUS;CAMDALI;UMBIDES;MONJE;KABZE;STANCU
-Bursaspor vs. Akhisar Belediyespor - Saturday April 27 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;DEMIROK;SONKO;ATAN;VURAL;EREN;CEBE;ALADAG;KISA;GEKAS;BRUNO MEZENGA
-Bursaspor vs. Akhisar Belediyespor - Saturday April 27 - 2013,Bursaspor,hard,4-2-3-1,CARSON;OZTURK;AZIZ;WEDERSON;KIRAZ;OZBAYRAKLI;EDU;BATALLA;BELLUSCHI;SANLI;PINTO
-Elazigspor vs. Kardemir Dc Karabukspor - Saturday April 27 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;GORK;AKYUZ;ERTUGRUL;SESAR;SANE;YEDEK;GURLER;KARABULUT
-Elazigspor vs. Kardemir Dc Karabukspor - Saturday April 27 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;MABIALA;SERIC;OZGENC;SOYLER;INCEDEMIR;KAGAN SOYLEMEZGILLER;HAMROUN;OZEK;LUALUA;PARLAK
-Sivasspor vs. Istanbul Buyuksehir Belediyespor - Saturday April 27 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,BAHADIR;DEPE;ZAYATTE;EKSIOGLU;GERALDES;TEKDEMIR;HOLMEN;KORKMAZ;TOM;DOKA MADUREIRA;ZENKE
-Sivasspor vs. Istanbul Buyuksehir Belediyespor - Saturday April 27 - 2013,Sivasspor,hard,4-2-3-1,CELIKAY;NAVRATIL;KURT;ERDAL;GUVEN;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Trabzonspor vs. Genclerbirligi - Saturday April 27 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;CALIK;CAN;ZENGIN;AZOFEIFA;ILERI;ZEC;MERIC;VLEMINCKX
-Trabzonspor vs. Genclerbirligi - Saturday April 27 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;YUMLU;KACAR;CECH;BALCI;AKGUN;ZOKORA;MIERZEJEWSKI;ALTINTOP;ADIN;OZTEKIN
-Fenerbahce vs. Kayserispor - Sunday April 28 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;IRTEGUN;KESIMAL;KALDIRIM;SAM;TOPAL;CRISTIAN;TOPUZ;STOCH;KRASIC;WEBO
-Fenerbahce vs. Kayserispor - Sunday April 28 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;ZURAB KHIZANISHVILI;GUNGOR;SIMIC;DURSUN;GULSELAM;RIVEROS;CLEYTON;MOUCHE;YILMAZ;BOBO
-Gaziantepspor vs. Galatasaray - Sunday April 28 - 2013,Galatasaray,easy,4-4-2,MUSLERA;NOUNKEU;KAYA;EBOUE;FELIPE MELO;INAN;KURTULUS;ALTINTOP;RIERA;YILMAZ;DROGBA
-Gaziantepspor vs. Galatasaray - Sunday April 28 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;KECOJEVIC;BINYA;CAN;KURTULUS;HAS;MEDUNJANIN;SAHIN;OZBAYRAKTAR;SERNAS;KOUEMAHA
-Kasimpasa vs. Eskisehirspor - Sunday April 28 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;SARI;AKAMINKO;DIEGO ANGELO;DEDE;DEMIRHAN;GUCER;CAUSIC;POTUK;ZENGIN;KAMARA
-Kasimpasa vs. Eskisehirspor - Sunday April 28 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;DERELI;FRITZLER;ERNST;HURMACI;IBRICIC;VIUDEZ;UCHE
-Genclerbirligi vs. Kasimpasa - Friday May 3 - 2013,Genclerbirligi,hard,4-2-3-1,KAPLAN;CALIK;DEMIR;TOSIC;PETROVIC;CAN;AZOFEIFA;ILERI;DURMAZ;ZEC;VLEMINCKX
-Genclerbirligi vs. Kasimpasa - Friday May 3 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;EKER;DERELI;SARMOV;ERNST;IBRICIC;HURMACI;VIUDEZ;UCHE
-Kayserispor vs. Trabzonspor - Saturday May 4 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;DURSUN;SIMIC;ZURAB KHIZANISHVILI;GUNGOR;RIVEROS;YOKUSLU;CLEYTON;ARICA;YILMAZ;BOBO
-Kayserispor vs. Trabzonspor - Saturday May 4 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;KACAR;YUMLU;CECH;BALCI;AKGUN;ZOKORA;MIERZEJEWSKI;ALTINTOP;ADIN;OZTEKIN
-Orduspor vs. Bursaspor - Saturday May 4 - 2013,Bursaspor,hard,4-2-3-1,CARSON;FERDINAND;OZTURK;WEDERSON;OZBAYRAKLI;CAGIRAN;BATALLA;BELLUSCHI;SANLI;PINTO;SESTAK
-Orduspor vs. Bursaspor - Saturday May 4 - 2013,Orduspor,hard,4-4-2,ELMAS;KULGA;YUSSUF;OZTORUN;COKMUS;CAMDALI;CINAZ;CALISKAN;TASDEMIR;BARRAL;STANCU
-Antalyaspor vs. Akhisar Belediyespor - Sunday May 5 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;VURAL;EREN;ALADAG;YUCE;KISA;VARDAR;GEKAS
-Antalyaspor vs. Akhisar Belediyespor - Sunday May 5 - 2013,Antalyaspor,hard,4-4-2,NDJOCK;NIZAM;SEDEF;ZIZIC;ARSLAN;INCEMAN;JANDA;TITA;PROMISE;DIARRA;SISMANOGLU
-Eskisehirspor vs. Besiktas - Sunday May 5 - 2013,Besiktas,easy,4-2-3-1,GONEN;ESCUDE;OZKAN;SIVOK;HILBERT;KAVLAK;OZYAKUP;FERNANDES;SAHAN;NIANG;PEKTEMEK
-Eskisehirspor vs. Besiktas - Sunday May 5 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;AKAMINKO;DIEGO ANGELO;DEMIRHAN;CEK;CAMDAL;CAUSIC;POTUK;TELLO;ZENGIN;KAMARA
-Galatasaray vs. Sivasspor - Sunday May 5 - 2013,Galatasaray,easy,4-4-2,MUSLERA;KAYA;ZAN;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;SNEIJDER;DROGBA;YILMAZ
-Galatasaray vs. Sivasspor - Sunday May 5 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;NAVRATIL;RAJNOCH;ERDAL;GUVEN;BEKMEZCI;NAS;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
-Istanbul Buyuksehir Belediyespor vs. Fenerbahce - Sunday May 5 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;IRTEGUN;KORKMAZ;KALDIRIM;TOPAL;CRISTIAN;BELOZOGLU;TOPUZ;STOCH;SOW;WEBO
-Istanbul Buyuksehir Belediyespor vs. Fenerbahce - Sunday May 5 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;GERALDES;INANC;HOLMEN;SOKULLU;KORKMAZ;PEKTURK;KOSE
-Kardemir Dc Karabukspor vs. Gaziantepspor - Sunday May 5 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;BINYA;KECOJEVIC;CAN;KURTULUS;HAS;MEDUNJANIN;OZBAYRAKTAR;KOUEMAHA;SERNAS;TOSUN
-Kardemir Dc Karabukspor vs. Gaziantepspor - Sunday May 5 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;MABIALA;SERIC;OZGENC;SOYLER;INCEDEMIR;KAGAN SOYLEMEZGILLER;HAMROUN;OZEK;LUALUA;PARLAK
-Mersin Idmanyurdu vs. Elazigspor - Sunday May 5 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;AKYUZ;ERTUGRUL;SESAR;SANE;YEDEK;GURLER;KARABULUT
-Mersin Idmanyurdu vs. Elazigspor - Sunday May 5 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;STEPANOV;YANIK;IVAN;KAYHAN;GOSSO;BEN YAHIA;CULIO;CEYLAN;ESER;NOBRE
-Gaziantepspor vs. Elazigspor - Friday May 10 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;AKYUZ;SESAR;SARP;SANE;YEDEK;GURLER;KARABULUT
-Gaziantepspor vs. Elazigspor - Friday May 10 - 2013,Gaziantepspor,hard,4-2-3-1,BEZGIN;BINYA;KECOJEVIC;CAN;KURTULUS;HAS;MEDUNJANIN;OZBAYRAKTAR;KOUEMAHA;SERNAS;TOSUN
-Kasimpasa vs. Kayserispor - Friday May 10 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;EKER;DERELI;FRITZLER;SERAS;HURMACI;VIUDEZ;BUYUK;UCHE
-Kasimpasa vs. Kayserispor - Friday May 10 - 2013,Kayserispor,hard,4-3-3,TASKIRAN;DURSUN;ZURAB KHIZANISHVILI;BAYRAM;GULSELAM;RIVEROS;CLEYTON;BISESWAR;ARICA;YILMAZ;BOBO
-Antalyaspor vs. Orduspor - Saturday May 11 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;GUNGOR;NIZAM;TEBER;ARSLAN;INCEMAN;JANDA;AISSATI;TITA;PROMISE;SISMANOGLU
-Antalyaspor vs. Orduspor - Saturday May 11 - 2013,Orduspor,hard,4-4-2,ELMAS;KULGA;YUSSUF;OZTORUN;SAHIN;COKMUS;CALISKAN;CINAZ;TASDEMIR;BARRAL;KABZE
-Besiktas vs. Genclerbirligi - Saturday May 11 - 2013,Besiktas,easy,4-2-3-1,GONEN;ESCUDE;OZKAN;SIVOK;HILBERT;UYSAL;KAVLAK;OZYAKUP;SAHAN;HOLOSKO;PEKTEMEK
-Besiktas vs. Genclerbirligi - Saturday May 11 - 2013,Genclerbirligi,hard,4-2-3-1,KAPLAN;CALIK;CURRI;DEMIR;TOSIC;PETROVIC;CAN;AZOFEIFA;DURMAZ;ZEC;VLEMINCKX
-Fenerbahce vs. Galatasaray - Sunday May 12 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;IRTEGUN;YOBO;KALDIRIM;GONUL;TOPAL;MEIRELES;BELOZOGLU;KUYT;SOW;WEBO
-Fenerbahce vs. Galatasaray - Sunday May 12 - 2013,Galatasaray,easy,4-4-2,MUSLERA;KAYA;ZAN;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;DROGBA;ELMANDER;YILMAZ
-Akhisar Belediyespor vs. Mersin Idmanyurdu - Monday May 13 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;VURAL;CEBE;EREN;YUCE;KISA;BRUNO MEZENGA;GEKAS
-Akhisar Belediyespor vs. Mersin Idmanyurdu - Monday May 13 - 2013,Mersin Idmanyurdu,hard,4-3-3,USAK;MITROVIC;YANIK;KAYHAN;GOSSO;CULIO;LAWAL;ESER;OZOKWO;NOBRE;TOZLU
-Bursaspor vs. Eskisehirspor - Monday May 13 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;FERDINAND;OZTURK;WEDERSON;KIRAZ;OZBAYRAKLI;YILDIRIM;BATALLA;BELLUSCHI;PINTO;SESTAK
-Bursaspor vs. Eskisehirspor - Monday May 13 - 2013,Eskisehirspor,hard,4-2-3-1,ERDOGAN;CETIN;DIEGO ANGELO;SARI;DEDE;GUCER;CAUSIC;POTUK;TELLO;KAMARA;ATES
-Sivasspor vs. Kardemir Dc Karabukspor - Monday May 13 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;SERIC;UCAR;HIKMET;KAGAN SOYLEMEZGILLER;SHELTON;OZEK;LUALUA;PARLAK
-Sivasspor vs. Kardemir Dc Karabukspor - Monday May 13 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;KURT;NAVRATIL;ERDAL;KAVUK;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;GROSICKI;ENERAMO
-Trabzonspor vs. Istanbul Buyuksehir Belediyespor - Monday May 13 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;GERALDES;INANC;HOLMEN;KORKMAZ;SOKULLU;PEKTURK;KOSE
-Trabzonspor vs. Istanbul Buyuksehir Belediyespor - Monday May 13 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CELUSTKA;KARMIL;CECH;BALCI;AKGUN;AYDOGDU;MIERZEJEWSKI;ALTINTOP;SEN;ADIN
-Mersin Idmanyurdu vs. Gaziantepspor - Friday May 17 - 2013,Gaziantepspor,hard,4-4-2,BEZGIN;BINYA;OZDAMAR;CAN;KURTULUS;HAS;DELIBALTA;SAHIN;OZBAYRAKTAR;KOUEMAHA;TOSUN
-Mersin Idmanyurdu vs. Gaziantepspor - Friday May 17 - 2013,Mersin Idmanyurdu,hard,4-4-2,BICER;MITROVIC;STEPANOV;YANIK;GOSSO;BEN YAHIA;CEYLAN;CULIO;LAWAL;NOBRE;TOZLU
-Galatasaray vs. Trabzonspor - Saturday May 18 - 2013,Galatasaray,easy,4-4-2,MUSLERA;KAYA;NOUNKEU;EBOUE;FELIPE MELO;INAN;ALTINTOP;RIERA;COLAK;DROGBA;YILMAZ
-Galatasaray vs. Trabzonspor - Saturday May 18 - 2013,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;KACAR;YUMLU;YAVRU;AKGUN;ZOKORA;MIERZEJEWSKI;SAPARA;OZTEKIN;HENRIQUE
-Istanbul Buyuksehir Belediyespor vs. Kasimpasa - Saturday May 18 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-4-2,EDUARDO;ARAT;ZAYATTE;EKSIOGLU;GERALDES;TEKDEMIR;HOLMEN;DOKA MADUREIRA;PEKTURK;ZENKE;KOSE
-Istanbul Buyuksehir Belediyespor vs. Kasimpasa - Saturday May 18 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;AYHAN;BASDAS;KAPLAN;KARTAL;SERAS;ERNST;HURMACI;DJALMA;BUYUK;UCHE
-Kardemir Dc Karabukspor vs. Fenerbahce - Saturday May 18 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;IRTEGUN;ZIEGLER;SAM;GONUL;TOPAL;BELOZOGLU;CRISTIAN;TOPUZ;SOW;WEBO
-Kardemir Dc Karabukspor vs. Fenerbahce - Saturday May 18 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DEUMI;MABIALA;SERIC;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;SHELTON;OZEK;LUALUA;UNAL
-Orduspor vs. Akhisar Belediyespor - Saturday May 18 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;VURAL;EREN;YUCE;KISA;VARDAR;BRUNO MEZENGA;GEKAS
-Orduspor vs. Akhisar Belediyespor - Saturday May 18 - 2013,Orduspor,hard,4-4-2,ELMAS;ROVERSIO;KULGA;OZTORUN;COKMUS;CAMDALI;CINAZ;MONJE;TASDEMIR;BARRAL;STANCU
-Elazigspor vs. Sivasspor - Sunday May 19 - 2013,Elazigspor,hard,4-2-3-1,IVESA;FABIO BILICA;GORK;AYDIN;AKYUZ;SESAR;SANE;YEDEK;YILMAZ;CAKIR;KALOGLU
-Elazigspor vs. Sivasspor - Sunday May 19 - 2013,Sivasspor,hard,4-2-3-1,CELIKAY;AKCA;KURT;ERDAL;KAVUK;BEKMEZCI;ARSLAN;KILIC;CHAHECHOUHE;PEDRIEL;PIECH
-Eskisehirspor vs. Antalyaspor - Sunday May 19 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;BARIS;GUNGOR;NIZAM;ARSLAN;DURUER;INCEMAN;TITA;PROMISE;BASSAN;SISMANOGLU
-Eskisehirspor vs. Antalyaspor - Sunday May 19 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;COSKUN;SARI;DIEGO ANGELO;CEK;DEDE;GUCER;CAUSIC;POTUK;ZENGIN;KAMARA
-Genclerbirligi vs. Bursaspor - Sunday May 19 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;OZTURK;VELIOGLU;KIRAZ;OZBAYRAKLI;ASLANTAS;CAGIRAN;YILDIRIM;KILIC;DENIZ;SANLI
-Genclerbirligi vs. Bursaspor - Sunday May 19 - 2013,Genclerbirligi,hard,4-2-3-1,KARABULUT;CALIK;DEMIR;TOSIC;PETROVIC;CAN;ILERI;AZOFEIFA;DURMAZ;ZEC;VLEMINCKX
-Kayserispor vs. Besiktas - Sunday May 19 - 2013,Besiktas,easy,4-2-3-1,GONEN;ESCUDE;SIVOK;KAS;SUZEN;HILBERT;KAVLAK;OZYAKUP;SAHAN;HOLOSKO;PEKTEMEK
-Kayserispor vs. Besiktas - Sunday May 19 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;DURSUN;GUNGOR;ZURAB KHIZANISHVILI;SIMIC;BAYRAM;GULSELAM;RIVEROS;CLEYTON;MOUCHE;BOBO
+Fenerbahce vs. Besiktas - Sunday October 7 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;KORKMAZ;YOBO;GONUL;TOPAL;MEIRELES;ERKIN;CRISTIAN;SOW;KUYT
+Mersin Idmanyurdu vs. Kayserispor - Sunday October 7 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;DABANLI;GUNGOR;STEINSSON;RIVEROS;DURSUN;MOUCHE;CLEYTON;YILMAZ;BOBO
+Mersin Idmanyurdu vs. Kayserispor - Sunday October 7 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;KECELI;BOUM;STEPANOV;YANIK;BAYRAKTAR;CULIO;ERDOGAN;IVAN;NOBRE;BEN YAHIA
+Sivasspor vs. Bursaspor - Sunday October 7 - 2012,Bursaspor,hard,4-3-3,CARSON;WEDERSON;ERDOGAN;OZTURK;CHRETIEN;BATALLA;N'DIAYE;BELLUSCHI;IPEK;DENIZ;SESTAK
+Sivasspor vs. Bursaspor - Sunday October 7 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;GROSICKI;KILIC;CERNY;ENERAMO
+Genclerbirligi vs. Galatasaray - Friday October 19 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;KAYA;NOUNKEU;EBOUE;AMRABAT;FELIPE MELO;COLAK;ALTINTOP;YILMAZ;ELMANDER
+Genclerbirligi vs. Galatasaray - Friday October 19 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;ILERI;CAN;DURMAZ;AZOFEIFA;MERIC;ZEC
+Antalyaspor vs. Sivasspor - Saturday October 20 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Sivasspor - Saturday October 20 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;YERLIKAYA;NAVRATIL;GUVEN;FATY;KOCAK;KAYA;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Bursaspor vs. Fenerbahce - Saturday October 20 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;ERDOGAN;OZTURK;CHRETIEN;N'DIAYE;BELLUSCHI;WEDERSON;BATALLA;YILDIRIM;PINTO
+Bursaspor vs. Fenerbahce - Saturday October 20 - 2012,Fenerbahce,easy,4-4-2,DEMIREL;KALDIRIM;KORKMAZ;IRTEGUN;KESIMAL;ERKIN;SAHIN;CRISTIAN;KRASIC;SOW;KUYT
+Orduspor vs. Elazigspor - Saturday October 20 - 2012,Elazigspor,hard,4-2-3-1,IVESA;KARABULUT;BAYRAK;FABIO BILICA;ALKASI;ERTUGRUL;KAYALI;EMRECIKSIN;YEDEK;FAUBERT;TUM
+Orduspor vs. Elazigspor - Saturday October 20 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;KAS;GARCIA;GOKOGLAN;CAMDALI;CALISKAN;UMBIDES;STANCU;BARRAL
+Akhisar Belediyespor vs. Gaziantepspor - Sunday October 21 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;ASAN;VARDAR;TASDEMIR;OZER;BRUNO MEZENGA
+Akhisar Belediyespor vs. Gaziantepspor - Sunday October 21 - 2012,Gaziantepspor,hard,4-5-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;TOSUN;PEHLIVAN;IBRICIC;GULLE;DAG;DEMIR
+Besiktas vs. Trabzonspor - Sunday October 21 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;TORAMAN;OZYAKUP;ALMEIDA;FERNANDES;HOLOSKO;KARADENIZ
+Besiktas vs. Trabzonspor - Sunday October 21 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;BAMBA;YUMLU;YAVRU;ZOKORA;AYDOGDU;ADIN;SAPARA;OZTEKIN;ALTINTOP
+Eskisehirspor vs. Kardemir Dc Karabukspor - Sunday October 21 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
+Eskisehirspor vs. Kardemir Dc Karabukspor - Sunday October 21 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;JAHIC;MABIALA;OZGENC;INCEDEMIR;HIKMET;HAMROUN;LUALUA;PARLAK;YILDIZ
+Kasimpasa vs. Mersin Idmanyurdu - Sunday October 21 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;EKER;BASDAS;SUME;ERNST;SERAS;KALA;HURMACI;DJALMA;UCHE
+Kasimpasa vs. Mersin Idmanyurdu - Sunday October 21 - 2012,Mersin Idmanyurdu,hard,4-5-1,SEHIC;IVAN;BOUM;TOSCALI;KECELI;CULIO;SARP;BEN YAHIA;BAYRAKTAR;OZOKWO;NOBRE
+Kayserispor vs. Istanbul Buyuksehir Belediyespor - Monday October 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-1-4-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;TEKDEMIR;DOKA MADUREIRA;HASPOLATLI;HOLMEN;SOKULLU;WEBO
+Kayserispor vs. Istanbul Buyuksehir Belediyespor - Monday October 22 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;DABANLI;GUNGOR;STEINSSON;RIVEROS;YOKUSLU;MOUCHE;CLEYTON;YILMAZ;BOBO
+Elazigspor vs. Eskisehirspor - Friday October 26 - 2012,Elazigspor,hard,4-2-3-1,IVESA;KARABULUT;BAYRAK;FABIO BILICA;ALKASI;ERTUGRUL;KAYALI;EMRECIKSIN;YEDEK;FAUBERT;TUM
+Elazigspor vs. Eskisehirspor - Friday October 26 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
+Kasimpasa vs. Besiktas - Friday October 26 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;TORAMAN;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Kasimpasa vs. Besiktas - Friday October 26 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;EKER;AYHAN;SUME;ERNST;SERAS;KALA;HURMACI;DJALMA;UCHE
+Galatasaray vs. Kayserispor - Saturday October 27 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;NOUNKEU;EBOUE;AMRABAT;KURTULUS;INAN;ALTINTOP;YILMAZ;BULUT
+Galatasaray vs. Kayserispor - Saturday October 27 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;AKDARI;DABANLI;FATHI;STEINSSON;RIVEROS;DURAK;DURSUN;MOUCHE;BOBO;BEKDEMIR
+Mersin Idmanyurdu vs. Istanbul Buyuksehir Belediyespor - Saturday October 27 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ZAYATTE;DEPE;GERALDES;HASPOLATLI;KORKMAZ;DOKA MADUREIRA;HOLMEN;SUZEN;WEBO
+Mersin Idmanyurdu vs. Istanbul Buyuksehir Belediyespor - Saturday October 27 - 2012,Mersin Idmanyurdu,hard,4-5-1,SEHIC;IVAN;BOUM;TOSCALI;KECELI;CULIO;SARP;BEN YAHIA;BAYRAKTAR;OZOKWO;NOBRE
+Sivasspor vs. Akhisar Belediyespor - Saturday October 27 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;VARDAR;TASDEMIR;OZER;BRUNO MEZENGA
+Sivasspor vs. Akhisar Belediyespor - Saturday October 27 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;GUVEN;KAVUK;BEKMEZCI;KAYA;GROSICKI;KILIC;PEDRIEL;ENERAMO
+Kardemir Dc Karabukspor vs. Genclerbirligi - Sunday October 28 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;CAN;PETROVIC;DURMAZ;AZOFEIFA;MERIC;ZEC
+Kardemir Dc Karabukspor vs. Genclerbirligi - Sunday October 28 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;JAHIC;MABIALA;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;CERNAT;PARLAK;LUALUA
+Trabzonspor vs. Bursaspor - Sunday October 28 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;OZTURK;ERDOGAN;CHRETIEN;N'DIAYE;BELLUSCHI;WEDERSON;BATALLA;YILDIRIM;PINTO
+Trabzonspor vs. Bursaspor - Sunday October 28 - 2012,Trabzonspor,easy,4-4-2,KIVRAK;EMERSON CONCEICAO;BAMBA;YUMLU;YAVRU;ADIN;ZOKORA;SAPARA;OZTEKIN;ALTINTOP;JANKO
+Fenerbahce vs. Antalyaspor - Monday October 29 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;BARIS;ARSLAN;DAGASAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Fenerbahce vs. Antalyaspor - Monday October 29 - 2012,Fenerbahce,easy,4-4-2,DEMIREL;KALDIRIM;IRTEGUN;KESIMAL;GONUL;ERKIN;CRISTIAN;SAHIN;KRASIC;SOW;KUYT
+Istanbul Buyuksehir Belediyespor vs. Galatasaray - Friday November 2 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;NOUNKEU;EBOUE;AMRABAT;KURTULUS;INAN;ALTINTOP;YILMAZ;BULUT
+Istanbul Buyuksehir Belediyespor vs. Galatasaray - Friday November 2 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;HASPOLATLI;INANC;DOKA MADUREIRA;HOLMEN;BAHADIR;WEBO
+Akhisar Belediyespor vs. Fenerbahce - Saturday November 3 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;VARDAR;TASDEMIR;OZER;BRUNO MEZENGA
+Akhisar Belediyespor vs. Fenerbahce - Saturday November 3 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;KESIMAL;GONUL;TOPAL;SAHIN;STOCH;CRISTIAN;KUYT;SOW
+Eskisehirspor vs. Gaziantepspor - Saturday November 3 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Eskisehirspor vs. Gaziantepspor - Saturday November 3 - 2012,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;TOSUN;IBRICIC;DAG;DEMIR
+Kayserispor vs. Kardemir Dc Karabukspor - Saturday November 3 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;MABIALA;JAHIC;OZDIN;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;CERNAT;OZGENC;LUALUA
+Kayserispor vs. Kardemir Dc Karabukspor - Saturday November 3 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;STEINSSON;RIVEROS;DURAK;BEKDEMIR;CLEYTON;YILMAZ;BOBO
+Besiktas vs. Mersin Idmanyurdu - Sunday November 4 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;UYSAL;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Besiktas vs. Mersin Idmanyurdu - Sunday November 4 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;IVAN;BOUM;TOSCALI;KECELI;BAYRAKTAR;CEYLAN;CULIO;BEN YAHIA;OZOKWO;NOBRE
+Genclerbirligi vs. Elazigspor - Sunday November 4 - 2012,Elazigspor,hard,4-2-3-1,IVESA;ZEEGELAAR;BAYRAK;FABIO BILICA;ALKASI;BADUR;FAUBERT;KARABULUT;YEDEK;EMRECIKSIN;TUM
+Genclerbirligi vs. Elazigspor - Sunday November 4 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;ILERI;CAN;ZEC;AZOFEIFA;MERIC;LEKIC
+Orduspor vs. Sivasspor - Sunday November 4 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;CAMDALI;GARCIA;BARRAL;CINAZ;CALISKAN;UMBIDES;KABZE;STANCU
+Orduspor vs. Sivasspor - Sunday November 4 - 2012,Sivasspor,hard,4-2-3-1,KOCA;ERDAL;RAJNOCH;NAVRATIL;KAVUK;BEKMEZCI;KAYA;GROSICKI;KILIC;NAS;ENERAMO
+Antalyaspor vs. Trabzonspor - Monday November 5 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;BARIS;ARSLAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Trabzonspor - Monday November 5 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;KACAR;BAMBA;CELUSTKA;ZOKORA;AYDOGDU;ADIN;MIERZEJEWSKI;OZTEKIN;JANKO
+Bursaspor vs. Kasimpasa - Monday November 5 - 2012,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;OZTURK;ERDOGAN;CHRETIEN;N'DIAYE;BELLUSCHI;WEDERSON;BATALLA;YILDIRIM;PINTO
+Bursaspor vs. Kasimpasa - Monday November 5 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;ERNST;SERAS;HURMACI;OZMERT;DJALMA;UCHE
+Besiktas vs. Bursaspor - Friday November 9 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Besiktas vs. Bursaspor - Friday November 9 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;CHRETIEN;N'DIAYE;BELLUSCHI;KIRAZ;BATALLA;SANLI;SESTAK
+Sivasspor vs. Eskisehirspor - Friday November 9 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Sivasspor vs. Eskisehirspor - Friday November 9 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;KOCAK;NAS;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Kardemir Dc Karabukspor vs. Istanbul Buyuksehir Belediyespor - Saturday November 10 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;TEKDEMIR;ZAYATTE;GERALDES;HASPOLATLI;INANC;SOKULLU;HOLMEN;BAHADIR;WEBO
+Kardemir Dc Karabukspor vs. Istanbul Buyuksehir Belediyespor - Saturday November 10 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;SERIC;DEUMI;MABIALA;OZGENC;INCEDEMIR;KAGAN SOYLEMEZGILLER;PARLAK;CERNAT;OZEK;YILDIZ
+Kasimpasa vs. Antalyaspor - Saturday November 10 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;BARIS;ARSLAN;INCEMAN;DAGASAN;TITA;AISSATI;PROMISE;DIARRA
+Kasimpasa vs. Antalyaspor - Saturday November 10 - 2012,Kasimpasa,hard,4-3-3,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;OZMERT;ERNST;SERAS;DJALMA;UCHE;HURMACI
+Trabzonspor vs. Akhisar Belediyespor - Saturday November 10 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;SONKO;EREN;ALADAG;ASAN;VARDAR;TASDEMIR;OZER;BRUNO MEZENGA
+Trabzonspor vs. Akhisar Belediyespor - Saturday November 10 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;KACAR;BALCI;ZOKORA;COLMAN;ALTINTOP;MIERZEJEWSKI;SAPARA;JANKO
+Elazigspor vs. Kayserispor - Sunday November 11 - 2012,Elazigspor,hard,4-1-4-1,IVESA;ZEEGELAAR;BAYRAK;FABIO BILICA;ALKASI;BADUR;KARABULUT;FAUBERT;YEDEK;EMRECIKSIN;TUM
+Elazigspor vs. Kayserispor - Sunday November 11 - 2012,Kayserispor,hard,4-3-3,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;STEINSSON;DURAK;CLEYTON;RIVEROS;BEKDEMIR;BOBO;YILMAZ
+Fenerbahce vs. Orduspor - Sunday November 11 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;YOBO;IRTEGUN;GONUL;TOPAL;MEIRELES;STOCH;CRISTIAN;KUYT;SOW
+Fenerbahce vs. Orduspor - Sunday November 11 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;CAMDALI;GARCIA;MONJE;CINAZ;CALISKAN;UMBIDES;STANCU;KABZE
+Gaziantepspor vs. Genclerbirligi - Sunday November 11 - 2012,Gaziantepspor,hard,4-5-1,BEZGIN;DAG;TOKAK;BINYA;KURTULUS;TOSUN;PEHLIVAN;IBRICIC;MEDUNJANIN;SOSA;OZBAYRAKTAR
+Gaziantepspor vs. Genclerbirligi - Sunday November 11 - 2012,Genclerbirligi,hard,4-2-3-1,KARABULUT;TOSIC;SEDEF;DEMIR;KURTULUS;CAN;PETROVIC;ZEC;AZOFEIFA;MERIC;LEKIC
+Mersin Idmanyurdu vs. Galatasaray - Sunday November 11 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;NOUNKEU;EBOUE;COLAK;KURTULUS;INAN;ALTINTOP;YILMAZ;BULUT
+Mersin Idmanyurdu vs. Galatasaray - Sunday November 11 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;IVAN;YANIK;STEPANOV;KECELI;BAYRAKTAR;KELES;BEN YAHIA;CULIO;OZOKWO;NOBRE
+Galatasaray vs. Kardemir Dc Karabukspor - Friday November 16 - 2012,Galatasaray,easy,4-4-2,MUSLERA;BALTA;CRIS;NOUNKEU;EBOUE;COLAK;INAN;FELIPE MELO;ALTINTOP;YILMAZ;BULUT
+Galatasaray vs. Kardemir Dc Karabukspor - Friday November 16 - 2012,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;DOGAN;DEUMI;MABIALA;OZGENC;INCEDEMIR;HIKMET;OZEK;LUALUA;PARLAK;YILDIZ
+Eskisehirspor vs. Fenerbahce - Saturday November 17 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
+Eskisehirspor vs. Fenerbahce - Saturday November 17 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;TOPAL;MEIRELES;ERKIN;CRISTIAN;KUYT;SOW
+Istanbul Buyuksehir Belediyespor vs. Elazigspor - Saturday November 17 - 2012,Elazigspor,hard,4-4-2,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;YEDEK;ERTUGRUL;BADUR;FAUBERT;TUM;ZAKI
+Istanbul Buyuksehir Belediyespor vs. Elazigspor - Saturday November 17 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;TEKDEMIR;DOKA MADUREIRA;HOLMEN;SOKULLU;WEBO
+Akhisar Belediyespor vs. Kasimpasa - Sunday November 18 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;SONKO;DEMIROK;EREN;ALADAG;ASAN;VARDAR;TASDEMIR;OZER;YILMAZ
+Akhisar Belediyespor vs. Kasimpasa - Sunday November 18 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;EKER;SUME;AYHAN;DERELI;ERNST;SERAS;HURMACI;OZMERT;DJALMA;UCHE
+Antalyaspor vs. Besiktas - Sunday November 18 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;TANDOGAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Besiktas - Sunday November 18 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;TORAMAN;AKGUN;UYSAL;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Bursaspor vs. Mersin Idmanyurdu - Sunday November 18 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;CHRETIEN;N'DIAYE;BELLUSCHI;KIRAZ;BATALLA;SANLI;SESTAK
+Bursaspor vs. Mersin Idmanyurdu - Sunday November 18 - 2012,Mersin Idmanyurdu,hard,4-1-4-1,SEHIC;IVAN;BOUM;YANIK;KECELI;BAYRAKTAR;KELES;BEN YAHIA;CULIO;OZOKWO;NOBRE
+Kayserispor vs. Gaziantepspor - Sunday November 18 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;DAG;GULLE;CALIS;OZBAYRAKTAR
+Kayserispor vs. Gaziantepspor - Sunday November 18 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;STEINSSON;RIVEROS;DURAK;BAYRAM;CLEYTON;YILMAZ;BOBO
+Orduspor vs. Trabzonspor - Monday November 19 - 2012,Orduspor,hard,4-4-2,FORNEZZI;COKMUS;GARCIA;CAMDALI;GARCIA;MONJE;CINAZ;CALISKAN;UMBIDES;KABZE;STANCU
+Orduspor vs. Trabzonspor - Monday November 19 - 2012,Trabzonspor,easy,4-4-2,KIVRAK;EMERSON CONCEICAO;BAMBA;KACAR;BALCI;OZTEKIN;COLMAN;AYDOGDU;SAPARA;JANKO;GURAL
+Besiktas vs. Akhisar Belediyespor - Friday November 23 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;ASAN;BRUNO MEZENGA;TASDEMIR;OZER;YILMAZ
+Besiktas vs. Akhisar Belediyespor - Friday November 23 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;OZKAN;TORAMAN;SIVOK;HILBERT;UYSAL;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Mersin Idmanyurdu vs. Kardemir Dc Karabukspor - Friday November 23 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;DOGAN;DEUMI;MABIALA;VAROL;OZEK;HIKMET;SOYLER;PARLAK;YILDIZ;LUALUA
+Mersin Idmanyurdu vs. Kardemir Dc Karabukspor - Friday November 23 - 2012,Mersin Idmanyurdu,hard,4-3-3,SEHIC;KECELI;BOUM;STEPANOV;BARIS;BEN YAHIA;BAYRAKTAR;SARP;IVAN;NOBRE;OZOKWO
+Bursaspor vs. Antalyaspor - Saturday November 24 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;GUNGOR;TANDOGAN;INCEMAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Bursaspor vs. Antalyaspor - Saturday November 24 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;ERDOGAN;AZIZ;CHRETIEN;N'DIAYE;BELLUSCHI;KIRAZ;BATALLA;SANLI;SESTAK
+Elazigspor vs. Galatasaray - Saturday November 24 - 2012,Elazigspor,hard,4-4-2,IVESA;AK;FABIO BILICA;GORK;FAUBERT;KARABULUT;KAYALI;BADUR;YEDEK;TUM;ZAKI
+Elazigspor vs. Galatasaray - Saturday November 24 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;CRIS;KAYA;SARIOGLU;AMRABAT;KURTULUS;FELIPE MELO;BAYTAR;ELMANDER;BULUT
+Kasimpasa vs. Orduspor - Saturday November 24 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;ERNST;SERAS;HURMACI;OZMERT;DJALMA;UCHE
+Kasimpasa vs. Orduspor - Saturday November 24 - 2012,Orduspor,hard,4-4-2,FORNEZZI;COKMUS;GARCIA;KAS;GARCIA;CALISKAN;CINAZ;CAMDALI;UMBIDES;STANCU;KABZE
+Fenerbahce vs. Genclerbirligi - Sunday November 25 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;YOBO;IRTEGUN;GONUL;TOPAL;MEIRELES;STOCH;CRISTIAN;KUYT;SOW
+Fenerbahce vs. Genclerbirligi - Sunday November 25 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;DEMIR;SEDEF;ILERI;CAN;DURMAZ;AZOFEIFA;MERIC;ZEC
+Gaziantepspor vs. Istanbul Buyuksehir Belediyespor - Sunday November 25 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;DAG;KECOJEVIC;BINYA;KURTULUS;PEHLIVAN;GULLE;TOSUN;MEDUNJANIN;IBRICIC;OZBAYRAKTAR
+Gaziantepspor vs. Istanbul Buyuksehir Belediyespor - Sunday November 25 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;TEKDEMIR;TOM;HOLMEN;VISCA;WEBO
+Sivasspor vs. Kayserispor - Sunday November 25 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;KAYAOGLU;DURAK;YOKUSLU;BEKDEMIR;CLEYTON;YILMAZ;BOBO
+Sivasspor vs. Kayserispor - Sunday November 25 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Trabzonspor vs. Eskisehirspor - Monday November 26 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;POTUK;KAMARA;TELLO;MALECKI;ATES
+Trabzonspor vs. Eskisehirspor - Monday November 26 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;KACAR;BAMBA;BALCI;COLMAN;AYDOGDU;ADIN;MIERZEJEWSKI;ALTINTOP;JANKO
+Galatasaray vs. Gaziantepspor - Friday November 30 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;EBOUE;AMRABAT;INAN;FELIPE MELO;ALTINTOP;BULUT;YILMAZ
+Galatasaray vs. Gaziantepspor - Friday November 30 - 2012,Gaziantepspor,hard,4-3-1-2,BEZGIN;DAG;KECOJEVIC;BINYA;KURTULUS;HAS;GULLE;MEDUNJANIN;IBRICIC;TOSUN;OZBAYRAKTAR
+Akhisar Belediyespor vs. Bursaspor - Saturday December 1 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;SONKO;EREN;YUCE;ALADAG;VARDAR;ASAN;OZER;BRUNO MEZENGA
+Akhisar Belediyespor vs. Bursaspor - Saturday December 1 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;ASLANTAS;N'DIAYE;CAGIRAN;SANLI;BATALLA;SESTAK;BANGURA
+Kardemir Dc Karabukspor vs. Elazigspor - Saturday December 1 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;ERTUGRUL;BADUR;KARABULUT;FAUBERT;YEDEK;KALOGLU
+Kardemir Dc Karabukspor vs. Elazigspor - Saturday December 1 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;DEUMI;MABIALA;OZGENC;OZEK;INCEDEMIR;KAGAN SOYLEMEZGILLER;PARLAK;YILDIZ;LUALUA
+Orduspor vs. Besiktas - Saturday December 1 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;TORAMAN;UYSAL;SAHAN;OZYAKUP;HOLOSKO;ALMEIDA
+Orduspor vs. Besiktas - Saturday December 1 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;ROVERSIO;KAS;COKMUS;MONJE;CAMDALI;CINAZ;UMBIDES;KABZE;STANCU
+Antalyaspor vs. Mersin Idmanyurdu - Sunday December 2 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;TANDOGAN;INCEMAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Mersin Idmanyurdu - Sunday December 2 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,SEHIC;KECELI;STEPANOV;YANIK;BARIS;SARP;BAYRAKTAR;IVAN;CULIO;BEN YAHIA;NOBRE
+Eskisehirspor vs. Kasimpasa - Sunday December 2 - 2012,Eskisehirspor,hard,4-1-4-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;ZENGIN;POTUK;TELLO;KAMARA;ATES
+Eskisehirspor vs. Kasimpasa - Sunday December 2 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;ERNST;SARMOV;HURMACI;OZMERT;KALA;UCHE
+Istanbul Buyuksehir Belediyespor vs. Sivasspor - Sunday December 2 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;GERALDES;HASPOLATLI;KORKMAZ;SUZEN;HOLMEN;DOKA MADUREIRA;WEBO
+Istanbul Buyuksehir Belediyespor vs. Sivasspor - Sunday December 2 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Kayserispor vs. Fenerbahce - Sunday December 2 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;YOBO;IRTEGUN;GONUL;TOPAL;MEIRELES;ERKIN;CRISTIAN;KUYT;SOW
+Kayserispor vs. Fenerbahce - Sunday December 2 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;DABANLI;RIVEROS;DURAK;MOUCHE;CLEYTON;YILMAZ;BOBO
+Genclerbirligi vs. Trabzonspor - Monday December 3 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;SEDEF;ILERI;CAN;DURMAZ;PETROVIC;MERIC;AKCAKIN
+Genclerbirligi vs. Trabzonspor - Monday December 3 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;KACAR;BALCI;ZOKORA;COLMAN;ADIN;MIERZEJEWSKI;ALTINTOP;HENRIQUE
+Besiktas vs. Eskisehirspor - Friday December 7 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;TORAMAN;SIVOK;HILBERT;UYSAL;KAVLAK;SAHAN;OZYAKUP;HOLOSKO;ALMEIDA
+Besiktas vs. Eskisehirspor - Friday December 7 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;GUVEN;ZENGIN;TELLO;KAMARA;ATES
+Elazigspor vs. Mersin Idmanyurdu - Friday December 7 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;KAYALI;BADUR;ZEEGELAAR;YEDEK;FAUBERT;KALOGLU
+Elazigspor vs. Mersin Idmanyurdu - Friday December 7 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,ONGUN;KECELI;STEPANOV;TOSCALI;YANIK;SARP;BAYRAKTAR;IVAN;CULIO;OZOKWO;NOBRE
+Bursaspor vs. Orduspor - Saturday December 8 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;CHRETIEN;N'DIAYE;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Bursaspor vs. Orduspor - Saturday December 8 - 2012,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;CAMDALI;GARCIA;MONJE;CINAZ;CALISKAN;UMBIDES;KABZE;STANCU
+Gaziantepspor vs. Kardemir Dc Karabukspor - Saturday December 8 - 2012,Gaziantepspor,hard,4-2-3-1,BEZGIN;DAG;KECOJEVIC;BINYA;KURTULUS;GULLE;HAS;CALIS;MEDUNJANIN;IBRICIC;TOSUN
+Gaziantepspor vs. Kardemir Dc Karabukspor - Saturday December 8 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;MABIALA;DEUMI;OZGENC;OZEK;INCEDEMIR;HIKMET;HAMROUN;PARLAK;LUALUA
+Kasimpasa vs. Genclerbirligi - Saturday December 8 - 2012,Genclerbirligi,hard,4-4-2,KARABULUT;TOSIC;DEMIR;KULUSIC;SEDEF;DURMAZ;CAN;AZOFEIFA;MERIC;ZEC;LEKIC
+Kasimpasa vs. Genclerbirligi - Saturday December 8 - 2012,Kasimpasa,hard,4-4-2,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;HURMACI;ERNST;SARMOV;DJALMA;UCHE;BUYUK
+Sivasspor vs. Galatasaray - Saturday December 8 - 2012,Galatasaray,easy,4-4-2,CEYLAN;BALTA;NOUNKEU;KAYA;EBOUE;AMRABAT;KURTULUS;INAN;YILMAZ;YILMAZ;BULUT
+Sivasspor vs. Galatasaray - Saturday December 8 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;PEDRIEL
+Fenerbahce vs. Istanbul Buyuksehir Belediyespor - Sunday December 9 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;TOPAL;MEIRELES;ERKIN;CRISTIAN;KUYT;SOW
+Fenerbahce vs. Istanbul Buyuksehir Belediyespor - Sunday December 9 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;KORKMAZ;TEKDEMIR;SUZEN;HOLMEN;HASPOLATLI;WEBO
+Trabzonspor vs. Kayserispor - Sunday December 9 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;DURSUN;RIVEROS;DURAK;MOUCHE;CLEYTON;YILMAZ;DIOP
+Trabzonspor vs. Kayserispor - Sunday December 9 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;KACAR;BALCI;ZOKORA;ALANZINHO;ADIN;MIERZEJEWSKI;ALTINTOP;HENRIQUE
+Eskisehirspor vs. Bursaspor - Friday December 14 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;CHRETIEN;N'DIAYE;BELLUSCHI;KIRAZ;BATALLA;SANLI;SESTAK
+Eskisehirspor vs. Bursaspor - Friday December 14 - 2012,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;GUVEN;ZENGIN;POTUK;KAMARA;ATES
+Elazigspor vs. Gaziantepspor - Saturday December 15 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;BADUR;KAYALI;ZEEGELAAR;YEDEK;FAUBERT;TURKDOGAN
+Elazigspor vs. Gaziantepspor - Saturday December 15 - 2012,Gaziantepspor,hard,4-4-2,BIRNICAN;CAN;KECOJEVIC;BINYA;KURTULUS;SAHIN;PEHLIVAN;MEDUNJANIN;DAG;TOSUN;SOSA
+Genclerbirligi vs. Besiktas - Saturday December 15 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;TORAMAN;UYSAL;SAHAN;KAVLAK;HOLOSKO;ALMEIDA
+Genclerbirligi vs. Besiktas - Saturday December 15 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;DURMAZ;AZOFEIFA;MERIC;LEKIC
+Mersin Idmanyurdu vs. Akhisar Belediyespor - Saturday December 15 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;SONKO;EREN;YUCE;DIEGO LIMA;VARDAR;OZER;CEBE;BRUNO MEZENGA
+Mersin Idmanyurdu vs. Akhisar Belediyespor - Saturday December 15 - 2012,Mersin Idmanyurdu,hard,4-4-2,ONGUN;IVAN;TOSCALI;STEPANOV;BARIS;CULIO;BAYRAKTAR;CEYLAN;BEN YAHIA;TOZLU;NOBRE
+Galatasaray vs. Fenerbahce - Sunday December 16 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;TOPAL;MEIRELES;ERKIN;CRISTIAN;KUYT;SOW
+Galatasaray vs. Fenerbahce - Sunday December 16 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;EBOUE;AMRABAT;INAN;FELIPE MELO;ALTINTOP;YILMAZ;BULUT
+Istanbul Buyuksehir Belediyespor vs. Trabzonspor - Sunday December 16 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;KORKMAZ;SUZEN;HOLMEN;TOM;WEBO
+Istanbul Buyuksehir Belediyespor vs. Trabzonspor - Sunday December 16 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;KACAR;BALCI;ZOKORA;ALANZINHO;ADIN;MIERZEJEWSKI;OZTEKIN;HENRIQUE
+Kardemir Dc Karabukspor vs. Sivasspor - Sunday December 16 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;DEUMI;MABIALA;SOYLER;SHELTON;HIKMET;INCEDEMIR;HAMROUN;PARLAK;LUALUA
+Kardemir Dc Karabukspor vs. Sivasspor - Sunday December 16 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;AKCA;GUVEN;BEKMEZCI;KOCAK;GROSICKI;KILIC;PEDRIEL;ENERAMO
+Orduspor vs. Antalyaspor - Sunday December 16 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;GUNGOR;BARIS;ARSLAN;DAGASAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Orduspor vs. Antalyaspor - Sunday December 16 - 2012,Orduspor,hard,4-4-2,FORNEZZI;COKMUS;GARCIA;KAS;GARCIA;TURAN;CINAZ;CAMDALI;UMBIDES;KABZE;STANCU
+Kayserispor vs. Kasimpasa - Monday December 17 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;SERAS;SARMOV;DJALMA;HURMACI;VIUDEZ;UCHE
+Kayserispor vs. Kasimpasa - Monday December 17 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;DURSUN;RIVEROS;YILMAZ;MOUCHE;CLEYTON;BAYRAM;BOBO
+Akhisar Belediyespor vs. Orduspor - Friday December 21 - 2012,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;YALCIN;DEMIROK;EREN;YUCE;ALADAG;VARDAR;ASAN;OZER;BRUNO MEZENGA
+Akhisar Belediyespor vs. Orduspor - Friday December 21 - 2012,Orduspor,hard,4-4-2,FORNEZZI;COKMUS;GARCIA;KAS;GARCIA;CALISKAN;CAMDALI;CINAZ;UMBIDES;KABZE;STANCU
+Besiktas vs. Kayserispor - Friday December 21 - 2012,Besiktas,easy,4-2-3-1,MCGREGOR;BORAL;GULUM;SIVOK;HILBERT;TORAMAN;UYSAL;SAHAN;OZYAKUP;HOLOSKO;ALMEIDA
+Besiktas vs. Kayserispor - Friday December 21 - 2012,Kayserispor,hard,4-2-3-1,TASKIRAN;KAYAOGLU;ZURAB KHIZANISHVILI;GUNGOR;DURSUN;RIVEROS;DURAK;MOUCHE;CLEYTON;YILMAZ;BOBO
+Fenerbahce vs. Kardemir Dc Karabukspor - Saturday December 22 - 2012,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;YOBO;IRTEGUN;GONUL;SAHIN;CRISTIAN;KRASIC;OZTURK;KUYT;SOW
+Fenerbahce vs. Kardemir Dc Karabukspor - Saturday December 22 - 2012,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;MABIALA;DEUMI;OZGENC;SHELTON;INCEDEMIR;HIKMET;OZEK;PARLAK;LUALUA
+Kasimpasa vs. Istanbul Buyuksehir Belediyespor - Saturday December 22 - 2012,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;KORKMAZ;SUZEN;HOLMEN;TOM;WEBO
+Kasimpasa vs. Istanbul Buyuksehir Belediyespor - Saturday December 22 - 2012,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;EKER;AYHAN;SUME;ERNST;SARMOV;DIMITROV;HURMACI;VIUDEZ;UCHE
+Antalyaspor vs. Eskisehirspor - Sunday December 23 - 2012,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;GUNGOR;BARIS;ARSLAN;DAGASAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Eskisehirspor - Sunday December 23 - 2012,Eskisehirspor,hard,4-4-2,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;TELLO;GUCER;SARI;POTUK;ATES;NUHIU
+Bursaspor vs. Genclerbirligi - Sunday December 23 - 2012,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;ERDOGAN;AZIZ;CHRETIEN;YILDIRIM;BELLUSCHI;SANLI;BATALLA;SESTAK;PINTO
+Bursaspor vs. Genclerbirligi - Sunday December 23 - 2012,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;DELIBALTA;KARA;MERIC;LEKIC
+Gaziantepspor vs. Mersin Idmanyurdu - Sunday December 23 - 2012,Gaziantepspor,hard,4-3-3,BEZGIN;CAN;TOKAK;BINYA;KURTULUS;DAG;GULLE;MEDUNJANIN;SOSA;TOSUN;SAHIN
+Gaziantepspor vs. Mersin Idmanyurdu - Sunday December 23 - 2012,Mersin Idmanyurdu,hard,4-2-3-1,ONGUN;IVAN;KECELI;STEPANOV;BARIS;BAYRAKTAR;CEYLAN;CULIO;BEN YAHIA;TOZLU;NOBRE
+Sivasspor vs. Elazigspor - Sunday December 23 - 2012,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;ERTUGRUL;BADUR;ZEEGELAAR;YEDEK;GURLER;TURKDOGAN
+Sivasspor vs. Elazigspor - Sunday December 23 - 2012,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
+Trabzonspor vs. Galatasaray - Sunday December 23 - 2012,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;EBOUE;AMRABAT;INAN;FELIPE MELO;ALTINTOP;BULUT;YILMAZ
+Trabzonspor vs. Galatasaray - Sunday December 23 - 2012,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;CELUSTKA;KACAR;BALCI;ZOKORA;SAPARA;ADIN;MIERZEJEWSKI;ALTINTOP;HENRIQUE
+Akhisar Belediyespor vs. Antalyaspor - Wednesday January 9 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;ASAN;VARDAR;OZER;CEBE;BRUNO MEZENGA
+Akhisar Belediyespor vs. Antalyaspor - Wednesday January 9 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;INCEMAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Kasimpasa vs. Galatasaray - Friday January 18 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;SARIOGLU;COLAK;INAN;FELIPE MELO;ALTINTOP;ELMANDER;YILMAZ
+Kasimpasa vs. Galatasaray - Friday January 18 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;SUME;AYHAN;BASDAS;DERELI;ERNST;SARMOV;HURMACI;IBRICIC;VIUDEZ;UCHE
+Besiktas vs. Istanbul Buyuksehir Belediyespor - Saturday January 19 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;OZKAN;SIVOK;TORAMAN;HILBERT;UYSAL;KAVLAK;SAHAN;OZYAKUP;HOLOSKO;ALMEIDA
+Besiktas vs. Istanbul Buyuksehir Belediyespor - Saturday January 19 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;KORKMAZ;VISCA;HOLMEN;TOM;WEBO
+Bursaspor vs. Kayserispor - Saturday January 19 - 2013,Bursaspor,hard,4-2-3-1,CARSON;ASLANTAS;OZTURK;AZIZ;OZBAYRAKLI;CAGIRAN;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Bursaspor vs. Kayserispor - Saturday January 19 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;FATHI;ZURAB KHIZANISHVILI;GUNGOR;DURSUN;GULSELAM;DURAK;MOUCHE;CLEYTON;YILMAZ;BOBO
+Sivasspor vs. Gaziantepspor - Saturday January 19 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;DAG;HAS;MEDUNJANIN;SAHIN;SERNAS;CALIS;TOSUN
+Sivasspor vs. Gaziantepspor - Saturday January 19 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;KAVUK;BEKMEZCI;KOCAK;GROSICKI;KILIC;PEDRIEL;ENERAMO
+Antalyaspor vs. Genclerbirligi - Sunday January 20 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;BARIS;ARSLAN;INCEMAN;YILDIRIM;DURUER;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Genclerbirligi - Sunday January 20 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;AZOFEIFA;ZEC;DURMAZ;MERIC;VLEMINCKX
+Fenerbahce vs. Elazigspor - Sunday January 20 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SARP;SANE;ZEEGELAAR;YEDEK;GURLER;JERVIS
+Fenerbahce vs. Elazigspor - Sunday January 20 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;ERKIN;KORKMAZ;KESIMAL;GONUL;TOPAL;UCAN;KUYT;CRISTIAN;KRASIC;SOW
+Trabzonspor vs. Kardemir Dc Karabukspor - Sunday January 20 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,KORK;DOGAN;KARAER;DEUMI;SOYLER;INCEDEMIR;HIKMET;OZEK;OZMERT;VAROL;PARLAK
+Trabzonspor vs. Kardemir Dc Karabukspor - Sunday January 20 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;CELUSTKA;BALCI;SAPARA;ALANZINHO;ADIN;MIERZEJEWSKI;OZTEKIN;VITTEK
+Akhisar Belediyespor vs. Eskisehirspor - Monday January 21 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;VURAL;DEMIROK;SONKO;EREN;YUCE;ASAN;CEBE;OZER;VARDAR;BRUNO MEZENGA
+Akhisar Belediyespor vs. Eskisehirspor - Monday January 21 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;CETIN;SARI;CAMDAL;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Orduspor vs. Mersin Idmanyurdu - Monday January 21 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;MITROVIC;STEPANOV;YANIK;BAYRAKTAR;CEYLAN;OZOKWO;CULIO;ESER;NOBRE
+Orduspor vs. Mersin Idmanyurdu - Monday January 21 - 2013,Orduspor,hard,4-4-2,FORNEZZI;TURAN;GARCIA;CAMDALI;ROVERSIO;GOKOGLAN;CINAZ;CALISKAN;UMBIDES;BARRAL;STANCU
+Kardemir Dc Karabukspor vs. Kasimpasa - Friday January 25 - 2013,Kardemir Dc Karabukspor,hard,4-1-4-1,KORK;DOGAN;KARAER;DEUMI;SOYLER;INCEDEMIR;OZEK;OZMERT;HIKMET;VAROL;PARLAK
+Kardemir Dc Karabukspor vs. Kasimpasa - Friday January 25 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;DERELI;ERNST;SARMOV;COLAK;HURMACI;VIUDEZ;UCHE
+Gaziantepspor vs. Fenerbahce - Saturday January 26 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;KORKMAZ;IRTEGUN;SAM;TOPAL;MEIRELES;KUYT;CRISTIAN;TOPUZ;SOW
+Gaziantepspor vs. Fenerbahce - Saturday January 26 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;TOKAK;KURTULUS;HAS;MEDUNJANIN;SAHIN;SERNAS;CALIS;TOSUN
+Genclerbirligi vs. Akhisar Belediyespor - Saturday January 26 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;VARDAR;VURAL;OZER;CEBE;BRUNO MEZENGA
+Genclerbirligi vs. Akhisar Belediyespor - Saturday January 26 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;ZEC;DURMAZ;MERIC;VLEMINCKX
+Istanbul Buyuksehir Belediyespor vs. Bursaspor - Saturday January 26 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;ASLANTAS;OZTURK;AZIZ;OZBAYRAKLI;CAGIRAN;EDU;KIRAZ;BATALLA;SANLI;PINTO
+Istanbul Buyuksehir Belediyespor vs. Bursaspor - Saturday January 26 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;SAHIN;KORKMAZ;TEKDEMIR;DOKA MADUREIRA;HOLMEN;VISCA;KOSE
+Elazigspor vs. Trabzonspor - Sunday January 27 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SARP;SANE;KALOGLU;YEDEK;GURLER;JERVIS
+Elazigspor vs. Trabzonspor - Sunday January 27 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;EMERSON CONCEICAO;YUMLU;CELUSTKA;YAVRU;AKGUN;COLMAN;ADIN;MIERZEJEWSKI;ALTINTOP;VITTEK
+Galatasaray vs. Besiktas - Sunday January 27 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;TORAMAN;SIVOK;AKGUN;UYSAL;KAVLAK;SAHAN;FERNANDES;HILBERT;HOLOSKO
+Galatasaray vs. Besiktas - Sunday January 27 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;SARIOGLU;COLAK;INAN;FELIPE MELO;ALTINTOP;ELMANDER;BULUT
+Kayserispor vs. Antalyaspor - Sunday January 27 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;NIZAM;SEDEF;TANDOGAN;INCEMAN;YILDIRIM;BASSAN;AISSATI;BOYRAZ;DIARRA
+Kayserispor vs. Antalyaspor - Sunday January 27 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;COREKCI;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Mersin Idmanyurdu vs. Sivasspor - Sunday January 27 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;MITROVIC;STEPANOV;YANIK;BAYRAKTAR;CEYLAN;CULIO;OZOKWO;ESER;YILDIZ
+Mersin Idmanyurdu vs. Sivasspor - Sunday January 27 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;KAVUK;BEKMEZCI;KOCAK;KILIC;ARSLAN;PEDRIEL;ENERAMO
+Eskisehirspor vs. Orduspor - Monday January 28 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;GUVEN;ZENGIN;CAUSIC;POTUK;ATES
+Eskisehirspor vs. Orduspor - Monday January 28 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;OZTORUN;GARCIA;KAS;GARCIA;CINAZ;CALISKAN;TURAN;YELKEN;UMBIDES;TORUN
+Akhisar Belediyespor vs. Kayserispor - Friday February 1 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;VURAL;DEMIROK;SONKO;EREN;OZER;ALADAG;KISA;VARDAR;GEKAS;BRUNO MEZENGA
+Akhisar Belediyespor vs. Kayserispor - Friday February 1 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;GUNGOR;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Besiktas vs. Kardemir Dc Karabukspor - Friday February 1 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;TORAMAN;AKGUN;UYSAL;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;ALMEIDA
+Besiktas vs. Kardemir Dc Karabukspor - Friday February 1 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,KORK;SERIC;DEUMI;MABIALA;OZGENC;INCEDEMIR;OZMERT;OZEK;HIKMET;HAMROUN;PARLAK
+Antalyaspor vs. Istanbul Buyuksehir Belediyespor - Saturday February 2 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;SEDEF;BARIS;TANDOGAN;JANDA;INCEMAN;DURUER;AISSATI;BASSAN;DIARRA
+Antalyaspor vs. Istanbul Buyuksehir Belediyespor - Saturday February 2 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;HASPOLATLI;KORKMAZ;DOKA MADUREIRA;HOLMEN;VISCA;ZENKE
+Bursaspor vs. Galatasaray - Saturday February 2 - 2013,Bursaspor,hard,4-2-3-1,CARSON;CHRETIEN;AZIZ;OZTURK;OZBAYRAKLI;EDU;BELLUSCHI;DENIZ;BATALLA;YILDIRIM;PINTO
+Bursaspor vs. Galatasaray - Saturday February 2 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;SARIOGLU;COLAK;INAN;BAYTAR;KURTULUS;BULUT;ELMANDER
+Kasimpasa vs. Elazigspor - Saturday February 2 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;ALKASI;SARP;SANE;CAKIR;YEDEK;GURLER;KALOGLU
+Kasimpasa vs. Elazigspor - Saturday February 2 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;SUME;DERELI;FRITZLER;SARMOV;HURMACI;IBRICIC;VIUDEZ;UCHE
+Eskisehirspor vs. Mersin Idmanyurdu - Sunday February 3 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;POTUK;GUCER;CAUSIC;TELLO;NUHIU;ZENGIN
+Eskisehirspor vs. Mersin Idmanyurdu - Sunday February 3 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;MITROVIC;STEPANOV;YANIK;CEYLAN;BAYRAKTAR;ESER;CULIO;OZOKWO;NOBRE
+Fenerbahce vs. Sivasspor - Sunday February 3 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;ZIEGLER;KORKMAZ;IRTEGUN;GONUL;MEIRELES;CRISTIAN;BELOZOGLU;SOW;WEBO;KUYT
+Fenerbahce vs. Sivasspor - Sunday February 3 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;GUVEN;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Orduspor vs. Genclerbirligi - Sunday February 3 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;KULUSIC;CAN;PETROVIC;KAYA;DURMAZ;AZOFEIFA;MERIC;VLEMINCKX
+Orduspor vs. Genclerbirligi - Sunday February 3 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;TURAN;ROVERSIO;GARCIA;COKMUS;CAMDALI;CALISKAN;MONJE;UMBIDES;YELKEN;STANCU
+Trabzonspor vs. Gaziantepspor - Sunday February 3 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;CAN;KECOJEVIC;TOKAK;KURTULUS;HAS;BINYA;MEDUNJANIN;SAHIN;SERNAS;TOSUN
+Trabzonspor vs. Gaziantepspor - Sunday February 3 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;EMERSON CONCEICAO;YUMLU;CELUSTKA;BALCI;COLMAN;ADIN;MIERZEJEWSKI;ALANZINHO;ALTINTOP
+Elazigspor vs. Besiktas - Saturday February 9 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;TORAMAN;SIVOK;HILBERT;OZYAKUP;KAVLAK;SAHAN;FERNANDES;HOLOSKO;KURUMUS
+Elazigspor vs. Besiktas - Saturday February 9 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;GORK;ALKASI;SARP;SANE;ZEEGELAAR;YEDEK;GURLER;KALOGLU
+Genclerbirligi vs. Eskisehirspor - Saturday February 9 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Genclerbirligi vs. Eskisehirspor - Saturday February 9 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;DEMIR;CAN;ILERI;AZOFEIFA;ZEC;DURMAZ;MERIC;VLEMINCKX
+Istanbul Buyuksehir Belediyespor vs. Akhisar Belediyespor - Saturday February 9 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VARDAR;ALADAG;KISA;OZER;GEKAS;BRUNO MEZENGA
+Istanbul Buyuksehir Belediyespor vs. Akhisar Belediyespor - Saturday February 9 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;SAHIN;DEPE;ZAYATTE;GERALDES;HASPOLATLI;KORKMAZ;DOKA MADUREIRA;HOLMEN;VISCA;KOSE
+Kardemir Dc Karabukspor vs. Bursaspor - Saturday February 9 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;CHRETIEN;AZIZ;OZTURK;OZBAYRAKLI;EDU;BELLUSCHI;SANLI;BATALLA;YILDIRIM;PINTO
+Kardemir Dc Karabukspor vs. Bursaspor - Saturday February 9 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;MABIALA;DEUMI;SOYLER;OZEK;INCEDEMIR;HIKMET;HAMROUN;PARLAK;LUALUA
+Galatasaray vs. Antalyaspor - Sunday February 10 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;NIZAM;BARIS;TANDOGAN;INCEMAN;YILDIRIM;BOYRAZ;AISSATI;BASSAN;DIARRA
+Galatasaray vs. Antalyaspor - Sunday February 10 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;RIERA;NOUNKEU;KAYA;SARIOGLU;KURTULUS;INAN;AMRABAT;SNEIJDER;ALTINTOP;YILMAZ
+Kayserispor vs. Orduspor - Sunday February 10 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Kayserispor vs. Orduspor - Sunday February 10 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;TURAN;ROVERSIO;CAMDALI;GARCIA;CINAZ;CALISKAN;ROMERO;UMBIDES;YELKEN;STANCU
+Mersin Idmanyurdu vs. Fenerbahce - Sunday February 10 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;ZIEGLER;KORKMAZ;IRTEGUN;GONUL;MEIRELES;BELOZOGLU;SOW;CRISTIAN;KUYT;WEBO
+Mersin Idmanyurdu vs. Fenerbahce - Sunday February 10 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;MITROVIC;STEPANOV;YANIK;BAYRAKTAR;CEYLAN;OZOKWO;CULIO;ESER;NOBRE
+Sivasspor vs. Trabzonspor - Sunday February 10 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;PEDRIEL
+Sivasspor vs. Trabzonspor - Sunday February 10 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;BAMBA;KACAR;BALCI;ZOKORA;COLMAN;ADIN;MIERZEJEWSKI;ALANZINHO;ALTINTOP
+Gaziantepspor vs. Kasimpasa - Monday February 11 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;DAG;KECOJEVIC;TOKAK;KURTULUS;HAS;MEDUNJANIN;BINYA;SAHIN;SERNAS;TOSUN
+Gaziantepspor vs. Kasimpasa - Monday February 11 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;ERNST;SARMOV;HURMACI;IBRICIC;VIUDEZ;UCHE
+Akhisar Belediyespor vs. Galatasaray - Friday February 15 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;YUCE;VARDAR;KISA;OZER;GEKAS
+Akhisar Belediyespor vs. Galatasaray - Friday February 15 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;SARIOGLU;SNEIJDER;KURTULUS;INAN;ALTINTOP;BULUT;YILMAZ
+Antalyaspor vs. Kardemir Dc Karabukspor - Saturday February 16 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;SEDEF;BARIS;GUNGOR;ARSLAN;INCEMAN;DURUER;PROMISE;AISSATI;JANDA;DIARRA
+Antalyaspor vs. Kardemir Dc Karabukspor - Saturday February 16 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;KARAER;DEUMI;MABIALA;OZGENC;SHELTON;HIKMET;OZMERT;HAMROUN;PARLAK;LUALUA
+Besiktas vs. Gaziantepspor - Saturday February 16 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;SIVOK;HILBERT;AKGUN;KAVLAK;SAHAN;FERNANDES;HOLOSKO;NIANG
+Besiktas vs. Gaziantepspor - Saturday February 16 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;TOKAK;BINYA;KURTULUS;HAS;MEDUNJANIN;SAHIN;SERNAS;DAG;TOSUN
+Eskisehirspor vs. Kayserispor - Saturday February 16 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;DEDE;DIEGO ANGELO;CETIN;SARI;POTUK;GUCER;GUVEN;ZENGIN;ATES;KAMARA
+Eskisehirspor vs. Kayserispor - Saturday February 16 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Bursaspor vs. Elazigspor - Sunday February 17 - 2013,Bursaspor,hard,4-2-3-1,CARSON;CHRETIEN;AZIZ;OZTURK;ASLANTAS;EDU;BELLUSCHI;SANLI;BATALLA;YILDIRIM;PINTO
+Bursaspor vs. Elazigspor - Sunday February 17 - 2013,Elazigspor,hard,4-2-3-1,IVESA;ZEEGELAAR;BAYRAK;FABIO BILICA;ALKASI;SARP;SANE;KARABULUT;YEDEK;CAKIR;KUJOVIC
+Genclerbirligi vs. Mersin Idmanyurdu - Sunday February 17 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;TOMIC;DURMAZ;MERIC;VLEMINCKX
+Genclerbirligi vs. Mersin Idmanyurdu - Sunday February 17 - 2013,Mersin Idmanyurdu,hard,4-3-3,BICIK;KECELI;MITROVIC;STEPANOV;YANIK;OZOKWO;CEYLAN;CULIO;IVAN;YILDIZ;ESER
+Orduspor vs. Istanbul Buyuksehir Belediyespor - Sunday February 17 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;KORKMAZ;TEKDEMIR;DOKA MADUREIRA;HOLMEN;VISCA;ZENKE
+Orduspor vs. Istanbul Buyuksehir Belediyespor - Sunday February 17 - 2013,Orduspor,hard,4-3-3,FORNEZZI;TURAN;YUSSUF;KAS;GARCIA;CAMDALI;CINAZ;CALISKAN;ROMERO;BARRAL;UMBIDES
+Trabzonspor vs. Fenerbahce - Sunday February 17 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;KORKMAZ;IRTEGUN;GONUL;TOPAL;BELOZOGLU;SOW;CRISTIAN;KUYT;WEBO
+Trabzonspor vs. Fenerbahce - Sunday February 17 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;BAMBA;KACAR;CELUSTKA;BALCI;COLMAN;ADIN;MIERZEJEWSKI;OZTEKIN;JANKO
+Kasimpasa vs. Sivasspor - Monday February 18 - 2013,Kasimpasa,hard,4-4-2,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;DJALMA;ERNST;SARMOV;VIUDEZ;UCHE;BUYUK
+Kasimpasa vs. Sivasspor - Monday February 18 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;RAJNOCH;AKCA;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Gaziantepspor vs. Bursaspor - Friday February 22 - 2013,Bursaspor,hard,4-2-3-1,CARSON;CHRETIEN;AZIZ;OZTURK;OZBAYRAKLI;EDU;BELLUSCHI;SANLI;BATALLA;YILDIRIM;PINTO
+Gaziantepspor vs. Bursaspor - Friday February 22 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;CAN;KECOJEVIC;TOKAK;KURTULUS;DELIBALTA;HAS;MEDUNJANIN;SERNAS;KOUEMAHA;TOSUN
+Elazigspor vs. Antalyaspor - Saturday February 23 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;SEDEF;GUNGOR;ARSLAN;INCEMAN;JANDA;DURUER;AISSATI;PROMISE;DIARRA
+Elazigspor vs. Antalyaspor - Saturday February 23 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SESAR;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Istanbul Buyuksehir Belediyespor vs. Eskisehirspor - Saturday February 23 - 2013,Eskisehirspor,hard,4-4-2,BOFFIN;DEDE;DIEGO ANGELO;AKAMINKO;SARI;TELLO;GUCER;POTUK;CAMDAL;ATES;NUHIU
+Istanbul Buyuksehir Belediyespor vs. Eskisehirspor - Saturday February 23 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;SAHIN;KORKMAZ;TEKDEMIR;DOKA MADUREIRA;HOLMEN;VISCA;ZENKE
+Mersin Idmanyurdu vs. Trabzonspor - Saturday February 23 - 2013,Mersin Idmanyurdu,hard,4-3-3,BICIK;IVAN;MITROVIC;STEPANOV;YANIK;CEYLAN;BAYRAKTAR;BEN YAHIA;CULIO;NOBRE;ESER
+Mersin Idmanyurdu vs. Trabzonspor - Saturday February 23 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;CELUSTKA;KARMIL;ZOKORA;COLMAN;ADIN;SAPARA;BALCI;HENRIQUE
+Sivasspor vs. Besiktas - Saturday February 23 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;SIVOK;HILBERT;TORAMAN;KAVLAK;SAHAN;FERNANDES;HOLOSKO;NIANG
+Sivasspor vs. Besiktas - Saturday February 23 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Fenerbahce vs. Kasimpasa - Sunday February 24 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;KALDIRIM;KORKMAZ;YOBO;GONUL;MEIRELES;TOPAL;BELOZOGLU;STOCH;WEBO;KUYT
+Fenerbahce vs. Kasimpasa - Sunday February 24 - 2013,Kasimpasa,hard,4-4-2,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;DJALMA;ERNST;SARMOV;VIUDEZ;UCHE;BUYUK
+Kardemir Dc Karabukspor vs. Akhisar Belediyespor - Sunday February 24 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;YUCE;VURAL;KISA;VARDAR;GEKAS
+Kardemir Dc Karabukspor vs. Akhisar Belediyespor - Sunday February 24 - 2013,Kardemir Dc Karabukspor,hard,4-2-3-1,TOMIC;KARAER;DEUMI;MABIALA;OZGENC;HIKMET;INCEDEMIR;SHELTON;OZMERT;LUALUA;PARLAK
+Kayserispor vs. Genclerbirligi - Sunday February 24 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;KURTULUS;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;DURMAZ;TOMIC;MERIC;VLEMINCKX
+Kayserispor vs. Genclerbirligi - Sunday February 24 - 2013,Kayserispor,hard,4-3-3,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;DURSUN;GULSELAM;BEKDEMIR;YILMAZ;MOUCHE;DIOP;BISESWAR
+Genclerbirligi vs. Istanbul Buyuksehir Belediyespor - Friday March 1 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;DURMAZ;VLEMINCKX
+Genclerbirligi vs. Istanbul Buyuksehir Belediyespor - Friday March 1 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;HASPOLATLI;KORKMAZ;SOKULLU;HOLMEN;VISCA;ZENKE
+Akhisar Belediyespor vs. Elazigspor - Saturday March 2 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;VURAL;DEMIROK;SONKO;EREN;ALADAG;YUCE;VARDAR;KISA;OZER;GEKAS
+Akhisar Belediyespor vs. Elazigspor - Saturday March 2 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SARP;SESAR;KARABULUT;YEDEK;GURLER;KALOGLU
+Eskisehirspor vs. Galatasaray - Saturday March 2 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DIEGO ANGELO;CETIN;AKAMINKO;SARI;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Eskisehirspor vs. Galatasaray - Saturday March 2 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;BALTA;ZAN;KAYA;SARIOGLU;FELIPE MELO;INAN;AMRABAT;SNEIJDER;YILMAZ;DROGBA
+Orduspor vs. Kardemir Dc Karabukspor - Saturday March 2 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;KARAER;DEUMI;OZGENC;SHELTON;INCEDEMIR;HIKMET;OZEK;PARLAK;LUALUA
+Orduspor vs. Kardemir Dc Karabukspor - Saturday March 2 - 2013,Orduspor,hard,4-4-2,FORNEZZI;OZTORUN;ROVERSIO;GARCIA;COKMUS;TURAN;CAMDALI;CALISKAN;ROMERO;KABZE;STANCU
+Antalyaspor vs. Gaziantepspor - Sunday March 3 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;SEDEF;BARIS;GUNGOR;TANDOGAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Gaziantepspor - Sunday March 3 - 2013,Gaziantepspor,hard,4-3-3,KARCEMARSKAS;CAN;KECOJEVIC;TOKAK;KURTULUS;HAS;CALIS;MEDUNJANIN;DELIBALTA;SERNAS;TOSUN
+Besiktas vs. Fenerbahce - Sunday March 3 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;SIVOK;HILBERT;TORAMAN;KAVLAK;SAHAN;FERNANDES;HOLOSKO;NIANG
+Besiktas vs. Fenerbahce - Sunday March 3 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;ZIEGLER;KORKMAZ;IRTEGUN;GONUL;MEIRELES;BELOZOGLU;SOW;CRISTIAN;KUYT;WEBO
+Bursaspor vs. Sivasspor - Sunday March 3 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;OZBAYRAKLI;EDU;BELLUSCHI;SANLI;BATALLA;CHRETIEN;PINTO
+Bursaspor vs. Sivasspor - Sunday March 3 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Kayserispor vs. Mersin Idmanyurdu - Sunday March 3 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;BEKDEMIR;CLEYTON;YILMAZ;BOBO
+Kayserispor vs. Mersin Idmanyurdu - Sunday March 3 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;BOUM;MITROVIC;KECELI;BEN YAHIA;BAYRAKTAR;IPEK;CULIO;ESER;NOBRE
+Kasimpasa vs. Trabzonspor - Monday March 4 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;BASDAS;DERELI;ERNST;SERAS;BUYUK;IBRICIC;VIUDEZ;UCHE
+Kasimpasa vs. Trabzonspor - Monday March 4 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CELUSTKA;YUMLU;KACAR;KARMIL;COLMAN;ZOKORA;ADIN;SAPARA;BALCI;HENRIQUE
+Galatasaray vs. Genclerbirligi - Friday March 8 - 2013,Galatasaray,easy,4-2-3-1,MUSLERA;RIERA;KAYA;ZAN;EBOUE;KURTULUS;INAN;COLAK;SNEIJDER;ALTINTOP;YILMAZ
+Galatasaray vs. Genclerbirligi - Friday March 8 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;ILERI;PETROVIC;DURMAZ;AZOFEIFA;TOMIC;VLEMINCKX
+Gaziantepspor vs. Akhisar Belediyespor - Saturday March 9 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;ALADAG;KISA;VARDAR;GEKAS;BRUNO MEZENGA
+Gaziantepspor vs. Akhisar Belediyespor - Saturday March 9 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;TOKAK;KURTULUS;CALIS;MEDUNJANIN;SERNAS;DELIBALTA;TOSUN;KOUEMAHA
+Istanbul Buyuksehir Belediyespor vs. Kayserispor - Saturday March 9 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;INANC;TEKDEMIR;SOKULLU;HOLMEN;VISCA;ZENKE
+Istanbul Buyuksehir Belediyespor vs. Kayserispor - Saturday March 9 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;COREKCI;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Trabzonspor vs. Besiktas - Saturday March 9 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;GULUM;SIVOK;HILBERT;TORAMAN;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;NIANG
+Trabzonspor vs. Besiktas - Saturday March 9 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;BAMBA;BALCI;ZOKORA;AYDOGDU;ADIN;MIERZEJEWSKI;ALTINTOP;HENRIQUE
+Elazigspor vs. Orduspor - Sunday March 10 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;BAYRAK;ALKASI;SARP;SESAR;KARABULUT;YEDEK;GURLER;JERVIS
+Elazigspor vs. Orduspor - Sunday March 10 - 2013,Orduspor,hard,4-2-3-1,FORNEZZI;OZTORUN;ROVERSIO;KAS;GARCIA;CINAZ;CAMDALI;ROMERO;CALISKAN;UMBIDES;KABZE
+Fenerbahce vs. Bursaspor - Sunday March 10 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;FERDINAND;OZTURK;OZBAYRAKLI;EDU;BELLUSCHI;SANLI;BATALLA;CAGIRAN;SESTAK
+Fenerbahce vs. Bursaspor - Sunday March 10 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;IRTEGUN;YOBO;TOPUZ;MEIRELES;BELOZOGLU;SOW;CRISTIAN;KUYT;SENTURK
+Kardemir Dc Karabukspor vs. Eskisehirspor - Sunday March 10 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEMIRHAN;DIEGO ANGELO;AKAMINKO;CAMDAL;POTUK;CAUSIC;ZENGIN;TELLO;KAMARA;ATES
+Kardemir Dc Karabukspor vs. Eskisehirspor - Sunday March 10 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;DEUMI;MABIALA;OZGENC;OZEK;INCEDEMIR;KAGAN SOYLEMEZGILLER;HAMROUN;PARLAK;LUALUA
+Sivasspor vs. Antalyaspor - Sunday March 10 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;BARIS;GUNGOR;TANDOGAN;DAGASAN;INCEMAN;DURUER;AISSATI;PROMISE;DIARRA
+Sivasspor vs. Antalyaspor - Sunday March 10 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;GUVEN;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Mersin Idmanyurdu vs. Kasimpasa - Monday March 11 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;SUME;AYHAN;DERELI;ERNST;SERAS;BUYUK;IBRICIC;VIUDEZ;UCHE
+Mersin Idmanyurdu vs. Kasimpasa - Monday March 11 - 2013,Mersin Idmanyurdu,hard,4-4-2,BICIK;BOUM;MITROVIC;STEPANOV;YANIK;IPEK;LAWAL;BEN YAHIA;ESER;NOBRE;YILDIZ
+Bursaspor vs. Trabzonspor - Friday March 15 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;OZBAYRAKLI;EDU;BELLUSCHI;SANLI;BATALLA;CAGIRAN;SESTAK
+Bursaspor vs. Trabzonspor - Friday March 15 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;BAMBA;CELUSTKA;BALCI;AYDOGDU;ADIN;MIERZEJEWSKI;ALTINTOP;HENRIQUE
+Eskisehirspor vs. Elazigspor - Friday March 15 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AYDIN;AK;FABIO BILICA;ALKASI;SESAR;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Eskisehirspor vs. Elazigspor - Friday March 15 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;AKAMINKO;SARI;GUCER;POTUK;ZENGIN;TELLO;KAMARA;ATES
+Besiktas vs. Kasimpasa - Saturday March 16 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;GULUM;SIVOK;HILBERT;TORAMAN;OZYAKUP;SAHAN;FERNANDES;HOLOSKO;NIANG
+Besiktas vs. Kasimpasa - Saturday March 16 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;DERELI;ERNST;SERAS;DJALMA;IBRICIC;VIUDEZ;UCHE
+Genclerbirligi vs. Kardemir Dc Karabukspor - Saturday March 16 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;KURTULUS;CAN;PETROVIC;ZEC;AZOFEIFA;AKCAKIN;VLEMINCKX
+Genclerbirligi vs. Kardemir Dc Karabukspor - Saturday March 16 - 2013,Kardemir Dc Karabukspor,hard,4-3-3,TOMIC;SERIC;KARAER;DEUMI;OZGENC;KAGAN SOYLEMEZGILLER;INCEDEMIR;HIKMET;SHELTON;PARLAK;LUALUA
+Istanbul Buyuksehir Belediyespor vs. Mersin Idmanyurdu - Saturday March 16 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;INANC;TEKDEMIR;VISCA;HOLMEN;TOM;ZENKE
+Istanbul Buyuksehir Belediyespor vs. Mersin Idmanyurdu - Saturday March 16 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;KECELI;MITROVIC;STEPANOV;YANIK;LAWAL;BEN YAHIA;IPEK;CULIO;ESER;NOBRE
+Akhisar Belediyespor vs. Sivasspor - Sunday March 17 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;YUCE;VARDAR;KISA;OZER;GEKAS
+Akhisar Belediyespor vs. Sivasspor - Sunday March 17 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;PEDRIEL;ENERAMO
+Antalyaspor vs. Fenerbahce - Sunday March 17 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;NIZAM;BARIS;ARSLAN;INCEMAN;JANDA;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Fenerbahce - Sunday March 17 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;KORKMAZ;YOBO;GONUL;MEIRELES;BELOZOGLU;ERKIN;UCAN;KUYT;SOW
+Kayserispor vs. Galatasaray - Sunday March 17 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;ZAN;KAYA;EBOUE;INAN;FELIPE MELO;SNEIJDER;ALTINTOP;YILMAZ;DROGBA
+Kayserispor vs. Galatasaray - Sunday March 17 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;COREKCI;GULSELAM;RIVEROS;MOUCHE;CLEYTON;YILMAZ;BOBO
+Orduspor vs. Gaziantepspor - Sunday March 17 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;TOKAK;BINYA;KURTULUS;HAS;MEDUNJANIN;CALIS;TRAORE;TOSUN;SERNAS
+Orduspor vs. Gaziantepspor - Sunday March 17 - 2013,Orduspor,hard,4-4-2,FORNEZZI;OZTORUN;GARCIA;KAS;GARCIA;ROMERO;CAMDALI;CALISKAN;UMBIDES;STANCU;KABZE
+Galatasaray vs. Istanbul Buyuksehir Belediyespor - Saturday March 30 - 2013,Galatasaray,easy,4-4-2,MUSLERA;BALTA;NOUNKEU;KAYA;EBOUE;INAN;FELIPE MELO;SNEIJDER;ALTINTOP;YILMAZ;DROGBA
+Galatasaray vs. Istanbul Buyuksehir Belediyespor - Saturday March 30 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-5-1,EDUARDO;EKSIOGLU;ARAT;DEPE;GERALDES;DOKA MADUREIRA;GULPINAR;TEKDEMIR;INANC;TOM;ZENKE
+Gaziantepspor vs. Eskisehirspor - Saturday March 30 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUVEN;CAUSIC;ZENGIN;POTUK;KAMARA;ATES
+Gaziantepspor vs. Eskisehirspor - Saturday March 30 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;TOKAK;BINYA;KURTULUS;HAS;MEDUNJANIN;CALIS;WILTON FIGUEIREDO;TOSUN;SERNAS
+Sivasspor vs. Orduspor - Saturday March 30 - 2013,Orduspor,hard,4-1-3-2,FORNEZZI;OZTORUN;GARCIA;KAS;COKMUS;CAMDALI;STANCU;ROMERO;UMBIDES;BARRAL;KABZE
+Sivasspor vs. Orduspor - Saturday March 30 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;YERLIKAYA;KURT;RAJNOCH;GUVEN;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Elazigspor vs. Genclerbirligi - Sunday March 31 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SARP;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Elazigspor vs. Genclerbirligi - Sunday March 31 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;KULUSIC;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;DURMAZ;VLEMINCKX
+Fenerbahce vs. Akhisar Belediyespor - Sunday March 31 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;ALADAG;YUCE;VARDAR;KISA;OZER;GEKAS
+Fenerbahce vs. Akhisar Belediyespor - Sunday March 31 - 2013,Fenerbahce,easy,4-4-2,DEMIREL;ZIEGLER;KORKMAZ;IRTEGUN;TOPUZ;ERKIN;CRISTIAN;MEIRELES;KUYT;WEBO;SOW
+Kasimpasa vs. Bursaspor - Sunday March 31 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;CHRETIEN;OZTURK;AZIZ;OZBAYRAKLI;CAGIRAN;BELLUSCHI;SANLI;BATALLA;SESTAK;PINTO
+Kasimpasa vs. Bursaspor - Sunday March 31 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;BASDAS;AYHAN;SUME;ERNST;SERAS;HURMACI;IBRICIC;COLAK;UCHE
+Trabzonspor vs. Antalyaspor - Sunday March 31 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;SEDEF;NIZAM;BARIS;ARSLAN;INCEMAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Trabzonspor vs. Antalyaspor - Sunday March 31 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;BAMBA;CELUSTKA;ZOKORA;AYDOGDU;ALTINTOP;ALANZINHO;SEN;HENRIQUE
+Kardemir Dc Karabukspor vs. Kayserispor - Monday April 1 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DOGAN;DEUMI;MABIALA;OZGENC;OZEK;INCEDEMIR;KAGAN SOYLEMEZGILLER;LUALUA;UNAL;PARLAK
+Kardemir Dc Karabukspor vs. Kayserispor - Monday April 1 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;DURAK;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;BISESWAR;YILMAZ;CLEYTON
+Mersin Idmanyurdu vs. Besiktas - Monday April 1 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;TORAMAN;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;NIANG;ALMEIDA
+Mersin Idmanyurdu vs. Besiktas - Monday April 1 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;MITROVIC;TOSCALI;KAYHAN;LAWAL;CEYLAN;OZOKWO;CULIO;ESER;NOBRE
+Antalyaspor vs. Kasimpasa - Friday April 5 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;TEBER;BARIS;GUNGOR;ARSLAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Kasimpasa - Friday April 5 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;DERELI;ERNST;SERAS;HURMACI;IBRICIC;COLAK;UCHE
+Galatasaray vs. Mersin Idmanyurdu - Saturday April 6 - 2013,Galatasaray,easy,4-4-2,MUSLERA;BALTA;NOUNKEU;ZAN;SARIOGLU;COLAK;FELIPE MELO;SNEIJDER;ALTINTOP;YILMAZ;DROGBA
+Galatasaray vs. Mersin Idmanyurdu - Saturday April 6 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,BICIK;IVAN;BOUM;YANIK;KAYHAN;LAWAL;CEYLAN;OZOKWO;CULIO;ESER;NOBRE
+Istanbul Buyuksehir Belediyespor vs. Kardemir Dc Karabukspor - Saturday April 6 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ZAYATTE;DEPE;SAHIN;INANC;TEKDEMIR;DOKA MADUREIRA;HOLMEN;TOM;ZENKE
+Istanbul Buyuksehir Belediyespor vs. Kardemir Dc Karabukspor - Saturday April 6 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;DOGAN;DEUMI;MABIALA;OZGENC;OZEK;INCEDEMIR;KAGAN SOYLEMEZGILLER;LUALUA;UNAL;PARLAK
+Kayserispor vs. Elazigspor - Saturday April 6 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;FABIO BILICA;ALKASI;SESAR;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Kayserispor vs. Elazigspor - Saturday April 6 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;BAYRAM;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;ARICA;CLEYTON;MOUCHE;BOBO
+Akhisar Belediyespor vs. Trabzonspor - Sunday April 7 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;YUCE;KISA;CEBE;BULUT;BRUNO MEZENGA
+Akhisar Belediyespor vs. Trabzonspor - Sunday April 7 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;BAMBA;CELUSTKA;ZOKORA;AYDOGDU;OZTEKIN;ALANZINHO;SEN;HENRIQUE
+Eskisehirspor vs. Sivasspor - Sunday April 7 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;AKAMINKO;SARI;GUCER;GUVEN;CEK;POTUK;ZENGIN;NUHIU
+Eskisehirspor vs. Sivasspor - Sunday April 7 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;RAJNOCH;GUVEN;BEKMEZCI;KOCAK;KILIC;ARSLAN;PEDRIEL;PIECH
+Genclerbirligi vs. Gaziantepspor - Sunday April 7 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;TOKAK;HAS;MEDUNJANIN;CALIS;DELIBALTA;TOSUN;SERNAS
+Genclerbirligi vs. Gaziantepspor - Sunday April 7 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;KULUSIC;CAN;ILERI;PETROVIC;DURMAZ;AZOFEIFA;MERIC;VLEMINCKX
+Orduspor vs. Fenerbahce - Sunday April 7 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;KALDIRIM;YOBO;IRTEGUN;GONUL;TOPAL;MEIRELES;ERKIN;UCAN;KUYT;WEBO
+Orduspor vs. Fenerbahce - Sunday April 7 - 2013,Orduspor,hard,4-4-2,ELMAS;OZTORUN;GARCIA;YUSSUF;GARCIA;STANCU;CAMDALI;CALISKAN;UMBIDES;BARRAL;KABZE
+Bursaspor vs. Besiktas - Monday April 8 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;ESCUDE;TORAMAN;HILBERT;OZYAKUP;KAVLAK;SAHAN;FERNANDES;AKGUN;PEKTEMEK
+Bursaspor vs. Besiktas - Monday April 8 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;FERDINAND;OZBAYRAKLI;EDU;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Sivasspor vs. Genclerbirligi - Friday April 12 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CURRI;DEMIR;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;TOMIC;AKCAKIN
+Sivasspor vs. Genclerbirligi - Friday April 12 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;KAVUK;KOCAK;ARSLAN;CHAHECHOUHE;KILIC;PIECH;ENERAMO
+Trabzonspor vs. Orduspor - Friday April 12 - 2013,Orduspor,hard,4-4-2,FORNEZZI;OZTORUN;GARCIA;YUSSUF;COKMUS;STANCU;CAMDALI;CALISKAN;UMBIDES;BARRAL;KABZE
+Trabzonspor vs. Orduspor - Friday April 12 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;KACAR;BALCI;ZOKORA;AYDOGDU;ADIN;ALANZINHO;SEN;HENRIQUE
+Kardemir Dc Karabukspor vs. Galatasaray - Saturday April 13 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;ZAN;KAYA;EBOUE;INAN;FELIPE MELO;SNEIJDER;ALTINTOP;YILMAZ;DROGBA
+Kardemir Dc Karabukspor vs. Galatasaray - Saturday April 13 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;DEUMI;MABIALA;OZGENC;OZEK;INCEDEMIR;HIKMET;LUALUA;UNAL;PARLAK
+Mersin Idmanyurdu vs. Bursaspor - Saturday April 13 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;FERDINAND;OZBAYRAKLI;CAGIRAN;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Mersin Idmanyurdu vs. Bursaspor - Saturday April 13 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;IVAN;BOUM;YANIK;KAYHAN;BEN YAHIA;GOSSO;OZOKWO;CULIO;ESER;YILDIZ
+Elazigspor vs. Istanbul Buyuksehir Belediyespor - Sunday April 14 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;GORK;AKYUZ;ERTUGRUL;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Elazigspor vs. Istanbul Buyuksehir Belediyespor - Sunday April 14 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;GERALDES;INANC;TEKDEMIR;DOKA MADUREIRA;HOLMEN;TOM;KOSE
+Fenerbahce vs. Eskisehirspor - Sunday April 14 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;AKAMINKO;SARI;GUCER;CAUSIC;ZENGIN;POTUK;KAMARA;ATES
+Fenerbahce vs. Eskisehirspor - Sunday April 14 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;ZIEGLER;KORKMAZ;YOBO;GONUL;TOPAL;MEIRELES;KUYT;CRISTIAN;TOPUZ;WEBO
+Gaziantepspor vs. Kayserispor - Sunday April 14 - 2013,Gaziantepspor,hard,4-4-2,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;SAHIN;CALIS;MEDUNJANIN;TOSUN;SERNAS;TRAORE
+Gaziantepspor vs. Kayserispor - Sunday April 14 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;BAYRAM;ZURAB KHIZANISHVILI;SIMIC;GUNGOR;RIVEROS;GULSELAM;ARICA;CLEYTON;MOUCHE;BOBO
+Kasimpasa vs. Akhisar Belediyespor - Sunday April 14 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;YALCIN;SONKO;EREN;VURAL;ALADAG;YUCE;CEBE;GEKAS;BRUNO MEZENGA
+Kasimpasa vs. Akhisar Belediyespor - Sunday April 14 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;KARTAL;ERNST;FRITZLER;HURMACI;IBRICIC;BUYUK;UCHE
+Besiktas vs. Antalyaspor - Monday April 15 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;GUNGOR;BARIS;ARSLAN;DAGASAN;DURUER;TITA;AISSATI;PROMISE;DIARRA
+Besiktas vs. Antalyaspor - Monday April 15 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;ESCUDE;HILBERT;UYSAL;KAVLAK;SAHAN;FERNANDES;HOLOSKO;PEKTEMEK
+Galatasaray vs. Elazigspor - Friday April 19 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AYDIN;FABIO BILICA;GORK;AKYUZ;SESAR;SANE;KARABULUT;YEDEK;GURLER;KALOGLU
+Galatasaray vs. Elazigspor - Friday April 19 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;ZAN;EBOUE;INAN;FELIPE MELO;KURTULUS;ALTINTOP;YILMAZ;DROGBA
+Akhisar Belediyespor vs. Besiktas - Saturday April 20 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;YUCE;KISA;CEBE;GEKAS;BRUNO MEZENGA
+Akhisar Belediyespor vs. Besiktas - Saturday April 20 - 2013,Besiktas,easy,4-2-3-1,MCGREGOR;SUZEN;GULUM;ESCUDE;HILBERT;UYSAL;KAVLAK;SAHAN;OZYAKUP;HOLOSKO;PEKTEMEK
+Kardemir Dc Karabukspor vs. Mersin Idmanyurdu - Saturday April 20 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;MABIALA;INCEDEMIR;OZGENC;OZEK;SOYLER;KAGAN SOYLEMEZGILLER;LUALUA;UNAL;PARLAK
+Kardemir Dc Karabukspor vs. Mersin Idmanyurdu - Saturday April 20 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;IVAN;MITROVIC;STEPANOV;KAYHAN;GOSSO;CEYLAN;OZOKWO;CULIO;ESER;NOBRE
+Orduspor vs. Kasimpasa - Saturday April 20 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;EKER;BASDAS;DERELI;ERNST;FRITZLER;HURMACI;IBRICIC;VIUDEZ;UCHE
+Orduspor vs. Kasimpasa - Saturday April 20 - 2013,Orduspor,hard,4-4-2,FORNEZZI;OZTORUN;GARCIA;YUSSUF;GARCIA;MONJE;CAMDALI;CINAZ;CALISKAN;STANCU;KABZE
+Antalyaspor vs. Bursaspor - Sunday April 21 - 2013,Antalyaspor,hard,4-2-3-1,ARIKAN;SEDEF;NIZAM;GUNGOR;TANDOGAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Antalyaspor vs. Bursaspor - Sunday April 21 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;FERDINAND;OZBAYRAKLI;YILDIRIM;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Genclerbirligi vs. Fenerbahce - Sunday April 21 - 2013,Fenerbahce,easy,4-2-3-1,DEMIREL;ZIEGLER;KORKMAZ;YOBO;GONUL;CRISTIAN;MEIRELES;ERKIN;UCAN;KUYT;WEBO
+Genclerbirligi vs. Fenerbahce - Sunday April 21 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;CALIK;DEMIR;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;TOMIC;VLEMINCKX
+Istanbul Buyuksehir Belediyespor vs. Gaziantepspor - Sunday April 21 - 2013,Gaziantepspor,hard,4-4-2,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;SAHIN;HAS;MEDUNJANIN;OZBAYRAKTAR;SERNAS;KOUEMAHA
+Istanbul Buyuksehir Belediyespor vs. Gaziantepspor - Sunday April 21 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;DEPE;ZAYATTE;GERALDES;INANC;TEKDEMIR;DOKA MADUREIRA;HOLMEN;KOSE;ZENKE
+Kayserispor vs. Sivasspor - Sunday April 21 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;BAYRAM;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Kayserispor vs. Sivasspor - Sunday April 21 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;KURT;NAVRATIL;RAJNOCH;KAVUK;BEKMEZCI;KOCAK;GROSICKI;CHAHECHOUHE;NAS;ENERAMO
+Eskisehirspor vs. Trabzonspor - Monday April 22 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;CETIN;AKAMINKO;GUCER;SARI;CEK;CAUSIC;ZENGIN;ATES
+Eskisehirspor vs. Trabzonspor - Monday April 22 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;KACAR;BALCI;ZOKORA;AYDOGDU;OZTEKIN;MIERZEJEWSKI;ADIN;ALTINTOP
+Mersin Idmanyurdu vs. Antalyaspor - Friday April 26 - 2013,Antalyaspor,hard,4-2-3-1,KESER;SEDEF;NIZAM;GUNGOR;ARSLAN;DAGASAN;INCEMAN;TITA;AISSATI;PROMISE;DIARRA
+Mersin Idmanyurdu vs. Antalyaspor - Friday April 26 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;KAYHAN;MITROVIC;STEPANOV;YANIK;BEN YAHIA;GOSSO;IVAN;CEYLAN;ESER;NOBRE
+Besiktas vs. Orduspor - Saturday April 27 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;ESCUDE;SIVOK;HILBERT;FERNANDES;KAVLAK;PEKTEMEK;SAHAN;DENTINHO;NIANG
+Besiktas vs. Orduspor - Saturday April 27 - 2013,Orduspor,hard,4-4-2,FORNEZZI;OZTORUN;KULGA;YUSSUF;GARCIA;MONJE;CAMDALI;COKMUS;UMBIDES;STANCU;KABZE
+Bursaspor vs. Akhisar Belediyespor - Saturday April 27 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;ALADAG;KISA;CEBE;GEKAS;BRUNO MEZENGA
+Bursaspor vs. Akhisar Belediyespor - Saturday April 27 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;OZTURK;AZIZ;OZBAYRAKLI;EDU;BELLUSCHI;KIRAZ;BATALLA;SANLI;PINTO
+Elazigspor vs. Kardemir Dc Karabukspor - Saturday April 27 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;BAYRAK;GORK;AKYUZ;SESAR;ERTUGRUL;KARABULUT;SANE;YEDEK;GURLER
+Elazigspor vs. Kardemir Dc Karabukspor - Saturday April 27 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;MABIALA;INCEDEMIR;OZGENC;OZEK;SOYLER;KAGAN SOYLEMEZGILLER;HAMROUN;PARLAK;LUALUA
+Sivasspor vs. Istanbul Buyuksehir Belediyespor - Saturday April 27 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,BAHADIR;EKSIOGLU;DEPE;ZAYATTE;GERALDES;KORKMAZ;TEKDEMIR;DOKA MADUREIRA;HOLMEN;TOM;ZENKE
+Sivasspor vs. Istanbul Buyuksehir Belediyespor - Saturday April 27 - 2013,Sivasspor,hard,4-2-3-1,CELIKAY;ERDAL;KURT;NAVRATIL;GUVEN;BEKMEZCI;KOCAK;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Trabzonspor vs. Genclerbirligi - Saturday April 27 - 2013,Genclerbirligi,hard,4-2-3-1,KOSE;TOSIC;DEMIR;CALIK;ZENGIN;ILERI;CAN;ZEC;AZOFEIFA;MERIC;VLEMINCKX
+Trabzonspor vs. Genclerbirligi - Saturday April 27 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;YUMLU;KACAR;BALCI;ZOKORA;AKGUN;OZTEKIN;MIERZEJEWSKI;ADIN;ALTINTOP
+Fenerbahce vs. Kayserispor - Sunday April 28 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;KALDIRIM;IRTEGUN;KESIMAL;SAM;TOPAL;TOPUZ;STOCH;CRISTIAN;KRASIC;WEBO
+Fenerbahce vs. Kayserispor - Sunday April 28 - 2013,Kayserispor,hard,4-2-3-1,TASKIRAN;GUNGOR;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;MOUCHE;CLEYTON;YILMAZ;BOBO
+Gaziantepspor vs. Galatasaray - Sunday April 28 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;NOUNKEU;KAYA;EBOUE;INAN;FELIPE MELO;KURTULUS;ALTINTOP;YILMAZ;DROGBA
+Gaziantepspor vs. Galatasaray - Sunday April 28 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;SAHIN;SERNAS;OZBAYRAKTAR;KOUEMAHA
+Kasimpasa vs. Eskisehirspor - Sunday April 28 - 2013,Eskisehirspor,hard,4-3-3,BOFFIN;DEDE;DIEGO ANGELO;AKAMINKO;SARI;POTUK;GUCER;CAUSIC;DEMIRHAN;KAMARA;ZENGIN
+Kasimpasa vs. Eskisehirspor - Sunday April 28 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;DERELI;ERNST;FRITZLER;HURMACI;IBRICIC;VIUDEZ;UCHE
+Genclerbirligi vs. Kasimpasa - Friday May 3 - 2013,Genclerbirligi,hard,4-2-3-1,KAPLAN;TOSIC;CALIK;DEMIR;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;DURMAZ;VLEMINCKX
+Genclerbirligi vs. Kasimpasa - Friday May 3 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;EKER;AYHAN;BASDAS;DERELI;ERNST;SARMOV;HURMACI;IBRICIC;VIUDEZ;UCHE
+Kayserispor vs. Trabzonspor - Saturday May 4 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;GUNGOR;SIMIC;ZURAB KHIZANISHVILI;DURSUN;RIVEROS;YOKUSLU;ARICA;CLEYTON;YILMAZ;BOBO
+Kayserispor vs. Trabzonspor - Saturday May 4 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;KACAR;YUMLU;BALCI;ZOKORA;AKGUN;OZTEKIN;MIERZEJEWSKI;ADIN;ALTINTOP
+Orduspor vs. Bursaspor - Saturday May 4 - 2013,Bursaspor,hard,4-2-3-1,CARSON;WEDERSON;FERDINAND;OZTURK;OZBAYRAKLI;CAGIRAN;BELLUSCHI;SANLI;BATALLA;SESTAK;PINTO
+Orduspor vs. Bursaspor - Saturday May 4 - 2013,Orduspor,hard,4-4-2,ELMAS;OZTORUN;KULGA;YUSSUF;COKMUS;CALISKAN;CINAZ;CAMDALI;TASDEMIR;STANCU;BARRAL
+Antalyaspor vs. Akhisar Belediyespor - Sunday May 5 - 2013,Akhisar Belediyespor,hard,4-2-3-1,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;YUCE;ALADAG;VURAL;KISA;VARDAR;GEKAS
+Antalyaspor vs. Akhisar Belediyespor - Sunday May 5 - 2013,Antalyaspor,hard,4-4-2,NDJOCK;SEDEF;NIZAM;ZIZIC;ARSLAN;TITA;INCEMAN;JANDA;PROMISE;DIARRA;SISMANOGLU
+Eskisehirspor vs. Besiktas - Sunday May 5 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;ESCUDE;SIVOK;HILBERT;OZYAKUP;KAVLAK;PEKTEMEK;FERNANDES;SAHAN;NIANG
+Eskisehirspor vs. Besiktas - Sunday May 5 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEMIRHAN;DIEGO ANGELO;AKAMINKO;CAMDAL;POTUK;CAUSIC;CEK;TELLO;ZENGIN;KAMARA
+Galatasaray vs. Sivasspor - Sunday May 5 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;KAYA;ZAN;EBOUE;INAN;FELIPE MELO;SNEIJDER;ALTINTOP;YILMAZ;DROGBA
+Galatasaray vs. Sivasspor - Sunday May 5 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;NAVRATIL;RAJNOCH;GUVEN;NAS;BEKMEZCI;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Istanbul Buyuksehir Belediyespor vs. Fenerbahce - Sunday May 5 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;KALDIRIM;KORKMAZ;IRTEGUN;TOPUZ;TOPAL;BELOZOGLU;STOCH;CRISTIAN;SOW;WEBO
+Istanbul Buyuksehir Belediyespor vs. Fenerbahce - Sunday May 5 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;GERALDES;INANC;KORKMAZ;PEKTURK;HOLMEN;SOKULLU;KOSE
+Kardemir Dc Karabukspor vs. Gaziantepspor - Sunday May 5 - 2013,Gaziantepspor,hard,4-2-3-1,KARCEMARSKAS;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;TOSUN;SERNAS;OZBAYRAKTAR;KOUEMAHA
+Kardemir Dc Karabukspor vs. Gaziantepspor - Sunday May 5 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,KORK;SERIC;MABIALA;INCEDEMIR;OZGENC;OZEK;SOYLER;KAGAN SOYLEMEZGILLER;HAMROUN;PARLAK;LUALUA
+Mersin Idmanyurdu vs. Elazigspor - Sunday May 5 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;AKYUZ;SESAR;ERTUGRUL;KARABULUT;SANE;YEDEK;GURLER
+Mersin Idmanyurdu vs. Elazigspor - Sunday May 5 - 2013,Mersin Idmanyurdu,hard,4-2-3-1,USAK;IVAN;STEPANOV;YANIK;KAYHAN;BEN YAHIA;GOSSO;CULIO;CEYLAN;ESER;NOBRE
+Gaziantepspor vs. Elazigspor - Friday May 10 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AK;FABIO BILICA;GORK;AKYUZ;SARP;SESAR;KARABULUT;SANE;YEDEK;GURLER
+Gaziantepspor vs. Elazigspor - Friday May 10 - 2013,Gaziantepspor,hard,4-2-3-1,BEZGIN;CAN;KECOJEVIC;BINYA;KURTULUS;HAS;MEDUNJANIN;TOSUN;SERNAS;OZBAYRAKTAR;KOUEMAHA
+Kasimpasa vs. Kayserispor - Friday May 10 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;EKER;AYHAN;BASDAS;DERELI;SERAS;FRITZLER;BUYUK;HURMACI;VIUDEZ;UCHE
+Kasimpasa vs. Kayserispor - Friday May 10 - 2013,Kayserispor,hard,4-3-3,TASKIRAN;BAYRAM;ZURAB KHIZANISHVILI;RIVEROS;DURSUN;BISESWAR;GULSELAM;CLEYTON;ARICA;BOBO;YILMAZ
+Antalyaspor vs. Orduspor - Saturday May 11 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;TEBER;NIZAM;GUNGOR;ARSLAN;JANDA;INCEMAN;TITA;AISSATI;PROMISE;SISMANOGLU
+Antalyaspor vs. Orduspor - Saturday May 11 - 2013,Orduspor,hard,4-4-2,ELMAS;OZTORUN;KULGA;YUSSUF;COKMUS;SAHIN;CINAZ;CALISKAN;TASDEMIR;KABZE;BARRAL
+Besiktas vs. Genclerbirligi - Saturday May 11 - 2013,Besiktas,easy,4-2-3-1,GONEN;OZKAN;ESCUDE;SIVOK;HILBERT;UYSAL;KAVLAK;SAHAN;OZYAKUP;HOLOSKO;PEKTEMEK
+Besiktas vs. Genclerbirligi - Saturday May 11 - 2013,Genclerbirligi,hard,4-2-3-1,KAPLAN;TOSIC;CALIK;DEMIR;CAN;PETROVIC;CURRI;ZEC;AZOFEIFA;DURMAZ;VLEMINCKX
+Fenerbahce vs. Galatasaray - Sunday May 12 - 2013,Fenerbahce,easy,4-3-3,DEMIREL;KALDIRIM;IRTEGUN;YOBO;GONUL;MEIRELES;TOPAL;BELOZOGLU;SOW;WEBO;KUYT
+Fenerbahce vs. Galatasaray - Sunday May 12 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;KAYA;ZAN;EBOUE;INAN;FELIPE MELO;ELMANDER;ALTINTOP;YILMAZ;DROGBA
+Akhisar Belediyespor vs. Mersin Idmanyurdu - Monday May 13 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;YUCE;KISA;CEBE;GEKAS;BRUNO MEZENGA
+Akhisar Belediyespor vs. Mersin Idmanyurdu - Monday May 13 - 2013,Mersin Idmanyurdu,hard,4-3-3,USAK;KAYHAN;MITROVIC;YANIK;GOSSO;OZOKWO;LAWAL;CULIO;TOZLU;NOBRE;ESER
+Bursaspor vs. Eskisehirspor - Monday May 13 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;WEDERSON;FERDINAND;OZTURK;OZBAYRAKLI;YILDIRIM;BELLUSCHI;KIRAZ;BATALLA;SESTAK;PINTO
+Bursaspor vs. Eskisehirspor - Monday May 13 - 2013,Eskisehirspor,hard,4-2-3-1,ERDOGAN;DEDE;DIEGO ANGELO;CETIN;SARI;GUCER;CAUSIC;TELLO;POTUK;KAMARA;ATES
+Sivasspor vs. Kardemir Dc Karabukspor - Monday May 13 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;DEUMI;MABIALA;UCAR;SHELTON;HIKMET;KAGAN SOYLEMEZGILLER;OZEK;PARLAK;LUALUA
+Sivasspor vs. Kardemir Dc Karabukspor - Monday May 13 - 2013,Sivasspor,hard,4-2-3-1,BORJAN;ERDAL;KURT;NAVRATIL;KAVUK;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;GROSICKI;ENERAMO
+Trabzonspor vs. Istanbul Buyuksehir Belediyespor - Monday May 13 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-2-3-1,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;GERALDES;INANC;KORKMAZ;PEKTURK;HOLMEN;SOKULLU;KOSE
+Trabzonspor vs. Istanbul Buyuksehir Belediyespor - Monday May 13 - 2013,Trabzonspor,easy,4-2-3-1,KIVRAK;CECH;CELUSTKA;KARMIL;BALCI;AKGUN;AYDOGDU;ADIN;MIERZEJEWSKI;SEN;ALTINTOP
+Mersin Idmanyurdu vs. Gaziantepspor - Friday May 17 - 2013,Gaziantepspor,hard,4-4-2,BEZGIN;CAN;BINYA;OZDAMAR;KURTULUS;SAHIN;DELIBALTA;HAS;OZBAYRAKTAR;TOSUN;KOUEMAHA
+Mersin Idmanyurdu vs. Gaziantepspor - Friday May 17 - 2013,Mersin Idmanyurdu,hard,4-4-2,BICER;YANIK;MITROVIC;STEPANOV;GOSSO;CULIO;LAWAL;BEN YAHIA;CEYLAN;TOZLU;NOBRE
+Galatasaray vs. Trabzonspor - Saturday May 18 - 2013,Galatasaray,easy,4-4-2,MUSLERA;RIERA;KAYA;NOUNKEU;EBOUE;COLAK;FELIPE MELO;INAN;ALTINTOP;YILMAZ;DROGBA
+Galatasaray vs. Trabzonspor - Saturday May 18 - 2013,Trabzonspor,easy,4-2-3-1,ZENGIN;CELUSTKA;KACAR;YUMLU;YAVRU;ZOKORA;AKGUN;OZTEKIN;SAPARA;MIERZEJEWSKI;HENRIQUE
+Istanbul Buyuksehir Belediyespor vs. Kasimpasa - Saturday May 18 - 2013,Istanbul Buyuksehir Belediyespor,hard,4-4-2,EDUARDO;EKSIOGLU;ARAT;ZAYATTE;GERALDES;DOKA MADUREIRA;TEKDEMIR;HOLMEN;PEKTURK;KOSE;ZENKE
+Istanbul Buyuksehir Belediyespor vs. Kasimpasa - Saturday May 18 - 2013,Kasimpasa,hard,4-2-3-1,ISAKSSON;KAPLAN;AYHAN;BASDAS;KARTAL;ERNST;SERAS;BUYUK;HURMACI;DJALMA;UCHE
+Kardemir Dc Karabukspor vs. Fenerbahce - Saturday May 18 - 2013,Fenerbahce,easy,4-2-3-1,GUNOK;ZIEGLER;IRTEGUN;SAM;GONUL;TOPAL;BELOZOGLU;SOW;CRISTIAN;TOPUZ;WEBO
+Kardemir Dc Karabukspor vs. Fenerbahce - Saturday May 18 - 2013,Kardemir Dc Karabukspor,hard,4-4-2,TOMIC;SERIC;DEUMI;MABIALA;OZGENC;SHELTON;INCEDEMIR;KAGAN SOYLEMEZGILLER;OZEK;UNAL;LUALUA
+Orduspor vs. Akhisar Belediyespor - Saturday May 18 - 2013,Akhisar Belediyespor,hard,4-4-2,DAGLAROGLU;ATAN;DEMIROK;SONKO;EREN;VURAL;YUCE;KISA;VARDAR;GEKAS;BRUNO MEZENGA
+Orduspor vs. Akhisar Belediyespor - Saturday May 18 - 2013,Orduspor,hard,4-4-2,ELMAS;OZTORUN;ROVERSIO;KULGA;COKMUS;MONJE;CINAZ;CAMDALI;TASDEMIR;STANCU;BARRAL
+Elazigspor vs. Sivasspor - Sunday May 19 - 2013,Elazigspor,hard,4-2-3-1,IVESA;AYDIN;FABIO BILICA;GORK;AKYUZ;SESAR;SANE;YILMAZ;YEDEK;CAKIR;KALOGLU
+Elazigspor vs. Sivasspor - Sunday May 19 - 2013,Sivasspor,hard,4-2-3-1,CELIKAY;ERDAL;KURT;AKCA;KAVUK;BEKMEZCI;ARSLAN;CHAHECHOUHE;KILIC;PEDRIEL;PIECH
+Eskisehirspor vs. Antalyaspor - Sunday May 19 - 2013,Antalyaspor,hard,4-2-3-1,NDJOCK;NIZAM;BARIS;GUNGOR;ARSLAN;INCEMAN;DURUER;TITA;BASSAN;PROMISE;SISMANOGLU
+Eskisehirspor vs. Antalyaspor - Sunday May 19 - 2013,Eskisehirspor,hard,4-2-3-1,BOFFIN;DEDE;DIEGO ANGELO;COSKUN;SARI;GUCER;CAUSIC;CEK;POTUK;ZENGIN;KAMARA
+Genclerbirligi vs. Bursaspor - Sunday May 19 - 2013,Bursaspor,hard,4-2-3-1,TEKIN;ASLANTAS;OZTURK;VELIOGLU;OZBAYRAKLI;YILDIRIM;CAGIRAN;KIRAZ;KILIC;SANLI;DENIZ
+Genclerbirligi vs. Bursaspor - Sunday May 19 - 2013,Genclerbirligi,hard,4-2-3-1,KARABULUT;TOSIC;CALIK;DEMIR;CAN;ILERI;PETROVIC;ZEC;AZOFEIFA;DURMAZ;VLEMINCKX
+Kayserispor vs. Besiktas - Sunday May 19 - 2013,Besiktas,easy,4-2-3-1,GONEN;SUZEN;ESCUDE;SIVOK;HILBERT;OZYAKUP;KAVLAK;KAS;SAHAN;HOLOSKO;PEKTEMEK
+Kayserispor vs. Besiktas - Sunday May 19 - 2013,Kayserispor,hard,4-2-3-1,DEGIRMENCI;GUNGOR;ZURAB KHIZANISHVILI;SIMIC;DURSUN;RIVEROS;GULSELAM;BAYRAM;CLEYTON;MOUCHE;BOBO
