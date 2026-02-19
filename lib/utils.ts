@@ -6,10 +6,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function normalizePlayerName(name: string): string {
-  // Strip all punctuation: apostrophes, hyphens, periods, backticks
+  // Strip all punctuation and spaces: apostrophes, hyphens, periods, backticks, spaces
   // This is the canonical normalization used for all comparisons, 
   // length checks, and keyboard coloring
-  return name.replace(/['\-\.`]/g, '')
+  return name.replace(/['\-\.` ]/g, '')
 }
 
 export function normalizeKeyInput(key: string): string | null {
@@ -25,7 +25,7 @@ export function normalizeKeyInput(key: string): string | null {
 
 export function getDisplayBoxes(name: string): { char: string; isSpecial: boolean }[] {
   return name.split('').map(char => ({
-    char,
-    isSpecial: char === '-' || char === "'" || char === '.' || char === '`'
+    char: char === ' ' ? ' ' : char,
+    isSpecial: char === '-' || char === "'" || char === '.' || char === '`' || char === ' '
   }))
 }

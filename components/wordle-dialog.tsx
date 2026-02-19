@@ -31,8 +31,10 @@ export function WordleDialog({
   const normalizedName = player ? normalizePlayerName(player.name) : ""
   const isSolved = !!state?.isComplete || guesses.includes(normalizedName)
   
-  // Game is over if solved OR 8 guesses reached (check both state and local guesses for race safety)
-  const isGameOver = isSolved || guesses.length >= 8 || (state?.guesses?.length ?? 0) >= 8
+  const MAX_GUESSES = 8
+  // Game is over if solved OR max guesses reached (check both state and local guesses for race safety)
+  const isGameOver = isSolved || guesses.length >= MAX_GUESSES || (state?.guesses?.length ?? 0) >= MAX_GUESSES
+  const remainingGuesses = MAX_GUESSES - guesses.length
 
   const clearCloseTimeout = useCallback(() => {
     if (closeTimeoutRef.current !== null) {
@@ -67,7 +69,7 @@ export function WordleDialog({
           setCurrentGuess("")
   
           const isComplete = currentGuess === normalizedName
-          if (isComplete || newGuesses.length >= 8) {
+          if (isComplete || newGuesses.length >= MAX_GUESSES) {
             onGuessComplete(player.id, newGuesses, isComplete)
             if (isComplete) {
               setIsCelebrating(true)
@@ -118,7 +120,7 @@ export function WordleDialog({
         setCurrentGuess("")
 
         const isComplete = currentGuess === normalizedName
-        if (isComplete || newGuesses.length >= 8) {
+        if (isComplete || newGuesses.length >= MAX_GUESSES) {
           onGuessComplete(player!.id, newGuesses, isComplete)
           if (isComplete) {
             setIsCelebrating(true)
@@ -143,27 +145,62 @@ export function WordleDialog({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="font-mono glass rounded-2xl text-white p-2 sm:p-4 max-h-[92dvh] w-[94vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] overflow-hidden">
-        <div className="grid gap-4 sm:gap-5">
-          <div className="w-full">
+      <DialogContent className="
+        font-mono glass text-white overflow-hidden
+        /* Mobile: bottom-sheet anchored to bottom, full width */
+        fixed left-0 right-0 bottom-0 top-auto translate-x-0 translate-y-0
+        w-full max-w-none rounded-t-2xl rounded-b-none
+        p-2 pb-[max(0.5rem,env(safe-area-inset-bottom))]
+        max-h-[94dvh]
+        /* Desktop: centered dialog */
+        sm:left-[50%] sm:right-auto sm:bottom-auto sm:top-[50%]
+        sm:translate-x-[-50%] sm:translate-y-[-50%]
+        sm:w-[90vw] sm:max-w-lg sm:rounded-2xl
+        sm:p-4 sm:max-h-[92dvh]
+        /* Override radix slide-in animations for mobile bottom-sheet */
+        data-[state=open]:!slide-in-from-bottom-full
+        data-[state=closed]:!slide-out-to-bottom-full
+        sm:data-[state=open]:!slide-in-from-bottom-0
+        sm:data-[state=closed]:!slide-out-to-bottom-0
+      ">
+        {/* Drag handle for mobile bottom sheet */}
+        <div className="flex justify-center pt-1 pb-2 sm:hidden" aria-hidden="true">
+          <div className="w-10 h-1 rounded-full bg-white/25" />
+        </div>
+
+        <div className="flex flex-col gap-2 sm:gap-4 min-h-0">
+          {/* Attempt counter */}
+          {!isGameOver && (
+            <div className="flex items-center justify-center gap-1.5 text-xs text-slate-400 flex-shrink-0">
+              <span className="font-bold text-white text-sm">{remainingGuesses}</span>
+              <span>/ {MAX_GUESSES} attempts left</span>
+            </div>
+          )}
+
+          {/* Grid section - stable layout, no dynamic resizing */}
+          <div className="w-full min-h-0 overflow-y-auto flex-shrink" style={{ overscrollBehavior: 'contain' }}>
             <WordleGrid
               word={player.name}
               guesses={guesses}
               currentGuess={currentGuess}
+              maxGuesses={MAX_GUESSES}
             />
-          </div>      
-          <div className="w-full">
-           <WordleKeyboard
+          </div>
+
+          {guesses.length >= MAX_GUESSES && !state?.isComplete && (
+            <div className="text-red-400 font-bold text-sm text-center bg-red-500/10 py-1.5 rounded-xl border border-red-500/20 break-words flex-shrink-0">
+              Correct answer: {player.name}
+            </div>
+          )}
+
+          {/* Keyboard section - pinned to bottom, never scrolls away */}
+          <div className="w-full flex-shrink-0">
+            <WordleKeyboard
               word={player.name}
               guesses={guesses}
               onKeyPress={handleKeyPress}
             />
           </div>
-          {guesses.length >= 8 && !state?.isComplete && (
-            <div className="text-red-400 font-bold text-sm sm:text-base text-center bg-red-500/10 py-2 rounded-xl border border-red-500/20 break-words">
-              Correct answer: {player.name}
-            </div>
-          )}
         </div>
       </DialogContent>
     </Dialog>

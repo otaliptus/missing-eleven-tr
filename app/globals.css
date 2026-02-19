@@ -8,6 +8,9 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
+  /* Prevent iOS zoom on double-tap of keyboard buttons */
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
 }
 
 @layer utilities {
@@ -106,6 +109,27 @@ body {
     0% { transform: scale(0.95); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
+  }
+
+  /* Bottom sheet slide-up animation for mobile wordle dialog */
+  .animate-slide-up {
+    animation: slide-up 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  @keyframes slide-up {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+
+  /* Key press flash effect for on-screen keyboard */
+  .key-flash {
+    animation: key-flash 0.12s ease-out;
+  }
+
+  @keyframes key-flash {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.4); }
+    100% { filter: brightness(1); }
   }
 }
 

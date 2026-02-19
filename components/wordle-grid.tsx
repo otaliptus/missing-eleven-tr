@@ -5,27 +5,29 @@ interface WordleGridProps {
   word: string
   guesses: string[]
   currentGuess: string
+  maxGuesses?: number
 }
 
-export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
-  const rows = Array(8).fill(null)
+export function WordleGrid({ word, guesses, currentGuess, maxGuesses = 8 }: WordleGridProps) {
+  // Show all rows up to maxGuesses for stable layout (no flicker from dynamic resizing)
+  const rows = Array(maxGuesses).fill(null)
   const displayBoxes = getDisplayBoxes(word)
   const normalizedWord = normalizePlayerName(word)
   const boxCount = displayBoxes.length
   const denseGrid = boxCount > 18
-  const gapPx = boxCount > 26 ? 2 : boxCount > 20 ? 3 : boxCount > 14 ? 4 : 6
+  const gapPx = boxCount > 26 ? 2 : boxCount > 20 ? 3 : boxCount > 14 ? 4 : 5
   const sizeConfig =
     boxCount > 26
-      ? { min: 12, vmin: 2.6, max: 20 }
+      ? { min: 14, vmin: 2.8, max: 22 }
       : boxCount > 22
-        ? { min: 12, vmin: 2.8, max: 22 }
+        ? { min: 15, vmin: 3.2, max: 24 }
         : boxCount > 18
-          ? { min: 14, vmin: 3.2, max: 24 }
+          ? { min: 16, vmin: 3.6, max: 26 }
           : boxCount > 14
-            ? { min: 16, vmin: 3.6, max: 28 }
+            ? { min: 18, vmin: 4, max: 30 }
             : boxCount > 10
-              ? { min: 18, vmin: 4.2, max: 32 }
-              : { min: 20, vmin: 4.8, max: 36 }
+              ? { min: 22, vmin: 4.5, max: 34 }
+              : { min: 24, vmin: 5.2, max: 38 }
   const cellSize = `clamp(${sizeConfig.min}px, ${sizeConfig.vmin}vmin, ${sizeConfig.max}px)`
   const letterSizeClass = boxCount > 26
     ? "text-[clamp(0.55rem,1.8vw,0.9rem)]"
@@ -35,10 +37,12 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
   const gridStyle = {
     "--cell": cellSize,
     "--gap": `${gapPx}px`,
-    rowGap: `${gapPx + 2}px`,
+    rowGap: `${gapPx + 1}px`,
   } as CSSProperties
   const rowStyle = {
-    gridTemplateColumns: `repeat(${boxCount}, var(--cell))`,
+    gridTemplateColumns: displayBoxes.map(box => 
+      box.isSpecial && box.char === ' ' ? 'calc(var(--cell) * 0.4)' : 'var(--cell)'
+    ).join(' '),
     columnGap: "var(--gap)",
   } as CSSProperties
   const cellStyle = {
@@ -103,14 +107,16 @@ export function WordleGrid({ word, guesses, currentGuess }: WordleGridProps) {
           <div key={rowIndex} className="mx-auto grid w-fit justify-center" style={rowStyle}>
             {displayBoxes.map((box, colIndex) => {
               if (box.isSpecial) {
+                // Space separator: narrower gap, no border/background
+                const isSpace = box.char === ' '
                 return (
                   <span
                     key={colIndex}
-                    className={`flex items-center justify-center px-0.5 sm:px-1 font-bold text-slate-400 ${letterSizeClass}`}
-                    style={cellStyle}
+                    className={`flex items-center justify-center font-bold text-slate-400 ${letterSizeClass} ${isSpace ? '' : 'px-0.5 sm:px-1'}`}
+                    style={isSpace ? { width: 'calc(var(--cell) * 0.4)', height: 'var(--cell)' } : cellStyle}
                     aria-hidden="true"
                   >
-                    {box.char}
+                    {isSpace ? '' : box.char}
                   </span>
                 )
               }

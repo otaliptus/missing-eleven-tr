@@ -16,10 +16,11 @@ const KEYBOARD_ROWS = [
 export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProps) {
   // Use normalized word for all status calculations
   const normalizedWord = normalizePlayerName(word)
-  const keyHeight = "clamp(1.6rem, 4.8vmin, 2.6rem)"
-  const keyGap = "clamp(0.2rem, 1vmin, 0.4rem)"
-  const keyFont = "clamp(0.55rem, 1.8vmin, 0.9rem)"
-  const gridStyle = { rowGap: keyGap } as CSSProperties
+  // Mobile-first: 44px min height for proper touch targets, scales up on larger screens
+  const keyHeight = "clamp(2.6rem, 6.5vh, 3.4rem)"
+  const keyGap = "clamp(3px, 0.8vw, 5px)"
+  const keyFont = "clamp(0.75rem, 2vw, 1rem)"
+  const gridStyle = { rowGap: "clamp(4px, 1vh, 8px)" } as CSSProperties
   const rowStyle = { columnGap: keyGap } as CSSProperties
   const keyStyle = { height: keyHeight, fontSize: keyFont } as CSSProperties
   
@@ -72,7 +73,7 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
     return bestStatus
   }
 
-  return <div className="grid w-full max-w-[34rem] mx-auto px-1 sm:px-2" style={gridStyle}>
+  return <div className="grid w-full max-w-[34rem] mx-auto px-[2px] sm:px-2" style={gridStyle}>
     {KEYBOARD_ROWS.map((row, i) => (
       <div key={i} className="flex w-full justify-center" style={rowStyle}>
         {row.map(key => {
@@ -82,24 +83,24 @@ export function WordleKeyboard({ word, guesses, onKeyPress }: WordleKeyboardProp
               key={key}
               className={`
                 ${key === "Enter" || key === "Backspace" 
-                  ? "flex-[1.6] sm:flex-[1.8]" 
+                  ? "flex-[1.5]" 
                   : "flex-1"
                 }
-                min-w-0 rounded-lg
-                px-0.5 sm:px-1 
+                min-w-0 rounded-md sm:rounded-lg
+                px-0 sm:px-1 
                 leading-none whitespace-nowrap
-                font-semibold 
-                transition-all duration-150
-                active:scale-95
-                shadow-md
+                font-bold 
+                select-none touch-manipulation
+                transition-colors duration-100
+                active:brightness-125 active:scale-[0.93]
                 ${
                   status === "default" 
-                    ? "bg-slate-500 hover:bg-slate-400 text-white border border-slate-400/70" 
+                    ? "bg-slate-500/90 hover:bg-slate-400 text-white border border-slate-400/50" 
                     : status === "absent" 
-                      ? "bg-slate-950 text-slate-500 border border-slate-800/80" 
+                      ? "bg-slate-800 text-slate-500 border border-slate-700/60" 
                       : status === "present" 
-                        ? "bg-amber-500 text-white border border-amber-400 shadow-amber-500/20" 
-                        : "bg-emerald-500 text-white border border-emerald-400 shadow-emerald-500/20"
+                        ? "bg-amber-500 text-white border border-amber-400 shadow-sm shadow-amber-500/30" 
+                        : "bg-emerald-500 text-white border border-emerald-400 shadow-sm shadow-emerald-500/30"
                 }
               `}
               style={keyStyle}
