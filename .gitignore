@@ -45,3 +45,6 @@ _backup-*/
 *.bak
 
 progress.md
+
+data/seasons/*.txt
+public/games.merge*.txt

@@ -13,6 +13,7 @@ type GameData = {
   difficulty: string
   formation: string
   lineup: string[]
+  lineupNumbers: Array<number | null>
   gameId: number
 }
 
@@ -20,18 +21,62 @@ const UTC_DAY_INDEX = Math.floor(Date.now() / (1000 * 60 * 60 * 24))
 const BUILD_ID = process.env.NEXT_PUBLIC_BUILD_ID ?? "dev"
 const GAMES_CSV_URL = `/games.csv?v=${encodeURIComponent(BUILD_ID)}`
 
+type CsvColumnIndexes = {
+  game: number
+  team: number
+  difficulty: number
+  formation: number
+  lineup: number
+  lineupNumbers: number
+}
+
+function getCsvColumnIndexes(headerLine: string): CsvColumnIndexes {
+  const columns = headerLine.split(",").map((value) => value.trim().toLowerCase())
+  const getIndex = (field: string, fallback: number) => {
+    const idx = columns.indexOf(field)
+    return idx >= 0 ? idx : fallback
+  }
+
+  return {
+    game: getIndex("game", 0),
+    team: getIndex("team", 1),
+    difficulty: getIndex("difficulty", 2),
+    formation: getIndex("formation", 3),
+    lineup: getIndex("lineup", 4),
+    lineupNumbers: getIndex("lineup_numbers", -1),
+  }
+}
+
+function parseLineupNumbers(raw: string, expectedLength: number): Array<number | null> {
+  if (!raw) return Array.from({ length: expectedLength }, () => null)
+
+  const parsed = raw.split(";").map((token) => {
+    const trimmed = token.trim()
+    if (!trimmed) return null
+    const value = Number(trimmed)
+    return Number.isInteger(value) && value > 0 ? value : null
+  })
+
+  return Array.from({ length: expectedLength }, (_, index) => parsed[index] ?? null)
+}
+
 // Pick the daily game for a difficulty pool
 function getGameForDifficulty(csvText: string, difficulty: Difficulty): GameData {
   const allLines = csvText.trim().split(/\r?\n/)
+  if (allLines.length < 2) {
+    throw new Error("games.csv is empty")
+  }
+
+  const columnIndexes = getCsvColumnIndexes(allLines[0])
 
   const poolLines = allLines.slice(1).filter((line) => {
     const trimmed = line.trim()
     if (!trimmed) return false
     const parts = trimmed.split(",")
-    if (parts.length < 5) return false
-    if (parts[2]?.trim() !== difficulty) return false
-    const lineupString = parts.slice(4).join(",")
-    return lineupString.split(";").length === 11
+    if (parts.length <= columnIndexes.lineup) return false
+    if (parts[columnIndexes.difficulty]?.trim() !== difficulty) return false
+    const lineupString = parts[columnIndexes.lineup]?.trim() ?? ""
+    return lineupString.split(";").filter(Boolean).length === 11
   })
 
   if (poolLines.length === 0) {
@@ -42,16 +87,19 @@ function getGameForDifficulty(csvText: string, difficulty: Difficulty): GameData
   const gameLine = poolLines[index]
 
   const parts = gameLine.split(",")
-  const game = parts[0]?.trim() ?? ""
-  const team = parts[1]?.trim() ?? ""
-  const diff = parts[2]?.trim() ?? ""
-  const formation = parts[3]?.trim() ?? ""
-  const lineupString = parts.slice(4).join(",").trim()
+  const game = parts[columnIndexes.game]?.trim() ?? ""
+  const team = parts[columnIndexes.team]?.trim() ?? ""
+  const diff = parts[columnIndexes.difficulty]?.trim() ?? ""
+  const formation = parts[columnIndexes.formation]?.trim() ?? ""
+  const lineupString = parts[columnIndexes.lineup]?.trim() ?? ""
   const lineup = lineupString ? lineupString.split(";") : []
+  const lineupNumbersRaw =
+    columnIndexes.lineupNumbers >= 0 ? parts[columnIndexes.lineupNumbers]?.trim() ?? "" : ""
+  const lineupNumbers = parseLineupNumbers(lineupNumbersRaw, lineup.length)
 
   const gameId = UTC_DAY_INDEX * 2 + (difficulty === "easy" ? 0 : 1)
 
-  return { game, team, difficulty: diff, formation, lineup, gameId }
+  return { game, team, difficulty: diff, formation, lineup, lineupNumbers, gameId }
 }
 
 export default function Home() {
@@ -95,7 +143,7 @@ export default function Home() {
 
   const players = useMemo(() => {
     if (!gameData) return []
-    return assignPositions(gameData.formation, gameData.lineup)
+    return assignPositions(gameData.formation, gameData.lineup, gameData.lineupNumbers)
   }, [gameData])
 
   if (error) {

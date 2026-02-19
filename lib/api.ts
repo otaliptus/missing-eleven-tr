@@ -4,7 +4,11 @@ export function parseFormation(formation: string): number[] {
   return formation.split("-").map(Number)
 }
 
-export function assignPositions(formation: string, lineup: string[]): PlayerData[] {
+export function assignPositions(
+  formation: string,
+  lineup: string[],
+  lineupNumbers: Array<number | null> = []
+): PlayerData[] {
   const formationArray = formation.split('-').map(Number);
   const positions: string[] = [];
 
@@ -123,6 +127,18 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
       positions.push("RWB", "CM", "CM", "CM", "LWB");
       positions.push("CAM");
       positions.push("ST");
+    } else if (formation === "3-4-2-1") {
+      positions.push("GK");
+      positions.push("CB", "CB", "CB");
+      positions.push("RM", "CM", "CM", "LM");
+      positions.push("CAM", "CAM");
+      positions.push("ST");
+    } else if (formation === "3-3-3-1") {
+      positions.push("GK");
+      positions.push("CB", "CB", "CB");
+      positions.push("CM", "CM", "CM");
+      positions.push("RW", "CAM", "LW");
+      positions.push("ST");
     } else {
         // Default positions if formation is not recognized
         for (let i = 0; i < lineup.length; i++) {
@@ -134,6 +150,7 @@ export function assignPositions(formation: string, lineup: string[]): PlayerData
   return lineup.map((name, index) => ({
     id: index,
     name,
-    position: positions[index]
+    position: positions[index],
+    shirtNumber: lineupNumbers[index] ?? null
   }))
 }

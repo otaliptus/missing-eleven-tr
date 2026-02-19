@@ -13,6 +13,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
   const guessCount = state?.guesses?.length ?? 0
   const isFailed = guessCount >= 8 && !state?.isComplete
   const isSolved = !!state?.isComplete
+  const hasShirtNumber = typeof player.shirtNumber === "number" && Number.isFinite(player.shirtNumber)
 
   const isGoalkeeper = player.position === "GK"
   const teamConfig = team && TEAM_CONFIGS[team] ? TEAM_CONFIGS[team] : DEFAULT_TEAM_CONFIG
@@ -164,14 +165,14 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
           stroke="rgba(0,0,0,0.7)"
           strokeWidth="3"
           paintOrder="stroke"
-          fontSize="32"
           fontWeight="bold"
+          fontSize={hasShirtNumber && !isSolved && !isFailed ? "28" : "32"}
           style={{ 
             textShadow: "0 2px 4px rgba(0,0,0,0.6)",
             fontFamily: "system-ui, sans-serif"
           }}
         >
-          {isSolved ? "✓" : isFailed ? "✗" : "?"}
+          {isSolved ? "✓" : isFailed ? "✗" : hasShirtNumber ? String(player.shirtNumber) : "?"}
         </text>
 
         {/* Number Badge (if attempts exist) */}

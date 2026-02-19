@@ -9,10 +9,10 @@ export interface PlayerData {
   id: number
   name: string
   position: string
+  shirtNumber?: number | null
 }
 
 export interface PlayerState {
   guesses: string[]
   isComplete: boolean
 }
-
