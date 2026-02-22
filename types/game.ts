@@ -3,6 +3,12 @@ export interface GameData {
   team: string
   formation: string
   lineup: string[]
+  lineupNumbers?: Array<number | null>
+  lineupGoals?: number[]
+  lineupAssists?: number[]
+  lineupCards?: number[]
+  lineupSubstitutions?: number[]
+  sourceMatchId?: string
 }
 
 export interface PlayerData {
@@ -10,6 +16,10 @@ export interface PlayerData {
   name: string
   position: string
   shirtNumber?: number | null
+  goals?: number
+  assists?: number
+  cards?: number
+  substitutions?: number
 }
 
 export interface PlayerState {

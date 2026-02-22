@@ -14,6 +14,11 @@ type GameData = {
   formation: string
   lineup: string[]
   lineupNumbers: Array<number | null>
+  lineupGoals: number[]
+  lineupAssists: number[]
+  lineupCards: number[]
+  lineupSubstitutions: number[]
+  sourceMatchId: string
   gameId: number
 }
 
@@ -36,6 +41,11 @@ type CsvColumnIndexes = {
   formation: number
   lineup: number
   lineupNumbers: number
+  lineupGoals: number
+  lineupAssists: number
+  lineupCards: number
+  lineupSubstitutions: number
+  sourceMatchId: number
 }
 
 type GameRow = {
@@ -44,6 +54,11 @@ type GameRow = {
   formation: string
   lineup: string[]
   lineupNumbers: Array<number | null>
+  lineupGoals: number[]
+  lineupAssists: number[]
+  lineupCards: number[]
+  lineupSubstitutions: number[]
+  sourceMatchId: string
 }
 
 type DailyPools = {
@@ -65,6 +80,11 @@ function getCsvColumnIndexes(headerLine: string): CsvColumnIndexes {
     formation: getIndex("formation", 3),
     lineup: getIndex("lineup", 4),
     lineupNumbers: getIndex("lineup_numbers", -1),
+    lineupGoals: getIndex("lineup_goals", -1),
+    lineupAssists: getIndex("lineup_assists", -1),
+    lineupCards: getIndex("lineup_cards", -1),
+    lineupSubstitutions: getIndex("lineup_substitutions", -1),
+    sourceMatchId: getIndex("source_match_id", -1),
   }
 }
 
@@ -79,6 +99,19 @@ function parseLineupNumbers(raw: string, expectedLength: number): Array<number |
   })
 
   return Array.from({ length: expectedLength }, (_, index) => parsed[index] ?? null)
+}
+
+function parseLineupStatCounts(raw: string, expectedLength: number): number[] {
+  if (!raw) return Array.from({ length: expectedLength }, () => 0)
+
+  const parsed = raw.split(";").map((token) => {
+    const trimmed = token.trim()
+    if (!trimmed) return 0
+    const value = Number(trimmed)
+    return Number.isInteger(value) && value >= 0 ? value : 0
+  })
+
+  return Array.from({ length: expectedLength }, (_, index) => parsed[index] ?? 0)
 }
 
 function getTurkeyDateParts(date = new Date()): { year: number; month: number; day: number } {
@@ -147,6 +180,17 @@ function parsePoolRows(csvText: string, expectedDifficulty: Difficulty): GameRow
     const lineupNumbersRaw =
       columnIndexes.lineupNumbers >= 0 ? parts[columnIndexes.lineupNumbers]?.trim() ?? "" : ""
     const lineupNumbers = parseLineupNumbers(lineupNumbersRaw, lineup.length)
+    const lineupGoalsRaw = columnIndexes.lineupGoals >= 0 ? parts[columnIndexes.lineupGoals]?.trim() ?? "" : ""
+    const lineupAssistsRaw =
+      columnIndexes.lineupAssists >= 0 ? parts[columnIndexes.lineupAssists]?.trim() ?? "" : ""
+    const lineupCardsRaw = columnIndexes.lineupCards >= 0 ? parts[columnIndexes.lineupCards]?.trim() ?? "" : ""
+    const lineupSubstitutionsRaw =
+      columnIndexes.lineupSubstitutions >= 0 ? parts[columnIndexes.lineupSubstitutions]?.trim() ?? "" : ""
+    const sourceMatchId = columnIndexes.sourceMatchId >= 0 ? parts[columnIndexes.sourceMatchId]?.trim() ?? "" : ""
+    const lineupGoals = parseLineupStatCounts(lineupGoalsRaw, lineup.length)
+    const lineupAssists = parseLineupStatCounts(lineupAssistsRaw, lineup.length)
+    const lineupCards = parseLineupStatCounts(lineupCardsRaw, lineup.length)
+    const lineupSubstitutions = parseLineupStatCounts(lineupSubstitutionsRaw, lineup.length)
 
     return [{
       game: parts[columnIndexes.game]?.trim() ?? "",
@@ -154,6 +198,11 @@ function parsePoolRows(csvText: string, expectedDifficulty: Difficulty): GameRow
       formation: parts[columnIndexes.formation]?.trim() ?? "",
       lineup,
       lineupNumbers,
+      lineupGoals,
+      lineupAssists,
+      lineupCards,
+      lineupSubstitutions,
+      sourceMatchId,
     }]
   })
 
@@ -199,6 +248,11 @@ function getGameForDifficulty(pools: DailyPools, difficulty: Difficulty): GameDa
     formation: selected.formation,
     lineup: selected.lineup,
     lineupNumbers: selected.lineupNumbers,
+    lineupGoals: selected.lineupGoals,
+    lineupAssists: selected.lineupAssists,
+    lineupCards: selected.lineupCards,
+    lineupSubstitutions: selected.lineupSubstitutions,
+    sourceMatchId: selected.sourceMatchId,
     gameId,
   }
 }
@@ -255,7 +309,15 @@ export default function Home() {
 
   const players = useMemo(() => {
     if (!gameData) return []
-    return assignPositions(gameData.formation, gameData.lineup, gameData.lineupNumbers)
+    return assignPositions(
+      gameData.formation,
+      gameData.lineup,
+      gameData.lineupNumbers,
+      gameData.lineupGoals,
+      gameData.lineupAssists,
+      gameData.lineupCards,
+      gameData.lineupSubstitutions
+    )
   }, [gameData])
 
   if (error) {

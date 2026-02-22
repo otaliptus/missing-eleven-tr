@@ -7,7 +7,11 @@ export function parseFormation(formation: string): number[] {
 export function assignPositions(
   formation: string,
   lineup: string[],
-  lineupNumbers: Array<number | null> = []
+  lineupNumbers: Array<number | null> = [],
+  lineupGoals: number[] = [],
+  lineupAssists: number[] = [],
+  lineupCards: number[] = [],
+  lineupSubstitutions: number[] = []
 ): PlayerData[] {
   const formationArray = formation.split('-').map(Number);
   const positions: string[] = [];
@@ -151,6 +155,10 @@ export function assignPositions(
     id: index,
     name,
     position: positions[index],
-    shirtNumber: lineupNumbers[index] ?? null
+    shirtNumber: lineupNumbers[index] ?? null,
+    goals: lineupGoals[index] ?? 0,
+    assists: lineupAssists[index] ?? 0,
+    cards: lineupCards[index] ?? 0,
+    substitutions: lineupSubstitutions[index] ?? 0,
   }))
 }
