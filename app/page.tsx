@@ -17,9 +17,17 @@ type GameData = {
   gameId: number
 }
 
-const UTC_DAY_INDEX = Math.floor(Date.now() / (1000 * 60 * 60 * 24))
+const MS_PER_DAY = 1000 * 60 * 60 * 24
+const GAME_TIME_ZONE = "Europe/Istanbul"
 const BUILD_ID = process.env.NEXT_PUBLIC_BUILD_ID ?? "dev"
-const GAMES_CSV_URL = `/games.csv?v=${encodeURIComponent(BUILD_ID)}`
+const EASY_CSV_URL = `/easy.csv?v=${encodeURIComponent(BUILD_ID)}`
+const HARD_CSV_URL = `/hard.csv?v=${encodeURIComponent(BUILD_ID)}`
+const TURKEY_DATE_FORMATTER = new Intl.DateTimeFormat("en-US", {
+  timeZone: GAME_TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+})
 
 type CsvColumnIndexes = {
   game: number
@@ -28,6 +36,19 @@ type CsvColumnIndexes = {
   formation: number
   lineup: number
   lineupNumbers: number
+}
+
+type GameRow = {
+  game: string
+  team: string
+  formation: string
+  lineup: string[]
+  lineupNumbers: Array<number | null>
+}
+
+type DailyPools = {
+  easy: GameRow[]
+  hard: GameRow[]
 }
 
 function getCsvColumnIndexes(headerLine: string): CsvColumnIndexes {
@@ -60,63 +81,154 @@ function parseLineupNumbers(raw: string, expectedLength: number): Array<number |
   return Array.from({ length: expectedLength }, (_, index) => parsed[index] ?? null)
 }
 
-// Pick the daily game for a difficulty pool
-function getGameForDifficulty(csvText: string, difficulty: Difficulty): GameData {
+function getTurkeyDateParts(date = new Date()): { year: number; month: number; day: number } {
+  const parts = TURKEY_DATE_FORMATTER.formatToParts(date)
+  const year = Number(parts.find((part) => part.type === "year")?.value ?? NaN)
+  const month = Number(parts.find((part) => part.type === "month")?.value ?? NaN)
+  const day = Number(parts.find((part) => part.type === "day")?.value ?? NaN)
+
+  if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) {
+    throw new Error("Failed to resolve Turkey date parts")
+  }
+
+  return { year, month, day }
+}
+
+function getTurkeyDayIndex(date = new Date()): number {
+  const { year, month, day } = getTurkeyDateParts(date)
+  return Math.floor(Date.UTC(year, month - 1, day) / MS_PER_DAY)
+}
+
+function getTurkeyDateKey(date = new Date()): string {
+  const { year, month, day } = getTurkeyDateParts(date)
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`
+}
+
+function fnv1a32(input: string): number {
+  let hash = 0x811c9dc5
+  for (let i = 0; i < input.length; i++) {
+    hash ^= input.charCodeAt(i)
+    hash = Math.imul(hash, 0x01000193)
+  }
+  return hash >>> 0
+}
+
+function mulberry32(seed: number): () => number {
+  let state = seed >>> 0
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0
+    let value = Math.imul(state ^ (state >>> 15), state | 1)
+    value ^= value + Math.imul(value ^ (value >>> 7), value | 61)
+    return ((value ^ (value >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+function parsePoolRows(csvText: string, expectedDifficulty: Difficulty): GameRow[] {
   const allLines = csvText.trim().split(/\r?\n/)
   if (allLines.length < 2) {
-    throw new Error("games.csv is empty")
+    throw new Error(`${expectedDifficulty}.csv is empty`)
   }
 
   const columnIndexes = getCsvColumnIndexes(allLines[0])
-
-  const poolLines = allLines.slice(1).filter((line) => {
+  const rows = allLines.slice(1).flatMap((line): GameRow[] => {
     const trimmed = line.trim()
-    if (!trimmed) return false
+    if (!trimmed) return []
+
     const parts = trimmed.split(",")
-    if (parts.length <= columnIndexes.lineup) return false
-    if (parts[columnIndexes.difficulty]?.trim() !== difficulty) return false
+    if (parts.length <= columnIndexes.lineup) return []
+
+    const diffToken = (parts[columnIndexes.difficulty]?.trim().toLowerCase() ?? "") as Difficulty
+    if (diffToken && diffToken !== expectedDifficulty) return []
+
     const lineupString = parts[columnIndexes.lineup]?.trim() ?? ""
-    return lineupString.split(";").filter(Boolean).length === 11
+    const lineup = lineupString ? lineupString.split(";").filter(Boolean) : []
+    if (lineup.length !== 11) return []
+
+    const lineupNumbersRaw =
+      columnIndexes.lineupNumbers >= 0 ? parts[columnIndexes.lineupNumbers]?.trim() ?? "" : ""
+    const lineupNumbers = parseLineupNumbers(lineupNumbersRaw, lineup.length)
+
+    return [{
+      game: parts[columnIndexes.game]?.trim() ?? "",
+      team: parts[columnIndexes.team]?.trim() ?? "",
+      formation: parts[columnIndexes.formation]?.trim() ?? "",
+      lineup,
+      lineupNumbers,
+    }]
   })
 
-  if (poolLines.length === 0) {
-    throw new Error(`No valid game rows found for difficulty: ${difficulty}`)
+  if (rows.length === 0) {
+    throw new Error(`No valid ${expectedDifficulty} rows found in pool file`)
   }
 
-  const index = UTC_DAY_INDEX % poolLines.length
-  const gameLine = poolLines[index]
+  return rows
+}
 
-  const parts = gameLine.split(",")
-  const game = parts[columnIndexes.game]?.trim() ?? ""
-  const team = parts[columnIndexes.team]?.trim() ?? ""
-  const diff = parts[columnIndexes.difficulty]?.trim() ?? ""
-  const formation = parts[columnIndexes.formation]?.trim() ?? ""
-  const lineupString = parts[columnIndexes.lineup]?.trim() ?? ""
-  const lineup = lineupString ? lineupString.split(";") : []
-  const lineupNumbersRaw =
-    columnIndexes.lineupNumbers >= 0 ? parts[columnIndexes.lineupNumbers]?.trim() ?? "" : ""
-  const lineupNumbers = parseLineupNumbers(lineupNumbersRaw, lineup.length)
+function pickDailyPair(pools: DailyPools, date = new Date()): {
+  dayIndex: number
+  easyRow: GameRow
+  hardRow: GameRow
+} {
+  if (pools.easy.length === 0 || pools.hard.length === 0) {
+    throw new Error("Need at least one easy and one hard game row")
+  }
 
-  const gameId = UTC_DAY_INDEX * 2 + (difficulty === "easy" ? 0 : 1)
+  // Daily rollover follows Turkey calendar day.
+  const dayIndex = getTurkeyDayIndex(date)
+  const dateKey = getTurkeyDateKey(date)
+  const seed = fnv1a32(`${GAME_TIME_ZONE}:${dateKey}:pair`)
+  const rng = mulberry32(seed)
 
-  return { game, team, difficulty: diff, formation, lineup, lineupNumbers, gameId }
+  const easyIndex = Math.floor(rng() * pools.easy.length)
+  const hardIndex = Math.floor(rng() * pools.hard.length)
+  const easyRow = pools.easy[easyIndex]
+  const hardRow = pools.hard[hardIndex]
+
+  return { dayIndex, easyRow, hardRow }
+}
+
+function getGameForDifficulty(pools: DailyPools, difficulty: Difficulty): GameData {
+  const { dayIndex, easyRow, hardRow } = pickDailyPair(pools)
+  const selected = difficulty === "easy" ? easyRow : hardRow
+
+  const gameId = dayIndex * 2 + (difficulty === "easy" ? 0 : 1)
+  return {
+    game: selected.game,
+    team: selected.team,
+    difficulty,
+    formation: selected.formation,
+    lineup: selected.lineup,
+    lineupNumbers: selected.lineupNumbers,
+    gameId,
+  }
 }
 
 export default function Home() {
-  const [csvText, setCsvText] = useState<string | null>(null)
+  const [dailyPools, setDailyPools] = useState<DailyPools | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [difficulty, setDifficulty] = useState<Difficulty | null>(null)
   const [gameData, setGameData] = useState<GameData | null>(null)
 
-  // Load CSV once
+  // Load easy/hard pools once
   useEffect(() => {
     let isMounted = true
     const load = async () => {
       try {
-        const res = await fetch(GAMES_CSV_URL)
-        if (!res.ok) throw new Error(`Failed to load games.csv (${res.status})`)
-        const text = await res.text()
-        if (isMounted) setCsvText(text)
+        const [easyRes, hardRes] = await Promise.all([
+          fetch(EASY_CSV_URL),
+          fetch(HARD_CSV_URL),
+        ])
+        if (!easyRes.ok) throw new Error(`Failed to load easy.csv (${easyRes.status})`)
+        if (!hardRes.ok) throw new Error(`Failed to load hard.csv (${hardRes.status})`)
+
+        const [easyCsvText, hardCsvText] = await Promise.all([easyRes.text(), hardRes.text()])
+        const easyRows = parsePoolRows(easyCsvText, "easy")
+        const hardRows = parsePoolRows(hardCsvText, "hard")
+
+        if (isMounted) {
+          setDailyPools({ easy: easyRows, hard: hardRows })
+          setError(null)
+        }
       } catch (err) {
         if (!isMounted) return
         setError(err instanceof Error ? err.message : "Unknown error")
@@ -132,14 +244,14 @@ export default function Home() {
 
   // When both CSV and difficulty are ready, compute game data
   useEffect(() => {
-    if (!csvText || !difficulty) return
+    if (!dailyPools || !difficulty) return
     try {
-      const data = getGameForDifficulty(csvText, difficulty)
+      const data = getGameForDifficulty(dailyPools, difficulty)
       setGameData(data)
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error")
     }
-  }, [csvText, difficulty])
+  }, [dailyPools, difficulty])
 
   const players = useMemo(() => {
     if (!gameData) return []

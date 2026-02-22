@@ -4,7 +4,10 @@
 /
   Cache-Control: public, max-age=0, s-maxage=0, must-revalidate
 
-/games.csv
+/easy.csv
+  Cache-Control: public, max-age=300, s-maxage=300, stale-while-revalidate=60
+
+/hard.csv
   Cache-Control: public, max-age=300, s-maxage=300, stale-while-revalidate=60
 
 /_next/static/*
