@@ -16,7 +16,10 @@ type GameData = {
   lineupNumbers: Array<number | null>
   lineupGoals: number[]
   lineupAssists: number[]
+  hasColoredCards: boolean
   lineupCards: number[]
+  lineupYellowCards: number[]
+  lineupRedCards: number[]
   lineupSubstitutions: number[]
   sourceMatchId: string
   gameId: number
@@ -44,6 +47,8 @@ type CsvColumnIndexes = {
   lineupGoals: number
   lineupAssists: number
   lineupCards: number
+  lineupYellowCards: number
+  lineupRedCards: number
   lineupSubstitutions: number
   sourceMatchId: number
 }
@@ -56,7 +61,10 @@ type GameRow = {
   lineupNumbers: Array<number | null>
   lineupGoals: number[]
   lineupAssists: number[]
+  hasColoredCards: boolean
   lineupCards: number[]
+  lineupYellowCards: number[]
+  lineupRedCards: number[]
   lineupSubstitutions: number[]
   sourceMatchId: string
 }
@@ -83,6 +91,8 @@ function getCsvColumnIndexes(headerLine: string): CsvColumnIndexes {
     lineupGoals: getIndex("lineup_goals", -1),
     lineupAssists: getIndex("lineup_assists", -1),
     lineupCards: getIndex("lineup_cards", -1),
+    lineupYellowCards: getIndex("lineup_yellow_cards", -1),
+    lineupRedCards: getIndex("lineup_red_cards", -1),
     lineupSubstitutions: getIndex("lineup_substitutions", -1),
     sourceMatchId: getIndex("source_match_id", -1),
   }
@@ -184,12 +194,25 @@ function parsePoolRows(csvText: string, expectedDifficulty: Difficulty): GameRow
     const lineupAssistsRaw =
       columnIndexes.lineupAssists >= 0 ? parts[columnIndexes.lineupAssists]?.trim() ?? "" : ""
     const lineupCardsRaw = columnIndexes.lineupCards >= 0 ? parts[columnIndexes.lineupCards]?.trim() ?? "" : ""
+    const lineupYellowCardsRaw =
+      columnIndexes.lineupYellowCards >= 0 ? parts[columnIndexes.lineupYellowCards]?.trim() ?? "" : ""
+    const lineupRedCardsRaw = columnIndexes.lineupRedCards >= 0 ? parts[columnIndexes.lineupRedCards]?.trim() ?? "" : ""
     const lineupSubstitutionsRaw =
       columnIndexes.lineupSubstitutions >= 0 ? parts[columnIndexes.lineupSubstitutions]?.trim() ?? "" : ""
     const sourceMatchId = columnIndexes.sourceMatchId >= 0 ? parts[columnIndexes.sourceMatchId]?.trim() ?? "" : ""
     const lineupGoals = parseLineupStatCounts(lineupGoalsRaw, lineup.length)
     const lineupAssists = parseLineupStatCounts(lineupAssistsRaw, lineup.length)
     const lineupCards = parseLineupStatCounts(lineupCardsRaw, lineup.length)
+    const hasColoredCardColumns = columnIndexes.lineupYellowCards >= 0 || columnIndexes.lineupRedCards >= 0
+    const parsedLineupYellowCards = parseLineupStatCounts(lineupYellowCardsRaw, lineup.length)
+    const parsedLineupRedCards = parseLineupStatCounts(lineupRedCardsRaw, lineup.length)
+    const coloredCardTotal =
+      parsedLineupYellowCards.reduce((sum, count) => sum + count, 0) +
+      parsedLineupRedCards.reduce((sum, count) => sum + count, 0)
+    const legacyCardTotal = lineupCards.reduce((sum, count) => sum + count, 0)
+    const hasColoredCards = hasColoredCardColumns && (coloredCardTotal > 0 || legacyCardTotal === 0)
+    const lineupYellowCards = hasColoredCards ? parsedLineupYellowCards : []
+    const lineupRedCards = hasColoredCards ? parsedLineupRedCards : []
     const lineupSubstitutions = parseLineupStatCounts(lineupSubstitutionsRaw, lineup.length)
 
     return [{
@@ -200,7 +223,10 @@ function parsePoolRows(csvText: string, expectedDifficulty: Difficulty): GameRow
       lineupNumbers,
       lineupGoals,
       lineupAssists,
+      hasColoredCards,
       lineupCards,
+      lineupYellowCards,
+      lineupRedCards,
       lineupSubstitutions,
       sourceMatchId,
     }]
@@ -250,7 +276,10 @@ function getGameForDifficulty(pools: DailyPools, difficulty: Difficulty): GameDa
     lineupNumbers: selected.lineupNumbers,
     lineupGoals: selected.lineupGoals,
     lineupAssists: selected.lineupAssists,
+    hasColoredCards: selected.hasColoredCards,
     lineupCards: selected.lineupCards,
+    lineupYellowCards: selected.lineupYellowCards,
+    lineupRedCards: selected.lineupRedCards,
     lineupSubstitutions: selected.lineupSubstitutions,
     sourceMatchId: selected.sourceMatchId,
     gameId,
@@ -315,6 +344,9 @@ export default function Home() {
       gameData.lineupNumbers,
       gameData.lineupGoals,
       gameData.lineupAssists,
+      gameData.hasColoredCards,
+      gameData.lineupYellowCards,
+      gameData.lineupRedCards,
       gameData.lineupCards,
       gameData.lineupSubstitutions
     )

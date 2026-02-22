@@ -10,6 +10,9 @@ export function assignPositions(
   lineupNumbers: Array<number | null> = [],
   lineupGoals: number[] = [],
   lineupAssists: number[] = [],
+  hasColoredCards = false,
+  lineupYellowCards: number[] = [],
+  lineupRedCards: number[] = [],
   lineupCards: number[] = [],
   lineupSubstitutions: number[] = []
 ): PlayerData[] {
@@ -158,6 +161,8 @@ export function assignPositions(
     shirtNumber: lineupNumbers[index] ?? null,
     goals: lineupGoals[index] ?? 0,
     assists: lineupAssists[index] ?? 0,
+    yellowCards: hasColoredCards ? (lineupYellowCards[index] ?? 0) : undefined,
+    redCards: hasColoredCards ? (lineupRedCards[index] ?? 0) : undefined,
     cards: lineupCards[index] ?? 0,
     substitutions: lineupSubstitutions[index] ?? 0,
   }))

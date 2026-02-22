@@ -34,13 +34,15 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
   const primaryColor = isGoalkeeper ? "#0EA5E9" : teamConfig.primary
   const secondaryColor = isGoalkeeper ? "#082F49" : teamConfig.secondary
   const pattern = isGoalkeeper ? "solid" : (teamConfig.pattern ?? "solid")
-  // Cards: 1 = yellow card, 2 = yellow + red (second yellow dismissal)
-  const cardCount = player.cards ?? 0
+  const hasColoredCardData = typeof player.yellowCards === "number" || typeof player.redCards === "number"
+  const legacyCardCount = player.cards ?? 0
+  const yellowCardCount = hasColoredCardData ? (player.yellowCards ?? 0) : (legacyCardCount > 0 ? 1 : 0)
+  const redCardCount = hasColoredCardData ? (player.redCards ?? 0) : (legacyCardCount >= 2 ? 1 : 0)
   const statBadges = [
     { key: "goals", value: player.goals ?? 0 },
     { key: "assists", value: player.assists ?? 0 },
-    ...(cardCount >= 2 ? [{ key: "yellowcard", value: 1 }, { key: "redcard", value: 1 }] :
-        cardCount === 1 ? [{ key: "yellowcard", value: 1 }] : []),
+    { key: "yellowcard", value: yellowCardCount },
+    { key: "redcard", value: redCardCount },
     { key: "substitutions", value: player.substitutions ?? 0 },
   ].filter((entry) => entry.value > 0)
 
@@ -48,7 +50,7 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
   // Source: https://commons.wikimedia.org/wiki/File:Soccerball.svg
   const SEAMS_D = "m-1643-1716 155 158m-550 2364c231 231 538 195 826 202m-524-2040c-491 351-610 1064-592 1060m1216-1008c-51 373 84 783 364 1220m-107-2289c157-157 466-267 873-329m-528 4112c-50 132-37 315-8 510m62-3883c282 32 792 74 1196 303m-404 2644c310 173 649 247 1060 180m-340-2008c-242 334-534 645-872 936m1109-2119c-111-207-296-375-499-534m1146 1281c100 3 197 44 290 141m-438 495c158 297 181 718 204 1140"
   const PENTAGONS_D = "m-1624-1700c243-153 498-303 856-424 141 117 253 307 372 492-288 275-562 544-724 756-274-25-410-2-740-60 3-244 84-499 236-764zm2904-40c271 248 537 498 724 788-55 262-105 553-180 704-234-35-536-125-820-200-138-357-231-625-340-924 210-156 417-296 616-368zm-3273 3033a2376 2376 0 0 1-378-1392l59-7c54 342 124 674 311 928-36 179-2 323 51 458zm1197-1125c365 60 717 120 1060 180 106 333 120 667 156 1000-263 218-625 287-944 420-372-240-523-508-736-768 122-281 257-561 464-832zm3013 678a2376 2376 0 0 1-925 1147l-116-5c84-127 114-297 118-488 232-111 464-463 696-772 86 30 159 72 227 118zm-2287 1527a2376 2376 0 0 1-993-251c199 74 367 143 542 83 53 75 176 134 451 168z"
-  const BALL_SCALE = 0.00295 // maps original r=2376 → r≈7
+  const BALL_SCALE = 0.0059 // maps original r=2376 → r≈14
 
   const renderStatSymbol = (kind: string) => {
     if (kind === "goals") {
@@ -77,10 +79,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
       // Single yellow card
       return (
         <g>
-          <circle cx="0" cy="0" r="7" fill="#fbbf24" stroke="#b45309" strokeWidth="0.7" />
-          <rect x="-2.5" y="-4" width="5" height="7.2" rx="0.5" fill="#fde047" stroke="#a16207" strokeWidth="0.5" />
-          {/* Card shadow/depth */}
-          <rect x="-2.5" y="-4" width="5" height="7.2" rx="0.5" fill="rgba(0,0,0,0.06)" />
+          <circle cx="0" cy="0" r="14" fill="#fbbf24" stroke="#b45309" strokeWidth="1" />
+          <rect x="-5" y="-8" width="10" height="14.4" rx="1" fill="#fde047" stroke="#a16207" strokeWidth="0.8" />
+          <rect x="-5" y="-8" width="10" height="14.4" rx="1" fill="rgba(0,0,0,0.06)" />
         </g>
       )
     }
@@ -89,10 +90,9 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
       // Single red card
       return (
         <g>
-          <circle cx="0" cy="0" r="7" fill="#b91c1c" stroke="#7f1d1d" strokeWidth="0.7" />
-          <rect x="-2.5" y="-4" width="5" height="7.2" rx="0.5" fill="#ef4444" stroke="#991b1b" strokeWidth="0.5" />
-          {/* Card shadow/depth */}
-          <rect x="-2.5" y="-4" width="5" height="7.2" rx="0.5" fill="rgba(0,0,0,0.08)" />
+          <circle cx="0" cy="0" r="14" fill="#b91c1c" stroke="#7f1d1d" strokeWidth="1" />
+          <rect x="-5" y="-8" width="10" height="14.4" rx="1" fill="#ef4444" stroke="#991b1b" strokeWidth="0.8" />
+          <rect x="-5" y="-8" width="10" height="14.4" rx="1" fill="rgba(0,0,0,0.08)" />
         </g>
       )
     }
@@ -100,14 +100,14 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
     // Substitution arrows on emerald
     return (
       <g>
-        <circle cx="0" cy="0" r="7" fill="#10b981" stroke="#059669" strokeWidth="0.7" />
+        <circle cx="0" cy="0" r="14" fill="#10b981" stroke="#059669" strokeWidth="1" />
         {/* White up-arrow ("in") */}
-        <g transform="translate(-1.8, 0)">
-          <polygon points="0,-4.5 -2.2,-1.2 -0.8,-1.2 -0.8,3.5 0.8,3.5 0.8,-1.2 2.2,-1.2" fill="white" fillOpacity="0.95" />
+        <g transform="translate(-3.6, 0)">
+          <polygon points="0,-9 -4.4,-2.4 -1.6,-2.4 -1.6,7 1.6,7 1.6,-2.4 4.4,-2.4" fill="white" fillOpacity="0.95" />
         </g>
         {/* Red down-arrow ("out") */}
-        <g transform="translate(1.8, 0)">
-          <polygon points="0,4.5 -2.2,1.2 -0.8,1.2 -0.8,-3.5 0.8,-3.5 0.8,1.2 2.2,1.2" fill="#ef4444" fillOpacity="0.95" />
+        <g transform="translate(3.6, 0)">
+          <polygon points="0,9 -4.4,2.4 -1.6,2.4 -1.6,-7 1.6,-7 1.6,2.4 4.4,2.4" fill="#ef4444" fillOpacity="0.95" />
         </g>
       </g>
     )
@@ -256,23 +256,23 @@ export function Jersey({ player, state, className, team }: JerseyProps) {
 
         {/* Stat badges: vertical stack on left shoulder with partial overlap */}
         {statBadges.map((badge, index) => {
-          const x = 4
-          const y = 16 + index * 13
+          const x = 2
+          const y = 18 + index * 24
           const showCount = badge.value > 1
           return (
             <g key={badge.key} transform={`translate(${x} ${y})`}>
               {/* Drop shadow */}
-              <circle cx="0.5" cy="1" r="7.8" fill="rgba(0,0,0,0.25)" />
+              <circle cx="1" cy="1.5" r="15.5" fill="rgba(0,0,0,0.25)" />
               {/* White border ring */}
-              <circle cx="0" cy="0" r="8.2" fill="white" />
+              <circle cx="0" cy="0" r="16" fill="white" />
 
               {renderStatSymbol(badge.key)}
 
               {/* Count badge – only if value > 1 */}
               {showCount && (
                 <>
-                  <circle cx="5.8" cy="5.2" r="3.5" fill="#111827" stroke="white" strokeWidth="1" />
-                  <text x="5.8" y="5.35" textAnchor="middle" dominantBaseline="middle" fill="white" fontSize="4" fontWeight="800" style={{ fontFamily: "system-ui, sans-serif" }}>
+                  <circle cx="11" cy="10" r="6" fill="#111827" stroke="white" strokeWidth="1.5" />
+                  <text x="11" y="10.2" textAnchor="middle" dominantBaseline="middle" fill="white" fontSize="7" fontWeight="800" style={{ fontFamily: "system-ui, sans-serif" }}>
                     {String(badge.value)}
                   </text>
                 </>

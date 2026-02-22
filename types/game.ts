@@ -7,6 +7,8 @@ export interface GameData {
   lineupGoals?: number[]
   lineupAssists?: number[]
   lineupCards?: number[]
+  lineupYellowCards?: number[]
+  lineupRedCards?: number[]
   lineupSubstitutions?: number[]
   sourceMatchId?: string
 }
@@ -19,6 +21,8 @@ export interface PlayerData {
   goals?: number
   assists?: number
   cards?: number
+  yellowCards?: number
+  redCards?: number
   substitutions?: number
 }
 
